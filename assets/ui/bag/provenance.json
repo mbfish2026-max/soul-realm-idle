@@ -1,0 +1,7 @@
+{
+  "generator": "built-in image_gen",
+  "source": "/home/box/.codex/generated_images/01a178d3-7ded-79d0-99da-eb06f9b14c21/exec-74ad64da-2d51-4043-9ac0-998eb505ba30.png",
+  "prompt": "Production 3x3 equal square sprite sheet; fresh Chinese ink watercolor on xuan paper, sage jade #527D67 ivory #F5F0E3 gold #AF985F. Row1 white yellow purple quality frames; row2 black red frames and recessed empty slot; row3 plain paper base, dark jade rectangular badge, selected jade frame. Cloud corner ornaments, transparent centers and outside, no icons, text, shadows or neon.",
+  "processing": "Pillow only: crop equal cells, trim alpha bounding boxes, resize within 144x144, WebP quality88. Badge cropped to source normalized rect [.36,.75,.64,.86], resized144x56 quality90. No pixel drawing.",
+  "files": ["white.webp","yellow.webp","purple.webp","black.webp","red.webp","empty.webp","base.webp","badge.webp","selected.webp"]
+}

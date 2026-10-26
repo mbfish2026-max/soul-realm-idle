@@ -166,3 +166,10 @@
 ## 第三轮离线重试补充（2026-10-26）
 - `SR.idle.retry()` 返回当前结算 Promise；无结算时从保留游标重新结算，未启动时委托 start。用于 offline:status 异常后的显式重试。
 - `SR.save.save(true)` 保存当前时间游标，不覆盖为 Date.now；默认无参行为不变。异步离线异常落盘使用此选项，避免丢失未处理区间。
+
+## BAG 格子背包（追加）
+- 继续使用 v2 `bag/store` 数组；每数组项占一格（count/quantity 数量角标不改变占格数），无新增存档字段，无需迁移。旧档经现有 save.migrate 可直接使用。
+- `bag.slots(where?)` → `{used,total,free,full}`，随身使用 bagCap，仓库沿用 storeCap；原 `bag.full/capacityStatus` 的仓库暂停语义保持。
+- `bag.category(item)` → gear/essence/egg/mat；`quality(item)` → 0..4；`query(where,filter,sort)` 返回排序后的副本，filter all/gear/essence/egg/mat，sort quality/level/type/new；旧档新获得使用 item-N 的数值序号，无序号时以数组顺序回退。`sort(where,sort?)` 原地整理并标脏。
+- `bag.selectable(where,ids?)` 排除锁定；`batch(ids,'sell'|'dismantle',where?)` 返回 `{count,crystal}`，再次检查锁定与物品存在性，分解仅装备且沿用 gear.dismantle，出售沿用 bag.value（与自动出售一致）。成功发 `bag:changed {count,crystal}`。
+- UI 自行加载 ui/bag.css，不需入口修改。`bag:grid` 是内部交互事件；多选/筛选/排序为临时 UI 状态，不写存档。删除需确认，确认执行时重新校验，避免自动吸收等异步变化误删。
