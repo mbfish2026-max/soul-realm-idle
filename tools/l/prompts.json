@@ -94,5 +94,29 @@
     "frames": 9,
     "cols": 3,
     "prompt": "Identity-preserve. Production game animation contact sheet EXACTLY NINE full-body poses of same reference charcoal ivory moss wolf with jagged jade back spines, facing LEFT. 3 columns 3 rows equal cells read left to right top to bottom. Row1: idle calm, idle inhale head lifted, attack crouch anticipation. Row2: attack leap biting left, attack landing recovery, hit recoil head backward. Row3: defeat legs buckling, defeat fall on side, defeat lying still. Preserve exact reference design and anatomy in every pose, clean fresh Chinese ink watercolor sage jade charcoal ivory fine outlines. Large transparent gutters, each animal occupies only central 65% of cell, all tails claws spines fully visible, no touching no overlap no clipping. Actual transparency no ground no shadows no scenery no text grid labels."
+  },
+  {
+    "key": "mob_bamboo_snake",
+    "frames": 9,
+    "cols": 3,
+    "prompt": "Identity-preserve game animation contact sheet EXACTLY NINE full-body poses same reference pale jade bamboo-leaf dragon-serpent, keep exact head horns frills tiny limbs and coiled long body. Facing LEFT. 3 columns 3 rows equal cells read left to right top to bottom. Row1 idle calm coil, idle inhale head raised, attack tighten coil anticipation. Row2 attack lunge jaws open left, attack recoil coil recovery, hit recoil head back. Row3 defeat sagging head, defeat collapse coils loosen, defeat lying still eyes closed. Fine fresh Chinese ink watercolor sage jade ivory charcoal, match reference. Each entire animal all horns tail inside central 65 percent of equal cell, large transparent gutters never overlap no edge clipping. Actual transparent background no ground shadows scenery text labels grid."
+  },
+  {
+    "key": "mob_stone_turtle",
+    "frames": 9,
+    "cols": 3,
+    "prompt": "Identity-preserve production game animation contact sheet EXACTLY NINE full-body poses of same reference massive stone armored moss turtle with pale quartz ridges. Facing LEFT. 3 columns 3 rows equal cells read left to right top to bottom. Row1 idle calm, idle inhale head lift, attack brace crouch anticipation. Row2 attack surge head forward jaws open, attack recover stance, hit flinch head backward shell tilted. Row3 defeat legs buckle, defeat collapse shell lowering, defeat lie still head rests eyes closed. Preserve reference slate layered shell moss quartz design and four legs, fine fresh Chinese ink watercolor sage jade ivory charcoal outlines. Each whole animal central 65 percent of equal cell with large transparent gutters no overlap no clipping. True transparency no ground shadows scenery text grid labels."
+  },
+  {
+    "key": "boss_cinder_stag_idle",
+    "frames": 2,
+    "cols": 2,
+    "prompt": "Identity-preserve production animation contact sheet exactly 2 distinct full-body poses in 2 columns one row. Same reference original charcoal stone armored stag boss, massive branching CORAL red antlers, flowing ivory mane and tail, ember cracks, exact design. Facing LEFT. Action sequence calm imposing stance, inhale lifting head antlers and mane gently move. Same camera scale. Entire antlers hooves tail INSIDE each equal cell, central 65% with LARGE transparent margins no overlap no cropping. Clean fine Chinese ink watercolor sage jade ivory charcoal muted cinnabar accents. True transparency no ground shadows scenery text labels grid."
+  },
+  {
+    "key": "boss_cinder_stag_attack",
+    "frames": 3,
+    "cols": 3,
+    "prompt": "Identity-preserve production animation contact sheet exactly 3 distinct full-body poses in 3 columns one row. Same reference original charcoal stone armored stag boss massive branching coral red antlers flowing ivory mane and tail ember cracks exact design. Facing LEFT. Action sequence lower antlers brace, charge thrust antlers LEFT, recover standing. Same camera scale. Entire antlers hooves tail INSIDE each equal cell, occupies central 65% LARGE transparent margins no overlap no cropping. Clean fine Chinese ink watercolor sage jade ivory charcoal muted cinnabar accents. True transparency no ground shadows scenery text labels grid."
   }
 ]

@@ -133,5 +133,176 @@
     "fw": 400,
     "fh": 320,
     "fps": 6
+  },
+  {
+    "key": "mob_ink_wolf_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_ink_wolf_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_ink_wolf_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_ink_wolf_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
+  },
+  {
+    "key": "mob_bamboo_snake_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_bamboo_snake_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_bamboo_snake_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_bamboo_snake_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
+  },
+  {
+    "key": "mob_stone_turtle_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_stone_turtle_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_stone_turtle_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_stone_turtle_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
   }
 ]
