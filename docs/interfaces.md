@@ -78,3 +78,11 @@
 - 新请求事件：`hero:awaken_request {soulId}`、`ring:strip_request {ringIndex}`、`pet:hatch_request {eggUid}`、`pet:feed_request` / `pet:deploy_request` / `pet:ringify_request {petUid}`、`pet:evolve_request {petUid,to}`。
 - UI 加载：`ui/tabs.js` → `hero.js` / `pets.js` / `bag.js` / `awaken.js` / `absorb.js`，样式 `ui/ui.css`。`SR.ui.mount(el)`、`show('battle'|'hero'|'pets'|'bag')`、`awaken()`、`absorb(essenceUid)`。battle 是舞台接入占位，集成方可覆盖 `SR.ui.battle(state)`，返回内容 HTML。
 - 预览专用 `ui/preview_stub.js` 只供 `ui/preview.html` 使用，正式入口不要加载。
+
+## 变更提案-i-audio
+- 新增可选音频模块：按 `audio/m2/score.js` → `audio/m2/audio.js` 加载，bus 就绪后 `SR.audio2.install()`。不修改现有事件与存档。
+- `SR.audio2.setScene('town'|'field'|'boss')` 场景交叉淡化；wave_start 自动判断普通/首领，hero_down 回主城。ui:open 不改变音乐，避免养成弹窗打断战斗音乐。主城入口由集成路显式 setScene('town')。
+- `getSettings()` / `setSettings({master,music,sfx,muted})`，音量 0..1，独立 localStorage `sr_audio2_v1`；`mountSettings(el)` 提供可嵌入设置面板；`openSettings()` 提供可点空白关闭的独立弹窗。集成路添加「声音」按钮调用 openSettings，无须新 Tab。
+- `play(id)` 与现有 `sfx {id}` 一致。支持 skill_wind/fire/earth/moon、pet_attack、boss_warning、absorb_success/fail、level_up、drop_white/yellow/purple/black/red、ui_click，以及 attack/skill/pet/boss/absorb/upgrade/click 旧别名。battle:skill 根据 DATA.skills[skillId].vein 自动选音色。
+- 自动监听现有 battle、loot:drop、ring:absorb_result、hero:changed、save:loaded；升级按 hero.level 增量识别。无需新增业务事件。首次 pointerdown/touchend/keydown 解锁，visibilitychange/pagehide 暂停，pageshow 恢复。
+- 若同时加载第一批 SR.audio，默认共存（不会擅改未知旧 API）；为避免双重 bus 音效，集成路应只安装 audio2，或通过 install({legacy:SR.audio}) 明确移交，legacy 需提供 uninstall()。详细说明见 docs/report-i-audio.md。
