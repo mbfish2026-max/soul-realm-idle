@@ -1,0 +1,92 @@
+(function(g){var SR=g.SR=g.SR||{};Object.assign(SR.ASSETS=SR.ASSETS||{},{
+  "bg_forest_far": {
+    "file": "assets/scene/bg_forest_far.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_forest_mid": {
+    "file": "assets/scene/bg_forest_mid.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_forest_front": {
+    "file": "assets/scene/bg_forest_front.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_snow_far": {
+    "file": "assets/scene/bg_snow_far.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_snow_mid": {
+    "file": "assets/scene/bg_snow_mid.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_snow_front": {
+    "file": "assets/scene/bg_snow_front.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_ember_far": {
+    "file": "assets/scene/bg_ember_far.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_ember_mid": {
+    "file": "assets/scene/bg_ember_mid.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_ember_front": {
+    "file": "assets/scene/bg_ember_front.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_boss_jade": {
+    "file": "assets/scene/bg_boss_jade.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_boss_cinder": {
+    "file": "assets/scene/bg_boss_cinder.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_opening_awakening": {
+    "file": "assets/scene/bg_opening_awakening.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_opening_bond": {
+    "file": "assets/scene/bg_opening_bond.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_opening_fusion": {
+    "file": "assets/scene/bg_opening_fusion.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  },
+  "bg_loading": {
+    "file": "assets/scene/bg_loading.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "scene"
+  }
+});})(typeof window!=="undefined"?window:globalThis);
