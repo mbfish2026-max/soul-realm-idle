@@ -23,3 +23,5 @@
 接入约定：在已有 assets/manifest.js 之后加载 assets/skills/manifest.js（Object.assign 保留原有 SR.ASSETS 键）；JSON 与 JS 内容严格一致。以技能自身 iconKey/fxKey 查 SR.ASSETS。静态图标优先 file 单图，也可读 atlas 的 file/x/y/w/h；特效按 frames/fw/fh/fps 横向裁帧，loop:false，800ms 后移除并停止绘制。入口与舞台文件由其所有者接入，本路不越界修改。
 
 第二批：已入库图标 103/294（基础 42/42，专属 61/252）；特效 12/12 套、48 帧全部入库。599/599 个 iconKey、59/59 个共享 fxKey 均可解析。专属尚未齐备的条目保留基础族回退，artId/dedicated 可审计；最终批次将强制检查全部首领和合体技能的专属图。全部 JS 语法检查与 tests/*.test.js 通过（含新增 assets_skills 测试）。图标与特效均为内置 image_gen 原画，来源及 SHA-256 记录见 tools/n/provenance.json。
+
+第三批：已入库图标 175/294（基础 42、专属 133，其中首领 97/216、职业终极 6/6、合体 30/30）；12 套特效已在宣纸底复合预览逐帧目检，边缘与消散正常。后处理与来源记录增加提示词 id 白名单，预览图仅保存在 raw/review/，不作为原画或发布资源。599/599 图标映射、59/59 特效映射与完整测试通过。

@@ -5,6 +5,8 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parents[2]
 RAW=ROOT/'tools/n/raw'
 OUT=ROOT/'assets/skills'
+ICON_IDS={j['id'] for name in ['prompts.json','dedicated-prompts.json'] for j in json.loads((ROOT/'tools/n'/name).read_text())}
+FX_IDS={j['id'] for j in json.loads((ROOT/'tools/n/fx-prompts.json').read_text())}
 
 def normalize(source,size=128):
     im=Image.open(source).convert('RGBA')
@@ -23,7 +25,7 @@ def build_icons():
     OUT.mkdir(parents=True,exist_ok=True)
     records={}
     for source in sorted(RAW.glob('*.png')):
-        if source.stem.startswith('fx_'):continue
+        if source.stem not in ICON_IDS:continue
         im=normalize(source)
         file=OUT/(source.stem+'.webp')
         im.save(file,'WEBP',quality=88,method=6,exact=True)
@@ -49,6 +51,7 @@ if __name__=='__main__':build_icons()
 def build_fx():
     records={}
     for source in sorted(RAW.glob('fx_*.png')):
+        if source.stem not in FX_IDS:continue
         im=Image.open(source).convert('RGBA')
         if im.getchannel('A').getextrema()[0]==255:
             raise ValueError(f'FX source lacks transparency: {source}')
