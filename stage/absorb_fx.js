@@ -8,6 +8,6 @@
     fx.burst(50,55,color);
     fx.later(function(){ring.classList.add(o.ok?'sr-absorb-ok':'sr-absorb-fail');fx.title(o.ok?'吸收成功':'吸收失败');if(!o.ok)fx.edge();fx.burst(50,30,color);},1400);
     fx.later(function(){fx.destroy();},3100);
-    return {destroy:fx.destroy};
+    var effect={destroy:fx.destroy};if(SR.stage.current&&SR.stage.current.el===host)SR.stage.current.trackFx(effect);return effect;
   };
 })(typeof window!=='undefined'?window:globalThis);

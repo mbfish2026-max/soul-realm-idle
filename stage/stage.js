@@ -24,7 +24,7 @@
     el.classList.add('sr-stage');var background=document.createElement('div');background.className='sr-background';el.appendChild(background);
     var caption=document.createElement('div');caption.className='sr-caption';el.appendChild(caption);
     var ringHost=document.createElement('div');ringHost.className='sr-rings';el.appendChild(ringHost);
-    var fx=SR.stageFx.create(el),actors={},enemies=[],boss=null,bossUid=null,timers=[],listeners=[],extras=[],dead=false;
+    var fx=SR.stageFx.create(el),actors={},enemies=[],boss=null,bossUid=null,redDropped=false,timers=[],listeners=[],extras=[],dead=false;
     var base=new URL('../',document.currentScript&&document.currentScript.src||g.location.href).href;
     // demo and production callers may explicitly resolve from their own script location.
     base=SR.stage.assetBase||base;
@@ -50,7 +50,7 @@
       switch(c.type){
         case 'wave':
           timers.forEach(clearTimeout);timers=[];el.querySelectorAll('.sr-ring-wave').forEach(function(n){n.remove();});enemies.forEach(function(e){remove(e.uid);});enemies=p.enemies||[];
-          if(boss)boss.destroy();boss=null;bossUid=null;rings();pets();actors.hero.set('idle',true);
+          if(boss)boss.destroy();boss=null;bossUid=null;redDropped=false;rings();pets();actors.hero.set('idle',true);
           caption.textContent=((SR.NAMES.maps||{})[p.mapId]||p.mapId||'')+' · '+p.floor+' / '+p.wave+' · '+p.waveMax;
           background.style.transform='translateX('+((p.wave%5)-2)*3+'px)';
           enemies.forEach(function(e,i){var color=e.years>=100000?'red':e.years>=10000?'black':e.years>=1000?'purple':e.years>=100?'yellow':'white';a=add(e.uid,e.isBoss?'boss':'enemy',e.isBoss?50:[76,21,52][i%3],e.isBoss?72:[53,55,36][i%3],e.isBoss?230:100,SR.NAMES.ringColors[color]+' · '+(e.name||SR.NAMES.beast),e.kind);a.set('move');if(a.hp)a.hp.style.width=(e.hpMax?e.hp/e.hpMax*100:0)+'%';if(e.isBoss){bossUid=e.uid;boss=SR.stageBoss.create(el,fx,e);}});break;
@@ -66,16 +66,16 @@
         case 'rings':Array.prototype.forEach.call(ringHost.children,function(n,i){later(function(){light(i);},i*60);});break;
         case 'fusion':set(actors.hero,'fusion');petActors().forEach(function(a){set(a,'fusion');});break;
         case 'shock':fx.shake();enemies.forEach(function(e){a=actors[e.uid];if(a&&a.state!=='die'){set(a,'hit');fx.burst(a.point.x,a.point.y-10,'#bd984d');}});break;
-        case 'kill':set(actors[p.uid],'die');if(p.isBoss&&p.years>=100000)SR.stageBoss.drop(fx);break;
+        case 'kill':set(actors[p.uid],'die');if(p.isBoss&&p.years>=100000&&!redDropped){SR.stageBoss.drop(fx);redDropped=true;}break;
         case 'down':set(actors.hero,'die');fx.edge();break;
         case 'phase':if(boss&&p.uid===bossUid)boss.phase(p);break;
-        case 'loot':if(p.item&&p.item.type==='essence'&&p.item.color==='red')SR.stageBoss.drop(fx);break;
+        case 'loot':if(p.item&&p.item.type==='essence'&&p.item.color==='red'&&!redDropped){SR.stageBoss.drop(fx);redDropped=true;}break;
         case 'win':set(actors.hero,'win');petActors().forEach(function(a){set(a,'win');});fx.title('胜');break;
         case 'pets':pets();break;
       }
     }
     EVENTS.forEach(function(event){var fn=function(p){commands(event,p).forEach(function(c){if(c.at)later(function(){run(c);},c.at);else run(c);});};if(SR.bus){SR.bus.on(event,fn);listeners.push([event,fn]);}});
-    rings();pets();var api={el:el,fx:fx,actors:actors,destroy:function(){dead=true;timers.forEach(clearTimeout);listeners.forEach(function(l){SR.bus.off(l[0],l[1]);});Object.keys(actors).forEach(remove);extras.forEach(function(e){e.destroy();});if(boss)boss.destroy();fx.destroy();el.replaceChildren();el.classList.remove('sr-stage');if(SR.stage.current===api)SR.stage.current=null;}};
+    rings();pets();var api={el:el,fx:fx,actors:actors,trackFx:function(effect){extras.push(effect);},destroy:function(){dead=true;timers.forEach(clearTimeout);listeners.forEach(function(l){SR.bus.off(l[0],l[1]);});Object.keys(actors).forEach(remove);extras.forEach(function(e){e.destroy();});if(boss)boss.destroy();fx.destroy();el.replaceChildren();el.classList.remove('sr-stage');if(SR.stage.current===api)SR.stage.current=null;}};
     SR.stage.current=api;return api;
   }
   SR.stage={mount:mount,commands:commands,events:EVENTS,assetBase:typeof document!=='undefined'&&document.currentScript?new URL('../',document.currentScript.src).href:null};
