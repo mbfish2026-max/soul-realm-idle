@@ -78,3 +78,13 @@
 - 新请求事件：`hero:awaken_request {soulId}`、`ring:strip_request {ringIndex}`、`pet:hatch_request {eggUid}`、`pet:feed_request` / `pet:deploy_request` / `pet:ringify_request {petUid}`、`pet:evolve_request {petUid,to}`。
 - UI 加载：`ui/tabs.js` → `hero.js` / `pets.js` / `bag.js` / `awaken.js` / `absorb.js`，样式 `ui/ui.css`。`SR.ui.mount(el)`、`show('battle'|'hero'|'pets'|'bag')`、`awaken()`、`absorb(essenceUid)`。battle 是舞台接入占位，集成方可覆盖 `SR.ui.battle(state)`，返回内容 HTML。
 - 预览专用 `ui/preview_stub.js` 只供 `ui/preview.html` 使用，正式入口不要加载。
+
+## 变更提案-h-art2
+- 第二批资源加载 `assets/m2/manifest.js`，自动合并至 `SR.ASSETS`，也可重复调用 `SR.art2.install()`；应在第一批 manifest 之后、舞台/UI 挂载之前加载，不增加 Tab 或业务事件。
+- 沿用 §6：`mob_<kind>`、`boss_<kind>`、`bg_<mapId>`、`icon_pet_<speciesId>`；立绘为 `pet_<speciesId>_idle`。本批契兽为 bud/thorn/crownseed/emberseed/prismfox/aurorafox/skyfox/everfox/dawnfox/magmahorn。
+- 装备扩展键 `gear_<slot>`、`gear_frost_<slot>`、`gear_ember_<slot>`；slot 为 crown/robe/belt/boots/bracer/skirt/necklace/ring/weapon/jade，套装不含 weapon/jade。定稿套装 ID 由 G 路映射；外附灵骨 `icon_bone_external`。
+- 功能图标：`ui_achievement`、`ui_achievement_battle`、`ui_achievement_pet`、`ui_achievement_ring`、`ui_daily`、`ui_daily_hunt`、`ui_daily_gift`、`ui_rift`、`ui_rift_tower`、`ui_rift_token`。
+- 本次需求指定渊兽 kind：snowmink/iceserpent/frostdeer/coldcrow、magmalizard/redfalcon/lavawolf/ashspider；首领 snowlord/ridgelord，背景 snow/ridge。读取 E 路当前 data/ext/maps.js 时仍为 snowmink/iceyak、slagbeetle/ashram，请 E 路按本次需求对齐名单；不把不同物种图片强行别名映射。
+- C 路需按 mapId 查背景、kind 查敌人、speciesId 查契兽立绘；B/G/F 路按上述键查头像/装备/功能图标。所有 file 路径相对仓库根。
+- 后续复核 G 路定稿 `features/gear/data.js`：十部位 ID 一致，套装 ID 为 bamboo/ember/tide/cliff；本批两套美术建议 ember→gear_ember_<slot>、tide→gear_frost_<slot>，其余使用基础图标。frost 为美术主题名，不新增业务套装。
+- 第一批 dev/d-art 与本批仅 bg_snow 键重复；本批后加载时采用本批雪岭背景，其他第一批资源保留。

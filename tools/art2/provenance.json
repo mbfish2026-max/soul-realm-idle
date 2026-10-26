@@ -1,0 +1,485 @@
+[
+  {
+    "key": "mob_snowmink",
+    "generator": "image_gen",
+    "original": "exec-1a4c89d9-d25f-4935-b41a-f52e7655e394.png",
+    "sourceSha256": "292ea2701f0ed020a582149eb050b94608c389b6ddf9499764a16f6255e3b640",
+    "outputSha256": "9bd60df88326b764ff99e0bea937e6a3c26ec59a771ddd8ac17fc6ce21b8c31b"
+  },
+  {
+    "key": "mob_iceserpent",
+    "generator": "image_gen",
+    "original": "exec-b323a590-3c79-4602-b634-aa71005845dc.png",
+    "sourceSha256": "e2575f533034a4e07d1ace188ae5383fde676197f825588cb1bd27c0987e9612",
+    "outputSha256": "e66fac6765b993f2bb17967be4a4d6480d0c9a4e0ed2a663ddc374e4166fc297"
+  },
+  {
+    "key": "mob_frostdeer",
+    "generator": "image_gen",
+    "original": "exec-b1091602-c868-409a-b48e-d1a8c1261a84.png",
+    "sourceSha256": "192013bcf92a8e89b31298665258edc54f484df7360d13dace56a2ab8ff09770",
+    "outputSha256": "d01dfac913f35254c2de3b9818ae72a6f9ebbccb1db72e839a9a5244052aedc8"
+  },
+  {
+    "key": "mob_coldcrow",
+    "generator": "image_gen",
+    "original": "exec-753ca183-1537-4d3c-8e9b-cf8abd3dfb24.png",
+    "sourceSha256": "043f2a76cf560e25db9d900f40a8a9bc76935d8a03d9dbf60c3d482faa62dba3",
+    "outputSha256": "599b517022f83c883e9c19376b1ff818ffbbce47071144c88de2a68ba4313070"
+  },
+  {
+    "key": "mob_magmalizard",
+    "generator": "image_gen",
+    "original": "exec-0b93620e-b424-48b9-8927-bc9992435896.png",
+    "sourceSha256": "6bc8f0dcc87006c06613b2e9198927ccbf6269b2bbbe0a02035a450b4f842042",
+    "outputSha256": "96c9598c7accac5ee2b09879cce4cde8ebdd5398b06e3f2950a5884b8248a272"
+  },
+  {
+    "key": "mob_redfalcon",
+    "generator": "image_gen",
+    "original": "exec-7a52071c-19c7-4a9a-9720-84f6a50ff2ec.png",
+    "sourceSha256": "908605bcc57b97db8321b3087cbe7e239eb3cb5e36427174983cc01798c74287",
+    "outputSha256": "1eb99ab29fb4c28441bd31648cbfb8cb0ad71b13c0f6744b522c92da49027f87"
+  },
+  {
+    "key": "mob_lavawolf",
+    "generator": "image_gen",
+    "original": "exec-c8f9cc86-7014-4bdc-88de-a593226fe320.png",
+    "sourceSha256": "cbb5d96ebb19b5177b1f5fc537d935c618de7fadb2a17cc5f7a21ee6b7f00940",
+    "outputSha256": "8c6e2fffb407cdd4729e0c10e8ba75fb0f4a9cc0f5da3272a817c773a2754934"
+  },
+  {
+    "key": "mob_ashspider",
+    "generator": "image_gen",
+    "original": "exec-a10435eb-b42b-4be0-ae6f-209abed17e56.png",
+    "sourceSha256": "68a2b833dab2718b8630adebae672763e5c6f5da9c5fdf0d64425808b0c44dae",
+    "outputSha256": "fcba83bee5019bf7431cb14d77adaa584eb9a4f1d127216a902a54b3e55ddf3f"
+  },
+  {
+    "key": "boss_snowlord",
+    "generator": "image_gen",
+    "original": "exec-9e521399-9259-4ded-8b00-75f5e7df941f.png",
+    "sourceSha256": "f15e2000954e9d17c674a39055edd517872fb3ddb657210679e69812b0ea5970",
+    "outputSha256": "75ff34991cc221ee1f8067b525e53ba0f9b0a404891d1bdb68e8b971f8f13a5b"
+  },
+  {
+    "key": "boss_ridgelord",
+    "generator": "image_gen",
+    "original": "exec-5737459a-0026-4d69-8de5-d1dc508bac11.png",
+    "sourceSha256": "7280235d305da3029bc0ddb1e3cd07afef9e93904f2978edd3b6ffaccf81cac7",
+    "outputSha256": "2911d338f6712973350a3029e741aaafb67af27e723dc3f3bde514c8bb1f1b2b"
+  },
+  {
+    "key": "pet_bud_idle",
+    "generator": "image_gen",
+    "original": "exec-0b0a3510-90dd-44f3-9f53-e32cfa4c94e2.png",
+    "sourceSha256": "965f507db913dca1f05050baf89e0c01245f47d4e81aab29600d8e84b2f07959",
+    "outputSha256": "80360a012502b1447fc6fe22de4e94662dc252fc24d5b0440ba50e9cc9f05e65"
+  },
+  {
+    "key": "icon_pet_bud",
+    "generator": "image_gen",
+    "original": "exec-2070795a-1d21-41f7-86fc-b43c68271b98.png",
+    "sourceSha256": "126f2a7d7f90a408b4f05b9cafebda73b0e9f05dfd38d5e26f58911195cf46c6",
+    "outputSha256": "5874af8e61384fd3b2a45936026ed09bcc5fe93306f79c321f72a95faa1406a1"
+  },
+  {
+    "key": "pet_thorn_idle",
+    "generator": "image_gen",
+    "original": "exec-a9078b5b-44c6-45f8-b374-2345e190d633.png",
+    "sourceSha256": "afd90f3eecc5610bf2832e57a51638d7bd91a25135c317101725a847048dac44",
+    "outputSha256": "0f71cc6907d46e5dc2c8533240184403d93dac18bd50d01b2ebc3d6f98fd08d6"
+  },
+  {
+    "key": "icon_pet_thorn",
+    "generator": "image_gen",
+    "original": "exec-31a1d110-b8b8-4af7-bfcb-557cccdd6631.png",
+    "sourceSha256": "429dc0b1a0838ecbcd28cd553d25ff30b362c503d6bd5aabe2506f29e2b01dc4",
+    "outputSha256": "dcdb89db4dfc5a160fd4fa81e7feb4e551d41cd98b8fa89d5464fe3b166426d6"
+  },
+  {
+    "key": "pet_crownseed_idle",
+    "generator": "image_gen",
+    "original": "exec-b54e1529-e332-45bc-b275-ae6a88dad297.png",
+    "sourceSha256": "aab1de48887f14cfa139644182a0c7ec5447e8cf796c61c4115d7df18765d7d5",
+    "outputSha256": "933acd66248c56a9ca1bf403206ada646d1cb91b9a9e595bb4f15d1970471e3c"
+  },
+  {
+    "key": "icon_pet_crownseed",
+    "generator": "image_gen",
+    "original": "exec-c7029cdc-ba0f-407f-bd0a-df9c07ce227b.png",
+    "sourceSha256": "76d50a367d591f63b39f37c1e4e0d7a0a75b48f2ddab8adb5248ab90ef4ac6a9",
+    "outputSha256": "9004daa12d450dd042e78bf2bb8f3b324cdc7eff6ef4d968baefb5791335bcaf"
+  },
+  {
+    "key": "pet_emberseed_idle",
+    "generator": "image_gen",
+    "original": "exec-4a910a67-a72d-4ce5-b353-4c3b5992b33e.png",
+    "sourceSha256": "5442ac08dbccce09fa25388c26c961dae4fe6825290a6cd4ce7378b3aec8fe79",
+    "outputSha256": "3a7d10e2ba18d153233ccde95021d1d4aae153fa6a8eeb45164f7c4ff2dac5e4"
+  },
+  {
+    "key": "icon_pet_emberseed",
+    "generator": "image_gen",
+    "original": "exec-512404fb-fb33-4180-a24e-6f47c26d1df1.png",
+    "sourceSha256": "dd7c5e8d0ba05e80ad8b6f47aee0699e2e76371fde227b0fef33778f9dcec254",
+    "outputSha256": "4b1e62f61746d313bd76e68a0c7a67f744899894430b312cbd01ff27135c9a9b"
+  },
+  {
+    "key": "pet_prismfox_idle",
+    "generator": "image_gen",
+    "original": "exec-56c9810a-1538-4596-a466-d5c4855f95f6.png",
+    "sourceSha256": "b986a97a84e58ed71b03acd42bdfc73e7788e4c13adc43e34ae58779175a4a96",
+    "outputSha256": "a1c11f9f553655cf2195b8a11abf71ca10d3d91c97ca960611298f9d89833157"
+  },
+  {
+    "key": "icon_pet_prismfox",
+    "generator": "image_gen",
+    "original": "exec-e7afa86e-265a-452a-84bc-68dbdb76b669.png",
+    "sourceSha256": "f6eff069fbccdfc2be9a2baa35305013af4f3dc02e59ac9377e68f45a3ebd5fc",
+    "outputSha256": "7be1c8c11ab0052d3dc42fd42a7fc89aae387f8ff275abd927729a64bc582795"
+  },
+  {
+    "key": "pet_aurorafox_idle",
+    "generator": "image_gen",
+    "original": "exec-0fd68c82-1a8c-4834-a064-fe0f7c7b621d.png",
+    "sourceSha256": "1509ad9c0a1d2e6b87b787ea19fcc385139b5d113cad1a5a06d9c5fe7b26d50b",
+    "outputSha256": "145f37f1ec93985674a837efae2800f9a92da1d51cbdba2383697c35b12f1112"
+  },
+  {
+    "key": "icon_pet_aurorafox",
+    "generator": "image_gen",
+    "original": "exec-53e3959a-44ec-4b0b-8816-afdd5cdecfe8.png",
+    "sourceSha256": "bdb119af82df29f223ac17d3452567e1913da61e431c7cb3597391ece8fa997e",
+    "outputSha256": "1ec16c7928be7acb57c3f58b483c74b37b64328f767ddff60ec4a941b4c7906b"
+  },
+  {
+    "key": "pet_skyfox_idle",
+    "generator": "image_gen",
+    "original": "exec-1b40d67c-3a48-43d3-bef5-f7c684ff287e.png",
+    "sourceSha256": "6f72dac353c8be4e600e860ebd5d6ee5ff470fbc9e8257995591867555ea34a1",
+    "outputSha256": "57d50e1f8173b21deeb62ee90e4c3c74b5dcac44e3f2403adeda872e4a2f5168"
+  },
+  {
+    "key": "icon_pet_skyfox",
+    "generator": "image_gen",
+    "original": "exec-088a7664-054b-4d61-8d3a-69a2d3bfb01b.png",
+    "sourceSha256": "63293c707ee541b8eb50e9dc0db0d51ece1897387c7e00f7eb90cd6bdca38f0a",
+    "outputSha256": "c231932771124afe5b788daa0f83f3d08e811285114b85da0524c78e1bcf62c8"
+  },
+  {
+    "key": "pet_everfox_idle",
+    "generator": "image_gen",
+    "original": "exec-8c7b8ce5-bc40-45e3-a469-542dd4bf611a.png",
+    "sourceSha256": "6da7118f88e557ad7d325be5f0c42d302b42d7a310f1214435ff7f3853f75f67",
+    "outputSha256": "4fd06373a69ec8f230db19aab670db0d88815da1278d6c48274eeaa8e9d07880"
+  },
+  {
+    "key": "icon_pet_everfox",
+    "generator": "image_gen",
+    "original": "exec-685d727f-76fb-4c35-b51d-e4b56d40146c.png",
+    "sourceSha256": "2999876c5c645e50b8ee94ab234340e39bc311e9009af3ac812c649ae5174d5e",
+    "outputSha256": "de9458ad8b41befc91e35390299d8fe9cea6c1ffafc4ef6e88ba0dfaf8b2c3f5"
+  },
+  {
+    "key": "pet_dawnfox_idle",
+    "generator": "image_gen",
+    "original": "exec-b04e82a6-65a8-4dda-95ee-ba190bb52999.png",
+    "sourceSha256": "7f92f9ef85d8c5decb42ec852432869b499cbe305df40f06d9ab5757a74f9776",
+    "outputSha256": "3110e2dd9fce956ee3fb4e2324948fdc1ce065e90f8bc9e036be513cb34e9e7f"
+  },
+  {
+    "key": "icon_pet_dawnfox",
+    "generator": "image_gen",
+    "original": "exec-9aa8ef9f-9fcb-4438-9de9-8b8035ea5210.png",
+    "sourceSha256": "4350aaebe7113540ab92517872a5f864a21e95083c7fa25840bbd8e23558c74e",
+    "outputSha256": "54f0520f6cefa5a57e4786796841a996c744014e61dd50ebcab4708ddb103f83"
+  },
+  {
+    "key": "pet_magmahorn_idle",
+    "generator": "image_gen",
+    "original": "exec-03b919b7-5811-40bf-a02c-1718d93fc067.png",
+    "sourceSha256": "cf50c51f364bc99aae51b4e941d9b93b976977284a367f9ebac1c91059290716",
+    "outputSha256": "04873ae3682bccbed8e1a87b2eba2bf4e4acc4d7315095e1ef333099294af316"
+  },
+  {
+    "key": "icon_pet_magmahorn",
+    "generator": "image_gen",
+    "original": "exec-e0d0a06d-2c2a-4373-80a6-ec3d58470b34.png",
+    "sourceSha256": "3016c9f26aa6de22d9152156fcce77fa0f70e6fe53e52e4bd1fb39fe252d7bd9",
+    "outputSha256": "2e643bf611693f1b5705aee9f60e9ac5538069b635c90caf0d9d0b455fce189c"
+  },
+  {
+    "key": "gear_crown",
+    "generator": "image_gen",
+    "original": "exec-bfebb5f6-006b-44c0-a632-6f7a48c3c024.png",
+    "sourceSha256": "3cdf4bbeab354a2bdd0ee88995a970e3ff785f1cd2bf1226124d1a9f81b28b1b",
+    "outputSha256": "7a9c8920b8446861c6b9d49549e0473ff0160d5439c302caddabc7c03e45a07e"
+  },
+  {
+    "key": "gear_robe",
+    "generator": "image_gen",
+    "original": "exec-69ba5f86-272f-4677-a8cd-9518af997712.png",
+    "sourceSha256": "eef7258912172219a2a79107f0b4b28888815094dac397e27bd32ad6ee538466",
+    "outputSha256": "3643fed3d5810b2c887e664b7a5ee7aa08d09377477725a3ac8940042138b768"
+  },
+  {
+    "key": "gear_belt",
+    "generator": "image_gen",
+    "original": "exec-91950e7d-ebc2-4565-8768-d8f0730adb98.png",
+    "sourceSha256": "8739b2fa032588df9905737a42639df6a96e427746b043c1280451e250d1c429",
+    "outputSha256": "406801df618e652de96eaa8a56dd5e78f321990ae3e9ac635183ac48163549c7"
+  },
+  {
+    "key": "gear_boots",
+    "generator": "image_gen",
+    "original": "exec-15a7dcc0-d652-4572-9e39-9c4c2d80e6f7.png",
+    "sourceSha256": "6bb3d121e6a63aa108f64b8afb3d452c6e736318fd07fd94ca27eb53530aac46",
+    "outputSha256": "06c44b6b36d6a4e4ab7bab07bb3466a0ea187dc2c57b4c002fa95c8214671104"
+  },
+  {
+    "key": "gear_bracer",
+    "generator": "image_gen",
+    "original": "exec-21c64c3a-6a8d-41d3-b85f-39a469b39914.png",
+    "sourceSha256": "57d9049a5030b5f271ced1f2503788cb04f0a9d24ed16d613bb05d1f10b1475b",
+    "outputSha256": "05ef26043f166ab8cb9e672ac7928b7d20036907102d7a79e50f8c7ed16d8899"
+  },
+  {
+    "key": "gear_skirt",
+    "generator": "image_gen",
+    "original": "exec-a1d2a29a-5ab1-41b4-ac66-3b4de4f2eacb.png",
+    "sourceSha256": "01574d810335ec7908c533adfce7192a6685c2d8b5452fddfedb0c1d0df35b38",
+    "outputSha256": "8000d9a6939801aa3088c685b92bad5fddcd514792e83de05d483a6b9f372da9"
+  },
+  {
+    "key": "gear_necklace",
+    "generator": "image_gen",
+    "original": "exec-16e2786b-6bd0-4c0e-a453-ebd308a0c60e.png",
+    "sourceSha256": "38d95b804058629c0e60b0423806569d7b02d7ef4b687d7b356ed250305961e9",
+    "outputSha256": "6e454cfb92fdc84c3e8dca33e7c210d031c22770a03fbd526edd538b31f2b8d5"
+  },
+  {
+    "key": "gear_ring",
+    "generator": "image_gen",
+    "original": "exec-a7ef7919-92cd-490a-8771-e66e42fc3a6a.png",
+    "sourceSha256": "967d23a80fca513f0db72c6426f93b58eda5e6d268a73a67b78116a61db72582",
+    "outputSha256": "38e4ccf4360a0660cb44554bce1e312e13cca64010232a901a0f917188407bf9"
+  },
+  {
+    "key": "gear_weapon",
+    "generator": "image_gen",
+    "original": "exec-51a0cec2-8bef-49fa-b439-90b841dc1a18.png",
+    "sourceSha256": "da64b36df0f565303fb6a2a35592fe8c252c9356b95005cf226a8e77f19b6703",
+    "outputSha256": "f179300284d1f67bc5b332b64f0278832ae9752f7d892d76c68298c045f87943"
+  },
+  {
+    "key": "gear_jade",
+    "generator": "image_gen",
+    "original": "exec-54071fae-3d4d-4d37-b322-1f72a931c827.png",
+    "sourceSha256": "edf06ab9ed6d2eda21a3860f60485c4e39a6536997cb74d7cc55c5a6036fc000",
+    "outputSha256": "e584b108ca0b677a43b2e2fd8886f323e5be2d4de3369110550c1272f1df22b0"
+  },
+  {
+    "key": "gear_frost_crown",
+    "generator": "image_gen",
+    "original": "exec-02d7c9af-cc05-479e-9000-6f6e1131f279.png",
+    "sourceSha256": "6f29730d1d963a83214bb67ae030ea02d051a4a3364b474a54b5f09b12158bd0",
+    "outputSha256": "ddf46eec56edd1402424d608b0848a628e68b7c3ff244a2deb3f647bb6dc030a"
+  },
+  {
+    "key": "gear_frost_robe",
+    "generator": "image_gen",
+    "original": "exec-98206a3b-ca56-4e21-bcdd-3639e3d8f85a.png",
+    "sourceSha256": "816a1fe86de2eec32f81cd4701c3e0a6421e6092aa9173c5bc0773261c638b30",
+    "outputSha256": "8af6995b1cbce43203a2ee79eb19bee3c44d61ba4f5f22841dbf574e840462ca"
+  },
+  {
+    "key": "gear_frost_belt",
+    "generator": "image_gen",
+    "original": "exec-765b1217-94e0-49b6-b5d9-a91aa5933022.png",
+    "sourceSha256": "a9ebaa27b9649cbe23b1665f794d0bd0befcf925294098b129446f31ed0022a1",
+    "outputSha256": "1a60bebe8e6240644bf8c009a5d2a14437bb764f69015e7945b4c3d16bb06b1f"
+  },
+  {
+    "key": "gear_frost_boots",
+    "generator": "image_gen",
+    "original": "exec-53a8a389-6623-43dd-82a3-1213b2f87be1.png",
+    "sourceSha256": "9b4b9a3c9ca3b18eba0164fa827282daad88a32bfa035f5316b11bdfdb19ce66",
+    "outputSha256": "cc804a22b8ac5f68cabc0152f57feb0b74b0815e188697fc9129574ed4b67038"
+  },
+  {
+    "key": "gear_frost_bracer",
+    "generator": "image_gen",
+    "original": "exec-ecebc074-1df2-486b-9f60-77fc77309cc8.png",
+    "sourceSha256": "18a0222092002725a1b417f6532d82602d6b6051406619171292f0835c42788c",
+    "outputSha256": "9ddb6a44b021c0b18953efd8346a25e012d3de0c1781048529952d7ccde096c6"
+  },
+  {
+    "key": "gear_frost_skirt",
+    "generator": "image_gen",
+    "original": "exec-d99d5ddd-b020-4016-82d3-5efcd51a9fb1.png",
+    "sourceSha256": "e4d50c1779bf074f4a72dc9b0aede22e4a384c99a2711d74a8848b13db2316c5",
+    "outputSha256": "22d72a537f147516c1494af6af4f6d249f8b482a69f376f3a5ad59287613c9a3"
+  },
+  {
+    "key": "gear_frost_necklace",
+    "generator": "image_gen",
+    "original": "exec-c5b55111-cbac-4b6b-b0bb-4e29baa4a693.png",
+    "sourceSha256": "12792294667f4dc04ebacd480f0ff42d2fcbabc48563eec3d9c32829ca0b6b15",
+    "outputSha256": "719e5831fc6c2ff4492956957511bb8d46630d5af6ac9ad744c09519be5ae919"
+  },
+  {
+    "key": "gear_frost_ring",
+    "generator": "image_gen",
+    "original": "exec-f95086a8-0eef-4c6d-8e4c-6b66bc2245a3.png",
+    "sourceSha256": "f3b206c08d42a5c5233f39c5b47753659d3d5667ea5446c8882d924de6c536bd",
+    "outputSha256": "0192fc4e50754616f86e804c524432a94de8f00ba01e9f7b71d470b899d34062"
+  },
+  {
+    "key": "gear_ember_crown",
+    "generator": "image_gen",
+    "original": "exec-7d652c80-4b39-4795-96c0-835c94844a0b.png",
+    "sourceSha256": "f61e4edb581b1f6da21ee4a52cf02aa822fc57e4daa776dde05d00ed144e7c18",
+    "outputSha256": "611c7da65af395229e138d25aa960a0b86f62eeda5c88d940151270c48836972"
+  },
+  {
+    "key": "gear_ember_robe",
+    "generator": "image_gen",
+    "original": "exec-40b714d5-20ef-4e81-a1cd-47b4ebf9cacf.png",
+    "sourceSha256": "9b96531ee4f6d8e89ca08c4dfc900b51ac7619997084f4d14185a8dcfca69923",
+    "outputSha256": "d290be06927ccb44c95d11f2dd65854c91e7c1d54fdbde05d089ca399f67c927"
+  },
+  {
+    "key": "gear_ember_belt",
+    "generator": "image_gen",
+    "original": "exec-f454bc82-4b7b-4cec-9e9d-9894682cdf04.png",
+    "sourceSha256": "1df29c7fa68822276ea1de2d1e3435c5966b56bf4525cee9a60ed3e5cb851ad3",
+    "outputSha256": "0d3436e07b506fa9ba9a45aeaac5541de27217dfd044812e135e5b8b06849d93"
+  },
+  {
+    "key": "gear_ember_boots",
+    "generator": "image_gen",
+    "original": "exec-2922983a-2b28-4985-a229-8b4f75db6386.png",
+    "sourceSha256": "d5443a2df6c62bca00ccecae587e951c2300dd822dd5e385ea2d2a70a6c641b3",
+    "outputSha256": "6394bd3c8e2e7888756fb2cd5fac613132ac2e0db2b36090139d663fce948607"
+  },
+  {
+    "key": "gear_ember_bracer",
+    "generator": "image_gen",
+    "original": "exec-ad13fa94-7f87-44cc-9a55-64edbf39aa54.png",
+    "sourceSha256": "ae9fee5f1de0e2efdda274542e9917acb772a09bd3d43878840b9374f7490954",
+    "outputSha256": "72617ba4dc74e21e5c500fd0a75bd92d1b3cf5d836e2af47272afd730ee7a6e8"
+  },
+  {
+    "key": "gear_ember_skirt",
+    "generator": "image_gen",
+    "original": "exec-185341e3-9f7a-44e0-bd06-6d81c4a76375.png",
+    "sourceSha256": "0ddbd414c2cc9b78039b9e96ccaf10a1f6a76b2ea0162af05fb59092291b8c9b",
+    "outputSha256": "2f4b2c38f2838e6d70c307d2fd8981e7158b8d7a6d722a93693ea14730bb5338"
+  },
+  {
+    "key": "gear_ember_necklace",
+    "generator": "image_gen",
+    "original": "exec-b4305abe-ab30-46a0-9630-41fbc13f2e19.png",
+    "sourceSha256": "f125db765a57cfe250e1dab51da4b667d113cd21257f2ebf16355f78887c571f",
+    "outputSha256": "52b6282bc7ebfd666a71c38e3f944ac2807d4e61db1aad05bfff5c7b31cae8b4"
+  },
+  {
+    "key": "gear_ember_ring",
+    "generator": "image_gen",
+    "original": "exec-060a87e0-e1a2-4090-8bc1-4fdae689c510.png",
+    "sourceSha256": "cddea635efa631adedb07f3d975a0e844737d1e6fdad95ec6700fef41bedf5be",
+    "outputSha256": "5ebb7a830ef6021c4896f95db71ab498a3452380584b05fa9b3f5c94fc33c3a8"
+  },
+  {
+    "key": "icon_bone_external",
+    "generator": "image_gen",
+    "original": "exec-c9e36bce-5b87-4dc2-a653-dbbe85b0b366.png",
+    "sourceSha256": "5a3e83d69d52e8ef95cb40a31dc701b2458e4050da5639d1bb67c32f37c0bcb7",
+    "outputSha256": "a9206b1852ed63af09d88924877625e9fb957b1be8cefcbef83446f9cd907e30"
+  },
+  {
+    "key": "ui_achievement",
+    "generator": "image_gen",
+    "original": "exec-d00a5b3a-06df-4e61-a9fe-c7a35ab12afd.png",
+    "sourceSha256": "c84bb64d4445c3ebb35e1e3aa39f34a42f59ddd48630de5516c411a354d2ee13",
+    "outputSha256": "27553668433b8d3c058721c333d5ee2731b4cd963284e329f3848e2282dc1e8b"
+  },
+  {
+    "key": "ui_achievement_battle",
+    "generator": "image_gen",
+    "original": "exec-fd22735a-3bc8-4bdd-8a36-a307caf7b1a0.png",
+    "sourceSha256": "c48a72f80ab1bae9a2caa78eefec442ccc5cb5572088ce5377faaa6ecb567839",
+    "outputSha256": "6e87e7740ba16dd7fffd6596b33be420b468e6e1d9ef7538666d8c820c7a1346"
+  },
+  {
+    "key": "ui_achievement_pet",
+    "generator": "image_gen",
+    "original": "exec-d79c45d8-4e9f-46af-bfa4-a74e6e352c9e.png",
+    "sourceSha256": "bcfc8d055dce9ccf8d349bfd4668b501152122131b80c3cc2f16ed27dd004a12",
+    "outputSha256": "9b14217eb7c9fa9e61b8eeac91f20cd6dce3263bc103ef7a3e850c260dde4357"
+  },
+  {
+    "key": "ui_achievement_ring",
+    "generator": "image_gen",
+    "original": "exec-7304c0d3-f7bb-43d8-9a79-150ffd42f4e2.png",
+    "sourceSha256": "e4163a55c2082335342f1f07023ee2006fd036d13967e4df9885d30dc18de096",
+    "outputSha256": "cf2650ac9bd6ba08f8ab00fb377e4db5ab2468bb63d42893509c7dde7efd0e13"
+  },
+  {
+    "key": "ui_daily",
+    "generator": "image_gen",
+    "original": "exec-11fc4245-cfe0-410e-860f-6804be1c368d.png",
+    "sourceSha256": "dfcc56d1307b2db9fb8c6105ef703ede01e1596f23a2e3ed59603d2136a489bd",
+    "outputSha256": "5b16ac35b31b32d19e48cecc5334631a50e0bdf7891a670cf7555948e7a7b816"
+  },
+  {
+    "key": "ui_daily_hunt",
+    "generator": "image_gen",
+    "original": "exec-f850720c-af3f-4693-b6df-2cc19ee18d24.png",
+    "sourceSha256": "ba04e7b93cbc3830a135afa15799f66e532ab5e592e940aab09731d2f4225d7c",
+    "outputSha256": "93200e4328bf6c8493c01cabae7f0b564c4b0e4ed96f760e443c70a99af308ca"
+  },
+  {
+    "key": "ui_daily_gift",
+    "generator": "image_gen",
+    "original": "exec-3ae9bb6f-a8a6-4ffa-b81e-d3514db0c115.png",
+    "sourceSha256": "b454d340ee97427129c52482536f9a1bd0301ab4efbb3f99d82f142bd479f4fe",
+    "outputSha256": "059dc9b0fddb5ba5c8bd2d41638d508d143582c7ba2fbdb7f52932b47882ec51"
+  },
+  {
+    "key": "ui_rift",
+    "generator": "image_gen",
+    "original": "exec-b865b683-db61-451c-b827-36c52f5935cc.png",
+    "sourceSha256": "d8eb4d2060f6d3e714b56f9ee791ff16a96e539d29748d564f71d3580d27e14d",
+    "outputSha256": "2742791efd4f3a59eef03ceb12cba3f098dda544d89fbed75cbaf2ae9f3739fb"
+  },
+  {
+    "key": "ui_rift_tower",
+    "generator": "image_gen",
+    "original": "exec-2189f5b5-cc80-47a3-bf16-ca420b959685.png",
+    "sourceSha256": "bc432abaaaa5055a7992e18521fbdcbfec8335c793767ca050b8ed762a728428",
+    "outputSha256": "104a0e9c23d1347b3f1476ec0265b663ee46d53276cdc3ec18fcb1f0365bdfdf"
+  },
+  {
+    "key": "ui_rift_token",
+    "generator": "image_gen",
+    "original": "exec-a96f575b-0a16-4f44-8e64-3e2317825a72.png",
+    "sourceSha256": "e5d64a7df8bfb855695a6397c9303a32b70263a092bff4dcb94be332d12d8f03",
+    "outputSha256": "5fbd453c7c8b4108648f8326e45707452815da7109bdf44e3315afeae37eb07e"
+  },
+  {
+    "key": "bg_snow",
+    "generator": "image_gen",
+    "original": "exec-a82d7a0c-b254-451a-9067-732e9b75ff92.png",
+    "sourceSha256": "34cef1d63dbcd9e3b0ba02d53205a43dcf31cf5880d86312ea7b70556ea847f8",
+    "outputSha256": "ad3c8e5120fb4f4942862a2c76151e3d093aa486652f9056edb5bdde4700e94d"
+  },
+  {
+    "key": "bg_ridge",
+    "generator": "image_gen",
+    "original": "exec-6c678e68-b304-4e40-b8ff-a81226a6b52f.png",
+    "sourceSha256": "03d00f45c5640e575e91b670896d560e4681d8889d2ce478406e741e7434c405",
+    "outputSha256": "172982b5d7a20305022c255d51ab5ba16576fb6a3a1390c91fb2a7e6c3dcae7e"
+  }
+]
