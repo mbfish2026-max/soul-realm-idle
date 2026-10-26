@@ -1,0 +1,816 @@
+[
+  {
+    "key": "ui2_panel",
+    "w": 720,
+    "h": 480,
+    "bytes": 42268,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3e36db0b8710ee7516d63e5de82959f3791824ed7a955c62d336b2180994f9f8"
+  },
+  {
+    "key": "ui2_modal",
+    "w": 680,
+    "h": 760,
+    "bytes": 52754,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "2a538739415752534185458fc98dee0c058dd12fbd19e5b9e326b0ed1dd527a4"
+  },
+  {
+    "key": "ui2_button_primary_normal",
+    "w": 320,
+    "h": 96,
+    "bytes": 9212,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "f914df972c1dba8e8d0f645298c9a03caf55b0f42772a3c8dfd331e53acca716"
+  },
+  {
+    "key": "ui2_button_primary_pressed",
+    "w": 320,
+    "h": 96,
+    "bytes": 9424,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e21c6970ee6257b6f08794527ae94e7f145e363c244e86007b0a999461e19fce"
+  },
+  {
+    "key": "ui2_button_primary_disabled",
+    "w": 320,
+    "h": 96,
+    "bytes": 6904,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "cdfd967d8e4005d9189eefe3ea5d0a29e54f27a1f9f67322f239b257ead2b70b"
+  },
+  {
+    "key": "ui2_button_secondary_normal",
+    "w": 320,
+    "h": 96,
+    "bytes": 8380,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "f0aa2c7807ccde8f5d9a1931e5d88b59726c7219ae9eb3282dccdefcfaeba8a8"
+  },
+  {
+    "key": "ui2_button_secondary_pressed",
+    "w": 320,
+    "h": 96,
+    "bytes": 7710,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "379664530ce8d055d4d59e2bff0c91d744bea599954ee6a308f41676c2b84a82"
+  },
+  {
+    "key": "ui2_button_secondary_disabled",
+    "w": 320,
+    "h": 96,
+    "bytes": 7378,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "57fd3765c4e3bede4c79a36af66e64dd07d0e145efa4b9a43cf1a0690b218405"
+  },
+  {
+    "key": "ui2_skill_base",
+    "w": 128,
+    "h": 128,
+    "bytes": 5638,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "97ad9a1e0af25d0c146f1eb77237884f2de727093bd6c4dc231c2c3127d164d6"
+  },
+  {
+    "key": "ui2_skill_cooldown",
+    "w": 128,
+    "h": 128,
+    "bytes": 2902,
+    "alpha": [
+      0,
+      140
+    ],
+    "sha256": "66ee9cd1c8a8067d73f780d5205adae8355d298922569f4a3bc8138a03fa3168"
+  },
+  {
+    "key": "ui2_bar_hp_base",
+    "w": 480,
+    "h": 32,
+    "bytes": 4160,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "779e152cddb12c133759f8b092cced4de386f2f55e5da94f3f61dcf8890a226d"
+  },
+  {
+    "key": "ui2_bar_hp_fill",
+    "w": 480,
+    "h": 32,
+    "bytes": 5166,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d01433d7d14145469f615e227f8367703cbfe5b528c211f8e6a76c50d5b17802"
+  },
+  {
+    "key": "ui2_bar_soul_base",
+    "w": 480,
+    "h": 32,
+    "bytes": 5224,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6c29605966fef05b20b147ffd49b7bb4a4d2eeab4b99b46ac5b86ced75e7b64d"
+  },
+  {
+    "key": "ui2_bar_soul_fill",
+    "w": 480,
+    "h": 32,
+    "bytes": 4716,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "1c3926212a58af8a1e69f483d62da35374a8690c5e4148c974847a90d12d651c"
+  },
+  {
+    "key": "ui2_bar_progress_base",
+    "w": 480,
+    "h": 32,
+    "bytes": 4694,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b6b27aad60bc86eabb5a25f5ab9f8a65beb5155c4a6660bed530bca07a9b1e97"
+  },
+  {
+    "key": "ui2_bar_progress_fill",
+    "w": 480,
+    "h": 32,
+    "bytes": 4702,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "30ffe7f51e2b88c749122483ea89b5fbbc5cc633671936c5a2c1989b39a244bb"
+  },
+  {
+    "key": "ui2_nav_battle",
+    "w": 96,
+    "h": 96,
+    "bytes": 4552,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "a4c42995de3effc077d4c1bc906ab3586203ed685b4a7627d3b8860547331ec9"
+  },
+  {
+    "key": "ui2_nav_pet",
+    "w": 96,
+    "h": 96,
+    "bytes": 5832,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "aab86b325d1f8573f691e2b53c840f6eefe255be0569f11025a899ae105583e8"
+  },
+  {
+    "key": "ui2_nav_ring",
+    "w": 96,
+    "h": 96,
+    "bytes": 5098,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "59967ede5c64eb8e88348fcae5140fa5d3c343d4ad71e8f21d7a6810ac9a576c"
+  },
+  {
+    "key": "ui2_nav_bag",
+    "w": 96,
+    "h": 96,
+    "bytes": 4464,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ac4f463c2ce287e43cd7f77f6cdddb5de60b91c643097d824ed0acc8689c9787"
+  },
+  {
+    "key": "ui2_nav_bone",
+    "w": 96,
+    "h": 96,
+    "bytes": 3412,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "889485290679cf42f5911e03324d4d5bed7ec081dbbb66520d966efcdf129d19"
+  },
+  {
+    "key": "ui2_nav_realm",
+    "w": 96,
+    "h": 96,
+    "bytes": 4696,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b2b44af6a6907da6d2bd7a5756907f8e07bee8662b5d2842e2c32d2aa06200df"
+  },
+  {
+    "key": "ui2_nav_achievement",
+    "w": 96,
+    "h": 96,
+    "bytes": 6676,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "a9068b58cee316631deb5649d7ee587b7d515e93a424ccf3aaa189ffa4c83700"
+  },
+  {
+    "key": "ui2_nav_settings",
+    "w": 96,
+    "h": 96,
+    "bytes": 5268,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "87444c8a4f78add35d83cd1609be1a61ff9b285b99a3d33ce2da61e93faf360d"
+  },
+  {
+    "key": "ui2_tab_active",
+    "w": 240,
+    "h": 80,
+    "bytes": 6698,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "516974bff77bbd350937c5453484ae72dfd743be265d10ae4dc70a182c238e9b"
+  },
+  {
+    "key": "ui2_tab_inactive",
+    "w": 240,
+    "h": 80,
+    "bytes": 6774,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e86daabafe7d8621733d6e97719d0a23409e89c97733cbeb3df768e2db819bc5"
+  },
+  {
+    "key": "ui2_divider",
+    "w": 640,
+    "h": 32,
+    "bytes": 7074,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "23262677d9aafc98f3e714c5f1544bba0429e15211bcfb611b22578b35fc6432"
+  },
+  {
+    "key": "ui2_cloud",
+    "w": 256,
+    "h": 96,
+    "bytes": 6730,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "a2192831908bfe0c3cb90d169e12695ef20af0ffdc447969a41f1d5c500767ed"
+  },
+  {
+    "key": "ui2_seal",
+    "w": 96,
+    "h": 128,
+    "bytes": 4708,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "589d4ae61524e3fab55d9decf926dad251a30940aadea6f99f6eac860334a3ba"
+  },
+  {
+    "key": "ui2_logo",
+    "w": 320,
+    "h": 320,
+    "bytes": 26004,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "03bbd7e438c8a84a436a98b25881884bf401f92359819622edf420c3fb09e245"
+  },
+  {
+    "key": "ui2_title",
+    "w": 720,
+    "h": 240,
+    "bytes": 51874,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "5a6ad0a016afd5136829708bef1b3aa234f6702a6b7749f93bb53d1bd42edd7b"
+  },
+  {
+    "key": "ui2_text_start",
+    "w": 256,
+    "h": 80,
+    "bytes": 11590,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "56a87495ac765802c0ad28c8a7866fe30ef1e1f6a5cd40516642d7fe8442f75f"
+  },
+  {
+    "key": "ui2_text_absorb",
+    "w": 256,
+    "h": 80,
+    "bytes": 8566,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "722cedab8aa155ce8ffbaa8b5cbce4f56def033cfc86c1722da7328e0af72ab5"
+  },
+  {
+    "key": "ui2_text_abandon",
+    "w": 256,
+    "h": 80,
+    "bytes": 7514,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b629b043f592099da6e66efdb60bd3dfea7e81bf56ee6c01af50b0a943cac847"
+  },
+  {
+    "key": "ui2_text_store",
+    "w": 256,
+    "h": 80,
+    "bytes": 5272,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3a61a57bf77a548c9a6e8fa8bb1a2994667426105b7204dabcdb0db08cce3d58"
+  },
+  {
+    "key": "ui2_text_hatch",
+    "w": 256,
+    "h": 80,
+    "bytes": 8030,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b649bc95f99e901a88f198689bfae9dfe14e8ecea11f0a6da6355652133b8fbb"
+  },
+  {
+    "key": "ui2_text_upgrade",
+    "w": 256,
+    "h": 80,
+    "bytes": 7548,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "458525ffd19777ca06ff64025b535d6f8a7183db4af7a3f649be8cac3216925a"
+  },
+  {
+    "key": "ui2_text_evolve",
+    "w": 256,
+    "h": 80,
+    "bytes": 9802,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "db5dd0ec9c4a1af3eecfc672ad57574817ee6c6b05909b70f16803d601d55050"
+  },
+  {
+    "key": "ui2_text_equip",
+    "w": 256,
+    "h": 80,
+    "bytes": 8110,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d349c52c0eb7393a78577dae7f65d7d7a7daf1ab976b0c70f05a1f8f5f684cbb"
+  },
+  {
+    "key": "ui2_text_salvage",
+    "w": 256,
+    "h": 80,
+    "bytes": 7062,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "fde93f4a61d06e53b88ca7bc595f3b7c1be5a883cbac8fdd3c527a58dcec9167"
+  },
+  {
+    "key": "ui2_item_crystal",
+    "w": 96,
+    "h": 96,
+    "bytes": 2864,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d54ce8b2bc88b7cbfd06abb4f0916dfff7e9f9b1a61758a6130701cc4a6befa5"
+  },
+  {
+    "key": "ui2_item_beast_soul",
+    "w": 96,
+    "h": 96,
+    "bytes": 6084,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "161adfefd529ef2b007a4f81532d2a4b25a6489ae279ab9f0359bbb807ac67dc"
+  },
+  {
+    "key": "ui2_item_pact",
+    "w": 96,
+    "h": 96,
+    "bytes": 4582,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6301aafdfaaea28a4002959066912871df13cd99d07f642aa4555561fa626f35"
+  },
+  {
+    "key": "ui2_item_essence",
+    "w": 96,
+    "h": 96,
+    "bytes": 4900,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "1842d1a7ecccfee885ae62aade0566355d72d46fb3010061afbe2049fe9eca87"
+  },
+  {
+    "key": "ui2_item_egg",
+    "w": 96,
+    "h": 96,
+    "bytes": 3312,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "8d83ad7f7624d52a53d81394ab4ab955239caf53cc66b1786ab1574dc9ad6199"
+  },
+  {
+    "key": "ui2_item_herb",
+    "w": 96,
+    "h": 96,
+    "bytes": 4416,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "2bd16c4b7cea2ea76b6368b00193a9250416d530b6f2761c003b53829150e772"
+  },
+  {
+    "key": "ui2_item_ore",
+    "w": 96,
+    "h": 96,
+    "bytes": 4470,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b031a4d6da81086ee20de761c295404294baab6298edbcbba61ec819a7a9253d"
+  },
+  {
+    "key": "ui2_item_bone",
+    "w": 96,
+    "h": 96,
+    "bytes": 3010,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "edfa361cb0d78d36ad3b4870fa008fb4be2efe2b6cf33773f0d52414430f306b"
+  },
+  {
+    "key": "ui2_item_scroll",
+    "w": 96,
+    "h": 96,
+    "bytes": 3652,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "f1533194c6487dd88f9802c2c46a8126f0477683958ee176b99ae22e57e429c7"
+  },
+  {
+    "key": "ui2_item_stone",
+    "w": 96,
+    "h": 96,
+    "bytes": 4916,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "23f3a3dabbb7e4f224e8dae19062439b2053ad0d0d32bfcd7b6ecdff693d6c7b"
+  },
+  {
+    "key": "ui2_item_dust",
+    "w": 96,
+    "h": 96,
+    "bytes": 3448,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "482a273729d814e709777d647a18d9953af963e5a7f56ea164d26558bd9f2864"
+  },
+  {
+    "key": "ui2_item_chest",
+    "w": 96,
+    "h": 96,
+    "bytes": 4274,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3bc460087d4f021eb9ea7c56d87482cbd188e88e92c88332276b0d184321a7db"
+  },
+  {
+    "key": "ui2_ring_white",
+    "w": 128,
+    "h": 128,
+    "bytes": 8032,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4467588af48b7e3bb1f5e699e1d931322ccaa07eae08792ccb37aad43d070ec9"
+  },
+  {
+    "key": "ui2_ring_yellow",
+    "w": 128,
+    "h": 128,
+    "bytes": 7080,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ccf593d47129b732bf6cdc4a3a9dd9c5d0bf1ebd0851b885cc4368fbb536c53c"
+  },
+  {
+    "key": "ui2_ring_purple",
+    "w": 128,
+    "h": 128,
+    "bytes": 9066,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3b3cad596deb867dd1461edb74c4c34035205a1fa9d3182641aadc3cb1608eec"
+  },
+  {
+    "key": "ui2_ring_black",
+    "w": 128,
+    "h": 128,
+    "bytes": 8580,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "949004136b714435c48c2cdec9f8670678c8413a0597188ae9e8146341569f46"
+  },
+  {
+    "key": "ui2_ring_red",
+    "w": 128,
+    "h": 128,
+    "bytes": 9536,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4b674fd5f47fc53727bd46611e4e92c57b150406dceccecc8e77ca097dafd063"
+  },
+  {
+    "key": "ui2_ring_gold",
+    "w": 128,
+    "h": 128,
+    "bytes": 8136,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "be6b4c68212a29acf846b2e18bcd3c709faada398c09fe6c30c3c0f0cac299d3"
+  },
+  {
+    "key": "ui2_achievement_01",
+    "w": 96,
+    "h": 96,
+    "bytes": 4064,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b78cfdb0c69dd69938f1fb34e9c2a1558dbc061fecb5fb119d61f982494ccd4e"
+  },
+  {
+    "key": "ui2_achievement_02",
+    "w": 96,
+    "h": 96,
+    "bytes": 4228,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "04018a4323f221ede227850c3a89297b750d1ee994a8cecaa63b0e845aefa04d"
+  },
+  {
+    "key": "ui2_achievement_03",
+    "w": 96,
+    "h": 96,
+    "bytes": 4968,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e34f196f7b64134ffff1b08bfeacae141baba26b5d9e28447762761d635d5b9d"
+  },
+  {
+    "key": "ui2_achievement_04",
+    "w": 96,
+    "h": 96,
+    "bytes": 4326,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3270979c1f5f90ca436e9ca42e3ee03f8ff69e2946126b7c4871350de9bd15ac"
+  },
+  {
+    "key": "ui2_achievement_05",
+    "w": 96,
+    "h": 96,
+    "bytes": 3924,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ae31115fe0395a02f9b9d934be6cdc3d0f8e79f31e101c4d6eb2cf26509ce81c"
+  },
+  {
+    "key": "ui2_achievement_06",
+    "w": 96,
+    "h": 96,
+    "bytes": 4260,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "30eb780f11fa2a3ff20165c05c140c80bdbb80587b49ee581a782a73912c8a98"
+  },
+  {
+    "key": "ui2_achievement_07",
+    "w": 96,
+    "h": 96,
+    "bytes": 4102,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4f79094a17f3264162e70259ac9bcf024b683b055ae0b92d3e23ebe40f809d18"
+  },
+  {
+    "key": "ui2_achievement_08",
+    "w": 96,
+    "h": 96,
+    "bytes": 4512,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "99fc04aa8226ce47af7f5bbca36d45bbea5a8f0beac53979e17635c46d95f5b3"
+  },
+  {
+    "key": "ui2_achievement_09",
+    "w": 96,
+    "h": 96,
+    "bytes": 4346,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e475d59537cb91cdc1236ecc72eba56c82f4aa0ba2a059b607400b344f3097c1"
+  },
+  {
+    "key": "ui2_achievement_10",
+    "w": 96,
+    "h": 96,
+    "bytes": 4744,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "654772f39022ef96c99859a6c815082240a302a4494b1434d46636bf54849c05"
+  },
+  {
+    "key": "ui2_node_forest",
+    "w": 192,
+    "h": 192,
+    "bytes": 19328,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "f3fbf5cd0609961b12c260cf838088207bd3f2fa2b959350c4f455ef50b1bfb8"
+  },
+  {
+    "key": "ui2_node_river",
+    "w": 192,
+    "h": 192,
+    "bytes": 17488,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "298b30c6fe38f7dc6bcc668c86d8ceb9ca76610f1e3a26b74caa38619a2fc77d"
+  },
+  {
+    "key": "ui2_node_snow",
+    "w": 192,
+    "h": 192,
+    "bytes": 14162,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "dbfc28836ff77cc36c45a0549e137085eb69eb4990797f28751916844d609eb9"
+  },
+  {
+    "key": "ui2_node_ember",
+    "w": 192,
+    "h": 192,
+    "bytes": 11640,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "cc5b98503aa4e71c037178f3ed8b0ab8df80d3daa47603970f5f7e80d4725bbb"
+  },
+  {
+    "key": "ui2_node_ruin",
+    "w": 192,
+    "h": 192,
+    "bytes": 13408,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3fa5c32db1ce444d45f7ee39d6f1331a325dc64f11d541bbad582380e879a9f4"
+  },
+  {
+    "key": "ui2_node_summit",
+    "w": 192,
+    "h": 192,
+    "bytes": 12630,
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c99217e3612abe87e9f5f3af9c73a354b9b77d7fa68c76176814159d4da42326"
+  }
+]

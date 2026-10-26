@@ -1,0 +1,530 @@
+[
+  {
+    "key": "ui2_panel",
+    "subject": "blank horizontal ivory xuan paper scroll panel with tiny gold cloud corners and empty center, 3:2",
+    "w": 720,
+    "h": 480,
+    "slice": [
+      96,
+      96,
+      96,
+      96
+    ]
+  },
+  {
+    "key": "ui2_modal",
+    "subject": "blank tall ivory xuan paper popup frame, thin antique gold double border, tiny jade cloud corners, empty center, 17:19",
+    "w": 680,
+    "h": 760,
+    "slice": [
+      96,
+      160,
+      96,
+      160
+    ]
+  },
+  {
+    "key": "ui2_button_primary_normal",
+    "subject": "one blank horizontal sage jade green button, gold ornamental corners, fresh and clearly enabled, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_button_primary_pressed",
+    "subject": "one blank horizontal sage jade green button, gold ornamental corners, slightly darker ink wash, inset inner rim, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_button_primary_disabled",
+    "subject": "one blank horizontal sage jade green button, gold ornamental corners, muted grey low saturation, faded rim, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_button_secondary_normal",
+    "subject": "one blank horizontal ivory paper button, gold ornamental corners, fresh and clearly enabled, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_button_secondary_pressed",
+    "subject": "one blank horizontal ivory paper button, gold ornamental corners, slightly darker ink wash, inset inner rim, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_button_secondary_disabled",
+    "subject": "one blank horizontal ivory paper button, gold ornamental corners, muted grey low saturation, faded rim, aspect 10:3, no symbols",
+    "w": 320,
+    "h": 96,
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  {
+    "key": "ui2_skill_base",
+    "subject": "empty circular jade skill medallion, thin antique gold rim, blank jade center",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_skill_cooldown",
+    "subject": "one translucent charcoal ink wash circular cooldown veil, uniform softly textured disk, no rim, no symbols, translucent alpha",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_bar_hp_base",
+    "subject": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_bar_hp_fill",
+    "subject": "one extremely slim horizontal muted cinnabar red watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_bar_soul_base",
+    "subject": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_bar_soul_fill",
+    "subject": "one extremely slim horizontal muted violet watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_bar_progress_base",
+    "subject": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_bar_progress_fill",
+    "subject": "one extremely slim horizontal sage jade green watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "w": 480,
+    "h": 32,
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "key": "ui2_nav_battle",
+    "subject": "one navigation icon depicting crossed ink swords, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_pet",
+    "subject": "one navigation icon depicting elegant jade fox silhouette, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_ring",
+    "subject": "one navigation icon depicting hollow spiritual ring, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_bag",
+    "subject": "one navigation icon depicting cloth drawstring bag, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_bone",
+    "subject": "one navigation icon depicting jade spiritual bone, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_realm",
+    "subject": "one navigation icon depicting misty mountain gate, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_achievement",
+    "subject": "one navigation icon depicting laurel medal, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_nav_settings",
+    "subject": "one navigation icon depicting carved jade cogwheel, charcoal and jade, no enclosing square",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_tab_active",
+    "subject": "one blank horizontal tab, sage jade paper with gold rim, aspect 3:1",
+    "w": 240,
+    "h": 80
+  },
+  {
+    "key": "ui2_tab_inactive",
+    "subject": "one blank horizontal tab, ivory paper with faded gold rim, aspect 3:1",
+    "w": 240,
+    "h": 80
+  },
+  {
+    "key": "ui2_divider",
+    "subject": "one very slim horizontal antique gold separator line with tiny cloud flourish at center, aspect 20:1",
+    "w": 640,
+    "h": 32
+  },
+  {
+    "key": "ui2_cloud",
+    "subject": "one graceful sage jade traditional auspicious cloud flourish, horizontal aspect 8:3",
+    "w": 256,
+    "h": 96
+  },
+  {
+    "key": "ui2_seal",
+    "subject": "one empty vermilion hand stamped rectangular double seal border, transparent empty center, no letters",
+    "w": 96,
+    "h": 128
+  },
+  {
+    "key": "ui2_logo",
+    "subject": "one original jade emblem combining an open spiritual ring, a small mountain and a cloud, no letters",
+    "w": 320,
+    "h": 320
+  },
+  {
+    "key": "ui2_title",
+    "subject": "Chinese brush calligraphy exact text 魂域挂机, four characters horizontally, charcoal ink with restrained jade wash, no other letters or seals",
+    "w": 720,
+    "h": 240
+  },
+  {
+    "key": "ui2_text_start",
+    "subject": "Chinese brush calligraphy exact text 开始游戏, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_absorb",
+    "subject": "Chinese brush calligraphy exact text 吸收, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_abandon",
+    "subject": "Chinese brush calligraphy exact text 放弃, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_store",
+    "subject": "Chinese brush calligraphy exact text 存入, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_hatch",
+    "subject": "Chinese brush calligraphy exact text 孵化, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_upgrade",
+    "subject": "Chinese brush calligraphy exact text 升级, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_evolve",
+    "subject": "Chinese brush calligraphy exact text 蜕变, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_equip",
+    "subject": "Chinese brush calligraphy exact text 穿戴, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_text_salvage",
+    "subject": "Chinese brush calligraphy exact text 分解, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "w": 256,
+    "h": 80
+  },
+  {
+    "key": "ui2_item_crystal",
+    "subject": "one inventory icon depicting faceted pale jade spirit crystal",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_beast_soul",
+    "subject": "one inventory icon depicting jade animal soul wisp",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_pact",
+    "subject": "one inventory icon depicting ivory paper covenant talisman with abstract cinnabar strokes, no readable text",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_essence",
+    "subject": "one inventory icon depicting violet spiritual essence pearl",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_egg",
+    "subject": "one inventory icon depicting ivory beast egg with jade cloud markings",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_herb",
+    "subject": "one inventory icon depicting three medicinal sage leaves",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_ore",
+    "subject": "one inventory icon depicting cluster of dark spiritual ore",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_bone",
+    "subject": "one inventory icon depicting ivory spiritual bone fragment with jade tip",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_scroll",
+    "subject": "one inventory icon depicting rolled ivory scroll tied with jade silk",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_stone",
+    "subject": "one inventory icon depicting round jade upgrade stone",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_dust",
+    "subject": "one inventory icon depicting small pile of antique gold spiritual dust",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_item_chest",
+    "subject": "one inventory icon depicting small carved jade treasure chest",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_ring_white",
+    "subject": "one frontal hollow ivory white spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_ring_yellow",
+    "subject": "one frontal hollow gold yellow spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_ring_purple",
+    "subject": "one frontal hollow violet spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_ring_black",
+    "subject": "one frontal hollow charcoal black spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_ring_red",
+    "subject": "one frontal hollow cinnabar red spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_ring_gold",
+    "subject": "one frontal hollow antique gold with fine engraved cloud filigree spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "w": 128,
+    "h": 128
+  },
+  {
+    "key": "ui2_achievement_01",
+    "subject": "one jade achievement medal with thin antique gold rim depicting sprouting bamboo",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_02",
+    "subject": "one jade achievement medal with thin antique gold rim depicting crossed swords",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_03",
+    "subject": "one jade achievement medal with thin antique gold rim depicting spiritual ring",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_04",
+    "subject": "one jade achievement medal with thin antique gold rim depicting fox paw",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_05",
+    "subject": "one jade achievement medal with thin antique gold rim depicting mountain summit",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_06",
+    "subject": "one jade achievement medal with thin antique gold rim depicting open book",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_07",
+    "subject": "one jade achievement medal with thin antique gold rim depicting lotus",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_08",
+    "subject": "one jade achievement medal with thin antique gold rim depicting treasure chest",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_09",
+    "subject": "one jade achievement medal with thin antique gold rim depicting jade crown",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_achievement_10",
+    "subject": "one jade achievement medal with thin antique gold rim depicting sun above cloud",
+    "w": 96,
+    "h": 96
+  },
+  {
+    "key": "ui2_node_forest",
+    "subject": "one miniature map location vignette depicting bamboo grove on mossy stone, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  },
+  {
+    "key": "ui2_node_river",
+    "subject": "one miniature map location vignette depicting small winding river and arched stone bridge, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  },
+  {
+    "key": "ui2_node_snow",
+    "subject": "one miniature map location vignette depicting snowy peak and sparse pine, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  },
+  {
+    "key": "ui2_node_ember",
+    "subject": "one miniature map location vignette depicting cinnabar rocky peak and tiny ember fissure, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  },
+  {
+    "key": "ui2_node_ruin",
+    "subject": "one miniature map location vignette depicting ancient jade gate ruins with moss, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  },
+  {
+    "key": "ui2_node_summit",
+    "subject": "one miniature map location vignette depicting mountain summit pavilion among clouds, isolated miniature landscape, transparent exterior, no square background",
+    "w": 192,
+    "h": 192
+  }
+]
