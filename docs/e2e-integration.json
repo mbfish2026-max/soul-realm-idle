@@ -1,8 +1,9 @@
 {
   "consoleErrors": [],
-  "loadingBytes": 803821,
-  "totalRequestedBytes": 1843713,
-  "kills": 71,
-  "level": 44,
+  "loadingBytes": 803938,
+  "firstBattleBytes": 1152578,
+  "totalRequestedBytes": 1845947,
+  "kills": 83,
+  "level": 45,
   "screenshots": 11
 }

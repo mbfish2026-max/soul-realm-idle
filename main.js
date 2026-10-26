@@ -10,7 +10,7 @@ function hud(){var s=S.save.state,a=S.stats.hero(s),j=document.getElementById('j
 S.bus.on('battle:wave_start',hud);S.bus.on('loot:drop',function(p){hud();var el=document.getElementById('loot-note');if(el)el.textContent='拾得 '+(p.item.type==='essence'?N.ringEssence+' · '+p.item.years+'年':p.item.type==='egg'?N.egg:N.gearSlots[p.item.slot]||N.soulBone);S.bus.emit('sfx',{id:'pickup'});});
 S.bus.on('ring:absorb_result',function(p){setTimeout(function(){S.stageFx.absorb({color:p.essence.color,ok:p.ok,el:document.querySelector('.sr-page')});},0);S.bus.emit('sfx',{id:p.ok?'absorb_success':'absorb_fail'});});
 S.bus.on('battle:attack',function(p){S.bus.emit('sfx',{id:p.crit?'crit':'attack'});});
-S.bus.on('offline:reward',function(p){if(p.seconds>=60)offline=p;});
+S.bus.on('offline:reward',function(p){if(S.save.state.flags.awakened)offline=p;});
 S.bus.on('hero:awaken_request',function(){U.close();U.show('battle');S.save.save();});
 function enter(){document.getElementById('gate').remove();U.mount(document.getElementById('app'));U.show('battle');S.idle.start();level();if(!S.save.state.flags.awakened){U.modal('opening','<h1>'+N.game+'</h1><p>山海之间，一缕灵光照见心中万象。</p><p>执此初心，与山野之灵同赴漫长修行。</p><button id="opening-next" class="primary wide">启程 · 跳过</button>');document.getElementById('opening-next').onclick=function(){U.awaken();};}else {U.show('battle');if(offline)U.modal('offline','<h2>离线收益</h2><p>静修 '+Math.floor(offline.seconds/60)+' 分钟</p><p>'+N.crystal+' +'+offline.crystal+' · 经验 +'+offline.exp+'</p><p>'+N.ringEssence+' × '+offline.items.length+'</p><small>所得已收入行囊，点击空白继续修行。</small>');}}
 var keys=['bg_forest','hero_idle','pet_fox_idle','mob_ink_wolf','mob_bamboo_snake'],done=0;

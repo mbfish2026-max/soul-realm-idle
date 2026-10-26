@@ -12,9 +12,11 @@ try:
   browser=p.webkit.launch(); page=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1)
   page.set_default_timeout(10000)
   errors=[]; page.on('pageerror',lambda e:errors.append(str(e))); page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
+  page.on('response',lambda r:errors.append('HTTP '+str(r.status)+' '+r.url) if r.status>=400 else None)
   traffic={};page.on('response',lambda r:traffic.update({r.url: int(r.headers.get('content-length','0'))}))
   shots=ROOT/'docs/shots';shots.mkdir(exist_ok=True)
   def shot(name):
+   page.wait_for_function('Array.from(document.images).every(i=>i.complete && i.naturalWidth>0)')
    page.screenshot(path=str(shots/('int_'+name+'.png')))
    assert page.evaluate('document.documentElement.scrollWidth<=390'),name+' overflow'
   def tab(name):page.locator('nav [data-tab="'+name+'"]').click()
@@ -23,6 +25,7 @@ try:
   page.goto('http://127.0.0.1:8765/index.html');page.wait_for_function('!document.querySelector("#start").disabled');shot('00_loading')
   initial_bytes=sum(traffic.values());page.locator('#start').click();page.locator('#opening-next').wait_for();shot('01_opening');page.locator('#opening-next').click();shot('02_awaken');page.locator('[data-event="hero:awaken_request"]').first.click()
   assert page.evaluate('SR.audio.isUnlocked()')
+  page.wait_for_timeout(300);first_battle_bytes=sum(traffic.values())
   page.evaluate('SR.rng.seed(42);window.bossSeen=false;SR.bus.on("battle:boss_phase",()=>window.bossSeen=true)')
   advance(60000);shot('03_battle');assert page.evaluate('SR.save.state.stats.kills>0');assert page.evaluate('SR.save.state.bag.length>0')
   # Continue real combat until first ring slot is available.
@@ -44,6 +47,6 @@ try:
   saved=page.evaluate('SR.save.save();SR.save.state.hero.soulId');page.reload();page.locator('#start').click();assert page.evaluate('SR.save.state.hero.soulId')==saved;shot('09_reload')
   page.evaluate('SR.idle.stop()');page.add_init_script("let s=JSON.parse(localStorage.sr_save_v1);if(s){s.t=Date.now()-7200000;localStorage.sr_save_v1=JSON.stringify(s)}");page.reload();page.locator('#start').click();page.get_by_role('heading',name='离线收益').wait_for();shot('10_offline');page.locator('#sr-modal').click(position={'x':5,'y':5});assert not page.locator('#sr-modal').count()
   assert not errors,errors
-  result={'consoleErrors':errors,'loadingBytes':initial_bytes,'totalRequestedBytes':sum(traffic.values()),'kills':page.evaluate('SR.save.state.stats.kills'),'level':page.evaluate('SR.save.state.hero.level'),'screenshots':11}
+  result={'consoleErrors':errors,'loadingBytes':initial_bytes,'firstBattleBytes':first_battle_bytes,'totalRequestedBytes':sum(traffic.values()),'kills':page.evaluate('SR.save.state.stats.kills'),'level':page.evaluate('SR.save.state.hero.level'),'screenshots':11}
   (ROOT/'docs/e2e-integration.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,ensure_ascii=False));browser.close()
 finally:server.terminate();server.wait()
