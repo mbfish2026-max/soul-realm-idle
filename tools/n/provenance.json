@@ -1551,6 +1551,14 @@
     "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-e87c8249-a7f4-4705-a273-5af4b8aa2267.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
+  "ring_trial3_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 2, branch outward attack. a tall straight sword parting a bamboo whirlwind, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_2_0.png",
+    "sha256": "6beacadd4a0d014ada5d80402e010ad3273fbda089739a49b7cc363ff44e25d9",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-6e5ff7b2-6b68-4484-b2d4-e1945932e854.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
   "ring_trial3_2_1": {
     "tool": "image_gen.imagegen",
     "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 2, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
@@ -1559,12 +1567,316 @@
     "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-0022c364-f744-4631-8c0c-649606369225.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
+  "ring_trial3_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 3, branch outward attack. a tall straight sword parting a bamboo whirlwind, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_3_0.png",
+    "sha256": "6c50ada7be920ee4eae3448da299e53128203dbd43c230404a0bad0fc83498dd",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-75f4056a-6c4f-41d9-a39e-3ffac6775576.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
   "ring_trial3_3_1": {
     "tool": "image_gen.imagegen",
     "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 3, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
     "rawFile": "tools/n/raw/ring_trial3_3_1.png",
     "sha256": "170941303a169229e06485e66f098fabe6e6320e03e728bff80a90aff5924be0",
     "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-8a24ed3f-a53c-4b83-9026-5985ca6aac73.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 4, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_4_0.png",
+    "sha256": "f7272e791775a6db3e11bbe725810ac15e4ab0b18e13cd472207bcede83aa9d3",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-3a49044f-f99b-4473-ab64-6186b7e180af.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 4, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_4_1.png",
+    "sha256": "3a3efbfde6e68fbe824a401253c5171eb40697daf23d9ff331367613845ca894",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-167feaa6-5962-4d8c-b71f-efb6f1951f6d.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 5, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_5_0.png",
+    "sha256": "8bceb39f0657af7a49e7c1252e86c9f0680aa9fc4b1de077b82192eddd9d27a5",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-447a3204-03a7-4e4d-91d2-4492e90066be.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 5, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_5_1.png",
+    "sha256": "fb3c8782368fbc2c9d8ad26a23b4be217a58bc5b5b6454d15878b6c308ba3f7a",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-c0c5edbf-c362-4414-add2-493451ac82f5.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 6, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_6_0.png",
+    "sha256": "dc13c32295d7c5e8b46f9a5a681f6cb0194b7462f4e7fa1e8b40d3fd4cc87b51",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-afd1cce2-23a3-4e37-9f5e-6d0035a57ab6.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 6, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_6_1.png",
+    "sha256": "fc3ad2d5ddb0b20426bc47d4a77436ecb7768542c0fdb0d06f4dc3f3469f2c8e",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-fa854e11-76dc-4639-a53a-858ca22fbb64.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 7, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_7_0.png",
+    "sha256": "d388d7dd2772727aceed3dc9434063fa37d4b1926d528d78dd3da5b233c22b75",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a87b6b9f-5aed-46c1-bd62-32b3bce1a8b1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 7, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_7_1.png",
+    "sha256": "16f138fc1648089c0bd453719419a1fdbe0f37f6a4ba6dc9f96dca7268d9f4a5",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-0a63fce0-aa69-405b-8f45-f111be8e5fb0.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 8, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_8_0.png",
+    "sha256": "492406520fd76fe95ef4abd796881c3f67cce6be8d12902922a658af5178375c",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f75d0eb0-930c-498a-9574-b1ca30f64c5c.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 8, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_8_1.png",
+    "sha256": "667dbb05d77187ecc8049284a90200394ab1f0d635fd2e2084211ede8a072762",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-01b9b479-6e01-426e-b537-44d009a13e2c.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 9, branch outward attack. a tall straight sword parting a bamboo whirlwind, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_9_0.png",
+    "sha256": "ed7895fe6103753354052994a3d2068612adbc22f34b1b609ac153466cd17a9d",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-0d8605be-90c7-476e-988a-6f81b9b5c461.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial3_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial3 soul technique, wind vein palette, ring stage 9, branch inward technique. a tall straight sword parting a bamboo whirlwind, dot. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial3_9_1.png",
+    "sha256": "7c6753456fe898d0b1f6d791dfe491537739a216866d9f5a4edd7a50bc87f998",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-8ab922dc-0c02-4632-8876-4d4d1baebc57.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_1_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 1, branch outward attack. an ancient forging hammer striking a flame star, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_1_0.png",
+    "sha256": "113a8e11fb15029636c0a77daa9785ddd31b676d42dac471019179e98a341c4f",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-2a960aeb-d6c6-4475-b7d1-2c4a5a871627.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_1_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 1, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_1_1.png",
+    "sha256": "ebd32c4293165b5e81f66b52ba8a1dc3f2cba664ef40bc0d1a7b3305c52bb6f0",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-3787ef0b-bd01-498e-9050-a42e085ca260.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 2, branch outward attack. an ancient forging hammer striking a flame star, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_2_0.png",
+    "sha256": "947a13c43769369321d25dd6590f2f35b413c537d03ae8f0308ac820ce746208",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-bc0e90f5-1eb4-4b9b-a69a-eb8905032e0d.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_2_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 2, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_2_1.png",
+    "sha256": "f8d15acb22db382f38b1897b147a4a0af8e59fed7271b010d18cc138877e2ad9",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-d50e67fe-4f23-4d6c-9baf-9feff20f392b.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 3, branch outward attack. an ancient forging hammer striking a flame star, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_3_0.png",
+    "sha256": "1da487e9e49dc783646b2679dc05a5f03b9b633fa7d7e983cfa48e3f4c1dd84c",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-8c962619-0b1e-4425-9323-11367e670e3a.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_3_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 3, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_3_1.png",
+    "sha256": "bac3bcba222d3c198947d154b7e7a918075c16de5df37f97fe15835990da970e",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f4d448cd-c6bb-4e1f-9dcc-88a85a2ea84c.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 4, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_4_0.png",
+    "sha256": "01404ceacfabedce3953ed68ec8c6e66a60858f775fc4cd3139cd226322d693a",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-1cd40922-4341-48dd-b939-1337c8e14d4b.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 4, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_4_1.png",
+    "sha256": "1b1f658185ba9b9b01de52299610ac569a7fb82bfb3c304fef79dd276e8d7a01",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-b0125a15-877e-432d-a57e-f5164f0a84aa.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 5, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_5_0.png",
+    "sha256": "b60c7ed0831270bc2f639c3b426a337b2328c4436f2e14eaba3e01634f8affde",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-6e43f925-1ca1-4c4a-8879-4b24b9f95619.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 5, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_5_1.png",
+    "sha256": "ce99ddd8f1148ba6e70827b8097a0128dcf90c0a23a30b74cecf153795880752",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-5176a02e-be02-4f82-a232-893256aabd65.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 6, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_6_0.png",
+    "sha256": "197e800d8c001705700608078797c8f644c0454e1de436368393320b81430253",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-cc5a8c8f-0146-43c1-9b59-81757db5d0c5.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 6, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_6_1.png",
+    "sha256": "7b095b92618d0e2b98d9ef68ccbdf8e2a8c35fe83bdbeffc849fcd30bd4657a9",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-78ede485-3414-4027-acca-8b4a59c0878e.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 7, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_7_0.png",
+    "sha256": "2982ebb1809e43a1718fbaf7172b25ba37cbc23394506b4f9507a50f82582788",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f5c880da-08de-4712-abed-a8ee095faa19.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 7, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_7_1.png",
+    "sha256": "88bbd11a5c66d468ba24292540fe1fff50b827e1893ee72ae6df68c03ccfbc29",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-091ce387-a327-48d6-9fd1-87c68e1bdbd3.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 8, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_8_0.png",
+    "sha256": "9c942427ce2072ff24b7cb15e48fd9e31c4eabed59302b6cfb28003e9806e025",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f9163865-7658-42d3-8f27-7951ca8730c3.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 8, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_8_1.png",
+    "sha256": "ed18f3b9289837741351fc64b4edece824b08913a5365c852747f600a1931f73",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-72f027c0-7732-4cd4-ac32-0ce01172364c.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 9, branch outward attack. an ancient forging hammer striking a flame star, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_9_0.png",
+    "sha256": "ce155c0d21bb1f95d057caece8bfc5334e589324656876042fe9a1e25c4b891e",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-b7ce9ce0-b5f3-493e-8dab-660a58b35eb1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial4_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial4 soul technique, fire vein palette, ring stage 9, branch inward technique. an ancient forging hammer striking a flame star, debuff. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial4_9_1.png",
+    "sha256": "5a126aa40d59ece66cfd7e6a8e822e52b293a3e27e247c14b17e1f465094a29f",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f14f4567-8a30-4ed5-9b8b-a60e3e94bd59.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_1_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 1, branch outward attack. interwoven living vines forming a sweeping net, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_1_0.png",
+    "sha256": "4ed5f4ff7f7b264d897db997296509b140ed1437f0d67e4a015673e2754de594",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-b71680b7-1c84-4ebb-bc6a-cdd5eb0d0e39.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_1_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 1, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_1_1.png",
+    "sha256": "0c5fbbfe20f75f4087c776e1e2f0d4d84060cdf04342b35d6df9a4ef6b342f48",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-8ea0219c-803e-41dd-81cb-3afb5c948bca.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 2, branch outward attack. interwoven living vines forming a sweeping net, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_2_0.png",
+    "sha256": "282e1f234d77b35d5063f1a44d18839a549cd27c6c5982cd03ebfcaef3075b89",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-ab23f011-b114-495b-aa48-343c84a10aee.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_2_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 2, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_2_1.png",
+    "sha256": "7522760114b1fa3e93585526562b3874e9108018e3c81974830f0cb3b3d42d63",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-2039afce-e42f-4be7-aac8-09d28d385de1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 4, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_4_1.png",
+    "sha256": "d6d7d2425565d91a689f2d30ecd8a07d18a44b6e55e89643652655c705af4198",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a9e62601-3000-4a6f-96d9-6fc7026bef5c.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 5, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_5_0.png",
+    "sha256": "2da4587eb269d0a27760cc540e724065a3e122e6ec707bffc037a97434294ad3",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-61ad4388-a18d-4951-bb59-360e98268313.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 5, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_5_1.png",
+    "sha256": "f0e526555e1ef175ce755f0068822a18b6c386909d3327e40479660655a73126",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-bdf238d3-4c76-42fa-86c3-e81e98993be8.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ultimate_bind": {
