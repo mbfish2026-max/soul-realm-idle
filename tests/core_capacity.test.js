@@ -1,7 +1,7 @@
 // 80 hours of repeated offline claims must stay bounded and survive persistence.
 const assert=require('assert');
 ['names','core/bus','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require('../'+f));SR.content.install();
-['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle','core/offline'].forEach(f=>require('../'+f));SR.loot.init();
+['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','features/gear/data','features/gear/gear','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle','core/offline'].forEach(f=>require('../'+f));SR.loot.init();
 const s=SR.save.state;s.flags.awakened=true;s.hero.soulId='blade';s.hero.classId='blade';s.hero.level=99;s.map.floor=5;
 SR.stats.hero=()=>({atk:100000,def:100000,hp:100000});SR.rng.seed(123);
 let persisted='';global.localStorage={setItem(k,v){assert(v.length<500000,'bounded save must fit conservative quota');persisted=v;},getItem(){return persisted;}};

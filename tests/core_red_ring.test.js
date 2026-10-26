@@ -1,0 +1,14 @@
+require('./core_capacity.test');
+const assert=require('assert'),S=SR;const s=S.save.state=S.save.create();
+s.hero.level=90;s.hero.soulId='blade';s.hero.classId='blade';s.flags.awakened=true;
+const kind=Object.keys(S.DATA.ringSkillPools)[0];
+s.hero.rings=[{years:50,sourceKind:kind,vein:'wind',skillBranch:0}];
+let red=S.loot.essence(100000,false,{kind});s.bag.push(red);S.formula.absorbRate=()=>({rate:1});S.rng=()=>0;
+assert(S.rings.absorb(red.uid).ok);let ids=s.hero.rings[1].skillIds.slice();assert.equal(ids.length,2);assert(ids.every(id=>S.skills.init().priority.includes(id)));
+S.DATA.maps=[{id:'forest',floors:1,waves:1,monsters:[{kind:'reed',hp:1e8,atk:1,weight:1,yearsRange:[10,10]}],boss:{kind:'lord',hp:1e8,atk:1,yearsRange:[10,10]}}];
+S.battle.start();S.battle.setAuto(false);let fired=[];S.bus.on('battle:skill',p=>fired.push(p.skillId));
+for(const id of ids)assert(S.battle.cast(id),'both active red-ring skills are castable');
+assert.deepEqual(fired,ids);let hero=S.battle.snapshot().hero;assert(ids.every(id=>hero.cool[id]>0));assert.equal(hero.mana,100-ids.reduce((sum,id)=>sum+S.DATA.skills[id].cost,0));S.battle.stop();
+let white=S.loot.essence(50,false,{kind});white.skillBranch=0;s.bag.push(white);assert(S.rings.absorb(white.uid,1,true).ok);assert.equal(s.hero.rings[1].skillIds.length,1);assert(!S.skills.init().levels[ids[1]]);assert(!S.skills.init().priority.includes(ids[1]));
+assert(S.rings.strip(1));assert.equal(S.skills.entries({side:'hero'}).length,1);assert(!S.skills.init().slots[2]);
+console.log('core_red_ring: both casts/cooldowns/costs, replacement and strip cleanup passed');
