@@ -1,0 +1,425 @@
+(function(g){'use strict';
+var SR=g.SR=g.SR||{};
+var assets={
+  "mob_snowmink": {
+    "file": "assets/m2/mob_snowmink.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_iceserpent": {
+    "file": "assets/m2/mob_iceserpent.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_frostdeer": {
+    "file": "assets/m2/mob_frostdeer.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_coldcrow": {
+    "file": "assets/m2/mob_coldcrow.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_magmalizard": {
+    "file": "assets/m2/mob_magmalizard.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_redfalcon": {
+    "file": "assets/m2/mob_redfalcon.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_lavawolf": {
+    "file": "assets/m2/mob_lavawolf.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "mob_ashspider": {
+    "file": "assets/m2/mob_ashspider.webp",
+    "w": 512,
+    "h": 448,
+    "use": "mob"
+  },
+  "boss_snowlord": {
+    "file": "assets/m2/boss_snowlord.webp",
+    "w": 800,
+    "h": 800,
+    "use": "boss"
+  },
+  "boss_ridgelord": {
+    "file": "assets/m2/boss_ridgelord.webp",
+    "w": 800,
+    "h": 800,
+    "use": "boss"
+  },
+  "pet_bud_idle": {
+    "file": "assets/m2/pet_bud_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_bud": {
+    "file": "assets/m2/icon_pet_bud.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_thorn_idle": {
+    "file": "assets/m2/pet_thorn_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_thorn": {
+    "file": "assets/m2/icon_pet_thorn.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_crownseed_idle": {
+    "file": "assets/m2/pet_crownseed_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_crownseed": {
+    "file": "assets/m2/icon_pet_crownseed.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_emberseed_idle": {
+    "file": "assets/m2/pet_emberseed_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_emberseed": {
+    "file": "assets/m2/icon_pet_emberseed.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_prismfox_idle": {
+    "file": "assets/m2/pet_prismfox_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_prismfox": {
+    "file": "assets/m2/icon_pet_prismfox.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_aurorafox_idle": {
+    "file": "assets/m2/pet_aurorafox_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_aurorafox": {
+    "file": "assets/m2/icon_pet_aurorafox.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_skyfox_idle": {
+    "file": "assets/m2/pet_skyfox_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_skyfox": {
+    "file": "assets/m2/icon_pet_skyfox.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_everfox_idle": {
+    "file": "assets/m2/pet_everfox_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_everfox": {
+    "file": "assets/m2/icon_pet_everfox.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_dawnfox_idle": {
+    "file": "assets/m2/pet_dawnfox_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_dawnfox": {
+    "file": "assets/m2/icon_pet_dawnfox.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "pet_magmahorn_idle": {
+    "file": "assets/m2/pet_magmahorn_idle.webp",
+    "w": 512,
+    "h": 512,
+    "use": "pet"
+  },
+  "icon_pet_magmahorn": {
+    "file": "assets/m2/icon_pet_magmahorn.webp",
+    "w": 256,
+    "h": 256,
+    "use": "portrait"
+  },
+  "gear_crown": {
+    "file": "assets/m2/gear_crown.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_robe": {
+    "file": "assets/m2/gear_robe.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_belt": {
+    "file": "assets/m2/gear_belt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_boots": {
+    "file": "assets/m2/gear_boots.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_bracer": {
+    "file": "assets/m2/gear_bracer.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_skirt": {
+    "file": "assets/m2/gear_skirt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_necklace": {
+    "file": "assets/m2/gear_necklace.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ring": {
+    "file": "assets/m2/gear_ring.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_weapon": {
+    "file": "assets/m2/gear_weapon.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_jade": {
+    "file": "assets/m2/gear_jade.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_crown": {
+    "file": "assets/m2/gear_frost_crown.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_robe": {
+    "file": "assets/m2/gear_frost_robe.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_belt": {
+    "file": "assets/m2/gear_frost_belt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_boots": {
+    "file": "assets/m2/gear_frost_boots.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_bracer": {
+    "file": "assets/m2/gear_frost_bracer.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_skirt": {
+    "file": "assets/m2/gear_frost_skirt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_necklace": {
+    "file": "assets/m2/gear_frost_necklace.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_frost_ring": {
+    "file": "assets/m2/gear_frost_ring.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_crown": {
+    "file": "assets/m2/gear_ember_crown.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_robe": {
+    "file": "assets/m2/gear_ember_robe.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_belt": {
+    "file": "assets/m2/gear_ember_belt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_boots": {
+    "file": "assets/m2/gear_ember_boots.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_bracer": {
+    "file": "assets/m2/gear_ember_bracer.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_skirt": {
+    "file": "assets/m2/gear_ember_skirt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_necklace": {
+    "file": "assets/m2/gear_ember_necklace.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "gear_ember_ring": {
+    "file": "assets/m2/gear_ember_ring.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "icon_bone_external": {
+    "file": "assets/m2/icon_bone_external.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_achievement": {
+    "file": "assets/m2/ui_achievement.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_achievement_battle": {
+    "file": "assets/m2/ui_achievement_battle.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_achievement_pet": {
+    "file": "assets/m2/ui_achievement_pet.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_achievement_ring": {
+    "file": "assets/m2/ui_achievement_ring.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_daily": {
+    "file": "assets/m2/ui_daily.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_daily_hunt": {
+    "file": "assets/m2/ui_daily_hunt.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_daily_gift": {
+    "file": "assets/m2/ui_daily_gift.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_rift": {
+    "file": "assets/m2/ui_rift.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_rift_tower": {
+    "file": "assets/m2/ui_rift_tower.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "ui_rift_token": {
+    "file": "assets/m2/ui_rift_token.webp",
+    "w": 192,
+    "h": 192,
+    "use": "icon"
+  },
+  "bg_snow": {
+    "file": "assets/m2/bg_snow.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "background"
+  },
+  "bg_ridge": {
+    "file": "assets/m2/bg_ridge.webp",
+    "w": 780,
+    "h": 1688,
+    "use": "background"
+  }
+};
+SR.art2={install:function(){
+  var target=SR.ASSETS=SR.ASSETS||{};
+  Object.keys(assets).forEach(function(key){target[key]=assets[key];});
+  return target;
+}};
+SR.art2.install();
+})(typeof window!=='undefined'?window:globalThis);

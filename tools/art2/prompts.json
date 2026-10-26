@@ -1,0 +1,416 @@
+[
+  {
+    "key": "mob_snowmink",
+    "subject": "snow-white mink, icy teal eyes, frosted fur",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Single game sprite of a snow-white mink abyss beast, full body, crouching alert, facing left, icy teal eyes and fine frosted fur. Chinese ink wash and pale watercolor on xuan paper aesthetic, elegant brush edges, muted sage and cold blue accents, same aesthetic as the provided Chinese ink fantasy game references. Isolated single subject centered, generous transparent margins, no ground, no scenery, no text, no letters, no seal, no frame. Actual transparent background."
+  },
+  {
+    "key": "mob_iceserpent",
+    "subject": "coiled ice-scaled python, translucent blue scales",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. coiled ice-scaled python, translucent blue scales. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_frostdeer",
+    "subject": "frost-antler deer, pale blue crystalline branching antlers",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. frost-antler deer, pale blue crystalline branching antlers. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_coldcrow",
+    "subject": "cold raven with ink-black feathers and frosted silver wing edges",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. cold raven with ink-black feathers and frosted silver wing edges. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_magmalizard",
+    "subject": "lava-armored lizard, charcoal overlapping scales and vermilion fissures",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. lava-armored lizard, charcoal overlapping scales and vermilion fissures. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_redfalcon",
+    "subject": "red-feathered falcon, vermilion wings and ochre talons",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. red-feathered falcon, vermilion wings and ochre talons. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_lavawolf",
+    "subject": "rock-flame wolf, basalt mane and restrained ember accents",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. rock-flame wolf, basalt mane and restrained ember accents. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "mob_ashspider",
+    "subject": "ash spider, eight slender legs, charcoal abdomen and muted red markings",
+    "kind": "mob",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. ash spider, eight slender legs, charcoal abdomen and muted red markings. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "boss_snowlord",
+    "subject": "majestic massive snow leopard abyss sovereign, ice crystalline antlers, flowing snowy mane, powerful crouching silhouette, cold blue and ink gray",
+    "kind": "boss",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. majestic massive snow leopard abyss sovereign, ice crystalline antlers, flowing snowy mane, powerful crouching silhouette, cold blue and ink gray. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "boss_ridgelord",
+    "subject": "majestic massive volcanic horned lion abyss sovereign, basalt armored mane, vermilion ember cracks, powerful crouching silhouette",
+    "kind": "boss",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. majestic massive volcanic horned lion abyss sovereign, basalt armored mane, vermilion ember cracks, powerful crouching silhouette. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_bud_idle",
+    "subject": "small living jade seed spirit, two fresh leaves, tiny root feet, expressive luminous eyes",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. small living jade seed spirit, two fresh leaves, tiny root feet, expressive luminous eyes. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_bud",
+    "subject": "small living jade seed spirit, two fresh leaves, tiny root feet, expressive luminous eyes",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. small living jade seed spirit, two fresh leaves, tiny root feet, expressive luminous eyes. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_thorn_idle",
+    "subject": "thorny vine seed spirit, curled root legs, protective green leaf armor",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. thorny vine seed spirit, curled root legs, protective green leaf armor. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_thorn",
+    "subject": "thorny vine seed spirit, curled root legs, protective green leaf armor",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. thorny vine seed spirit, curled root legs, protective green leaf armor. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_crownseed_idle",
+    "subject": "regal botanical seed spirit, lotus leaf crown, jade foliage and golden seed core",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. regal botanical seed spirit, lotus leaf crown, jade foliage and golden seed core. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_crownseed",
+    "subject": "regal botanical seed spirit, lotus leaf crown, jade foliage and golden seed core",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. regal botanical seed spirit, lotus leaf crown, jade foliage and golden seed core. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_emberseed_idle",
+    "subject": "warm ember seed spirit, curled vermilion leaves, glowing orange seed core",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. warm ember seed spirit, curled vermilion leaves, glowing orange seed core. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_emberseed",
+    "subject": "warm ember seed spirit, curled vermilion leaves, glowing orange seed core",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. A botanical seed spirit, round seed or bulb core with tiny eyes, two short root feet and leaves. Not a quadruped animal. No fox, no deer, no mammal, no snout, no fur, no human face, no human body, no ears, no long animal tail. Whole compact botanical body visible. warm ember seed spirit, curled vermilion leaves, glowing orange seed core. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_prismfox_idle",
+    "subject": "elegant moon-white fox, three flowing tails, subtle iridescent jade and lavender tips",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. elegant moon-white fox, three flowing tails, subtle iridescent jade and lavender tips. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_prismfox",
+    "subject": "elegant moon-white fox, three flowing tails, subtle iridescent jade and lavender tips",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. elegant moon-white fox, three flowing tails, subtle iridescent jade and lavender tips. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_aurorafox_idle",
+    "subject": "elegant arctic fox, five flowing tails, icy blue fur tips and pale aurora ribbons",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. elegant arctic fox, five flowing tails, icy blue fur tips and pale aurora ribbons. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_aurorafox",
+    "subject": "elegant arctic fox, five flowing tails, icy blue fur tips and pale aurora ribbons",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. elegant arctic fox, five flowing tails, icy blue fur tips and pale aurora ribbons. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_skyfox_idle",
+    "subject": "elegant celestial wind fox, seven flowing cloudlike tails, pale sage accents",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. elegant celestial wind fox, seven flowing cloudlike tails, pale sage accents. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_skyfox",
+    "subject": "elegant celestial wind fox, seven flowing cloudlike tails, pale sage accents",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. elegant celestial wind fox, seven flowing cloudlike tails, pale sage accents. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_everfox_idle",
+    "subject": "elegant ancient moon fox, nine long silver tails, dark indigo forehead jewel",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. elegant ancient moon fox, nine long silver tails, dark indigo forehead jewel. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_everfox",
+    "subject": "elegant ancient moon fox, nine long silver tails, dark indigo forehead jewel",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. elegant ancient moon fox, nine long silver tails, dark indigo forehead jewel. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_dawnfox_idle",
+    "subject": "regal divine dawn fox, nine sweeping ivory tails, pale gold forehead ornament and peach dawn accents",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. regal divine dawn fox, nine sweeping ivory tails, pale gold forehead ornament and peach dawn accents. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_dawnfox",
+    "subject": "regal divine dawn fox, nine sweeping ivory tails, pale gold forehead ornament and peach dawn accents",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. regal divine dawn fox, nine sweeping ivory tails, pale gold forehead ornament and peach dawn accents. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "pet_magmahorn_idle",
+    "subject": "majestic molten antler stag, charcoal coat, vermilion branching antlers and ember hooves",
+    "kind": "pet",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Full body creature, all limbs and tail fully visible, facing left, isolated single subject centered with generous margins. majestic molten antler stag, charcoal coat, vermilion branching antlers and ember hooves. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "icon_pet_magmahorn",
+    "subject": "majestic molten antler stag, charcoal coat, vermilion branching antlers and ember hooves",
+    "kind": "portrait",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Close-up face and upper body portrait of this creature, distinctive face centered, single subject, no border. majestic molten antler stag, charcoal coat, vermilion branching antlers and ember hooves. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_crown",
+    "subject": "plain jade and sage ancient Chinese hair crown",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage ancient Chinese hair crown. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_robe",
+    "subject": "plain jade and sage flowing Chinese cultivation robe, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage flowing Chinese cultivation robe, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_belt",
+    "subject": "plain jade and sage ornate waist belt",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage ornate waist belt. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_boots",
+    "subject": "plain jade and sage pair of traditional cloth boots",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage pair of traditional cloth boots. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_bracer",
+    "subject": "plain jade and sage pair of forearm bracers",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage pair of forearm bracers. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_skirt",
+    "subject": "plain jade and sage pleated lower robe skirt, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage pleated lower robe skirt, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_necklace",
+    "subject": "plain jade and sage pendant necklace",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage pendant necklace. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ring",
+    "subject": "plain jade and sage finger ring",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage finger ring. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_weapon",
+    "subject": "plain jade and sage ritual sword artifact",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage ritual sword artifact. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_jade",
+    "subject": "plain jade and sage carved jade waist pendant",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. plain jade and sage carved jade waist pendant. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_crown",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament ancient Chinese hair crown",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament ancient Chinese hair crown. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_robe",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament flowing Chinese cultivation robe, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament flowing Chinese cultivation robe, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_belt",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament ornate waist belt",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament ornate waist belt. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_boots",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament pair of traditional cloth boots",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament pair of traditional cloth boots. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_bracer",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament pair of forearm bracers",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament pair of forearm bracers. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_skirt",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament pleated lower robe skirt, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament pleated lower robe skirt, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_necklace",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament pendant necklace",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament pendant necklace. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_frost_ring",
+    "subject": "high tier silver, pale blue crystal and snowflake ornament finger ring",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier silver, pale blue crystal and snowflake ornament finger ring. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_crown",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament ancient Chinese hair crown",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament ancient Chinese hair crown. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_robe",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament flowing Chinese cultivation robe, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament flowing Chinese cultivation robe, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_belt",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament ornate waist belt",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament ornate waist belt. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_boots",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament pair of traditional cloth boots",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament pair of traditional cloth boots. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_bracer",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament pair of forearm bracers",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament pair of forearm bracers. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_skirt",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament pleated lower robe skirt, no wearer",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament pleated lower robe skirt, no wearer. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_necklace",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament pendant necklace",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. high tier antique gold, vermilion and phoenix feather ornament pendant necklace. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "gear_ember_ring",
+    "subject": "high tier antique gold, vermilion and phoenix feather ornament finger ring",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Chinese ink wash pale mineral watercolor game inventory icon. Single high tier antique gold finger ring with vermilion phoenix feather ornament, complete silhouette centered, readable at 48 pixels. Actual transparent background, no ground, no shadow, no text, no seal, no frame."
+  },
+  {
+    "key": "icon_bone_external",
+    "subject": "external spirit bone, single symmetrical wing-shaped ivory and jade skeletal artifact",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. external spirit bone, single symmetrical wing-shaped ivory and jade skeletal artifact. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_achievement",
+    "subject": "golden laurel surrounding a luminous jade pearl",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. golden laurel surrounding a luminous jade pearl. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_achievement_battle",
+    "subject": "crossed ritual swords with a red victory tassel",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. crossed ritual swords with a red victory tassel. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_achievement_pet",
+    "subject": "jade paw medallion with a small silver leaf",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. jade paw medallion with a small silver leaf. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_achievement_ring",
+    "subject": "five nested luminous spirit rings in white gold purple charcoal and red",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. five nested luminous spirit rings in white gold purple charcoal and red. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_daily",
+    "subject": "rolled bamboo task scroll with a jade clasp, entirely blank",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. rolled bamboo task scroll with a jade clasp, entirely blank. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_daily_hunt",
+    "subject": "archery target and one arrow with red feather",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. archery target and one arrow with red feather. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_daily_gift",
+    "subject": "small ornate jade gift chest with a red silk knot",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. small ornate jade gift chest with a red silk knot. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_rift",
+    "subject": "mysterious stone arch portal with pale violet mist",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. mysterious stone arch portal with pale violet mist. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_rift_tower",
+    "subject": "slender ancient pagoda rising from a small cloud",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. slender ancient pagoda rising from a small cloud. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "ui_rift_token",
+    "subject": "antique jade key with a red silk tassel",
+    "kind": "icon",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Square inventory icon, single isolated item centered, complete silhouette, large readable shape at 48 pixels, no surrounding decoration. antique jade key with a red silk tassel. Actual transparent background, no ground, no scenery, no cast shadow, no text, no letters, no seals, no watermark, no frame. Muted sage jade, ivory and ink charcoal palette with the specified accent colors."
+  },
+  {
+    "key": "bg_snow",
+    "subject": "Cold river snowy ridges, Chinese layered alpine mountains, snow-laden pines framing both sides, pale icy jade river in central valley, luminous white mist, ample low contrast open center for game combat",
+    "kind": "background",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Portrait landscape, aspect ratio 780:1688. Cold river snowy ridges, Chinese layered alpine mountains, snow-laden pines framing both sides, pale icy jade river in central valley, luminous white mist, ample low contrast open center for game combat. Continuous full bleed scenery, pale ivory atmosphere. No people, animals, buildings, text, letters, seals, watermark, interface or frame."
+  },
+  {
+    "key": "bg_ridge",
+    "subject": "Vermilion volcanic cliffs, Chinese layered craggy mountains, muted red ochre strata and charcoal rock, distant thin glowing lava stream, sage mist, ample low contrast open center for game combat",
+    "kind": "background",
+    "prompt": "Use case: stylized-concept. Production asset for a Chinese ink fantasy mobile game. Chinese ink wash and pale mineral watercolor, fine elegant brush edges, xuan paper aesthetic, restrained colors, handcrafted painterly detail. Portrait landscape, aspect ratio 780:1688. Vermilion volcanic cliffs, Chinese layered craggy mountains, muted red ochre strata and charcoal rock, distant thin glowing lava stream, sage mist, ample low contrast open center for game combat. Continuous full bleed scenery, pale ivory atmosphere. No people, animals, buildings, text, letters, seals, watermark, interface or frame."
+  }
+]

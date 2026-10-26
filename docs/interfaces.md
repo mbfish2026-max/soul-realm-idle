@@ -147,3 +147,12 @@
 - `play(id)` 与现有 `sfx {id}` 一致。支持 skill_wind/fire/earth/moon、pet_attack、boss_warning、absorb_success/fail、level_up、drop_white/yellow/purple/black/red、ui_click，以及 attack/skill/pet/boss/absorb/upgrade/click 旧别名。battle:skill 根据 DATA.skills[skillId].vein 自动选音色。
 - 自动监听现有 battle、loot:drop、ring:absorb_result、hero:changed、save:loaded；升级按 hero.level 增量识别。无需新增业务事件。首次 pointerdown/touchend/keydown 解锁，visibilitychange/pagehide 暂停，pageshow 恢复。
 - 若同时加载第一批 SR.audio，默认共存（不会擅改未知旧 API）；为避免双重 bus 音效，集成路应只安装 audio2，或通过 install({legacy:SR.audio}) 明确移交，legacy 需提供 uninstall()。详细说明见 docs/report-i-audio.md。
+## 变更提案-h-art2
+- 第二批资源加载 `assets/m2/manifest.js`，自动合并至 `SR.ASSETS`，也可重复调用 `SR.art2.install()`；应在第一批 manifest 之后、舞台/UI 挂载之前加载，不增加 Tab 或业务事件。
+- 沿用 §6：`mob_<kind>`、`boss_<kind>`、`bg_<mapId>`、`icon_pet_<speciesId>`；立绘为 `pet_<speciesId>_idle`。本批契兽为 bud/thorn/crownseed/emberseed/prismfox/aurorafox/skyfox/everfox/dawnfox/magmahorn。
+- 装备扩展键 `gear_<slot>`、`gear_frost_<slot>`、`gear_ember_<slot>`；slot 为 crown/robe/belt/boots/bracer/skirt/necklace/ring/weapon/jade，套装不含 weapon/jade。定稿套装 ID 由 G 路映射；外附灵骨 `icon_bone_external`。
+- 功能图标：`ui_achievement`、`ui_achievement_battle`、`ui_achievement_pet`、`ui_achievement_ring`、`ui_daily`、`ui_daily_hunt`、`ui_daily_gift`、`ui_rift`、`ui_rift_tower`、`ui_rift_token`。
+- 本次需求指定渊兽 kind：snowmink/iceserpent/frostdeer/coldcrow、magmalizard/redfalcon/lavawolf/ashspider；首领 snowlord/ridgelord，背景 snow/ridge。读取 E 路当前 data/ext/maps.js 时仍为 snowmink/iceyak、slagbeetle/ashram，请 E 路按本次需求对齐名单；不把不同物种图片强行别名映射。
+- C 路需按 mapId 查背景、kind 查敌人、speciesId 查契兽立绘；B/G/F 路按上述键查头像/装备/功能图标。所有 file 路径相对仓库根。
+- 后续复核 G 路定稿 `features/gear/data.js`：十部位 ID 一致，套装 ID 为 bamboo/ember/tide/cliff；本批两套美术建议 ember→gear_ember_<slot>、tide→gear_frost_<slot>，其余使用基础图标。frost 为美术主题名，不新增业务套装。
+- 第一批 dev/d-art 与本批仅 bg_snow 键重复；本批后加载时采用本批雪岭背景，其他第一批资源保留。
