@@ -1,0 +1,607 @@
+(function (g) {
+  g.SR = g.SR || {};
+  g.SR.ASSETS = Object.assign(g.SR.ASSETS || {}, {
+  "ui2_panel": {
+    "file": "assets/ui2/ui2_panel.webp",
+    "w": 720,
+    "h": 480,
+    "use": "blank horizontal ivory xuan paper scroll panel with tiny gold cloud corners and empty center, 3:2",
+    "source": "image_gen",
+    "slice": [
+      96,
+      96,
+      96,
+      96
+    ]
+  },
+  "ui2_modal": {
+    "file": "assets/ui2/ui2_modal.webp",
+    "w": 680,
+    "h": 760,
+    "use": "blank tall ivory xuan paper popup frame, thin antique gold double border, tiny jade cloud corners, empty center, 17:19",
+    "source": "image_gen",
+    "slice": [
+      96,
+      160,
+      96,
+      160
+    ]
+  },
+  "ui2_button_primary_normal": {
+    "file": "assets/ui2/ui2_button_primary_normal.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal sage jade green button, gold ornamental corners, fresh and clearly enabled, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_button_primary_pressed": {
+    "file": "assets/ui2/ui2_button_primary_pressed.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal sage jade green button, gold ornamental corners, slightly darker ink wash, inset inner rim, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_button_primary_disabled": {
+    "file": "assets/ui2/ui2_button_primary_disabled.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal sage jade green button, gold ornamental corners, muted grey low saturation, faded rim, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_button_secondary_normal": {
+    "file": "assets/ui2/ui2_button_secondary_normal.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal ivory paper button, gold ornamental corners, fresh and clearly enabled, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_button_secondary_pressed": {
+    "file": "assets/ui2/ui2_button_secondary_pressed.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal ivory paper button, gold ornamental corners, slightly darker ink wash, inset inner rim, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_button_secondary_disabled": {
+    "file": "assets/ui2/ui2_button_secondary_disabled.webp",
+    "w": 320,
+    "h": 96,
+    "use": "one blank horizontal ivory paper button, gold ornamental corners, muted grey low saturation, faded rim, aspect 10:3, no symbols",
+    "source": "image_gen",
+    "slice": [
+      32,
+      72,
+      32,
+      72
+    ]
+  },
+  "ui2_skill_base": {
+    "file": "assets/ui2/ui2_skill_base.webp",
+    "w": 128,
+    "h": 128,
+    "use": "empty circular jade skill medallion, thin antique gold rim, blank jade center",
+    "source": "image_gen"
+  },
+  "ui2_skill_cooldown": {
+    "file": "assets/ui2/ui2_skill_cooldown.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one translucent charcoal ink wash circular cooldown veil, uniform softly textured disk, no rim, no symbols, translucent alpha",
+    "source": "image_gen"
+  },
+  "ui2_bar_hp_base": {
+    "file": "assets/ui2/ui2_bar_hp_base.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_bar_hp_fill": {
+    "file": "assets/ui2/ui2_bar_hp_fill.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal muted cinnabar red watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_bar_soul_base": {
+    "file": "assets/ui2/ui2_bar_soul_base.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_bar_soul_fill": {
+    "file": "assets/ui2/ui2_bar_soul_fill.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal muted violet watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_bar_progress_base": {
+    "file": "assets/ui2/ui2_bar_progress_base.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal empty ivory paper status bar trough, fine gold rim, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_bar_progress_fill": {
+    "file": "assets/ui2/ui2_bar_progress_fill.webp",
+    "w": 480,
+    "h": 32,
+    "use": "one extremely slim horizontal sage jade green watercolor status bar fill, softly rounded ends, aspect 15:1, no marks",
+    "source": "image_gen",
+    "slice": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  "ui2_nav_battle": {
+    "file": "assets/ui2/ui2_nav_battle.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting crossed ink swords, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_pet": {
+    "file": "assets/ui2/ui2_nav_pet.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting elegant jade fox silhouette, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_ring": {
+    "file": "assets/ui2/ui2_nav_ring.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting hollow spiritual ring, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_bag": {
+    "file": "assets/ui2/ui2_nav_bag.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting cloth drawstring bag, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_bone": {
+    "file": "assets/ui2/ui2_nav_bone.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting jade spiritual bone, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_realm": {
+    "file": "assets/ui2/ui2_nav_realm.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting misty mountain gate, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_achievement": {
+    "file": "assets/ui2/ui2_nav_achievement.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting laurel medal, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_nav_settings": {
+    "file": "assets/ui2/ui2_nav_settings.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one navigation icon depicting carved jade cogwheel, charcoal and jade, no enclosing square",
+    "source": "image_gen"
+  },
+  "ui2_tab_active": {
+    "file": "assets/ui2/ui2_tab_active.webp",
+    "w": 240,
+    "h": 80,
+    "use": "one blank horizontal tab, sage jade paper with gold rim, aspect 3:1",
+    "source": "image_gen"
+  },
+  "ui2_tab_inactive": {
+    "file": "assets/ui2/ui2_tab_inactive.webp",
+    "w": 240,
+    "h": 80,
+    "use": "one blank horizontal tab, ivory paper with faded gold rim, aspect 3:1",
+    "source": "image_gen"
+  },
+  "ui2_divider": {
+    "file": "assets/ui2/ui2_divider.webp",
+    "w": 640,
+    "h": 32,
+    "use": "one very slim horizontal antique gold separator line with tiny cloud flourish at center, aspect 20:1",
+    "source": "image_gen"
+  },
+  "ui2_cloud": {
+    "file": "assets/ui2/ui2_cloud.webp",
+    "w": 256,
+    "h": 96,
+    "use": "one graceful sage jade traditional auspicious cloud flourish, horizontal aspect 8:3",
+    "source": "image_gen"
+  },
+  "ui2_seal": {
+    "file": "assets/ui2/ui2_seal.webp",
+    "w": 96,
+    "h": 128,
+    "use": "one empty vermilion hand stamped rectangular double seal border, transparent empty center, no letters",
+    "source": "image_gen"
+  },
+  "ui2_logo": {
+    "file": "assets/ui2/ui2_logo.webp",
+    "w": 320,
+    "h": 320,
+    "use": "one original jade emblem combining an open spiritual ring, a small mountain and a cloud, no letters",
+    "source": "image_gen"
+  },
+  "ui2_title": {
+    "file": "assets/ui2/ui2_title.webp",
+    "w": 720,
+    "h": 240,
+    "use": "Chinese brush calligraphy exact text 魂域挂机, four characters horizontally, charcoal ink with restrained jade wash, no other letters or seals",
+    "source": "image_gen"
+  },
+  "ui2_text_start": {
+    "file": "assets/ui2/ui2_text_start.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 开始游戏, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_absorb": {
+    "file": "assets/ui2/ui2_text_absorb.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 吸收, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_abandon": {
+    "file": "assets/ui2/ui2_text_abandon.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 放弃, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_store": {
+    "file": "assets/ui2/ui2_text_store.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 存入, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_hatch": {
+    "file": "assets/ui2/ui2_text_hatch.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 孵化, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_upgrade": {
+    "file": "assets/ui2/ui2_text_upgrade.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 升级, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_evolve": {
+    "file": "assets/ui2/ui2_text_evolve.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 蜕变, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_equip": {
+    "file": "assets/ui2/ui2_text_equip.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 穿戴, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_text_salvage": {
+    "file": "assets/ui2/ui2_text_salvage.webp",
+    "w": 256,
+    "h": 80,
+    "use": "Chinese brush calligraphy exact text 分解, horizontally centered, charcoal ink, no other text, no seal, no border",
+    "source": "image_gen"
+  },
+  "ui2_item_crystal": {
+    "file": "assets/ui2/ui2_item_crystal.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting faceted pale jade spirit crystal",
+    "source": "image_gen"
+  },
+  "ui2_item_beast_soul": {
+    "file": "assets/ui2/ui2_item_beast_soul.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting jade animal soul wisp",
+    "source": "image_gen"
+  },
+  "ui2_item_pact": {
+    "file": "assets/ui2/ui2_item_pact.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting ivory paper covenant talisman with abstract cinnabar strokes, no readable text",
+    "source": "image_gen"
+  },
+  "ui2_item_essence": {
+    "file": "assets/ui2/ui2_item_essence.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting violet spiritual essence pearl",
+    "source": "image_gen"
+  },
+  "ui2_item_egg": {
+    "file": "assets/ui2/ui2_item_egg.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting ivory beast egg with jade cloud markings",
+    "source": "image_gen"
+  },
+  "ui2_item_herb": {
+    "file": "assets/ui2/ui2_item_herb.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting three medicinal sage leaves",
+    "source": "image_gen"
+  },
+  "ui2_item_ore": {
+    "file": "assets/ui2/ui2_item_ore.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting cluster of dark spiritual ore",
+    "source": "image_gen"
+  },
+  "ui2_item_bone": {
+    "file": "assets/ui2/ui2_item_bone.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting ivory spiritual bone fragment with jade tip",
+    "source": "image_gen"
+  },
+  "ui2_item_scroll": {
+    "file": "assets/ui2/ui2_item_scroll.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting rolled ivory scroll tied with jade silk",
+    "source": "image_gen"
+  },
+  "ui2_item_stone": {
+    "file": "assets/ui2/ui2_item_stone.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting round jade upgrade stone",
+    "source": "image_gen"
+  },
+  "ui2_item_dust": {
+    "file": "assets/ui2/ui2_item_dust.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting small pile of antique gold spiritual dust",
+    "source": "image_gen"
+  },
+  "ui2_item_chest": {
+    "file": "assets/ui2/ui2_item_chest.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one inventory icon depicting small carved jade treasure chest",
+    "source": "image_gen"
+  },
+  "ui2_ring_white": {
+    "file": "assets/ui2/ui2_ring_white.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow ivory white spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_ring_yellow": {
+    "file": "assets/ui2/ui2_ring_yellow.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow gold yellow spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_ring_purple": {
+    "file": "assets/ui2/ui2_ring_purple.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow violet spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_ring_black": {
+    "file": "assets/ui2/ui2_ring_black.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow charcoal black spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_ring_red": {
+    "file": "assets/ui2/ui2_ring_red.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow cinnabar red spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_ring_gold": {
+    "file": "assets/ui2/ui2_ring_gold.webp",
+    "w": 128,
+    "h": 128,
+    "use": "one frontal hollow antique gold with fine engraved cloud filigree spiritual soul ring, delicate ink wash luminous rim, genuinely transparent empty center, no solid disc",
+    "source": "image_gen"
+  },
+  "ui2_achievement_01": {
+    "file": "assets/ui2/ui2_achievement_01.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting sprouting bamboo",
+    "source": "image_gen"
+  },
+  "ui2_achievement_02": {
+    "file": "assets/ui2/ui2_achievement_02.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting crossed swords",
+    "source": "image_gen"
+  },
+  "ui2_achievement_03": {
+    "file": "assets/ui2/ui2_achievement_03.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting spiritual ring",
+    "source": "image_gen"
+  },
+  "ui2_achievement_04": {
+    "file": "assets/ui2/ui2_achievement_04.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting fox paw",
+    "source": "image_gen"
+  },
+  "ui2_achievement_05": {
+    "file": "assets/ui2/ui2_achievement_05.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting mountain summit",
+    "source": "image_gen"
+  },
+  "ui2_achievement_06": {
+    "file": "assets/ui2/ui2_achievement_06.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting open book",
+    "source": "image_gen"
+  },
+  "ui2_achievement_07": {
+    "file": "assets/ui2/ui2_achievement_07.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting lotus",
+    "source": "image_gen"
+  },
+  "ui2_achievement_08": {
+    "file": "assets/ui2/ui2_achievement_08.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting treasure chest",
+    "source": "image_gen"
+  },
+  "ui2_achievement_09": {
+    "file": "assets/ui2/ui2_achievement_09.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting jade crown",
+    "source": "image_gen"
+  },
+  "ui2_achievement_10": {
+    "file": "assets/ui2/ui2_achievement_10.webp",
+    "w": 96,
+    "h": 96,
+    "use": "one jade achievement medal with thin antique gold rim depicting sun above cloud",
+    "source": "image_gen"
+  },
+  "ui2_node_forest": {
+    "file": "assets/ui2/ui2_node_forest.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting bamboo grove on mossy stone, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  },
+  "ui2_node_river": {
+    "file": "assets/ui2/ui2_node_river.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting small winding river and arched stone bridge, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  },
+  "ui2_node_snow": {
+    "file": "assets/ui2/ui2_node_snow.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting snowy peak and sparse pine, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  },
+  "ui2_node_ember": {
+    "file": "assets/ui2/ui2_node_ember.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting cinnabar rocky peak and tiny ember fissure, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  },
+  "ui2_node_ruin": {
+    "file": "assets/ui2/ui2_node_ruin.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting ancient jade gate ruins with moss, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  },
+  "ui2_node_summit": {
+    "file": "assets/ui2/ui2_node_summit.webp",
+    "w": 192,
+    "h": 192,
+    "use": "one miniature map location vignette depicting mountain summit pavilion among clouds, isolated miniature landscape, transparent exterior, no square background",
+    "source": "image_gen"
+  }
+});
+})(typeof window !== "undefined" ? window : globalThis);
