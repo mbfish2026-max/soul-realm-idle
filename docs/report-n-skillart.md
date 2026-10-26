@@ -18,4 +18,8 @@
 
 生成持续进行中；完成批次在下方追加实测数量、验证和提交记录。需求数量以上述数据快照为准，不把映射数量冒充独立原画数量。
 
-第一批：13/294 图标已规整为 128×128 WebP，并提供静态合图；生成其余素材中。现有 22 个 tests/*.test.js 与所有 JS 语法检查通过。本批尚未发布全量 manifest，不宣称覆盖全部技能；专用覆盖测试待全量素材生成后启用。
+第一批：13/294 图标已规整为 128×128 WebP，并提供静态合图；生成其余素材中。现有全部 tests/*.test.js 与所有 JS 语法检查通过。本批尚未发布全量 manifest，不宣称覆盖全部技能；专用覆盖测试待全量素材生成后启用。
+
+接入约定：在已有 assets/manifest.js 之后加载 assets/skills/manifest.js（Object.assign 保留原有 SR.ASSETS 键）；JSON 与 JS 内容严格一致。以技能自身 iconKey/fxKey 查 SR.ASSETS。静态图标优先 file 单图，也可读 atlas 的 file/x/y/w/h；特效按 frames/fw/fh/fps 横向裁帧，loop:false，800ms 后移除并停止绘制。入口与舞台文件由其所有者接入，本路不越界修改。
+
+第二批：已入库图标 103/294（基础 42/42，专属 61/252）；特效 12/12 套、48 帧全部入库。599/599 个 iconKey、59/59 个共享 fxKey 均可解析。专属尚未齐备的条目保留基础族回退，artId/dedicated 可审计；最终批次将强制检查全部首领和合体技能的专属图。全部 JS 语法检查与 tests/*.test.js 通过（含新增 assets_skills 测试）。图标与特效均为内置 image_gen 原画，来源及 SHA-256 记录见 tools/n/provenance.json。
