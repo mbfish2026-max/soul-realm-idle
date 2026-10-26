@@ -6,5 +6,5 @@
     running:function(){return timer!==null;}
   };
   SR.bus.on('hero:changed',function(){if(timer!==null&&SR.save.state.flags.awakened)SR.battle.start();});
-  if(typeof g.addEventListener==='function')g.addEventListener('pagehide',function(){SR.save.save();});
+  if(typeof g.addEventListener==='function')g.addEventListener('pagehide',function(){if(timer!==null)SR.save.save();});
 })(typeof window!=='undefined'?window:globalThis);

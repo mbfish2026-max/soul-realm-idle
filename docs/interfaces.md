@@ -78,3 +78,10 @@
 - 新请求事件：`hero:awaken_request {soulId}`、`ring:strip_request {ringIndex}`、`pet:hatch_request {eggUid}`、`pet:feed_request` / `pet:deploy_request` / `pet:ringify_request {petUid}`、`pet:evolve_request {petUid,to}`。
 - UI 加载：`ui/tabs.js` → `hero.js` / `pets.js` / `bag.js` / `awaken.js` / `absorb.js`，样式 `ui/ui.css`。`SR.ui.mount(el)`、`show('battle'|'hero'|'pets'|'bag')`、`awaken()`、`absorb(essenceUid)`。battle 是舞台接入占位，集成方可覆盖 `SR.ui.battle(state)`，返回内容 HTML。
 - 预览专用 `ui/preview_stub.js` 只供 `ui/preview.html` 使用，正式入口不要加载。
+
+## INT 正式入口与装备 v2（追加）
+- `index.html` 为游戏唯一入口；开发样板移至 `dev/`，正式入口不引用。
+- 本地 key 保持 `sr_save_v1`，结构版本 `v:2`。`hero.bones` 保存已穿戴物品，键与 `item.slot` 统一为 crown / robe / belt / boots / bracer / skirt / necklace / ring / weapon / jade。
+- v1 六部位迁移：head→crown、body→robe、larm→bracer、rarm→weapon、lleg→skirt、rleg→boots；背包与仓库同步迁移。
+- `gear:equip {uid}`、`gear:unequip {slot}` 为装备请求事件；成功后发 `hero:changed`，属性由 `SR.stats.hero` 汇总。
+- INT 补齐经验升级：每级消耗当前等级×15 经验，99级封顶；掉落同时供给兽魂培养资源。

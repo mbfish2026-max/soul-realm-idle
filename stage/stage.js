@@ -29,8 +29,8 @@
     // demo and production callers may explicitly resolve from their own script location.
     base=SR.stage.assetBase||base;
     var fallback={hero_idle:'hero_idle',hero_attack:'hero_attack',hero_skill:'hero_skill',hero_die:'hero_down',pet_fox_idle:'fox_idle',pet_fox_attack:'fox_attack'};
-    function asset(key,alternate){var catalog=SR.ASSETS||{},a=catalog[key];if(!a&&/^(hero_|pet_fox_)/.test(key))a=catalog[key.replace(/_[^_]+$/,'_idle')];if(a){if(typeof a==='string')return new URL(a,base).href;var copy=Object.assign({},a);copy.file=new URL(a.file,base).href;return copy;}return base+'mock/assets/'+(fallback[key]||alternate||'wolf')+'.png';}
-    background.style.backgroundImage='url("'+asset('bg_forest','ink_bg').replace(/ink_bg\.png$/,'ink_bg.jpg')+'")';
+    function asset(key,alternate){var catalog=SR.ASSETS||{},aliases={mob_reed:'mob_ink_wolf',mob_moss:'mob_bamboo_snake',boss_lord:'boss_cinder_stag'},a=catalog[aliases[key]||key];if(!a&&/^(hero_|pet_fox_)/.test(key))a=catalog[key.replace(/_[^_]+$/,'_idle')];if(a){if(typeof a==='string')return new URL(a,base).href;var copy=Object.assign({},a);copy.file=new URL(a.file,base).href;return copy;}return new URL(catalog.mob_ink_wolf.file,base).href;}
+    background.style.backgroundImage='url("'+asset('bg_forest','ink_bg').file+'")';
     function later(fn,ms){var id=setTimeout(function(){timers=timers.filter(function(x){return x!==id;});if(!dead)fn();},ms);timers.push(id);}
     function add(id,kind,x,y,width,label,assetId){var node=document.createElement('div');node.className='sr-actor sr-'+kind;node.style.left=x+'%';node.style.top=y+'%';node.style.setProperty('--actor-width',width+'px');el.appendChild(node);
       var sprites={};Object.keys(SR.actor.DUR).forEach(function(s){var prefix=kind==='hero'?'hero_':kind==='pet'?'pet_fox_':kind==='boss'?'boss_':'mob_';sprites[s]=asset(prefix+(kind==='hero'||kind==='pet'?s:(assetId||id)),kind==='boss'?'boss':kind==='pet'?(s==='attack'||s==='fusion'?'fox_attack':'fox_idle'):kind==='hero'?(s==='attack'||s==='fusion'?'hero_attack':s==='skill'||s==='win'?'hero_skill':s==='die'?'hero_down':'hero_idle'):'wolf');});
