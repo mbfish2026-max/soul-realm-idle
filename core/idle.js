@@ -16,7 +16,7 @@
       if(timer!==null&&!hidden&&Date.now()-last>5000)settle(Date.now());else resume();
     },function(error){
       if(token!==generation)return;
-      settling=null;last=SR.save.state.t;SR.save.save();hidden=true;
+      settling=null;last=SR.save.state.t;SR.save.save(true);hidden=true;
       SR.bus.emit('offline:status',{claiming:false,error:error});
     });
     return task;
@@ -34,6 +34,7 @@
       },100);
       return settle(Date.now());
     },
+    retry:function(){if(settling)return settling;if(timer===null)return SR.idle.start();hidden=false;return settle(Date.now());},
     stop:function(){if(timer!==null){g.clearInterval(timer);timer=null;}SR.battle.stop();if(!settling)SR.save.save();},
     running:function(){return timer!==null;},
     settling:function(){return !!settling;}

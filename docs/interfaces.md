@@ -162,3 +162,7 @@
 - 内部 UI 请求 `wire:menu {}` 打开手札；`wire:gear {}` 进入 G 装备页；`wire:open {id:'gear'|'rift'|'achieve'|'daily'|'settings'}` 打开可用模块；`wire:auto {}` 打开既有自动策略。无新存档字段。
 - main 在 mount/idle.start 前 install gear/rift/achieve/daily/audio2，gear:equip/unequip 委托 G。掉落使用 G.roll，stats 使用 G.statBonus，不重复累计 bones 基础值。
 - 舞台 `SR.stageFx.create().image(key,x,y,size)` 播放 SR.ASSETS 横向帧图集，按 frames/fps 一次播放并移除；角色按 fw/fh 显示、按 fps 播放，只有 idle 循环，首领 phase 使用对应姿态。
+
+## 第三轮离线重试补充（2026-10-26）
+- `SR.idle.retry()` 返回当前结算 Promise；无结算时从保留游标重新结算，未启动时委托 start。用于 offline:status 异常后的显式重试。
+- `SR.save.save(true)` 保存当前时间游标，不覆盖为 Date.now；默认无参行为不变。异步离线异常落盘使用此选项，避免丢失未处理区间。

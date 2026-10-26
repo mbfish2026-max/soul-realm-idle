@@ -1,6 +1,7 @@
 const assert=require('assert');
 ['names','core/bus','data/maps','core/rng','core/save','core/bag','core/loot','core/battle','core/offline','core/idle'].forEach(f=>require('../'+f));
 (async()=>{
+ const stored={};global.localStorage={getItem:k=>stored[k]||null,setItem:(k,v)=>{stored[k]=v;}};
  const interval=global.setInterval,clear=global.clearInterval,now=Date.now,claim=SR.offline.claimAsync;
  let callback,time=1000000,finish,fail,claims=0,starts=0,progress=[];
  global.setInterval=f=>{callback=f;return 1;};global.clearInterval=()=>{};Date.now=()=>time;
@@ -17,10 +18,10 @@ const assert=require('assert');
   SR.idle.visibility(false,time);callback();assert.equal(claims,2);
   finish();await resumed;await Promise.resolve();assert.equal(starts,1);
   assert(progress.some(p=>p.progress===.5));assert.equal(progress.at(-1).claiming,false);
-  time+=10000;callback();assert(SR.idle.settling());fail(new Error('test failure'));await Promise.resolve();await Promise.resolve();
-  assert(!SR.idle.settling());assert.equal(starts,1);assert(progress.at(-1).error);
+  time+=10000;const cursor=SR.save.state.t;callback();assert(SR.idle.settling());fail(new Error('test failure'));await Promise.resolve();await Promise.resolve();
+  assert(!SR.idle.settling());assert.equal(starts,1);assert(progress.at(-1).error);assert.equal(SR.save.state.t,cursor);assert.equal(JSON.parse(stored.sr_save_v1).t,cursor,'error save retains unprocessed offline cursor');
   // A later visible event retries from the persisted cursor after failure.
-  const retry=SR.idle.visibility(false,time);finish();await retry;await Promise.resolve();assert.equal(starts,2);
+  const retry=SR.idle.retry();assert.strictEqual(SR.idle.retry(),retry);finish();await retry;await Promise.resolve();assert.equal(starts,2);
   time+=10000;callback();SR.idle.stop();finish();await Promise.resolve();await Promise.resolve();
   assert.equal(starts,2,'stop during a claim must not restart battle');
  }finally{SR.idle.stop();global.setInterval=interval;global.clearInterval=clear;Date.now=now;SR.offline.claimAsync=claim;SR.battle.start=start;}
