@@ -58,6 +58,38 @@ try:
   page.evaluate('()=>{Storage.prototype.setItem=window.originalSet;}')
   page.locator('[data-save-retry]').click()
   assert page.locator('#save-warning').count()==0
+  # R2: capacity pause remains explicit after navigation and requires safe resume.
+  page.evaluate("""()=>{const s=SR.save.state;s.store=[];
+  for(let i=0;i<991;i++)s.store.push({...SR.loot.essence(10,true),uid:'capacity-'+i});
+  s.store[0].locked=true;SR.battle.start();SR.battle.tick(100);SR.ui.show('battle');}""")
+  assert not page.evaluate('SR.battle.snapshot().running')
+  assert page.locator('[data-capacity-resume]').is_disabled()
+  page.locator('[data-capacity-bag]').click()
+  page.evaluate("SR.bag.dismantle('capacity-1','store')")
+  page.wait_for_timeout(600)
+  assert page.evaluate('SR.save.state.store[0].locked')
+  page.locator('[data-capacity-resume]').click()
+  assert page.evaluate('SR.battle.snapshot().running')
+  assert page.locator('#capacity-warning').count()==0
+  page.evaluate('SR.idle.stop();SR.battle.stop();SR.save.state.store=[]')
+  # R2: restored late maps use Chinese captions and deliberate shared artwork.
+  for mapid,kind,asset in [('snow','iceyak','mob_frostdeer'),('ridge','slagbeetle','mob_stone_turtle'),('ridge','ashram','mob_frostdeer')]:
+   page.evaluate("""([mapid,kind])=>{SR.ui.show('battle');SR.bus.emit('battle:wave_start',{mapId:mapid,floor:1,wave:1,waveMax:10,enemies:[{uid:'late-mob',kind,name:'山野渊兽',hp:100,hpMax:100}]});}""",[mapid,kind])
+   assert mapid not in page.locator('.sr-caption').inner_text()
+   assert asset in page.locator('.sr-enemy .sr-pose').evaluate('(e)=>e.outerHTML')
+  # R2: bound red ring exposes both upgrade/order controls.
+  page.evaluate("""()=>{const s=SR.save.state;s.hero.rings=[{sourceKind:'ashram',years:100000,color:'red',vein:'fire'}];SR.skills.init();SR.ui.show('skills');}""")
+  ids=page.evaluate('SR.save.state.hero.rings[0].skillIds')
+  assert len(ids)==2
+  for id in ids:
+   assert page.locator('[data-event="skill:learn"]').evaluate_all('(es,id)=>es.some(e=>JSON.parse(e.dataset.payload).id===id)',id)
+   assert page.locator('[data-event="skill:order"]').evaluate_all('(es,id)=>es.some(e=>JSON.parse(e.dataset.payload).id===id)',id)
+  # R2: loaded action artwork must fit inside the absorb dialog.
+  page.evaluate("""()=>{const s=SR.save.state;s.hero.rings=[];s.bag=[{...SR.loot.essence(10,true),uid:'absorb-layout'}];SR.ui.absorb('absorb-layout');}""")
+  page.wait_for_function('Array.from(document.images).every(i=>i.complete)')
+  assert page.locator('.sr-dialog').evaluate('(e)=>e.scrollWidth<=e.clientWidth')
+  assert page.locator('.actions').evaluate('(e)=>[...e.children].every(b=>b.getBoundingClientRect().right<=e.getBoundingClientRect().right+1)')
+  page.locator('#sr-modal .close').click()
   # Names are configurable at runtime on each render, including strategy descriptions.
   page.evaluate('SR.NAMES.ringSkill="改名技能";SR.NAMES.soulRing="改名环";SR.ui.autoSettings()')
   assert '改名技能' in page.locator('.sr-dialog').inner_text()
