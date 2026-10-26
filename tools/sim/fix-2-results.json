@@ -1,0 +1,4339 @@
+{
+  "definition": "Level 99 AND ridge final boss cleared; wall hours; actual seeded drops, absorption failures and costs; level 40+ practice XP paid on kills; offline 70% combat time with 1.35 rested XP multiplier. No direct full build fixtures.",
+  "commands": [
+    "node tools/sim/skills.js --hours=160 --class=CLASS --seed=SEED --assert-target=true (6 classes; SEED=4200,4201)",
+    "node tools/sim/skills.js --hours=160 --class=CLASS --investment=high --cultivation=full --assert-target=true (6 classes; seed default 4200)",
+    "python3 tools/sim/offline-browser.py"
+  ],
+  "exitCodes": "All 18 filtered acceptance processes returned 0.",
+  "summaries": {
+    "basic": {
+      "scenarios": 72,
+      "complete": 72,
+      "inTarget": 72,
+      "minHours": 67.167,
+      "maxHours": 75.317
+    },
+    "full": {
+      "scenarios": 12,
+      "complete": 12,
+      "inTarget": 12,
+      "minHours": 67,
+      "maxHours": 72.9
+    }
+  },
+  "browserFixture": {
+    "fixture": "level 99 snow, 12h, real idle.start",
+    "audit": {
+      "beats": 248,
+      "rewards": 1,
+      "chunks": 249,
+      "parallelBattle": false,
+      "maxGap": 23,
+      "reward": {
+        "seconds": 43200,
+        "pausedSeconds": 28352.85714285714,
+        "items": 1052
+      },
+      "resumed": false,
+      "claiming": false,
+      "done": true
+    },
+    "errors": []
+  },
+  "inputSha256": {
+    "core/battle.js": "ec82724eea6479ae02d41582cf94ba339663f3282e313657140f78d1e47a0839",
+    "core/loot.js": "08d36e6bf2178b3eabfa85e2b1d3b80cdec738efcdf549cefe5bbf1ed3ec8eed",
+    "core/offline.js": "1f09a2a5c816714bb9e6aa8966dab311bb478d8dee46e75ecb1d4446afed9770",
+    "data/skill-progression.js": "4f69e603436f893c38e75e33c9504640c7766f42c646d31a90b2b66c0042fe0d",
+    "systems/stats.js": "08a0260e4e1cda0e6c43921a9ab77335dc6b25234b545b7e8d1ea593df142478",
+    "systems/pets.js": "e64bf842d41e81f8963ff1ac74df3ce1a758737bd7061ba41e8d0b6b1a26eb06",
+    "tools/sim/skills.js": "36f126c929ca7d4a3c3619bb08c442e2e78f510f791ea9807753c5f1bbe23757"
+  },
+  "rows": [
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.317,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 8,
+        "bestFloor": 5
+      },
+      "attempts": 27,
+      "failures": 18,
+      "clears": 66405,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 310564033,
+        "petSoul": 2043548,
+        "pactCharm": 0,
+        "skillDust": 66305
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 52,
+      "failures": 43,
+      "clears": 49856,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 239289367,
+        "petSoul": 1531380,
+        "pactCharm": 0,
+        "skillDust": 49756
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.267,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 48,
+      "failures": 39,
+      "clears": 75291,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 356670910,
+        "petSoul": 2319912,
+        "pactCharm": 0,
+        "skillDust": 75191
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.333,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 146,
+      "failures": 137,
+      "clears": 44082,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 208663225,
+        "petSoul": 1355780,
+        "pactCharm": 0,
+        "skillDust": 43982
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.783,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 40,
+      "failures": 31,
+      "clears": 63371,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 292617843,
+        "petSoul": 1950480,
+        "pactCharm": 0,
+        "skillDust": 63271
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.017,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 92,
+      "failures": 83,
+      "clears": 53016,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 258049033,
+        "petSoul": 1662064,
+        "pactCharm": 0,
+        "skillDust": 52916
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.683,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 93,
+      "failures": 84,
+      "clears": 77169,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 356548545,
+        "petSoul": 2377806,
+        "pactCharm": 0,
+        "skillDust": 77069
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 107,
+      "failures": 98,
+      "clears": 53674,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 253957951,
+        "petSoul": 1650014,
+        "pactCharm": 0,
+        "skillDust": 53574
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.35,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 6,
+        "bestFloor": 5
+      },
+      "attempts": 103,
+      "failures": 94,
+      "clears": 72765,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 337513168,
+        "petSoul": 2241720,
+        "pactCharm": 0,
+        "skillDust": 72665
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.667,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 88,
+      "failures": 79,
+      "clears": 50128,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 231135150,
+        "petSoul": 1543022,
+        "pactCharm": 0,
+        "skillDust": 50028
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.4,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 170,
+      "failures": 161,
+      "clears": 70068,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 327242608,
+        "petSoul": 2158090,
+        "pactCharm": 0,
+        "skillDust": 69958
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.217,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 17913,
+      "failures": 17908,
+      "clears": 60290,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 36165049,
+        "petSoul": 1885932,
+        "pactCharm": 0,
+        "skillDust": 60240
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.183,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 67,
+      "failures": 58,
+      "clears": 68659,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 317237071,
+        "petSoul": 2113732,
+        "pactCharm": 0,
+        "skillDust": 68559
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 171,
+      "failures": 162,
+      "clears": 48007,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 223492549,
+        "petSoul": 1474204,
+        "pactCharm": 0,
+        "skillDust": 47907
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.15,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 56,
+      "failures": 47,
+      "clears": 60162,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 275406866,
+        "petSoul": 1850892,
+        "pactCharm": 0,
+        "skillDust": 60062
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73.833,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 6,
+        "bestFloor": 5
+      },
+      "attempts": 10572,
+      "failures": 10571,
+      "clears": 24925,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 2059358,
+        "petSoul": 762052,
+        "pactCharm": 0,
+        "skillDust": 24915
+      },
+      "gear": 10,
+      "rings": 1,
+      "pets": [
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 69.683,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 13003,
+      "failures": 13003,
+      "clears": 30129,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 2450106,
+        "petSoul": 919980,
+        "pactCharm": 0,
+        "skillDust": 30129
+      },
+      "gear": 10,
+      "rings": 0,
+      "pets": [
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.733,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 108,
+      "failures": 99,
+      "clears": 48974,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 232421310,
+        "petSoul": 1526298,
+        "pactCharm": 0,
+        "skillDust": 48874
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.667,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 187,
+      "failures": 178,
+      "clears": 59619,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 274665926,
+        "petSoul": 1833086,
+        "pactCharm": 0,
+        "skillDust": 59519
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 233,
+      "failures": 224,
+      "clears": 51330,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 239140560,
+        "petSoul": 1577040,
+        "pactCharm": 0,
+        "skillDust": 51230
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.167,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 168,
+      "failures": 159,
+      "clears": 76289,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 352427664,
+        "petSoul": 2350576,
+        "pactCharm": 0,
+        "skillDust": 76189
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.167,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 152,
+      "failures": 143,
+      "clears": 55968,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 257237279,
+        "petSoul": 1722992,
+        "pactCharm": 0,
+        "skillDust": 55868
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.233,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 19977,
+      "failures": 19972,
+      "clears": 70401,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 44178259,
+        "petSoul": 2168430,
+        "pactCharm": 0,
+        "skillDust": 70351
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 75.317,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 12470,
+      "failures": 12469,
+      "clears": 28102,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 2404644,
+        "petSoul": 893856,
+        "pactCharm": 0,
+        "skillDust": 28092
+      },
+      "gear": 10,
+      "rings": 1,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.817,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 29,
+      "failures": 20,
+      "clears": 62189,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 295895394,
+        "petSoul": 1913702,
+        "pactCharm": 0,
+        "skillDust": 62089
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 8,
+        "bestFloor": 5
+      },
+      "attempts": 13182,
+      "failures": 13177,
+      "clears": 45505,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 27787837,
+        "petSoul": 1396906,
+        "pactCharm": 0,
+        "skillDust": 45455
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.6,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 8,
+        "bestFloor": 5
+      },
+      "attempts": 188,
+      "failures": 179,
+      "clears": 71386,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 336983234,
+        "petSoul": 2198940,
+        "pactCharm": 0,
+        "skillDust": 71286
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 8,
+        "bestFloor": 5
+      },
+      "attempts": 57,
+      "failures": 48,
+      "clears": 48377,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 224586907,
+        "petSoul": 1489212,
+        "pactCharm": 0,
+        "skillDust": 48277
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.617,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 25,
+      "failures": 16,
+      "clears": 65743,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 303822776,
+        "petSoul": 2024020,
+        "pactCharm": 0,
+        "skillDust": 65643
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.933,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 13085,
+      "failures": 13080,
+      "clears": 46533,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 30202599,
+        "petSoul": 1451090,
+        "pactCharm": 0,
+        "skillDust": 46483
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.8,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 129,
+      "failures": 120,
+      "clears": 74578,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 341560849,
+        "petSoul": 2296642,
+        "pactCharm": 0,
+        "skillDust": 74478
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 179,
+      "failures": 170,
+      "clears": 54450,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 252421398,
+        "petSoul": 1673728,
+        "pactCharm": 0,
+        "skillDust": 54350
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.55,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 76,
+      "failures": 67,
+      "clears": 69001,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 325638924,
+        "petSoul": 2124868,
+        "pactCharm": 0,
+        "skillDust": 68901
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.333,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 157,
+      "failures": 148,
+      "clears": 55834,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 259953299,
+        "petSoul": 1719686,
+        "pactCharm": 0,
+        "skillDust": 55734
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.95,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 115,
+      "failures": 106,
+      "clears": 60999,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 291910230,
+        "petSoul": 1876862,
+        "pactCharm": 0,
+        "skillDust": 60899
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.517,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 47,
+      "failures": 38,
+      "clears": 63198,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 303333093,
+        "petSoul": 1965716,
+        "pactCharm": 0,
+        "skillDust": 63098
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.4,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 42,
+      "failures": 33,
+      "clears": 65296,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 307119917,
+        "petSoul": 2009190,
+        "pactCharm": 0,
+        "skillDust": 65196
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 87,
+      "failures": 78,
+      "clears": 55114,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 256796619,
+        "petSoul": 1694270,
+        "pactCharm": 0,
+        "skillDust": 55014
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.7,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 61,
+      "failures": 52,
+      "clears": 66748,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 311117314,
+        "petSoul": 2055052,
+        "pactCharm": 0,
+        "skillDust": 66648
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.667,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 59,
+      "failures": 50,
+      "clears": 52132,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 244735320,
+        "petSoul": 1604352,
+        "pactCharm": 0,
+        "skillDust": 52022
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.333,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 6,
+        "bestFloor": 5
+      },
+      "attempts": 24,
+      "failures": 15,
+      "clears": 70804,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 332841273,
+        "petSoul": 2180920,
+        "pactCharm": 0,
+        "skillDust": 70704
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.783,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 54,
+      "failures": 45,
+      "clears": 59931,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 285112657,
+        "petSoul": 1860680,
+        "pactCharm": 0,
+        "skillDust": 59831
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.467,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 68,
+      "failures": 59,
+      "clears": 64014,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 297031928,
+        "petSoul": 1970016,
+        "pactCharm": 0,
+        "skillDust": 63914
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 192,
+      "failures": 183,
+      "clears": 52746,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 249059445,
+        "petSoul": 1621254,
+        "pactCharm": 0,
+        "skillDust": 52646
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.783,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 13783,
+      "failures": 13778,
+      "clears": 48704,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 30156455,
+        "petSoul": 1495810,
+        "pactCharm": 0,
+        "skillDust": 48654
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.5,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 114,
+      "failures": 105,
+      "clears": 54797,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 255803966,
+        "petSoul": 1686436,
+        "pactCharm": 0,
+        "skillDust": 54697
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.733,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 159,
+      "failures": 150,
+      "clears": 65681,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 311061710,
+        "petSoul": 2022100,
+        "pactCharm": 0,
+        "skillDust": 65581
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.183,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 88,
+      "failures": 79,
+      "clears": 53962,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 259222609,
+        "petSoul": 1682254,
+        "pactCharm": 0,
+        "skillDust": 53862
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.4,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 81,
+      "failures": 72,
+      "clears": 65955,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 305956218,
+        "petSoul": 2029882,
+        "pactCharm": 0,
+        "skillDust": 65855
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 86,
+      "failures": 77,
+      "clears": 48760,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 231921810,
+        "petSoul": 1497636,
+        "pactCharm": 0,
+        "skillDust": 48660
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.35,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 87,
+      "failures": 78,
+      "clears": 72716,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 335572931,
+        "petSoul": 2240160,
+        "pactCharm": 0,
+        "skillDust": 72616
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.833,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 155,
+      "failures": 146,
+      "clears": 49963,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 235826474,
+        "petSoul": 1537198,
+        "pactCharm": 0,
+        "skillDust": 49863
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.567,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 45,
+      "failures": 36,
+      "clears": 66520,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 307538859,
+        "petSoul": 2048110,
+        "pactCharm": 0,
+        "skillDust": 66420
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.483,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 15188,
+      "failures": 15183,
+      "clears": 51452,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 31983816,
+        "petSoul": 1620340,
+        "pactCharm": 0,
+        "skillDust": 51402
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.983,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 74,
+      "failures": 65,
+      "clears": 71897,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 328672490,
+        "petSoul": 2213734,
+        "pactCharm": 0,
+        "skillDust": 71797
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 25,
+      "failures": 16,
+      "clears": 52915,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 251073198,
+        "petSoul": 1626108,
+        "pactCharm": 0,
+        "skillDust": 52815
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.383,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 139,
+      "failures": 130,
+      "clears": 71926,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 330785916,
+        "petSoul": 2215586,
+        "pactCharm": 0,
+        "skillDust": 71826
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.333,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 77,
+      "failures": 68,
+      "clears": 56379,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 268529420,
+        "petSoul": 1735646,
+        "pactCharm": 0,
+        "skillDust": 56279
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.567,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 109,
+      "failures": 100,
+      "clears": 66810,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 308912171,
+        "petSoul": 2057100,
+        "pactCharm": 0,
+        "skillDust": 66710
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.483,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 8,
+        "bestFloor": 5
+      },
+      "attempts": 126,
+      "failures": 117,
+      "clears": 64697,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 302877241,
+        "petSoul": 2008182,
+        "pactCharm": 0,
+        "skillDust": 64597
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.8,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 78,
+      "failures": 69,
+      "clears": 60802,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 278583850,
+        "petSoul": 1870702,
+        "pactCharm": 0,
+        "skillDust": 60702
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 74,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 44,
+      "failures": 35,
+      "clears": 41628,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 191531127,
+        "petSoul": 1276946,
+        "pactCharm": 0,
+        "skillDust": 41528
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.017,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 63,
+      "failures": 54,
+      "clears": 64150,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 296220199,
+        "petSoul": 1974650,
+        "pactCharm": 0,
+        "skillDust": 64040
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.333,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 54,
+      "failures": 45,
+      "clears": 45572,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 211053059,
+        "petSoul": 1401146,
+        "pactCharm": 0,
+        "skillDust": 45472
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.417,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 14889,
+      "failures": 14884,
+      "clears": 51839,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 31470971,
+        "petSoul": 1592990,
+        "pactCharm": 0,
+        "skillDust": 51789
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 72.717,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 54,
+      "failures": 45,
+      "clears": 49784,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 232849995,
+        "petSoul": 1561366,
+        "pactCharm": 0,
+        "skillDust": 49684
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "low",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 68.8,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 93,
+      "failures": 84,
+      "clears": 56269,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 257444366,
+        "petSoul": 1729044,
+        "pactCharm": 0,
+        "skillDust": 56169
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "turtle",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "low",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 73,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 150,
+      "failures": 141,
+      "clears": 45540,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 211157550,
+        "petSoul": 1397478,
+        "pactCharm": 0,
+        "skillDust": 45440
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "medium",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.6,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 34,
+      "failures": 25,
+      "clears": 68253,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 318739143,
+        "petSoul": 2101736,
+        "pactCharm": 0,
+        "skillDust": 68153
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "medium",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 71.167,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 6,
+        "bestFloor": 5
+      },
+      "attempts": 43,
+      "failures": 34,
+      "clears": 57305,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 265198334,
+        "petSoul": 1764758,
+        "pactCharm": 0,
+        "skillDust": 57205
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "hawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 67.167,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 129,
+      "failures": 120,
+      "clears": 72421,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 338179772,
+        "petSoul": 2231040,
+        "pactCharm": 0,
+        "skillDust": 72321
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "tiger",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4201,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "basic",
+      "cultivationActions": {
+        "enhances": 0,
+        "evolutions": 0,
+        "riftAttempts": 0,
+        "riftClears": 0
+      },
+      "hours": 75.217,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 12560,
+      "failures": 12560,
+      "clears": 28336,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 2456807,
+        "petSoul": 900454,
+        "pactCharm": 0,
+        "skillDust": 28336
+      },
+      "gear": 10,
+      "rings": 0,
+      "pets": [
+        {
+          "speciesId": "fox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "deer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 833,
+        "evolutions": 2,
+        "riftAttempts": 4055,
+        "riftClears": 113
+      },
+      "hours": 67.583,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 1,
+        "bestFloor": 5
+      },
+      "attempts": 40,
+      "failures": 31,
+      "clears": 67540,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 331407366,
+        "petSoul": 2071510,
+        "pactCharm": 0,
+        "skillDust": 67430
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "blade",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 760,
+        "evolutions": 3,
+        "riftAttempts": 4373,
+        "riftClears": 101
+      },
+      "hours": 72.883,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "attempts": 13979,
+      "failures": 13974,
+      "clears": 47869,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 38170519,
+        "petSoul": 1477562,
+        "pactCharm": 0,
+        "skillDust": 47819
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "crownseed",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bloomdeer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 760,
+        "evolutions": 3,
+        "riftAttempts": 4020,
+        "riftClears": 131
+      },
+      "hours": 67,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 5,
+        "bestFloor": 5
+      },
+      "attempts": 126,
+      "failures": 117,
+      "clears": 77024,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 375115272,
+        "petSoul": 2361420,
+        "pactCharm": 0,
+        "skillDust": 76924
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "crownseed",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 768,
+        "evolutions": 2,
+        "riftAttempts": 4344,
+        "riftClears": 130
+      },
+      "hours": 72.4,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 217,
+      "failures": 208,
+      "clears": 54861,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 276578118,
+        "petSoul": 1700170,
+        "pactCharm": 0,
+        "skillDust": 54761
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 760,
+        "evolutions": 3,
+        "riftAttempts": 4059,
+        "riftClears": 119
+      },
+      "hours": 67.65,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 103,
+      "failures": 94,
+      "clears": 66423,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 322069300,
+        "petSoul": 2032790,
+        "pactCharm": 0,
+        "skillDust": 66323
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "crownseed",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "bind",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 804,
+        "evolutions": 8,
+        "riftAttempts": 4374,
+        "riftClears": 109
+      },
+      "hours": 72.9,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 7,
+        "bestFloor": 5
+      },
+      "attempts": 12308,
+      "failures": 12303,
+      "clears": 44536,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 40865416,
+        "petSoul": 1359402,
+        "pactCharm": 0,
+        "skillDust": 44486
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "dawnfox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 791,
+        "evolutions": 8,
+        "riftAttempts": 4022,
+        "riftClears": 106
+      },
+      "hours": 67.033,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "attempts": 21331,
+      "failures": 21326,
+      "clears": 75312,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 57535078,
+        "petSoul": 2287440,
+        "pactCharm": 0,
+        "skillDust": 75262
+      },
+      "gear": 10,
+      "rings": 5,
+      "pets": [
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "dawnfox",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "mend",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 805,
+        "evolutions": 2,
+        "riftAttempts": 4295,
+        "riftClears": 116
+      },
+      "hours": 71.583,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 308,
+      "failures": 299,
+      "clears": 61118,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 300507610,
+        "petSoul": 1894378,
+        "pactCharm": 0,
+        "skillDust": 61018
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 850,
+        "evolutions": 2,
+        "riftAttempts": 4089,
+        "riftClears": 148
+      },
+      "hours": 68.15,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 4,
+        "bestFloor": 5
+      },
+      "attempts": 33,
+      "failures": 24,
+      "clears": 57653,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 289999040,
+        "petSoul": 1765010,
+        "pactCharm": 0,
+        "skillDust": 57553
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "icehawk",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "guard",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 754,
+        "evolutions": 2,
+        "riftAttempts": 4297,
+        "riftClears": 148
+      },
+      "hours": 71.617,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 53,
+      "failures": 44,
+      "clears": 63908,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 328112317,
+        "petSoul": 1973930,
+        "pactCharm": 0,
+        "skillDust": 63808
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "bloomdeer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "online",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 770,
+        "evolutions": 2,
+        "riftAttempts": 4053,
+        "riftClears": 109
+      },
+      "hours": 67.55,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 9,
+        "bestFloor": 5
+      },
+      "attempts": 181,
+      "failures": 172,
+      "clears": 66657,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 318528175,
+        "petSoul": 2044052,
+        "pactCharm": 0,
+        "skillDust": 66557
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "snowcrane",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    },
+    {
+      "seed": 4200,
+      "classId": "tame",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 780,
+        "evolutions": 2,
+        "riftAttempts": 4285,
+        "riftClears": 110
+      },
+      "hours": 71.417,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 2,
+        "bestFloor": 5
+      },
+      "attempts": 97,
+      "failures": 88,
+      "clears": 56341,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 280413992,
+        "petSoul": 1753972,
+        "pactCharm": 0,
+        "skillDust": 56241
+      },
+      "gear": 10,
+      "rings": 9,
+      "pets": [
+        {
+          "speciesId": "cinderpaw",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+const assert=require('assert');
+['names','core/bus','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require('../'+f));SR.content.install();
+['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle','core/offline'].forEach(f=>require('../'+f));SR.loot.init();
+const s=SR.save.state=SR.save.create();s.flags.awakened=true;s.hero.soulId='blade';s.hero.classId='blade';s.hero.level=40;
+SR.stats.hero=()=>({atk:100000,def:100000,hp:100000});
+let gained=0,practice=0;SR.bus.on('battle:kill',e=>{gained+=e.expGranted;practice+=e.practiceExp||0;});
+SR.battle.start();SR.battle.tick(60000);SR.battle.stop();assert(practice>0);assert.equal(s.hero.exp,gained);
+const rate=SR.progression.expToNext(40)/SR.progression.practiceSeconds;
+assert(practice<=rate*60);assert(practice>rate*55,'most running time is awarded on kills, including wave transitions');
+let exp=s.hero.exp;SR.battle.tick(60000);assert.equal(s.hero.exp,exp,'stopped battle gives no practice');
+s.t=100000;const reward=SR.offline.claim(160000);assert(Math.abs(reward.exp-(s.hero.exp-exp))<1e-7,'offline report includes practice and rested kill rewards');
+exp=s.hero.exp;assert.equal(SR.offline.claim(160000).seconds,0);assert.equal(s.hero.exp,exp);
+s.hero.level=39;practice=0;SR.battle.start();SR.battle.tick(10000);SR.battle.stop();assert.equal(practice,0,'onboarding keeps existing kill XP');
+(async()=>{s.store=Array.from({length:991},(_,i)=>({uid:'full'+i,type:'egg',speciesId:'fox'}));
+s.t=200000;const paused=await SR.offline.claimAsync(320000);assert(paused.pausedSeconds>=119.9);assert.equal(paused.items.length,0);assert(s.t>=320000);assert.equal(SR.offline.claim(320000).seconds,0);
+console.log('core_practice: kill settlement, running time, stop, offline totals, cursor and full-capacity async pause passed');})().catch(e=>{console.error(e);process.exit(1);});

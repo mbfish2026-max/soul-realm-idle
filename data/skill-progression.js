@@ -1,1 +1,16 @@
-(function(g){var S=g.SR;S.DATA.skillBalance={"blade:1:damage":2.4579,"blade:1:control":2.8242,"blade:1:heal":2.8942,"blade:1:shield":2.9614,"blade:1:buff":3.0784,"forge:1:damage":2.8995,"forge:1:control":3.5282,"forge:1:heal":3.4778,"forge:1:shield":3.1278,"forge:1:buff":3.2803,"bind:0:buff":1.1116,"bind:1:damage":3.9572,"bind:1:control":3.9885,"bind:1:heal":4.7918,"bind:1:shield":4.2842,"bind:1:buff":3.8133,"mend:1:damage":3.1418,"mend:1:control":3.5337,"mend:1:heal":3.5065,"mend:1:shield":3.7055,"mend:1:buff":3.3789,"guard:0:damage":1.148,"guard:0:control":1.1538,"guard:0:heal":1.1626,"guard:0:shield":1.1543,"guard:0:buff":1.1897,"guard:1:damage":4.5883,"guard:1:control":5.5477,"guard:1:heal":5.0815,"guard:1:shield":4.3725,"guard:1:buff":4.8998,"tame:1:damage":2.2074,"tame:1:control":2.1185,"tame:1:heal":2.3298,"tame:1:shield":2.2993,"tame:1:buff":2.1635};S.progression={expToNext:function(level){return level<40?level*15:Math.round(41500*Math.pow(level/40,1.3));}};})(typeof window!=='undefined'?window:globalThis);
+(function(g){
+  var S=g.SR;
+  S.progression={
+    // Later maps need sustained base growth, independent of first ring/pet RNG.
+    lateGrowthStart:35,
+    lateGrowth:0.12,
+    // From level 40, practice accrues only while battle is running and settles
+    // on actual kills. 59 levels take about 71 combat hours before kill bonuses.
+    practiceSeconds:4320,
+    killExpScale:0.05,
+    // Rested experience compensates for reduced offline combat opportunity;
+    // loot, resources and battle time still use the ordinary 70% simulation.
+    offlineExpBonus:1.35,
+    expToNext:function(level){return level<40?level*15:Math.round(44000*Math.pow(level/40,1.3));}
+  };
+})(typeof window!=='undefined'?window:globalThis);

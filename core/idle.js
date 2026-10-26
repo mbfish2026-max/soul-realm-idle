@@ -1,6 +1,6 @@
 (function(g){
   var SR=g.SR=g.SR||{},timer=null,last=0,hidden=false,settling=null,generation=0;
-  function resume(){if(timer!==null&&!hidden&&!settling&&!SR.offline.claiming&&SR.save.state.flags.awakened)SR.battle.start();}
+  function resume(){if(timer!==null&&!hidden&&!settling&&!SR.offline.claiming&&!(SR.bag&&SR.bag.full())&&SR.save.state.flags.awakened)SR.battle.start();}
   function settle(now){
     if(settling)return settling;
     var token=generation;
