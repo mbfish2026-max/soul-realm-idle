@@ -14,3 +14,6 @@
   };
   if (typeof module !== 'undefined') module.exports = SR.NAMES;
 })(typeof window !== 'undefined' ? window : globalThis);
+
+/* A 路新增：万渊林怪物与首领预警。 */
+(function(g){var n=g.SR.NAMES;n.coreMobs={reed:'苇影獾',moss:'苔甲貘',lord:'苍苔渊守'};n.coreWarnings={surge:'苔潮震荡',rage:'裂根怒涌'};})(typeof window!=='undefined'?window:globalThis);
