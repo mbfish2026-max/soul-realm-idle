@@ -46,5 +46,7 @@ for file, entry in files.items():
     summary[metric] = max(summary[metric], size)
 assert summary['icons'] == 294, summary
 assert summary['fx'] == 12, summary
-(ROOT/'tools/n/raw/audit.json').write_text(json.dumps(summary, indent=2)+'\n')
+audit_path = ROOT/'tools/n/raw/audit.json'
+audit_path.parent.mkdir(parents=True, exist_ok=True)
+audit_path.write_text(json.dumps(summary, indent=2)+'\n')
 print(json.dumps(summary))
