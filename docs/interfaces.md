@@ -78,3 +78,13 @@
 - 新请求事件：`hero:awaken_request {soulId}`、`ring:strip_request {ringIndex}`、`pet:hatch_request {eggUid}`、`pet:feed_request` / `pet:deploy_request` / `pet:ringify_request {petUid}`、`pet:evolve_request {petUid,to}`。
 - UI 加载：`ui/tabs.js` → `hero.js` / `pets.js` / `bag.js` / `awaken.js` / `absorb.js`，样式 `ui/ui.css`。`SR.ui.mount(el)`、`show('battle'|'hero'|'pets'|'bag')`、`awaken()`、`absorb(essenceUid)`。battle 是舞台接入占位，集成方可覆盖 `SR.ui.battle(state)`，返回内容 HTML。
 - 预览专用 `ui/preview_stub.js` 只供 `ui/preview.html` 使用，正式入口不要加载。
+
+## 变更提案-e-content
+- 加载全部基础 `data/*.js` 后，依次加载 `data/ext/progression.js`、`pets.js`、`maps.js`、`install.js`，在系统初始化前调用 `SR.content.install()`。安装幂等，无存档写入、无事件监听、无新增 Tab。
+- souls 新增 `branches:[{id,name,nodes:[{level,cost,effects:{atkPct?,defPct?,hpPct?,spdPct?}}]}]`；同一分支三级为累计效果，按最高已学级应用，不逐级相加。B 负责选择/消费/属性应用。
+- realms 合并 `expToNext,petSlots,contractSlots,trial`；trial 为 `{id,level,requiredRings,recPower,boss}`，10 至 90 级试炼解锁下一境界，天称 `trial:null`。boss 含 hp/atk/def/yearsRange/skills/phases。A 负责瓶颈流程，B 展示；原有 ringSlots 与等级区间不变。
+- `DATA.ringTiers:[{id,color,name,minYears,maxYears,skillCount,affixIds,skillIds}]`；`DATA.ringAffixes:{id:{id,name,stat,min,max}}`，区间含端点、红色上限 999999 年。红环双技能需 B/A 扩展存档与施法，本路不改现有单 skillId 格式。
+- pets 补充 `source,species,activeSkills,passiveSkills`，名称从 `NAMES.sources/speciesKinds` 查；skills 为兼容现有战斗的两个主动技能，passiveSkills 独立由 B 应用。evolve 沿用 need.seg/counter/mat，计数仅用已有 kills/battles。`DATA.petGrades` 提供九级成长与化轮参考参数。
+- `DATA.resonances:[{id,name,type:'heroPet'|'petPet',soulId?,petIds?,veins:[a,b],bond,cd,mult,skillId}]`：heroPet 要求 soulId 与伙伴脉匹配；petPet 要求两只不同 uid、分别匹配 petIds，顺序无关；所有参与契兽 bond 均达门槛。A 负责触发/冷却，B 图鉴。
+- maps 新增 snow/ridge，沿用 floorTables；各层 boss.phases 为 `{phase,hpRatio,skillId,delayMs,mult}` 三项，技能定义在 DATA.skills；A 需复制并执行这些参数（现核心仍使用固定预警），C/D 负责对应技能表现/素材。unlock 为 `{mapId,floor,level}`，eggPool 为物种 id 列表，掉落按地图筛选由 A 接入，避免现有全池随机直接取得神级兽卵。
+- 词条基础值为 ringAffixes.min/max，实际按 ringTiers.affixScale（白至红 1..5）相乘；宠物 passiveSkills 引用 ringAffixes 的 id，应用其 min 为固定百分比，不参与主动技能冷却。
