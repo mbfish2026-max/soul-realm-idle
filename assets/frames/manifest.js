@@ -1,0 +1,262 @@
+(function (g) {
+  "use strict";
+  var SR = g.SR = g.SR || {};
+  Object.assign(SR.ASSETS = SR.ASSETS || {}, {
+  "hero_idle": {
+    "file": "assets/frames/hero_idle.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "hero_idle_1x": {
+    "file": "assets/frames/hero_idle@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "hero_move": {
+    "file": "assets/frames/hero_move.webp",
+    "w": 3600,
+    "h": 880,
+    "use": "animation",
+    "frames": 6,
+    "fw": 600,
+    "fh": 880,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_move_1x": {
+    "file": "assets/frames/hero_move@1x.webp",
+    "w": 1800,
+    "h": 440,
+    "use": "animation",
+    "frames": 6,
+    "fw": 300,
+    "fh": 440,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_attack": {
+    "file": "assets/frames/hero_attack.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_attack_1x": {
+    "file": "assets/frames/hero_attack@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_skill": {
+    "file": "assets/frames/hero_skill.webp",
+    "w": 3600,
+    "h": 880,
+    "use": "animation",
+    "frames": 6,
+    "fw": 600,
+    "fh": 880,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_skill_1x": {
+    "file": "assets/frames/hero_skill@1x.webp",
+    "w": 1800,
+    "h": 440,
+    "use": "animation",
+    "frames": 6,
+    "fw": 300,
+    "fh": 440,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_hit": {
+    "file": "assets/frames/hero_hit.webp",
+    "w": 1200,
+    "h": 880,
+    "use": "animation",
+    "frames": 2,
+    "fw": 600,
+    "fh": 880,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_hit_1x": {
+    "file": "assets/frames/hero_hit@1x.webp",
+    "w": 600,
+    "h": 440,
+    "use": "animation",
+    "frames": 2,
+    "fw": 300,
+    "fh": 440,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_fusion": {
+    "file": "assets/frames/hero_fusion.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_fusion_1x": {
+    "file": "assets/frames/hero_fusion@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_win": {
+    "file": "assets/frames/hero_win.webp",
+    "w": 1800,
+    "h": 880,
+    "use": "animation",
+    "frames": 3,
+    "fw": 600,
+    "fh": 880,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_win_1x": {
+    "file": "assets/frames/hero_win@1x.webp",
+    "w": 900,
+    "h": 440,
+    "use": "animation",
+    "frames": 3,
+    "fw": 300,
+    "fh": 440,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_die": {
+    "file": "assets/frames/hero_die.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_die_1x": {
+    "file": "assets/frames/hero_die@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  }
+});
+})(typeof window !== "undefined" ? window : globalThis);

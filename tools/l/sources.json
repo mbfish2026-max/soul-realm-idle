@@ -1,0 +1,74 @@
+[
+  {
+    "key": "hero_idle",
+    "frames": 4,
+    "cols": 4,
+    "source": "hero_idle.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 4
+  },
+  {
+    "key": "hero_move",
+    "frames": 6,
+    "cols": 3,
+    "source": "hero_move.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 8
+  },
+  {
+    "key": "hero_attack",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_attack.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 10
+  },
+  {
+    "key": "hero_skill",
+    "frames": 6,
+    "cols": 3,
+    "source": "hero_skill.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 9
+  },
+  {
+    "key": "hero_hit",
+    "frames": 2,
+    "cols": 2,
+    "source": "hero_hit.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 8
+  },
+  {
+    "key": "hero_fusion",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_fusion.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 7
+  },
+  {
+    "key": "hero_win",
+    "frames": 3,
+    "cols": 3,
+    "source": "hero_win.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 5
+  },
+  {
+    "key": "hero_die",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_die.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 6
+  }
+]
