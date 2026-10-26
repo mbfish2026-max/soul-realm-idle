@@ -1,0 +1,853 @@
+{
+  "problem": "Offline chunks restarted enemy HP, blocking long boss fights. Preserve live runtime between contiguous chunks on the same state and world position.",
+  "beforeFailures": [
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 185,
+        "evolutions": 1,
+        "riftAttempts": 6000,
+        "riftClears": 14
+      },
+      "hours": 100,
+      "complete": false,
+      "level": 40,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 10,
+        "bestFloor": 5
+      },
+      "world": {
+        "v": 1,
+        "cleared": 48,
+        "selected": "node-47",
+        "wave": 10,
+        "rewards": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true
+        }
+      },
+      "attempts": 87,
+      "failures": 85,
+      "clears": 279,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 255,
+        "petSoul": 14,
+        "pactCharm": 0,
+        "skillDust": 259
+      },
+      "gear": 10,
+      "rings": 2,
+      "pets": [
+        {
+          "speciesId": "basaltshell",
+          "seg": 2,
+          "bond": 100
+        },
+        {
+          "speciesId": "bud",
+          "seg": 7,
+          "bond": 100
+        }
+      ],
+      "checkpoints": [
+        {
+          "level": 3,
+          "hours": 0.017,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 4,
+          "hours": 0.033,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 5,
+          "hours": 0.05,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 6,
+          "hours": 0.067,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 7,
+          "hours": 0.083,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 8,
+          "hours": 0.1,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 9,
+          "hours": 0.117,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 10,
+          "hours": 0.133,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 11,
+          "hours": 0.15,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 12,
+          "hours": 0.167,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 14,
+          "hours": 0.183,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 15,
+          "hours": 0.2,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 16,
+          "hours": 0.217,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 18,
+          "hours": 0.233,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 19,
+          "hours": 0.25,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 21,
+          "hours": 0.267,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 23,
+          "hours": 0.283,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 25,
+          "hours": 0.3,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 26,
+          "hours": 0.317,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 28,
+          "hours": 0.333,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 29,
+          "hours": 0.383,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 30,
+          "hours": 0.433,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 31,
+          "hours": 0.467,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 32,
+          "hours": 0.517,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 33,
+          "hours": 0.55,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 34,
+          "hours": 0.583,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 35,
+          "hours": 0.633,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 36,
+          "hours": 0.667,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 37,
+          "hours": 0.7,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 38,
+          "hours": 0.733,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 39,
+          "hours": 0.767,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 40,
+          "hours": 0.8,
+          "map": "ridge",
+          "rings": 2
+        }
+      ]
+    }
+  ],
+  "afterTargetedRun": [
+    {
+      "seed": 4200,
+      "classId": "forge",
+      "investment": "high",
+      "mode": "offline",
+      "cultivation": "full",
+      "cultivationActions": {
+        "enhances": 762,
+        "evolutions": 2,
+        "riftAttempts": 4428,
+        "riftClears": 113
+      },
+      "hours": 73.8,
+      "complete": true,
+      "level": 99,
+      "map": {
+        "mapId": "ridge",
+        "floor": 5,
+        "wave": 3,
+        "bestFloor": 5
+      },
+      "world": {
+        "v": 1,
+        "cleared": 48,
+        "selected": "node-47",
+        "wave": 3,
+        "rewards": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true
+        }
+      },
+      "attempts": 11229,
+      "failures": 11227,
+      "clears": 26552,
+      "pausedHours": 0,
+      "resources": {
+        "crystal": 12645076,
+        "petSoul": 799948,
+        "pactCharm": 0,
+        "skillDust": 26532
+      },
+      "gear": 10,
+      "rings": 2,
+      "pets": [
+        {
+          "speciesId": "basaltshell",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "bloomdeer",
+          "seg": 10,
+          "bond": 100
+        },
+        {
+          "speciesId": "magmahorn",
+          "seg": 10,
+          "bond": 100
+        }
+      ],
+      "checkpoints": [
+        {
+          "level": 3,
+          "hours": 0.017,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 4,
+          "hours": 0.033,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 5,
+          "hours": 0.05,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 7,
+          "hours": 0.067,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 9,
+          "hours": 0.083,
+          "map": "forest",
+          "rings": 0
+        },
+        {
+          "level": 10,
+          "hours": 0.1,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 13,
+          "hours": 0.117,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 15,
+          "hours": 0.133,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 17,
+          "hours": 0.15,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 20,
+          "hours": 0.167,
+          "map": "forest",
+          "rings": 1
+        },
+        {
+          "level": 21,
+          "hours": 0.183,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 23,
+          "hours": 0.2,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 25,
+          "hours": 0.217,
+          "map": "forest",
+          "rings": 2
+        },
+        {
+          "level": 27,
+          "hours": 0.233,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 28,
+          "hours": 0.267,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 29,
+          "hours": 0.317,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 30,
+          "hours": 0.35,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 31,
+          "hours": 0.367,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 32,
+          "hours": 0.4,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 33,
+          "hours": 0.433,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 34,
+          "hours": 0.45,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 35,
+          "hours": 0.483,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 36,
+          "hours": 0.5,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 37,
+          "hours": 0.517,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 38,
+          "hours": 0.55,
+          "map": "snow",
+          "rings": 2
+        },
+        {
+          "level": 39,
+          "hours": 0.583,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 40,
+          "hours": 0.7,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 41,
+          "hours": 1.95,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 42,
+          "hours": 3.2,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 43,
+          "hours": 4.45,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 44,
+          "hours": 5.7,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 45,
+          "hours": 6.967,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 46,
+          "hours": 8.217,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 47,
+          "hours": 9.45,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 48,
+          "hours": 10.7,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 49,
+          "hours": 11.95,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 50,
+          "hours": 13.2,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 51,
+          "hours": 14.45,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 52,
+          "hours": 15.7,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 53,
+          "hours": 16.933,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 54,
+          "hours": 18.183,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 55,
+          "hours": 19.433,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 56,
+          "hours": 20.667,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 57,
+          "hours": 21.917,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 58,
+          "hours": 23.15,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 59,
+          "hours": 24.4,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 60,
+          "hours": 25.633,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 61,
+          "hours": 26.883,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 62,
+          "hours": 28.117,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 63,
+          "hours": 29.367,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 64,
+          "hours": 30.6,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 65,
+          "hours": 31.833,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 66,
+          "hours": 33.083,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 67,
+          "hours": 34.317,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 68,
+          "hours": 35.55,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 69,
+          "hours": 36.783,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 70,
+          "hours": 38.017,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 71,
+          "hours": 39.267,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 72,
+          "hours": 40.5,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 73,
+          "hours": 41.733,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 74,
+          "hours": 42.967,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 75,
+          "hours": 44.2,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 76,
+          "hours": 45.433,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 77,
+          "hours": 46.683,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 78,
+          "hours": 47.917,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 79,
+          "hours": 49.15,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 80,
+          "hours": 50.383,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 81,
+          "hours": 51.617,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 82,
+          "hours": 52.867,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 83,
+          "hours": 54.1,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 84,
+          "hours": 55.333,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 85,
+          "hours": 56.583,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 86,
+          "hours": 57.817,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 87,
+          "hours": 59.05,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 88,
+          "hours": 60.283,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 89,
+          "hours": 61.517,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 90,
+          "hours": 62.75,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 91,
+          "hours": 63.983,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 92,
+          "hours": 65.2,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 93,
+          "hours": 66.433,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 94,
+          "hours": 67.667,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 95,
+          "hours": 68.883,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 96,
+          "hours": 70.117,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 97,
+          "hours": 71.35,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 98,
+          "hours": 72.583,
+          "map": "ridge",
+          "rings": 2
+        },
+        {
+          "level": 99,
+          "hours": 73.8,
+          "map": "ridge",
+          "rings": 2
+        }
+      ]
+    },
+    {
+      "scenarios": 1,
+      "complete": 1,
+      "inTarget": 1,
+      "definition": "level 99 and all 48 world nodes; elapsed wall hours; offline uses real claim at decision interval (60/600/3600s), 70% combat time; natural drops and resource costs; level 40+ combat practice settled on kills; rested experience bonus from game progression config"
+    }
+  ],
+  "regression": "tests/run.js compares one 600000ms claim to ten 60000ms claims with identical seed; kills, world state, enemy HP must match."
+}

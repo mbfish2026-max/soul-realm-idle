@@ -93,11 +93,10 @@
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选）：.app{width:100%;max-width:390px;min-height:844px;margin:auto;background:#f3eee2} | 否：开发参考/测试/素材预览，不由正式入口加载 |
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选）：.controls button:last-child{background:#ead8a3} | 否：开发参考/测试/素材预览，不由正式入口加载 |
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选）：.paper{margin:4px 14px;padding:12px;border:1px solid #c9a96a;outline:3px solid #c9a96a33;border-radius:8px;background:#faf6ecc9;min-height:110px;font-size:13px;line-heigh | 否：开发参考/测试/素材预览，不由正式入口加载 |
+| index.html:5 | CSS 边框/阴影：.sr-ui .sr-worldmap header button,.wm-dialog button{border:10px solid transparent;border-image:url("assets/ui2/ui2_button_secondary_normal.webp") 32 72 fill stretch;backg | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | tests/feat_gear.test.js:12 | Canvas 图形：s=fresh();s.hero.rings=Array(9).fill({} | 否：开发参考/测试/素材预览，不由正式入口加载 |
+| tests/run.js:28 | Canvas 图形：assert.deepEqual(offlinePartition([600000]),offlinePartition(Array(10).fill(60000)));checks++; | 否：开发参考/测试/素材预览，不由正式入口加载 |
 | ui/generated.css:4 | CSS 边框/阴影：.paper,.gg-slots>article,.sr-feat-panel article,.risk,.sr-toast,.sr-bossbar{border:18px solid transparent;border-image:url('../assets/ui2/ui2_panel.webp') 96 fill stretch | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | ui/generated.css:5 | CSS 边框/阴影：button,.sr-feat-panel button,.gg-filters select,.auto-row select{border:10px solid transparent;border-image:url('../assets/ui2/ui2_button_secondary_normal.webp') 32 72 fi | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | ui/generated.css:8 | CSS 边框/阴影：.sr-dialog,.sr-feat-panel{background:none!important;border:24px solid transparent;border-image:url('../assets/ui2/ui2_modal.webp') 96 160 fill stretch;box-shadow:none;pad | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | dev/mock/live.js:41 | Canvas/文字图标： FX.b=FX.b.filter(b=>{const t=(now-b.t0)/1000,L=b.life//1;if(t>L)return false;const k=t/L;for(const p of b.p){const d=p.v*t*(1-k*.5);g.globa | 否：开发参考/测试，不加载 |
-
-## 第二轮 view 复核（2026-10-26）
-R2-07 保存失败提示改用 ui2_panel 生成背景；本轮重新运行 visual_audit：正式入口待替换 0 处，全仓原始候选 93 处。保存异常流程由 tests/e2e/view.py 实际注入并验证，持续提示、导出、重试保留。

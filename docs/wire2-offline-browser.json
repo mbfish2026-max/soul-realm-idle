@@ -1,0 +1,1 @@
+{"fixture": "level 99 snow, 12h, real idle.start", "audit": {"beats": 248, "rewards": 1, "chunks": 254, "parallelBattle": false, "maxGap": 10, "reward": {"seconds": 43200, "pausedSeconds": 28071.428571428572, "items": 1051}, "resumed": false, "claiming": false, "done": true}, "errors": []}

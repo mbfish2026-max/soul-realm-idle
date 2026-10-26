@@ -2,7 +2,7 @@
 
 静态启发式扫描全部 HTML/CSS/JS（含 mock、预览与测试）；候选需按上下文人工判断。布局边界、透明遮挡、调试绘图可能误报；命中不等于已确认违规。drawImage 使用生成图本身不计作代码绘图。本清单按正式入口加载关系区分运行内容与参考页。
 
-正式入口待替换 **0** 处；全仓原始候选 93 处（逐项保留参考页与贴图切片误报）。建议键来自 assets/ui2/manifest.json；表现特效缺口需相应路生图。
+正式入口待替换 **0** 处；全仓原始候选 95 处（逐项保留参考页与贴图切片误报）。建议键来自 assets/ui2/manifest.json；表现特效缺口需相应路生图。
 
 | 文件:行 | 元素 | 源码片段 | 建议素材键 | 当前结论 |
 |---|---|---|---|---|
@@ -95,7 +95,9 @@
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选） | `.app{width:100%;max-width:390px;min-height:844px;margin:auto;background:#f3eee2}` | ui2_panel（框体候选）；需人工确认用途 | 参考/测试，正式入口不加载 |
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选） | `.controls button:last-child{background:#ead8a3}` | ui2_button_primary_normal | 参考/测试，正式入口不加载 |
 | dev/stage/demo.html:3 | 纯色背景（含按钮候选） | `.paper{margin:4px 14px;padding:12px;border:1px solid #c9a96a;outline:3px solid #c9a96a33;border-radius:8px;background:#faf6ecc9;min-height:110px;font-size:13px;line-height:23px}` | ui2_panel（框体候选）；需人工确认用途 | 参考/测试，正式入口不加载 |
+| index.html:5 | CSS 边框/阴影 | `.sr-ui .sr-worldmap header button,.wm-dialog button{border:10px solid transparent;border-image:url("assets/ui2/ui2_button_secondary_normal.webp") 32 72 fill stretch;background:none;padding:4px 8px}` | ui2_button_primary_normal | 已用生成贴图；透明边用于切片布局 |
 | tests/feat_gear.test.js:12 | Canvas 图形 | `s=fresh();s.hero.rings=Array(9).fill({}` | ui2_ring_purple | 参考/测试，正式入口不加载 |
+| tests/run.js:28 | Canvas 图形 | `assert.deepEqual(offlinePartition([600000]),offlinePartition(Array(10).fill(60000)));checks++;` | ui2_panel（框体候选）；需人工确认用途 | 参考/测试，正式入口不加载 |
 | ui/generated.css:4 | CSS 边框/阴影 | `.paper,.gg-slots>article,.sr-feat-panel article,.risk,.sr-toast,.sr-bossbar{border:18px solid transparent;border-image:url('../assets/ui2/ui2_panel.webp') 96 fill stretch;outline:none;box-shadow:none}` | ui2_panel | 已用生成贴图；透明边用于切片布局 |
 | ui/generated.css:5 | CSS 边框/阴影 | `button,.sr-feat-panel button,.gg-filters select,.auto-row select{border:10px solid transparent;border-image:url('../assets/ui2/ui2_button_secondary_normal.webp') 32 72 fill stretch;padding:1px 5px;background:none;color:#` | ui2_button_primary_normal | 已用生成贴图；透明边用于切片布局 |
 | ui/generated.css:8 | CSS 边框/阴影 | `.sr-dialog,.sr-feat-panel{background:none!important;border:24px solid transparent;border-image:url('../assets/ui2/ui2_modal.webp') 96 160 fill stretch;box-shadow:none;padding:10px;max-width:365px}` | ui2_modal | 已用生成贴图；透明边用于切片布局 |

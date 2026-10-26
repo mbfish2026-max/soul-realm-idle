@@ -180,3 +180,9 @@
 - 普通节点五波；每区末节点十波且最后一波首领。advance=false 原地重刷；challengeBoss=false 在首领前循环，显式首领结算亦拒绝。秘境不调用此接口。
 - UI：加载 ui/worldmap.css 与 ui/worldmap.js，`SR.worldmap.mount(el)` / `render()` / `open(nodeId)` / `unmount()`。卸载清理弹层。`world:select_request {nodeId}` 请求安全切换；`world:changed {}` 在成功选择或结算后通知刷新。UI 不直接重启战斗或落盘。
 - `progress.install()` 幂等监听 save:loaded；由集成路在 idle.start 前安装。存档主模块保留未知 world 字段。离线真实 battle 模拟使用相同 encounter/clearWave，禁止监听 battle:wave_clear 二次推进。
+
+## WIRE2 节点战斗与离线续接（追加）
+- 正式入口底部 `world` 页签、战斗页及手札调用地图；`wire:world {}` 打开地图。外层存档保持 v2，world 使用自己的 v1 子结构，迁移在离线开始前完成。
+- battle 在 worldRegions 存在时只走 progress.encounter / clearWave；不同时执行旧楼层推进。每波和选择同步 map，保持掉落、舞台、素材兼容；秘境仍独立。
+- `battle.resume()` 供连续离线结算块续接当前角色/敌人、冷却、延迟和修行经验，刷新培养后的角色属性；无运行时快照时回退 start。普通 start、地图切换及读档仍开启新战斗。
+- offline 只在相同 state 对象、连续时间游标、相同 world/map 位置时续接，避免一分钟分块反复重置长战首领；不跨读档保留运行时快照。

@@ -1,0 +1,62 @@
+assets_audio: passed
+assets_k: 74 image assets, dimensions, budgets, slices and additive registration passed
+assets_l: 32 actions / 64 sheets passed
+assets_m: 46 assets, dimensions, budgets and merge passed
+assets_m2_manifest: 69 images, dimensions, budgets, alpha, provenance and installation passed
+assets_manifest: 42 assets passed
+assets_skills: 599 skills resolve; JS merge, dedicated art, dimensions, alpha, atlas and size passed
+audio_m2_runtime: ok
+audio_m2_score: ok
+core_auto OK
+core_auto_battle OK
+core_auto OK
+core_bag_grid OK
+core_battle OK {
+  'battle:wave_start': 55,
+  'battle:hp': 2680,
+  'battle:skill': 416,
+  'battle:attack': 2570,
+  'battle:kill': 143,
+  'loot:drop': 27,
+  'battle:wave_clear': 47,
+  'save:saved': 54,
+  'battle:fusion': 36,
+  'battle:boss_phase': 9,
+  'battle:hero_down': 7
+}
+core_bus OK
+core_capacity: 84h offline, bounded save/reload, capacity pause and resume passed
+core_fix_review OK
+core_idle OK
+core_idle_async: startup, visibility, single claim, progress, error recovery and stop passed
+core_loot OK
+core_auto_battle OK
+core_map_progression: boss clear, level gate, advance toggle and cross-map reset passed
+core_auto OK
+core_offline OK
+core_offline_async: yielding, progress, one reward and cursor passed
+core_practice: kill settlement, running time, stop, offline totals, cursor and full-capacity async pause passed
+core_capacity: 84h offline, bounded save/reload, capacity pause and resume passed
+core_red_ring: both casts/cooldowns/costs, replacement and strip cleanup passed
+core_save OK
+core_sim_continuous: deterministic collection and non-passing acceptance guard passed
+ext_content: all content, references, progression and installation checks passed
+ext_runtime: existing evolution, stats, combat and loot compatibility passed
+feat_achieve passed
+feat_daily passed
+feat_gear: ten slots, eight-piece sets, cap, migration and inventory passed
+feat_rift passed
+skill_rings: sources, absorption, replacement, fit, reset, branch, auto thresholds and migration passed
+skill_system: data, effects, AI, progression, migration and combat passed
+stage_actor: passed
+stage_events: passed
+sys_awaken passed
+sys_equipment passed
+equipment ten-slot equip/unequip passed
+sys_pet_slots: level boundaries, capacity and battle actors passed
+sys_pets passed
+sys_rings passed
+sys_stats passed
+world map assets: 15 generated slices, paths and image budgets passed
+world map: 48 nodes, sequential unlock, replay, rewards, migration, boss policy passed
+WIRE2 integration: 10 contracts passed
