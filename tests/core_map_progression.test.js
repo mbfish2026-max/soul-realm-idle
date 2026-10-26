@@ -1,0 +1,11 @@
+require('./core_auto_battle.test');
+const assert=require('assert'),S=SR;
+S.battle.stop();S.save.state=S.save.create();const s=S.save.state;s.flags.awakened=true;s.hero.soulId='blade';s.hero.classId='blade';s.hero.level=39;s.map.mapId='forest';s.map.floor=1;s.map.wave=1;
+const table={floors:1,waves:1,monsters:[{kind:'reed',hp:1,atk:0,weight:1,yearsRange:[10,10]}],boss:{kind:'lord',hp:1,atk:0,yearsRange:[10,10]}};
+S.DATA.maps=[Object.assign({id:'forest'},table),Object.assign({id:'snow',unlock:{mapId:'forest',floor:1,level:40}},table),Object.assign({id:'ridge',unlock:{mapId:'snow',floor:1,level:60}},table)];
+S.stats.hero=()=>({atk:100000,hp:100000,def:100000});S.skills.entries=()=>[];
+S.battle.start();S.battle.tick(2000);assert(s.flags.mapsCleared.forest);assert.equal(s.map.mapId,'forest','level gate');
+s.hero.level=40;S.battle.tick(3000);assert.equal(s.map.mapId,'snow');assert.equal(s.map.floor,1);
+s.hero.level=60;S.auto.config().advance=false;S.battle.tick(3000);assert.equal(s.map.mapId,'snow','advance toggle gate');
+S.auto.config().advance=true;S.battle.tick(3000);assert.equal(s.map.mapId,'ridge');S.battle.stop();
+console.log('core_map_progression: boss clear, level gate, advance toggle and cross-map reset passed');

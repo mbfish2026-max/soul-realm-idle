@@ -7,3 +7,9 @@ let failures=0;SR.bus.on('save:failed',()=>failures++);assert.equal(SR.save.save
 delete global.localStorage;assert(SR.save.save());assert.equal(SR.save.status.failed,false);
 s.store=Array.from({length:991},(_,i)=>({uid:'s'+i,locked:true}));assert(SR.bag.full());assert.equal(SR.bag.capacityStatus().capacity,1000);assert.equal(s.store.length,991);
 console.log('core_fix_review OK');
+require('../names');require('../features/gear/data');require('../features/gear/gear');
+const legacy={v:1,hero:{bones:{belt:{uid:'existing',type:'gear',slot:'belt'},rarm:{uid:'right',type:'gear',locked:true,setId:'bamboo',affixes:[{key:'fierce',value:2}]}}},bag:[{uid:'loose',type:'gear',slot:'rarm',locked:true}],store:[]};
+global.localStorage={getItem(){return JSON.stringify(legacy);},setItem(){}};
+SR.save.load();SR.gear.migrate(SR.save.state);
+assert.equal(SR.save.state.hero.bones.belt.uid,'existing');const right=SR.save.state.store.find(x=>x.uid==='right');assert(right.locked);assert.equal(right.slot,'belt');assert.equal(right.setId,'bamboo');assert.equal(right.affixes[0].value,2);assert.equal(SR.save.state.bag[0].slot,'belt');
+delete global.localStorage;
