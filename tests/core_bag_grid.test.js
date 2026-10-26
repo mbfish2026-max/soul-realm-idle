@@ -9,3 +9,7 @@ r=B.batch(['item-2'],'dismantle');assert.equal(r.count,1);assert.equal(r.crystal
 // Existing saves round-trip with no schema changes; stack counts remain one cell.
 S.save.state=S.save.migrate(JSON.parse(JSON.stringify(s)));assert.equal(B.slots().used,2);assert(S.save.state.bag.find(e=>e.uid==='mat').count===999);assert(S.save.state.bag.find(e=>e.uid==='item-10').locked);
 console.log('core_bag_grid OK');
+// Confirmation-time lock change and duplicate IDs cannot destroy protected items.
+S.save.state.bag.push({uid:'late-lock',type:'gear',slot:'crown',locked:true});assert.equal(B.batch(['late-lock','late-lock'],'dismantle').count,0);
+require('../ui/tabs');require('../ui/bag');let html=SR.ui.bag(S.save.state);assert(html.includes('bg-grid'));assert(html.includes('bg-slot'));assert(!html.includes('undefined'));assert(html.includes('data-bag-sort'));assert(html.includes('bg-lock'));
+const fs=require('fs'),path=require('path');for(const name of ['white','yellow','purple','black','red','empty','base','badge','selected']){let bytes=fs.readFileSync(path.join(__dirname,'../assets/ui/bag',name+'.webp'));assert(bytes.length<300000);assert.equal(bytes.toString('ascii',8,12),'WEBP');}
