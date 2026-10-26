@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=390"><link rel="stylesheet" href="live.css"><script src="live.js"></script></head><body><div class="app">
+<div class="stage"><div class="lay l-bg"></div><div class="lay l-mist"></div><div class="lay l-fade"></div><canvas class="fx" width="780" height="1056"></canvas></div>
+<div class="top"><div class="round" style="left:14px">‹</div><div class="t serif">青云竹海 · 第三境<span class="seal">仙途</span></div><div class="prog"><i style="width:66%"></i></div><div class="meta">波次 7/10 · 魂力 72%</div><div class="round" style="right:14px">⋯</div></div>
+<div class="panel">
+ <script>document.write(skillBar())</script>
+ <div class="log paper"><p>进入 青云竹海 · 第三境</p><p class="mute">契兽 灵狐 契心值 86/100</p><span class="seal stamp">仙途</span></div>
+ <div class="demo"><b onclick="DEMO.ACT.hero.set('hit')">受击</b><b onclick="DEMO.ACT.hero.set('win');DEMO.ACT.fox.set('win')">胜利</b><b onclick="DEMO.ACT.hero.set('die');DEMO.ACT.fox.set('die')">倒下</b><b onclick="['w1','w2','w3'].forEach(k=>DEMO.ACT[k].set('move'))">走近</b><b onclick="location.reload()">重置</b></div>
+</div>
+<script>
+drawRings(195,470,6);
+new Actor({id:'w3',kind:'wolf',name:'百年墨狼',x:205,y:228,s:.3,tag:'<em class="y-y">百年</em>墨狼 Lv.31',hp:90,state:'move'});
+new Actor({id:'w2',kind:'wolf',name:'百年墨狼',x:78,y:296,s:.42,flip:1,tag:'<em class="y-y">百年</em>墨狼 Lv.33',hp:70,state:'move'});
+new Actor({id:'w1',kind:'wolf',name:'千年墨狼',x:308,y:300,s:.45,tag:'<em class="y-p">千年</em>墨狼 Lv.36',hp:60,state:'move',foe:1});
+ACT.w2.foe=ACT.w3.foe=1;ACT.w1.hpv=60;ACT.w2.hpv=70;ACT.w3.hpv=90;
+new Actor({id:'fox',kind:'fox',x:96,y:480,s:.45,lx:60,ly:-60,z:60});
+new Actor({id:'hero',kind:'hero',x:195,y:470,s:.4,lx:34,ly:-46,z:55});
+</script>
+</div></body></html>

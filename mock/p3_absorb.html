@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=390"><link rel="stylesheet" href="live.css"><script src="live.js"></script></head><body><div class="app">
+<div class="stage" style="height:400px"><div class="lay l-bg" style="background-position:center 60%"></div><div class="lay l-mist"></div><canvas class="fx" width="780" height="1056"></canvas></div>
+<div class="top" style="text-align:left;padding:6px 14px 6px 8px;margin:10px;right:auto;border-radius:30px;background:rgba(250,246,236,.9);border:1px solid #c9a96a;display:flex;gap:10px;align-items:center;height:auto">
+ <div style="width:40px;height:40px;border-radius:50%;border:2px solid #c9a96a;background:url(assets/hero_idle.png) 50% 6%/220% auto,#e7dfcd"></div>
+ <div><div class="serif" style="font-weight:700;font-size:15px">清微真人 <span class="seal" style="font-size:9px;padding:2px 3px">灵王</span></div><div style="font-size:11px;color:#6d6758">Lv.52 · 第 5 魂环槽 待填</div></div>
+</div>
+<div class="sheet paper">
+ <div class="hd serif">— 魂环精魄 · 影脉墨狼 —</div>
+ <div class="yr">1,734<small>年</small><span class="seal">千年 · 紫</span></div>
+ <div class="cap">当前可承受上限 <b>1,500 年</b>，<span class="zhu">超出 234 年</span></div>
+ <div class="capbar"><i style="width:75%"></i><b style="left:75%;width:11.7%"></b><u style="left:75%"></u></div>
+ <div class="sec"><h4>成功率（公开）</h4><span class="mute">天资 7 · 契合度 82% · 超限 -18%</span></div>
+ <div class="rate"><div class="rb" style="--w:62%"><i></i><span>失败 38%</span></div><b>62%</b></div>
+ <div class="risk">失败后果：<b>精魄损毁</b>，掉 1 级经验；不会掉境界，不删号。<br>稳妥做法：先存入仓库，升到 Lv.55（上限 1,800 年）再吸收，成功率 96%。</div>
+ <div class="pv"><div class="ic">影</div><div class="tx"><b>影噬爪</b> <span class="seal" style="font-size:9px;padding:1px 3px;background:#7d4fc7">第五魂技</span><br>化身墨影突袭，造成 320% 伤害，并使目标 3 秒内受伤 +15%。</div></div>
+ <div class="btns"><div class="btn">放弃</div><div class="btn">存入仓库</div><div class="btn main">吸收 62%</div></div>
+</div>
+<script>
+const W=new Actor({id:'dead',kind:'wolf',x:195,y:330,s:.62,z:5});W.el.querySelector('.body').style.filter='saturate(.2) brightness(.75)';W.el.classList.remove('s-idle');
+add('<div class="pillar" style="top:120px;height:200px"></div>');
+add('<div class="rise" style="--y0:300px;--y1:150px"></div>');
+add('<div class="rise" style="--y0:300px;--y1:150px;width:100px;height:100px;border-width:2px;opacity:.6;animation-delay:.3s"></div>');
+at(250,()=>burst({x:195,y:290,n:50,colors:['#8a55d8','#c8aef0','#ffffff'],spd:90,life:1.4,fall:-1}));
+</script>
+</div></body></html>

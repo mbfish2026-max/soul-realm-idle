@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=390"><link rel="stylesheet" href="live.css"><script src="live.js"></script></head><body><div class="app">
+<div class="stage"><div class="lay l-bg" style="background-position:center 30%"></div><div class="lay l-mist"></div><div class="lay l-fade"></div><canvas class="fx" width="780" height="1056"></canvas></div>
+<div class="bossbar paper">
+ <div class="t"><b>太古朱焰兽 <span class="seal" style="font-size:10px;padding:2px 4px;vertical-align:2px">十万年</span></b><span id="pct">70% · 140万/200万</span></div>
+ <div class="bhp"><div class="trail" id="tr" style="width:70%"></div><div class="cur" id="cu" style="width:70%"></div><div class="mk" style="left:66%"></div><div class="mk" style="left:33%"></div></div>
+ <div class="phase"><span class="on"><i class="seal">壹</i>一阶段 · 百焰</span><span class="off" id="ph2"><i class="seal">贰</i>二阶段 · 焚天</span><span class="off"><i class="seal">叁</i>三阶段 · 涅槃</span></div>
+</div>
+<div class="panel">
+ <script>document.write(skillBar())</script>
+ <div class="log paper"><p>太古朱焰兽 进入战斗</p><p class="mute">提示：66% / 33% 处会切换阶段</p><span class="seal stamp">渊主</span></div>
+</div>
+<script>
+drawRings(150,505,6,.62);
+new Actor({id:'boss',kind:'boss',name:'太古朱焰兽',x:200,y:440,s:.44,state:'move',z:20});
+ACT.boss.foe=1;ACT.boss.hpv=70;
+new Actor({id:'fox',kind:'fox',x:236,y:508,s:.3,lx:30,ly:-80,z:60});
+new Actor({id:'hero',kind:'hero',x:150,y:505,s:.27,lx:24,ly:-70,z:55});
+TARGET='boss';window.CALLY=null;
+ACT.boss.setHp=v=>{};
+function bossPhase(){castSkill(3);
+ at(480,()=>{cu.style.width='64%';tr.style.width='64%';pct.textContent='64% · 128万/200万'});
+ at(650,()=>{const st=document.querySelector('.stage');st.classList.add('shake');
+   add('<div class="edge"></div>');ph2.classList.remove('off');ph2.classList.add('on');ph2.style.color='#b5302a';
+   const b=ACT.boss.c();add(`<div class="redring" style="left:${b.x}px;--y0:${b.y}px;--y1:${b.y+150}px;left:318px"></div>`);
+   burst({x:b.x,y:b.y,n:60,colors:['#b5302a','#e0584e','#1d1b1f'],spd:170,life:1.1});
+   log('<b class="zhu">太古朱焰兽 进入第二阶段 · 焚天</b>')});
+ at(900,()=>{add('<div class="warn">⚠ 朱焰焚天 · 3 秒后全屏灼烧</div>');
+   const b=ACT.boss.c();add(`<div class="droptag" style="left:318px;top:${b.y+180}px">十万年魂环<small>击败必掉 · 赤色精魄</small></div>`)})}
+</script>
+</div></body></html>
