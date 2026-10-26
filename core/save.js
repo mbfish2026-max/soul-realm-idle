@@ -11,5 +11,5 @@
     markDirty:function(){dirty=true;},tick:function(dt){elapsed+=dt;if(dirty&&elapsed>=30000)api.save();},
     cloud:{push:function(){return Promise.reject(new Error('not configured'));},pull:function(){return Promise.reject(new Error('not configured'));}}
   };
-  ['battle:wave_clear','battle:hero_down','ring:absorb_result','pet:changed','hero:changed','offline:reward'].forEach(function(n){SR.bus.on(n,function(){api.markDirty();api.save();});});
+  ['battle:wave_clear','battle:hero_down','ring:absorb_result','pet:changed','hero:changed','offline:reward'].forEach(function(n){SR.bus.on(n,function(){api.markDirty();if(!(SR.offline&&SR.offline.simulating))api.save();});});
 })(typeof window!=='undefined'?window:globalThis);

@@ -108,3 +108,12 @@
 - `DATA.petSkillPools[speciesId]` 四技能：talent/active/bond/evolved；段位、品阶、蜕变前置分别读取 unlockSeg/unlockGrade/evolutionCount。`pet.skillPriority` 与 `hero.skillBuild.priority` 保存自动释放顺序；`skill:order {uid?,id}` 移至首位。
 - `DATA.fusionSkills` 六职业×五契兽定位30项，按 classId/role/bond/cd/cost 触发。`battle:skill` 追加 `fxKey`；`battle:fusion` 追加 `fxKey,fx:{duration,bursts}`，stage按键播放一次性效果。
 - 新事件：`class:choose {id}`、`skill:learn/equip {id}`、`skill:reset {}`、`skill:branch {index,branch}`、`ring:auto {}`；均在成功后标脏并通知 hero:changed。存档外层仍为v2，技能子结构独立迁移。
+
+## AUTO 自动战斗（追加）
+- 外层仍为 v2；旧档加载时补全 `state.auto` 默认值；一次迁移旧 `hero.autoRing.enabled` 至 absorb，以 `autoMigrated:true` 标记。旧开关事件委托新策略。
+- `auto={enabled:true,priority:[],healThreshold:0.3,reserveBossFusion:false,advance:true,challengeBoss:true,absorb:false,absorbRate:0.9,fitOnly:true,sell:false,sellQuality:1,pending:[]}`。priority 为英雄魂技 id 顺序；healThreshold/absorbRate 为 [0,1] 比例；sellQuality 为装备质量下界，仅出售 quality 严格小于阈值的未锁定装备；pending 为待玩家选择精魄 uid 队列，物品保存在仓库。契兽沿用各自 skillPriority。
+- `SR.auto.config/update/pick/ready/canAbsorb/shouldSell/receive` 为统一策略；仅填开放空槽，年限及魂技类型合法，成功率达到阈值，fitOnly 开启另需适配倍率≥1；替换已有魂环始终走玩家确认。自动吸收关闭时正常收纳，不主动弹窗。
+- `SR.battle.setAuto(bool)/cast(skillId)/fusion()`；关闭自动仍普通攻击与冷却/魂力恢复，主动技由玩家点击；被动技持续生效。治疗/护盾在低血阈值下优先；背包 `mat` 可携带 `healPercent:(0,1]` 作为消耗治疗物，锁定不使用。当前掉落无此药物，保命主要依靠治疗/护盾魂技。
+- `auto:changed {}` 通知状态与策略更新。UI 自动策略弹窗点空白关闭；待吸收队列仅战斗页无弹窗且前台时取出，不因切页或战斗刷新抢焦点。
+- 正式入口离线使用相同 battle/loot/auto 规则，保留12小时上限、70%有效时长；旧纯核心调用无 auto 模块时兼容原收益公式。`offline.simulating` 阻止表现、弹窗、音频及逐事件落盘；最终 `offline:reward` 一次落盘。离线手动模式仅普通攻击和被动技，无主动技能假定。
+- `idle.visibility(hidden,now?)` 在隐藏时结清最后一段前台时间并保存，恢复时从隐藏游标补算一次；后台计时器不结算；pagehide 不覆盖隐藏期间游标。
