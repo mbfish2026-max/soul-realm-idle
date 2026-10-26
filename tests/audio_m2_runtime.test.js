@@ -16,6 +16,13 @@ vm.createContext(global);['core/bus.js','audio/m2/score.js','audio/m2/audio.js']
  ['skill_wind','skill_fire','skill_earth','skill_moon','pet_attack','boss_warning','absorb_success','absorb_fail','level_up','drop_white','drop_yellow','drop_purple','drop_black','drop_red','ui_click'].forEach(function(id){contexts[0].currentTime+=1;assert.strictEqual(a.play(id),true);assert.strictEqual(a.play(id),false);});assert.strictEqual(a.play('unknown'),false);
  global.SR.DATA={skills:{moon:{vein:'moon'}}};global.SR.save={state:{hero:{level:1}}};b.emit('save:loaded',{state:global.SR.save.state});global.SR.save.state.hero.level=2;contexts[0].currentTime+=1;b.emit('hero:changed',{});
  b.emit('battle:skill',{caster:{side:'pet'},skillId:'moon'});b.emit('ring:absorb_result',{ok:true});b.emit('loot:drop',{item:{color:'red'}});
+ global.SR.offline={claiming:true,simulating:true};b.emit('offline:status',{claiming:true});
+ var before=starts.length,scene=a.getScene();assert.strictEqual(intervals.size,0);
+ b.emit('battle:wave_start',{enemies:[{isBoss:true}]});b.emit('battle:kill',{isBoss:true});b.emit('battle:hero_down',{});
+ b.emit('battle:attack',{src:{side:'hero'}});b.emit('battle:skill',{caster:{side:'pet'},skillId:'moon'});b.emit('loot:drop',{item:{color:'red'}});
+ assert.strictEqual(starts.length,before);assert.strictEqual(a.getScene(),scene);assert.strictEqual(a.play('fusion'),false);
+ global.SR.offline.claiming=false;global.SR.offline.simulating=false;global.SR.battle={snapshot:function(){return {enemies:[{isBoss:true}]};}};b.emit('offline:status',{claiming:false});
+ assert.strictEqual(a.getScene(),'boss');assert.strictEqual(intervals.size,1);contexts[0].currentTime+=1;assert.strictEqual(a.play('attack'),true);a.setScene('field');
  a.setSettings({master:9,music:-1,sfx:NaN,muted:true});assert.strictEqual(a.getSettings().master,1);assert.strictEqual(a.getSettings().music,0);assert.strictEqual(a.getSettings().sfx,0.8);assert(JSON.parse(stored.sr_audio2_v1).muted);assert.strictEqual(intervals.size,0);
  a.setSettings({music:0.5,muted:false});assert.strictEqual(intervals.size,1);
  document.hidden=true;document.fire('visibilitychange');assert.strictEqual(intervals.size,0);assert.strictEqual(contexts[0].state,'suspended');assert.strictEqual(a.play('ui_click'),false);

@@ -4,6 +4,7 @@ var scene='town',voices=[],layers=[],listeners=[],dom=[],last=Object.create(null
 var config={master:0.7,music:0.55,sfx:0.8,muted:false},KEY='sr_audio2_v1';
 function settings(p){p=p||{};['master','music','sfx'].forEach(function(k){if(typeof p[k]==='number'&&Number.isFinite(p[k]))config[k]=Math.max(0,Math.min(1,p[k]));});if(typeof p.muted==='boolean')config.muted=p.muted;return api.getSettings();}
 try{settings(JSON.parse(g.localStorage.getItem(KEY)));}catch(ignore){}
+function replay(){return SR.offline&&(SR.offline.simulating||SR.offline.claiming);}
 function hidden(){return !!(g.document&&g.document.hidden);}
 function ramp(param,value,time){param.cancelScheduledValues(ctx.currentTime);param.setValueAtTime(param.value,ctx.currentTime);param.linearRampToValueAtTime(value,ctx.currentTime+(time||0.04));}
 function volumes(){if(!ctx)return;ramp(master.gain,config.muted?0:config.master);ramp(music.gain,config.music);ramp(fx.gain,config.sfx);}
@@ -27,7 +28,7 @@ function voice(freq,at,duration,instrument,gain,target){
 }
 function stopVoices(){voices.slice().forEach(function(v){v.nodes.forEach(function(n){if(n.stop)try{n.stop();}catch(ignore){}n.disconnect();});});voices=[];}
 function clearLayers(){layers.forEach(function(l){l.gain.disconnect();});layers=[];}
-function activeMusic(){return installed&&unlocked&&ctx&&ctx.state==='running'&&!hidden()&&!config.muted&&config.master>0&&config.music>0;}
+function activeMusic(){return installed&&unlocked&&ctx&&ctx.state==='running'&&!hidden()&&!replay()&&!config.muted&&config.master>0&&config.music>0;}
 function newLayer(){var gain=ctx.createGain(),now=ctx.currentTime;gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(1,now+0.8);gain.connect(music);layers.push({gain:gain,song:P.score(scene),start:now+0.03,cursor:0,end:Infinity});}
 function pump(){
  if(!activeMusic())return;
@@ -46,7 +47,7 @@ function unlock(){
 }
 var aliases={click:'ui_click',attack:'skill_wind',skill:'skill_wind',pet:'pet_attack',boss:'boss_warning',absorb:'absorb_success',upgrade:'level_up'};
 function play(id){
- id=aliases[id]||id;if(!installed||!unlocked||!ctx||ctx.state!=='running'||hidden()||config.muted||config.master===0||config.sfx===0)return false;
+ id=aliases[id]||id;if(replay()&&id!=='ui_click')return false;if(!installed||!unlocked||!ctx||ctx.state!=='running'||hidden()||config.muted||config.master===0||config.sfx===0)return false;
  var now=ctx.currentTime;if(last[id]!==undefined&&now-last[id]<0.09)return false;
  var tones={ui_click:[9],skill_wind:[5,8,10],skill_fire:[-3,0,4],skill_earth:[-8,-5,-3],skill_moon:[7,9,12],pet_attack:[2,5],boss_warning:[-5,-5,-5],absorb_success:[0,2,4,5,7],absorb_fail:[2,0,-3],level_up:[0,2,4,7,9],fusion:[0,4,7,10]};
  var notes=tones[id],drop=/^drop_(white|yellow|purple|black|red)$/.exec(id);
@@ -60,6 +61,7 @@ var api=SR.audio2={
  install:function(options){if(installed)return api;if(!SR.bus||!P)throw new Error('audio2 requires bus and score');options=options||{};
   if(options.legacy){if(typeof options.legacy.uninstall!=='function')throw new Error('legacy audio requires uninstall');options.legacy.uninstall();}
   installed=true;heroLevel(SR.save&&SR.save.state,true);
+  on('offline:status',function(p){if(p.claiming){stopTimer();stopVoices();clearLayers();}else {var snap=SR.battle&&SR.battle.snapshot();api.setScene(snap&&snap.enemies&&snap.enemies.some(function(e){return e.isBoss;})?'boss':'field');startTimer();}});
   on('sfx',function(p){if(p)play(p.id);});
   on('battle:wave_start',function(p){api.setScene((p.enemies||[]).some(function(e){return e.isBoss;})?'boss':'field');});
   on('battle:skill',function(p){if(p.caster&&p.caster.side==='enemy')return;skill(p);if(p.caster&&p.caster.side==='pet')play('pet_attack');});
@@ -79,7 +81,7 @@ var api=SR.audio2={
   return api;
  },
  unlock:unlock,play:play,
- setScene:function(next){if(P.scenes.indexOf(next)<0)return false;if(scene===next)return true;scene=next;if(activeMusic()){
+ setScene:function(next){if(replay())return false;if(P.scenes.indexOf(next)<0)return false;if(scene===next)return true;scene=next;if(activeMusic()){
   var now=ctx.currentTime;layers.forEach(function(l){ramp(l.gain.gain,0,0.8);l.end=Math.min(l.end,now+0.8);});newLayer();pump();}return true;},
  getScene:function(){return scene;},getSettings:function(){return {master:config.master,music:config.music,sfx:config.sfx,muted:config.muted};},
  setSettings:function(p){settings(p);try{g.localStorage.setItem(KEY,JSON.stringify(config));}catch(ignore){}volumes();if(!activeMusic()){stopTimer();clearLayers();}else startTimer();return api.getSettings();},

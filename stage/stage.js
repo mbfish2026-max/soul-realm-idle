@@ -1,6 +1,6 @@
 (function(g){
   'use strict';var SR=g.SR=g.SR||{};
-  var EVENTS=['battle:wave_start','battle:attack','battle:skill','battle:fusion','battle:hp','battle:kill','battle:hero_down','battle:boss_phase','loot:drop','battle:wave_clear','pet:changed'];
+  var EVENTS=['battle:wave_start','battle:attack','battle:skill','battle:fusion','battle:hp','battle:kill','battle:hero_down','battle:boss_phase','loot:drop','battle:wave_clear','pet:changed','hero:changed'];
   // Pure presentation plan: timestamps never mutate authoritative battle data.
   function commands(event,p){
     p=p||{};var op=function(at,type,data){return {at:at,type:type,data:data||p};};
@@ -15,7 +15,7 @@
       case 'battle:boss_phase':return [op(0,'phase')];
       case 'loot:drop':return [op(0,'loot')];
       case 'battle:wave_clear':return [op(1300,'win')];
-      case 'pet:changed':return [op(0,'pets')];
+      case 'hero:changed':case 'pet:changed':return [op(0,'pets')];
       default:return [];
     }
   }
@@ -40,7 +40,7 @@
     }
     function remove(id){if(actors[id]){actors[id].destroy();actors[id].el.remove();delete actors[id];}}
     add('hero','hero',50,92,125);
-    function pets(){Object.keys(actors).filter(function(id){return id.indexOf('pet:')===0;}).forEach(remove);var state=SR.save&&SR.save.state;((state&&state.team&&state.team.pets)||[]).slice(0,2).forEach(function(uid,i){var p=state.pets.find(function(p){return p.uid===uid;});add('pet:'+uid,'pet',i?76:23,94,85,null,p&&p.speciesId);});}
+    function pets(){Object.keys(actors).filter(function(id){return id.indexOf('pet:')===0;}).forEach(remove);var state=SR.save&&SR.save.state;((state&&state.team&&state.team.pets)||[]).slice(0,SR.pets.slots(state.hero)).forEach(function(uid,i){var p=state.pets.find(function(p){return p.uid===uid;});if(!p)return;add('pet:'+uid,'pet',[20,80,80][i],[94,94,73][i],75,SR.NAMES.species[p.speciesId]||SR.NAMES.pet,p.speciesId);var snap=SR.battle&&SR.battle.snapshot(),live=snap&&snap.pets.find(function(x){return x.uid===uid;});if(live&&actors['pet:'+uid].hp)actors['pet:'+uid].hp.style.width=Math.max(0,live.hp/live.hpMax*100)+'%';});}
     function petActors(){return Object.keys(actors).filter(function(k){return k.indexOf('pet:')===0;}).map(function(k){return actors[k];});}
     function actor(ref){if(!ref)return null;return actors[ref.side==='hero'?'hero':ref.side==='pet'?'pet:'+ref.uid:ref.uid];}
     function set(a,s){if(a)a.set(s);}
