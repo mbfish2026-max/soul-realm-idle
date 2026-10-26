@@ -27,3 +27,8 @@ N.species={fox:'灵狐',jadefox:'碧尾灵狐',moonfox:'映月灵狐',tiger:'烬
 N.bond='契心值';N.twin='双相';N.afterimage='残影';N.heroName='清微子';N.resonate='轮脉共振';
 })(typeof window!=='undefined'?window:globalThis);
 (function(g){g.SR.NAMES.behaviors={kills:'击败次数',battles:'清剿波次'};})(typeof window!=='undefined'?window:globalThis);
+/* G 灵骨与仓库命名，仅追加。 */
+(function(g){var N=g.SR.NAMES;N.gear={slots:{head:'头部',body:'躯干',larm:'左臂',rarm:'右臂',lleg:'左腿',rleg:'右腿',external:'外附灵骨'},qualities:['白品','黄品','紫品','黑品','红品'],sets:{bamboo:'青篁',ember:'烬霞',tide:'听潮',cliff:'叠嶂'},stats:{atk:'攻击',def:'防御',hp:'气血',spd:'速度'},affixes:{fierce:'锐意',steady:'坚守',vital:'生息',swift:'轻身',force:'破阵',guard:'凝壁',bloom:'长青',wind:'逐风'}};})(typeof window!=='undefined'?window:globalThis);
+
+/* G 装备 v2：十部位，八件套装，法器与玉佩为散件。 */
+(function(g){var N=g.SR.NAMES;N.gearSlotsV2={crown:'头冠',robe:'衣袍',belt:'腰带',boots:'靴履',bracer:'护腕',skirt:'下裳',necklace:'项链',ring:'戒指',weapon:'法器',jade:'玉佩'};N.gearLinksV2='八件齐备：武魂属性增幅5%，每枚魂环增幅0.5%，每只出战契兽增幅1%（最多三只），均作用于八件档属性。';})(typeof window!=='undefined'?window:globalThis);
