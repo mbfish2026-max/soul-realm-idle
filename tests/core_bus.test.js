@@ -1,0 +1,2 @@
+const assert=require('assert');require('../core/bus');require('../core/rng');
+let n=0;const f=()=>n++;SR.bus.on('x',f);SR.bus.once('x',()=>{n+=10;SR.bus.emit('nested');});SR.bus.emit('x');SR.bus.emit('x');assert.equal(n,12);SR.bus.off('x',f);SR.bus.emit('x');assert.equal(n,12);SR.bus.once('x',f);SR.bus.off('x',f);SR.bus.emit('x');assert.equal(n,12);SR.rng.seed(3);const a=SR.rng();SR.rng.seed(3);assert.equal(a,SR.rng());console.log('core_bus OK');
