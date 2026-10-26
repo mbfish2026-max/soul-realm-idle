@@ -73,3 +73,6 @@ N.featRanks=['初识','渐入','精进'];
 (function(g){g.SR.NAMES.wireMenu='修行手札';g.SR.NAMES.wireMenuShort='手札';})(typeof window!=='undefined'?window:globalThis);
 /* BAG 网格背包，仅追加。 */
 (function(g){g.SR.NAMES.bagGrid={title:'背包',store:'仓库',gear:'装备',mat:'材料',all:'全部',empty:'空格',locked:'锁定',selected:'已选',full:'背包已满 · 新掉落转入仓库',storeFull:'仓库接近上限 · 战斗将暂停',sort:'排序',quality:'品质',level:'等级／年限',type:'类型',newest:'新获得',tidy:'一键整理',multi:'多选',done:'完成',select:'全选可用',sell:'出售',dismantle:'分解',confirm:'确认',cancel:'取消',unlock:'解锁',detail:'物品详情',absorb:'吸收',hatch:'孵化',equip:'穿戴',advanced:'装备详情',put:'存入仓库',take:'取回背包',used:'已用',hint:'点按查看 · 长按多选',none:'当前筛选没有物品',year:'年',lv:'级',result:'处理完成',cannot:'条件不足，请检查等级、锁定或容量',pending:'待吸收',overflow:'满包掉落转仓库；自动出售遵循自动策略。'};})(typeof window!=='undefined'?window:globalThis);
+
+/* MAP 世界地图：只追加。 */
+(function(g){var N=g.SR.NAMES;N.worldMap={title:'山河行卷',regions:['苇风汀','碧篁渡','霜汀泽','雪岫关','烬砂麓','叠焰巅'],nodes:['初径','听泉','石阶','幽涧','岚台','古渡','险隘','镇关'],normal:'行径',elite:'险隘',boss:'渊主',cleared:'已通关',locked:'未解锁',current:'当前位置',power:'推荐战力',waves:'波',drops:'掉落预览',ring:'魂环',gear:'装备',egg:'兽卵',mat:'材料',reward:'区域解锁奖励',frontier:'推进到最前沿',farm:'在此挂机',close:'收起',progress:'区域进度',years:'年',crystal:'灵晶',petSoul:'兽魂',complete:'行卷已通',colors:['白','黄','紫','黑','红']};})(typeof window!=='undefined'?window:globalThis);

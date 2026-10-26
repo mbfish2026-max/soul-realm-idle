@@ -1,0 +1,12 @@
+{
+  "mode": "built-in image_gen",
+  "sources": [
+    "exec-38820f0b-5fbf-475c-8182-2edcde8e0918.png",
+    "exec-0d57c66c-b3ee-4d94-b2e8-305e20f19d14.png"
+  ],
+  "postprocess": "Pillow crop, thumbnail, WebP compression only; no drawing",
+  "prompts": [
+    "Six equal horizontal Chinese ink watercolor landscape bands: reed woodland, bamboo river, frosty marsh, snow mountain, volcanic foothills, ember ridge; winding paths, eight open node places each; ivory jade charcoal antique gold; no text or franchises.",
+    "Eight transparent watercolor icons in 4 by 2 grid: normal trail stone, elite gate, boss shrine, completed seal, locked gate, current compass, reward chest, blank paper panel. Ivory jade charcoal antique gold; no labels."
+  ]
+}

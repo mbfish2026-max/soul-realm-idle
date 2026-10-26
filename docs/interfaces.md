@@ -173,3 +173,10 @@
 - `bag.category(item)` → gear/essence/egg/mat；`quality(item)` → 0..4；`query(where,filter,sort)` 返回排序后的副本，filter all/gear/essence/egg/mat，sort quality/level/type/new；旧档新获得使用 item-N 的数值序号，无序号时以数组顺序回退。`sort(where,sort?)` 原地整理并标脏。
 - `bag.selectable(where,ids?)` 排除锁定；`batch(ids,'sell'|'dismantle',where?)` 返回 `{count,crystal}`，再次检查锁定与物品存在性，分解仅装备且沿用 gear.dismantle，出售沿用 bag.value（与自动出售一致）。成功发 `bag:changed {count,crystal}`。
 - UI 自行加载 ui/bag.css，不需入口修改。`bag:grid` 是内部交互事件；多选/筛选/排序为临时 UI 状态，不写存档。删除需确认，确认执行时重新校验，避免自动吸收等异步变化误删。
+## MAP 山河行卷（追加）
+- content.install 后调用 `SR.buildWorldMap()`：派生 `DATA.worldRegions` 六区×八节点，不覆盖原十五层战斗数据。须在 progress/UI 使用前调用。
+- `SR.progress.migrate(state)` 补齐 `world:{v:1,cleared:0..48,selected:'node-N',wave:1..10,rewards:{}}`，保持外层 v2。cleared 是连续已通节点数；下标等于 cleared 为前沿。旧 bestFloor 表示已解锁层，因此只承认其之前的层已通，避免误授首领通关；历史已解锁区不补发奖励。
+- `progress.node(id)`、`frontier(state?)`、`select(id,state?)`、`advance(state?)`、`encounter(state?)`、`clearWave(state?,autoConfig?)` 为无 DOM 接口。select 仅允许已通或前沿；encounter 返回 `{node,map,table,wave,boss,eggPool}`，怪物 kind、数值、年限及掉落池来自原表。clearWave **必须替换**旧战斗推进而非在 wave_clear 后再调用；返回 `{cleared,first,nodeId,reward,selected}` 或 `{blocked:true}`。区域每八节点后奖励一次，最后区域视为终局奖励。
+- 普通节点五波；每区末节点十波且最后一波首领。advance=false 原地重刷；challengeBoss=false 在首领前循环，显式首领结算亦拒绝。秘境不调用此接口。
+- UI：加载 ui/worldmap.css 与 ui/worldmap.js，`SR.worldmap.mount(el)` / `render()` / `open(nodeId)` / `unmount()`。卸载清理弹层。`world:select_request {nodeId}` 请求安全切换；`world:changed {}` 在成功选择或结算后通知刷新。UI 不直接重启战斗或落盘。
+- `progress.install()` 幂等监听 save:loaded；由集成路在 idle.start 前安装。存档主模块保留未知 world 字段。离线真实 battle 模拟使用相同 encounter/clearWave，禁止监听 battle:wave_clear 二次推进。
