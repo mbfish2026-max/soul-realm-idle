@@ -78,3 +78,10 @@
 - 新请求事件：`hero:awaken_request {soulId}`、`ring:strip_request {ringIndex}`、`pet:hatch_request {eggUid}`、`pet:feed_request` / `pet:deploy_request` / `pet:ringify_request {petUid}`、`pet:evolve_request {petUid,to}`。
 - UI 加载：`ui/tabs.js` → `hero.js` / `pets.js` / `bag.js` / `awaken.js` / `absorb.js`，样式 `ui/ui.css`。`SR.ui.mount(el)`、`show('battle'|'hero'|'pets'|'bag')`、`awaken()`、`absorb(essenceUid)`。battle 是舞台接入占位，集成方可覆盖 `SR.ui.battle(state)`，返回内容 HTML。
 - 预览专用 `ui/preview_stub.js` 只供 `ui/preview.html` 使用，正式入口不要加载。
+
+## 变更提案-f-rift
+- 新增存档 `state.rift={floor:1,best:0,clears:0,attempts:0}`、`state.achieve={counts:{},claimed:{}}`、`state.daily={day:'YYYY-MM-DD',counts:{},claimed:{}}`。模块 install/load 时补齐；沿用 save 持久化未知字段，无需 A 修改迁移。
+- 新事件 `rift:clear {floor,years,goldLines,crystal}`、`rift:result {ok,floor,rounds}`、`achieve:claimed {id,reward}`、`daily:claimed {id,reward}`。秘境独立回合结算，不伪造 battle 事件，不改变主线地图。每层必得精魄，满背包入仓库。
+- `SR.rift/achieve/daily.install({entry?:HTMLElement})` 幂等订阅，entry 可追加入口按钮；各自 `.open()` 打开面板，`.render()` 返回面板内容，`.claim(id)` 用于成就/日常。`SR.rift.challenge()` 挑战当前层，`.select(floor)` 重刷已通层，`.goldLines(years)` 计算金纹。
+- 加载 names → bus/save/bag/loot/stats/数据 → features/rift/shared.js → features/rift/rift.js → features/achieve/achieve.js → features/daily/daily.js；样式 features/rift/panels.css。集成路在 idle.start() 前 install 三模块；在功能入口挂三个按钮或调用 open，无需更改原四 Tab。
+- 需 B 配合：魂环及精魄界面读取 `SR.rift.goldLines(years)` 展示金纹；金纹由年限派生，吸收/剥离无需保存额外字段。十万年零纹，二十万年一纹，一百万年九纹。

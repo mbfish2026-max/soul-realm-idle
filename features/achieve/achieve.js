@@ -1,0 +1,9 @@
+(function(g){'use strict';var SR=g.SR=g.SR||{},F=SR.featurePanels,installed=false;
+var goals={kills:[10,100,1000],bosses:[1,10,100],waves:[5,50,500],skills:[10,100,1000],fusions:[1,10,100],rings:[1,5,9],drops:[10,100,1000],rift:[1,10,100],damage:[1000,100000,10000000],offline:[60,3600,43200]},list=[];
+Object.keys(goals).forEach(function(key){goals[key].forEach(function(goal,i){list.push({id:key+'_'+i,key:key,goal:goal,rank:i,reward:{crystal:100*(i+1),pactCharm:i+1}});});});
+function state(){var s=SR.save.state;if(!s.achieve)s.achieve={counts:{},claimed:{}};s.achieve.counts=s.achieve.counts||{};s.achieve.claimed=s.achieve.claimed||{};return s.achieve;}
+var api=SR.achieve={definitions:list,
+claim:function(id){var a=state(),d=list.find(function(x){return x.id===id;});if(!d||a.claimed[id]||(a.counts[d.key]||0)<d.goal)return false;a.claimed[id]=true;F.reward(d.reward);SR.bus.emit('achieve:claimed',{id:id,reward:Object.assign({},d.reward)});return true;},
+render:function(){var a=state(),N=SR.NAMES;return '<header><small>行过山海 · 留下印记</small><h2>'+N.achieve+'</h2></header><p>已领取 '+Object.keys(a.claimed).filter(function(k){return a.claimed[k];}).length+' / 30</p>'+list.map(function(d){var count=Math.min(d.goal,a.counts[d.key]||0),done=a.claimed[d.id];return '<article><h3>'+N.featMetrics[d.key]+' · '+N.featRanks[d.rank]+'</h3><p>'+count+' / '+d.goal+'</p><progress max="'+d.goal+'" value="'+count+'"></progress><p>'+F.rewardText(d.reward)+'</p><button data-action="claim" data-id="'+d.id+'" '+(done||count<d.goal?'disabled':'')+'>'+(done?'已领取':count>=d.goal?'领取奖励':'继续修行')+'</button></article>';}).join('');},
+open:function(){F.open(api,'achieve');},install:function(o){state();F.entry(api,'achieve',o);if(installed)return api;installed=true;F.listen(function(k,n){var a=state();a.counts[k]=Math.min(Number.MAX_SAFE_INTEGER,(a.counts[k]||0)+n);F.changed();});SR.bus.on('save:loaded',state);return api;}};
+})(typeof window!=='undefined'?window:globalThis);

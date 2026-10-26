@@ -1,0 +1,12 @@
+const assert=require('assert');
+require('../names.js');require('../core/bus.js');require('../core/rng.js');require('../core/save.js');require('../core/bag.js');require('../data/skills.js');require('../core/loot.js');
+require('../features/rift/shared.js');require('../features/rift/rift.js');
+const S=globalThis.SR;S.rift.install();S.stats={hero:()=>({hp:10000,atk:10000,def:10000}),pet:()=>({atk:100})};
+assert.strictEqual(S.rift.challenge(),false);S.save.state.flags.awakened=true;
+[[-1,0],[99999,0],[100000,0],[199999,0],[200000,1],[999999,8],[1000000,9],[2000000,9]].forEach(([y,n])=>assert.strictEqual(S.rift.goldLines(y),n));
+assert(S.rift.scaling(100000).hp>S.rift.scaling(99999).hp);assert(Number.isFinite(S.rift.scaling(Number.MAX_SAFE_INTEGER).hp));
+assert.strictEqual(S.rift.select(2),false);assert.strictEqual(S.rift.select(1.1),false);
+let clears=0;S.bus.on('rift:clear',()=>clears++);let result=S.rift.challenge();assert(result.ok);assert.strictEqual(clears,1);assert.strictEqual(S.save.state.rift.best,1);assert.strictEqual(S.save.state.bag[0].years,100000);assert.strictEqual(S.save.state.cur.crystal,50);
+S.save.state.bagCap=0;S.rift.challenge();assert.strictEqual(S.save.state.store.length,1);assert.strictEqual(S.save.state.cur.crystal,150);assert(S.rift.select(1));
+S.stats.hero=()=>({hp:1,atk:1,def:0});const before=S.save.state.cur.crystal;assert.strictEqual(S.rift.challenge().ok,false);assert.strictEqual(S.save.state.cur.crystal,before);assert.strictEqual(S.save.state.rift.floor,1);
+S.save.save();S.save.load();assert.strictEqual(S.save.state.rift.best,2);assert(S.rift.render().includes(S.NAMES.rift));console.log('feat_rift passed');

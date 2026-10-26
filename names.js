@@ -27,3 +27,8 @@ N.species={fox:'灵狐',jadefox:'碧尾灵狐',moonfox:'映月灵狐',tiger:'烬
 N.bond='契心值';N.twin='双相';N.afterimage='残影';N.heroName='清微子';N.resonate='轮脉共振';
 })(typeof window!=='undefined'?window:globalThis);
 (function(g){g.SR.NAMES.behaviors={kills:'击败次数',battles:'清剿波次'};})(typeof window!=='undefined'?window:globalThis);
+/* F 路：秘境、成就与日常，仅追加。 */
+(function(g){var N=g.SR.NAMES;N.rift='渊层秘境';N.achieve='成就';N.daily='日常';N.pactCharm='契符';N.goldLines='金纹';N.riftLord='渊纹守';
+N.featMetrics={kills:'击败渊兽',bosses:'击败渊主',waves:'清剿波次',skills:'施展轮技',fusions:'触发共鸣技',rings:'成功吸收魂环',drops:'拾取掉落',rift:'通关秘境',damage:'累计伤害',offline:'离线修行秒数'};
+N.featRanks=['初识','渐入','精进'];
+})(typeof window!=='undefined'?window:globalThis);
