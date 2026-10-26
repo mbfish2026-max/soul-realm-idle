@@ -1,0 +1,107 @@
+{
+  "locked": {
+    "file": "assets/map/locked.webp",
+    "w": 121,
+    "h": 192,
+    "bytes": 10552,
+    "source": "built-in image_gen"
+  },
+  "region-1": {
+    "file": "assets/map/region-1.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 56940,
+    "source": "built-in image_gen"
+  },
+  "reward": {
+    "file": "assets/map/reward.webp",
+    "w": 120,
+    "h": 192,
+    "bytes": 11552,
+    "source": "built-in image_gen"
+  },
+  "region-2": {
+    "file": "assets/map/region-2.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 48102,
+    "source": "built-in image_gen"
+  },
+  "region-5": {
+    "file": "assets/map/region-5.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 48192,
+    "source": "built-in image_gen"
+  },
+  "panel": {
+    "file": "assets/map/panel.webp",
+    "w": 161,
+    "h": 256,
+    "bytes": 11480,
+    "source": "built-in image_gen"
+  },
+  "normal": {
+    "file": "assets/map/normal.webp",
+    "w": 140,
+    "h": 192,
+    "bytes": 9384,
+    "source": "built-in image_gen"
+  },
+  "current": {
+    "file": "assets/map/current.webp",
+    "w": 120,
+    "h": 192,
+    "bytes": 9670,
+    "source": "built-in image_gen"
+  },
+  "region-0": {
+    "file": "assets/map/region-0.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 49690,
+    "source": "built-in image_gen"
+  },
+  "boss": {
+    "file": "assets/map/boss.webp",
+    "w": 140,
+    "h": 192,
+    "bytes": 17050,
+    "source": "built-in image_gen"
+  },
+  "region-4": {
+    "file": "assets/map/region-4.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 51852,
+    "source": "built-in image_gen"
+  },
+  "region-3": {
+    "file": "assets/map/region-3.webp",
+    "w": 780,
+    "h": 195,
+    "bytes": 48356,
+    "source": "built-in image_gen"
+  },
+  "cleared": {
+    "file": "assets/map/cleared.webp",
+    "w": 140,
+    "h": 192,
+    "bytes": 13830,
+    "source": "built-in image_gen"
+  },
+  "elite": {
+    "file": "assets/map/elite.webp",
+    "w": 140,
+    "h": 192,
+    "bytes": 15260,
+    "source": "built-in image_gen"
+  },
+  "paper": {
+    "file": "assets/map/paper.webp",
+    "w": 22,
+    "h": 31,
+    "bytes": 178,
+    "source": "built-in image_gen panel center crop"
+  }
+}
