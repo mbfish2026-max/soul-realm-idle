@@ -27,7 +27,7 @@
             pose.style.backgroundImage='url("'+sprite.file+'")';
             pose.style.backgroundSize=(sprite.frames*100)+'% 100%';
             pose.style.setProperty('--frames',sprite.frames);
-            var duration=sprite.frames/sprite.fps*1000;pose.style.animation='sr-atlas-'+sprite.frames+' '+duration+'ms steps(1,end) '+(next==='idle'?'infinite':'1 forwards');if(next!=='idle')dur[next]=duration;
+            var duration=sprite.frames/sprite.fps*1000;pose.style.animation=next==='idle'?'none':'sr-atlas-'+sprite.frames+' '+duration+'ms steps(1,end) '+'1 forwards';if(next!=='idle')dur[next]=duration;
           }else{pose.classList.remove('sr-atlas');var img=document.createElement('img');img.src=sprite.file;img.alt='';pose.appendChild(img);}
         }
       }
