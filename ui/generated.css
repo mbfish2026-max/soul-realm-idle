@@ -37,5 +37,11 @@ input[type=range]{appearance:none;-webkit-appearance:none;height:9px;background:
 #manual-skills>small{display:none}
 .manual-status{display:flex;justify-content:space-between;font-size:10px;min-height:14px}
 .onboarding-resume{flex-shrink:0}
-.save-warning{position:fixed;z-index:100;left:50%;transform:translateX(-50%);top:0;width:min(100%,440px);padding:8px;background:#fff4d9;color:#8a3025;font-size:13px;box-sizing:border-box}
+.save-warning{position:fixed;z-index:100;left:50%;transform:translateX(-50%);top:0;width:min(100%,440px);padding:8px;background:url('../assets/ui2/ui2_panel.webp') center/100% 100%;color:#8a3025;font-size:13px;box-sizing:border-box}
 .save-warning button{font-size:12px;margin:3px;padding:4px 8px}
+
+.actions>button{flex:1 1 0;min-width:0;padding:4px 1px}
+.actions .action-art{max-width:100%;height:24px}
+.capacity-warning{position:fixed;z-index:19;left:50%;transform:translateX(-50%);bottom:72px;width:calc(100% - 24px);max-width:416px;font-size:12px;padding:6px}
+.capacity-warning p{margin:2px 0}
+.capacity-warning button{font-size:12px}
