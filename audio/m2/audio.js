@@ -92,9 +92,9 @@ api.mountSettings=function(el){
 };
 api.openSettings=function(){
  if(!g.document)return;if(closing)closing();var d=g.document,previous=d.activeElement,overlay=d.createElement('div'),box=d.createElement('section'),close=d.createElement('button'),title=d.createElement('h2'),content=d.createElement('div');
- overlay.style.cssText='position:fixed;inset:0;z-index:10000;background:#152c2455;display:grid;place-items:center;padding:20px;';
- box.style.cssText='box-sizing:border-box;width:100%;max-width:340px;background:#f6f3e8;padding:24px;border-radius:18px;max-height:85vh;overflow:auto;';
- box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');box.setAttribute('aria-label','声音设置');title.textContent='声音设置';title.style.cssText='margin:0 0 24px;color:#304f44;font-size:21px;';close.textContent='完成';close.style.cssText='margin-top:24px;width:100%;min-height:44px;border:0;border-radius:8px;background:#527b65;color:white;font-size:16px;';
+ overlay.className='sr-overlay';overlay.style.zIndex='10000';
+ box.className='sr-dialog';
+ box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');box.setAttribute('aria-label','声音设置');title.textContent='声音设置';title.style.cssText='margin:0 0 24px;color:#304f44;font-size:21px;';close.textContent='完成';close.style.cssText='margin-top:24px;width:100%;min-height:44px;font-size:16px;';
  api.mountSettings(content);box.appendChild(title);box.appendChild(content);box.appendChild(close);overlay.appendChild(box);d.body.appendChild(overlay);
  function finish(){overlay.remove();d.removeEventListener('keydown',key);closing=null;if(previous&&previous.focus)previous.focus();}
  function key(e){if(e.key==='Escape')finish();if(e.key==='Tab'){var all=box.querySelectorAll('input,button'),first=all[0],last=all[all.length-1];if(e.shiftKey&&d.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&d.activeElement===last){e.preventDefault();first.focus();}}}

@@ -1,4 +1,4 @@
-(function(g){var SR=g.SR=g.SR||{};SR.ASSETS={
+(function(g){var SR=g.SR=g.SR||{};SR.ASSETS=Object.assign(SR.ASSETS||{},{
   "bg_ember": {
     "file": "assets/background/bg_ember.webp",
     "w": 780,
@@ -251,4 +251,4 @@
     "h": 632,
     "use": "ui"
   }
-};})(typeof window!=='undefined'?window:globalThis);
+});})(typeof window!=='undefined'?window:globalThis);

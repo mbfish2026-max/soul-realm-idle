@@ -23,11 +23,11 @@
           if(typeof sprite==='string')sprite={file:sprite};
           if(sprite.frames>1){
             pose.classList.add('sr-atlas');
-            pose.style.width=(sprite.w||120)+'px';pose.style.height=(sprite.h||160)+'px';
+            var width=parseFloat(el.style.getPropertyValue('--actor-width'))||120;pose.style.width=width+'px';pose.style.height=(width*sprite.fh/sprite.fw)+'px';
             pose.style.backgroundImage='url("'+sprite.file+'")';
             pose.style.backgroundSize=(sprite.frames*100)+'% 100%';
             pose.style.setProperty('--frames',sprite.frames);
-            pose.style.animation='sr-frames '+(dur[next]||3000)+'ms steps('+(sprite.frames-1)+') 1 forwards';
+            var duration=sprite.frames/sprite.fps*1000;pose.style.animation='sr-frames '+duration+'ms steps('+(sprite.frames-1)+') '+(next==='idle'?'infinite':'1 forwards');if(next!=='idle')dur[next]=duration;
           }else{pose.classList.remove('sr-atlas');var img=document.createElement('img');img.src=sprite.file;img.alt='';pose.appendChild(img);}
         }
       }
