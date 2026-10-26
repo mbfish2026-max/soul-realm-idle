@@ -304,5 +304,50 @@
     "fw": 460,
     "fh": 330,
     "fps": 6
+  },
+  {
+    "key": "boss_cinder_stag_idle",
+    "frames": 2,
+    "cols": 2,
+    "source": "boss_cinder_stag_idle.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 4
+  },
+  {
+    "key": "boss_cinder_stag_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "boss_cinder_stag_attack.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 8
+  },
+  {
+    "key": "boss_cinder_stag_skill",
+    "frames": 3,
+    "cols": 2,
+    "source": "boss_cinder_stag_skill.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 7
+  },
+  {
+    "key": "boss_cinder_stag_phase",
+    "frames": 2,
+    "cols": 1,
+    "source": "boss_cinder_stag_phase.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5
+  },
+  {
+    "key": "boss_cinder_stag_die",
+    "frames": 3,
+    "cols": 2,
+    "source": "boss_cinder_stag_die.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "key": "hero_idle",
+    "frames": 4,
+    "cols": 4,
+    "prompt": "Identity-preserve. Four-column idle breathing sheet referencing assets/hero/hero_idle.webp. Same white bamboo-robed jade-belt black-haired original sword cultivator. Neutral, inhale sleeves lifting, exhale hair settling, return neutral. Complete full-body figures facing right. Clean Chinese ink watercolor jade ivory charcoal, genuine transparency, no ground scenery shadows text grid labels."
+  },
+  {
     "key": "hero_move",
     "frames": 6,
     "prompt": "Use case identity-preserve. Production game animation contact sheet, exactly 6 columns ONE row of 6 distinct consecutive full body keyframes. SAME original male sword cultivator from reference, exact ivory bamboo-patterned hanfu jade belt ornaments black half-tied hair jade clasp and slender sword. Facing right. Action sequence walking cycle: left foot contact, weight shifts, passing feet, right contact, weight shifts, passing feet. Clean fresh Chinese ink watercolor, muted sage jade ivory charcoal fine ink outlines. Transparent background. Equal width cells, consistent camera scale and foot baseline, 15% transparent margin around each complete figure including sword and hair. No overlapping adjacent frames, no cropping, no text labels borders scenery shadows."
@@ -118,5 +124,51 @@
     "frames": 3,
     "cols": 3,
     "prompt": "Identity-preserve production animation contact sheet exactly 3 distinct full-body poses in 3 columns one row. Same reference original charcoal stone armored stag boss massive branching coral red antlers flowing ivory mane and tail ember cracks exact design. Facing LEFT. Action sequence lower antlers brace, charge thrust antlers LEFT, recover standing. Same camera scale. Entire antlers hooves tail INSIDE each equal cell, occupies central 65% LARGE transparent margins no overlap no cropping. Clean fine Chinese ink watercolor sage jade ivory charcoal muted cinnabar accents. True transparency no ground shadows scenery text labels grid."
+  },
+  {
+    "key": "boss_cinder_stag_skill",
+    "frames": 3,
+    "cols": 2,
+    "prompt": "Identity-preserve production animation contact sheet exactly THREE distinct full-body poses in 2 columns 2 rows, bottom right cell EMPTY. Same reference original charcoal stone armored stag boss massive branching coral red antlers flowing ivory mane tail ember cracks exact design. Facing LEFT. Skill sequence: raise head preparing, rear up releasing small pale cinnabar magical ribbon, land calmly. Entire antlers hooves and tail must be complete WELL INSIDE each cell, zoom out, leave 20 percent TRANSPARENT margin each side. Same scale. Clean fine Chinese ink watercolor sage jade ivory charcoal muted cinnabar accents. Genuine transparency no backdrop shadows scenery ground text labels grid."
+  },
+  {
+    "key": "boss_cinder_stag_phase",
+    "frames": 2,
+    "cols": 2,
+    "prompt": "Identity-preserve production animation contact sheet exactly TWO distinct full-body poses side by side. Same reference original charcoal stone armored stag boss, massive branching coral red antlers, flowing ivory mane tail, ember cracks. Facing LEFT. Phase change sequence: 1 crouch tense head lowered cracks brightening, 2 stand roar head lifted antlers flare muted vermilion. No changes to armor antler design. Same camera scale. Entire antlers hooves tail INSIDE each equal cell central 65% LARGE transparent margins no overlap no clipping. Clean fine Chinese ink watercolor sage jade ivory charcoal muted cinnabar accents. True transparency no ground shadows scenery text labels grid."
+  },
+  {
+    "key": "boss_cinder_stag_die",
+    "frames": 3,
+    "cols": 2,
+    "prompt": "Identity-preserve production animation sheet THREE distinct full body poses arranged in 2 columns 2 rows, bottom right EMPTY. Same original reference armored stag boss with branching coral-red antlers charcoal stone armor ivory mane tail and ember cracks. Facing LEFT. Non-gory defeat sequence: top left stag staggers legs buckle, top right kneels head lowering, bottom left lying fully on side eyes closed antlers resting. Whole body antlers tail complete. ZOOM OUT, subject takes only HALF of each cell with very wide transparent margins. Nothing cropped. Same camera scale. Clean Chinese ink watercolor muted jade ivory charcoal cinnabar. True transparent backdrop no ground shadows scenery labels grid text."
+  },
+  {
+    "key": "boss_cinder_stag_attack",
+    "frames": 3,
+    "cols": 3,
+    "prompt": "Identity-preserve precise-object-edit of animation sheet reference. Preserve EXACT THREE existing stag poses costume antlers armor expression and action, but fix all cropped extremities by zooming EACH figure out 25 percent within its own cell and completing any cut antler tips tails hooves. Arrange THREE equal cells in ONE HORIZONTAL ROW with CLEAR WIDE transparent gaps. Full antlers must fit with blank space on left right top bottom. Pose1 lowered antlers bracing, pose2 charging left, pose3 recovery. Same clean Chinese ink watercolor and exact original identity. Actual transparent background, no text, no scenery shadows or ground.",
+    "replacement": true
+  },
+  {
+    "key": "boss_cinder_stag_phase",
+    "frames": 2,
+    "cols": 1,
+    "prompt": "Identity-preserve precise-object-edit. Reference is TWO animation poses of same armored stag. Preserve poses and exact identity. Repair cropped top antler on roaring pose and give both animals WIDE clear transparent padding. Arrange TWO poses vertically one above the other, ONE column TWO rows, both same scale. Top: crouching tense head lowered. Bottom: standing roar head up. Entire coral antlers hooves flowing tail complete well inside canvas no touching edges. Charcoal jade stone armor ivory mane cinnabar antlers and ember cracks fine fresh Chinese ink watercolor. Genuine transparency no ground scenery shadows labels text.",
+    "replacement": true
+  },
+  {
+    "key": "hero_win",
+    "frames": 3,
+    "cols": 3,
+    "prompt": "Identity-preserve precise-object-edit of reference animation contact sheet. Preserve EXACT THREE white-robed jade-belt black-haired sword cultivator poses and identity. FIX cropped upright sword tip in middle pose: draw whole sword with tip fully visible and transparent margin above. Zoom all three figures out 25% and give generous transparent padding each side, three equal cells ONE row. Left relaxed sword lowered, middle upright sword salute, right proud relaxed stance. Exact ivory bamboo hanfu ornaments hairstyle slender sword Chinese fine ink watercolor sage jade charcoal. Each complete figure and all hems shoes hair sword entirely inside frame. Transparent background no ground shadows scenery text labels.",
+    "replacement": true
+  },
+  {
+    "key": "hero_die",
+    "frames": 4,
+    "cols": 2,
+    "prompt": "Identity-preserve precise-object-edit. Preserve same FOUR poses in reference animation sheet of original white bamboo-robed jade-belt black-haired sword cultivator, exact face costume hair sword. Repair any cropped robe hem especially bottom left and lying bottom right; zoom each complete figure out 30 percent within own cell leaving wide transparent margins on ALL sides. 2 columns 2 rows. Sequence stagger standing, kneel, slump seated, lie fully on side. Every strand robe hem sword tip feet fully contained no overlap adjacent cells no edge crops. Same fine Chinese ink watercolor pale jade ivory charcoal. Genuine transparency no backdrop ground shadows text labels.",
+    "replacement": true
   }
 ]

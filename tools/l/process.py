@@ -1,5 +1,6 @@
 """Only extracts generated alpha silhouettes, aligns, resizes and encodes; never draws art."""
 import json
+from functools import lru_cache
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -7,6 +8,7 @@ from scipy import ndimage as ndi
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 
+@lru_cache(maxsize=64)
 def extract(source, count, cols):
     im = Image.open(source).convert('RGBA')
     a = np.array(im)
@@ -46,12 +48,20 @@ def run():
         frames = extract(HERE/'raw'/job['source'], job.get('sourceFrames', count), job['cols'])
         if 'indices' in job:
             frames = [frames[i] for i in job['indices']]
+        # Centre the actual lowest contact band (feet/hooves), rather than
+        # the full silhouette, whose tails and swords can be asymmetric.
+        contacts = []
+        for frame in frames:
+            alpha = np.array(frame.getchannel('A'))
+            ys, xs = np.nonzero(alpha[max(0, frame.height-round(frame.height*.06)):] > 48)
+            contacts.append((int(xs.min())+int(xs.max()))/2 if len(xs) else frame.width/2)
         # One scale for every frame in an action preserves motion proportions.
-        scale = min(min((fw*.90)/f.width, (fh*.92)/f.height) for f in frames)
+        scale = min(min((fw*.45)/max(x, f.width-x), (fh*.92)/f.height)
+                    for f, x in zip(frames, contacts))
         sheet = Image.new('RGBA', (fw*count, fh))
-        for i, frame in enumerate(frames):
+        for i, (frame, contact) in enumerate(zip(frames, contacts)):
             frame = frame.resize((round(frame.width*scale), round(frame.height*scale)), Image.Resampling.LANCZOS)
-            sheet.alpha_composite(frame, (i*fw+(fw-frame.width)//2, round(fh*.96)-frame.height))
+            sheet.alpha_composite(frame, (i*fw+round(fw*.5-contact*scale), round(fh*.96)-frame.height))
         for factor, suffix in [(1,''), (.5,'_1x')]:
             target = sheet if factor == 1 else sheet.resize((round(sheet.width*factor), round(fh*factor)), Image.Resampling.LANCZOS)
             file = out/(key+('@1x' if suffix else '')+'.webp')

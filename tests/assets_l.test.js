@@ -13,6 +13,7 @@ for (const [key, a] of Object.entries(manifest)) {
   assert(a.file.startsWith('assets/frames/') && !a.file.includes('..'));
   const b = fs.readFileSync(path.join(root,a.file));
   assert(b.length <= 1000000, key+' size');
+  if(a.frames===1) assert(b.length<=300000,key+' single image size');
   assert.strictEqual(b.toString('ascii',0,4),'RIFF');
   assert.strictEqual(b.toString('ascii',8,12),'WEBP');
   assert.strictEqual(b.toString('ascii',12,16),'VP8X');
@@ -29,4 +30,6 @@ for(const s of sources) {
   assert.deepStrictEqual([low.fw,low.fh],[s.fw/2,s.fh/2]);
 }
 assert.strictEqual(Object.keys(manifest).length,sources.length*2);
+assert.strictEqual(sources.length,32,'all requested actions');
+assert.strictEqual(sources.reduce((n,s)=>n+s.frames,0),95,'all requested frames');
 console.log('assets_l: '+sources.length+' actions / '+Object.keys(manifest).length+' sheets passed');
