@@ -98,3 +98,6 @@
 | ui/generated.css:5 | CSS 边框/阴影：button,.sr-feat-panel button,.gg-filters select,.auto-row select{border:10px solid transparent;border-image:url('../assets/ui2/ui2_button_secondary_normal.webp') 32 72 fi | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | ui/generated.css:8 | CSS 边框/阴影：.sr-dialog,.sr-feat-panel{background:none!important;border:24px solid transparent;border-image:url('../assets/ui2/ui2_modal.webp') 96 160 fill stretch;box-shadow:none;pad | 否：生成图九宫格/贴图，透明边仅定义切片空间 |
 | dev/mock/live.js:41 | Canvas/文字图标： FX.b=FX.b.filter(b=>{const t=(now-b.t0)/1000,L=b.life//1;if(t>L)return false;const k=t/L;for(const p of b.p){const d=p.v*t*(1-k*.5);g.globa | 否：开发参考/测试，不加载 |
+
+## 第二轮 view 复核（2026-10-26）
+R2-07 保存失败提示改用 ui2_panel 生成背景；本轮重新运行 visual_audit：正式入口待替换 0 处，全仓原始候选 93 处。保存异常流程由 tests/e2e/view.py 实际注入并验证，持续提示、导出、重试保留。
