@@ -71,3 +71,6 @@ N.featRanks=['初识','渐入','精进'];
 (function(g){var N=g.SR.NAMES;N.gearSlotsV2={crown:'头冠',robe:'衣袍',belt:'腰带',boots:'靴履',bracer:'护腕',skirt:'下裳',necklace:'项链',ring:'戒指',weapon:'法器',jade:'玉佩'};N.gearLinksV2='八件齐备：武魂属性增幅5%，每枚魂环增幅0.5%，每只出战契兽增幅1%（最多三只），均作用于八件档属性。';})(typeof window!=='undefined'?window:globalThis);
 
 (function(g){g.SR.NAMES.wireMenu='修行手札';g.SR.NAMES.wireMenuShort='手札';})(typeof window!=='undefined'?window:globalThis);
+
+/* MAP 世界地图：只追加。 */
+(function(g){var N=g.SR.NAMES;N.worldMap={title:'山河行卷',regions:['苇风汀','碧篁渡','霜汀泽','雪岫关','烬砂麓','叠焰巅'],nodes:['初径','听泉','石阶','幽涧','岚台','古渡','险隘','镇关'],normal:'行径',elite:'险隘',boss:'渊主',cleared:'已通关',locked:'未解锁',current:'当前位置',power:'推荐战力',waves:'波',drops:'掉落预览',ring:'魂环',gear:'装备',egg:'兽卵',mat:'材料',reward:'区域解锁奖励',frontier:'推进到最前沿',farm:'在此挂机',close:'收起',progress:'区域进度',years:'年',crystal:'灵晶',petSoul:'兽魂',complete:'行卷已通',colors:['白','黄','紫','黑','红']};})(typeof window!=='undefined'?window:globalThis);
