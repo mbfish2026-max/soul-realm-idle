@@ -10,6 +10,7 @@ for p in (Path.home()/'.codex/generated_images').glob('*/*.png'):
     sources.setdefault(sha(p),str(p))
 out={}
 for p in sorted(RAW.glob('*.png')):
+    if p.stem not in prompts: continue
     digest=sha(p)
     out[p.stem]={'tool':'image_gen.imagegen','prompt':prompts[p.stem],'rawFile':'tools/n/raw/'+p.name,'sha256':digest,'generatedSource':sources.get(digest),'postprocess':'alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression' if not p.stem.startswith('fx_') else 'fixed 2x2 frame crops, uniform resize, horizontal atlas packing, WebP compression'}
 (ROOT/'tools/n/provenance.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')

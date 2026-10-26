@@ -1,10 +1,13 @@
 """Only alpha trimming, resizing, packing and WebP compression; never draw art."""
 import json
+import sys
 from pathlib import Path
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[2]
 RAW=ROOT/'tools/n/raw'
 OUT=ROOT/'assets/skills'
+ICON_IDS={j['id'] for name in ['prompts.json','dedicated-prompts.json'] for j in json.loads((ROOT/'tools/n'/name).read_text())}
+FX_IDS={j['id'] for j in json.loads((ROOT/'tools/n/fx-prompts.json').read_text())}
 
 def normalize(source,size=128):
     im=Image.open(source).convert('RGBA')
@@ -19,14 +22,16 @@ def normalize(source,size=128):
     canvas.alpha_composite(im,((size-im.width)//2,(size-im.height)//2))
     return canvas
 
-def build_icons():
+def build_icons(only=None):
     OUT.mkdir(parents=True,exist_ok=True)
     records={}
     for source in sorted(RAW.glob('*.png')):
-        if source.stem.startswith('fx_'):continue
-        im=normalize(source)
+        if source.stem not in ICON_IDS:continue
         file=OUT/(source.stem+'.webp')
-        im.save(file,'WEBP',quality=88,method=6,exact=True)
+        # Explicit partial refresh reuses already accepted normalized icons.
+        if only is None or source.stem in only or not file.exists():
+            im=normalize(source)
+            im.save(file,'WEBP',quality=88,method=6,exact=True)
         assert file.stat().st_size<=300000
         records[source.stem]={'file':str(file.relative_to(ROOT)),'w':128,'h':128,'use':'skill icon','scale':2}
     # Static icon atlas: rect metadata, never animation frame metadata.
@@ -44,11 +49,15 @@ def build_icons():
     (RAW/'processed.json').write_text(json.dumps(records,indent=2)+'\n')
     print(f'Processed {len(records)} icons')
 
-if __name__=='__main__':build_icons()
+if __name__=='__main__':
+    selected=set(sys.argv[1:]) or None
+    if selected and not selected<=ICON_IDS:raise ValueError('Unknown icon id')
+    build_icons(selected)
 
 def build_fx():
     records={}
     for source in sorted(RAW.glob('fx_*.png')):
+        if source.stem not in FX_IDS:continue
         im=Image.open(source).convert('RGBA')
         if im.getchannel('A').getextrema()[0]==255:
             raise ValueError(f'FX source lacks transparency: {source}')
@@ -72,4 +81,4 @@ def build_fx():
     (RAW/'fx-processed.json').write_text(json.dumps(records,indent=2)+'\n')
     print(f'Processed {len(records)} FX sequences')
 
-if __name__=='__main__':build_fx()
+if __name__=='__main__' and len(sys.argv)==1:build_fx()
