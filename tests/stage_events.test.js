@@ -1,0 +1,12 @@
+const assert=require('assert');require('../stage/stage.js');
+const plan=SR.stage.commands;
+let payload={caster:{side:'hero'},ringIndex:2,name:'test'};let before=JSON.stringify(payload);
+assert.deepEqual(plan('battle:skill',payload).map(c=>[c.at,c.type]),[[0,'prepare'],[120,'ring'],[140,'title'],[260,'linked'],[380,'slash']]);
+assert.equal(JSON.stringify(payload),before);
+assert.deepEqual(plan('battle:fusion',{}).map(c=>c.at),[0,60,200,420,640]);
+for(const event of SR.stage.events)assert(plan(event,{}).length,event);
+assert.deepEqual(plan('unknown',{}),[]);
+assert.equal(plan('battle:attack',{skillId:'x'})[1].at,480);
+assert.equal(plan('battle:attack',{})[1].at,180);
+assert.equal(plan('battle:kill',{})[0].type,'kill');assert.equal(plan('battle:hp',{})[0].type,'hp');
+console.log('stage_events: passed');
