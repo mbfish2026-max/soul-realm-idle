@@ -20,8 +20,8 @@
       if(!raf)raf=requestAnimationFrame(tick);
     }
     return {once:once,later:later,burst:burst,
-      damage:function(p,dmg,crit){var n=once('sr-damage'+(crit?' sr-critical':'')+(dmg<0?' sr-heal':''),(dmg<0?'+':'−')+Math.abs(dmg).toLocaleString(),p.x,p.y-15,1800);if(crit){var seal=document.createElement('small');seal.textContent='暴击';n.appendChild(seal);}},
-      title:function(text){once('sr-callout',text,50,23,1500);},
+      damage:function(p,dmg,crit){var n=once('sr-damage'+(crit?' sr-critical':'')+(dmg<0?' sr-heal':''),(dmg<0?'+':'−')+Math.abs(dmg).toLocaleString(),Math.max(27,Math.min(73,p.x)),p.y-15,1800);if(crit){var seal=document.createElement('small');seal.textContent='暴击';n.appendChild(seal);}},
+      title:function(text){once('sr-callout',text,50,18,1500);},
       shake:function(){root.classList.remove('sr-shake');void root.offsetWidth;root.classList.add('sr-shake');later(function(){root.classList.remove('sr-shake');},460);},
       edge:function(){once('sr-edge','',null,null,1400);},
       get active(){return !!raf;},

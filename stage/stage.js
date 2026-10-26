@@ -29,11 +29,11 @@
     // demo and production callers may explicitly resolve from their own script location.
     base=SR.stage.assetBase||base;
     var fallback={hero_idle:'hero_idle',hero_attack:'hero_attack',hero_skill:'hero_skill',hero_die:'hero_down',pet_fox_idle:'fox_idle',pet_fox_attack:'fox_attack'};
-    function asset(key,alternate){var a=(SR.ASSETS||{})[key];if(a){if(typeof a==='string')return new URL(a,base).href;var copy=Object.assign({},a);copy.file=new URL(a.file,base).href;return copy;}return base+'mock/assets/'+(fallback[key]||alternate||'wolf')+'.png';}
+    function asset(key,alternate){var catalog=SR.ASSETS||{},a=catalog[key];if(!a&&/^(hero_|pet_fox_)/.test(key))a=catalog[key.replace(/_[^_]+$/,'_idle')];if(a){if(typeof a==='string')return new URL(a,base).href;var copy=Object.assign({},a);copy.file=new URL(a.file,base).href;return copy;}return base+'mock/assets/'+(fallback[key]||alternate||'wolf')+'.png';}
     background.style.backgroundImage='url("'+asset('bg_forest','ink_bg').replace(/ink_bg\.png$/,'ink_bg.jpg')+'")';
     function later(fn,ms){var id=setTimeout(function(){timers=timers.filter(function(x){return x!==id;});if(!dead)fn();},ms);timers.push(id);}
-    function add(id,kind,x,y,width,label){var node=document.createElement('div');node.className='sr-actor sr-'+kind;node.style.left=x+'%';node.style.top=y+'%';node.style.setProperty('--actor-width',width+'px');el.appendChild(node);
-      var sprites={};Object.keys(SR.actor.DUR).forEach(function(s){var prefix=kind==='hero'?'hero_':kind==='pet'?'pet_fox_':kind==='boss'?'boss_':'mob_';sprites[s]=asset(prefix+(kind==='hero'||kind==='pet'?s:id),kind==='boss'?'boss':kind==='pet'?(s==='attack'||s==='fusion'?'fox_attack':'fox_idle'):kind==='hero'?(s==='attack'||s==='fusion'?'hero_attack':s==='skill'||s==='win'?'hero_skill':s==='die'?'hero_down':'hero_idle'):'wolf');});
+    function add(id,kind,x,y,width,label,assetId){var node=document.createElement('div');node.className='sr-actor sr-'+kind;node.style.left=x+'%';node.style.top=y+'%';node.style.setProperty('--actor-width',width+'px');el.appendChild(node);
+      var sprites={};Object.keys(SR.actor.DUR).forEach(function(s){var prefix=kind==='hero'?'hero_':kind==='pet'?'pet_fox_':kind==='boss'?'boss_':'mob_';sprites[s]=asset(prefix+(kind==='hero'||kind==='pet'?s:(assetId||id)),kind==='boss'?'boss':kind==='pet'?(s==='attack'||s==='fusion'?'fox_attack':'fox_idle'):kind==='hero'?(s==='attack'||s==='fusion'?'hero_attack':s==='skill'||s==='win'?'hero_skill':s==='die'?'hero_down':'hero_idle'):'wolf');});
       var actor=SR.actor.create({el:node,sprites:sprites});actor.el=node;actor.point={x:x,y:y};
       if(label){var tag=document.createElement('div');tag.className='sr-tag';var name=document.createElement('span');name.textContent=label;tag.appendChild(name);var hp=document.createElement('div');hp.className='sr-hp';hp.innerHTML='<i></i>';tag.appendChild(hp);node.appendChild(tag);actor.hp=hp.firstChild;}
       actors[id]=actor;return actor;
@@ -49,11 +49,11 @@
     function run(c){var p=c.data,a;
       switch(c.type){
         case 'wave':
-          timers.forEach(clearTimeout);timers=[];enemies.forEach(function(e){remove(e.uid);});enemies=p.enemies||[];
+          timers.forEach(clearTimeout);timers=[];el.querySelectorAll('.sr-ring-wave').forEach(function(n){n.remove();});enemies.forEach(function(e){remove(e.uid);});enemies=p.enemies||[];
           if(boss)boss.destroy();boss=null;bossUid=null;rings();pets();actors.hero.set('idle',true);
           caption.textContent=((SR.NAMES.maps||{})[p.mapId]||p.mapId||'')+' · '+p.floor+' / '+p.wave+' · '+p.waveMax;
           background.style.transform='translateX('+((p.wave%5)-2)*3+'px)';
-          enemies.forEach(function(e,i){var color=e.years>=100000?'red':e.years>=10000?'black':e.years>=1000?'purple':e.years>=100?'yellow':'white';a=add(e.uid,e.isBoss?'boss':'enemy',e.isBoss?50:[76,21,52][i%3],e.isBoss?72:[53,55,36][i%3],e.isBoss?230:100,SR.NAMES.ringColors[color]+' · '+(e.name||SR.NAMES.beast));a.set('move');if(a.hp)a.hp.style.width=(e.hpMax?e.hp/e.hpMax*100:0)+'%';if(e.isBoss){bossUid=e.uid;boss=SR.stageBoss.create(el,fx,e);}});break;
+          enemies.forEach(function(e,i){var color=e.years>=100000?'red':e.years>=10000?'black':e.years>=1000?'purple':e.years>=100?'yellow':'white';a=add(e.uid,e.isBoss?'boss':'enemy',e.isBoss?50:[76,21,52][i%3],e.isBoss?72:[53,55,36][i%3],e.isBoss?230:100,SR.NAMES.ringColors[color]+' · '+(e.name||SR.NAMES.beast),e.kind);a.set('move');if(a.hp)a.hp.style.width=(e.hpMax?e.hp/e.hpMax*100:0)+'%';if(e.isBoss){bossUid=e.uid;boss=SR.stageBoss.create(el,fx,e);}});break;
         case 'prepare':set(actor(p.caster),'skill');break;
         case 'ring':light(p.ringIndex);break;
         case 'title':fx.title(p.name||SR.NAMES.resonance);break;

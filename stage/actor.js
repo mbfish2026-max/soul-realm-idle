@@ -27,7 +27,7 @@
             pose.style.backgroundImage='url("'+sprite.file+'")';
             pose.style.backgroundSize=(sprite.frames*100)+'% 100%';
             pose.style.setProperty('--frames',sprite.frames);
-            pose.style.animation='sr-frames '+(dur[next]||3000)+'ms steps('+sprite.frames+') 1 forwards';
+            pose.style.animation='sr-frames '+(dur[next]||3000)+'ms steps('+(sprite.frames-1)+') 1 forwards';
           }else{pose.classList.remove('sr-atlas');var img=document.createElement('img');img.src=sprite.file;img.alt='';pose.appendChild(img);}
         }
       }
