@@ -1,13 +1,13 @@
 /* Node, no dependencies. Measures authoritative 50ms combat at ten progression checkpoints. */
 const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'../..');
 ['names','core/bus','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require(path.join(root,f)));SR.content.install();
-['data/skill-tree','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','systems/rings','systems/pets','systems/stats','systems/skills','core/battle'].forEach(f=>require(path.join(root,f)));SR.loot.init();
+['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle'].forEach(f=>require(path.join(root,f)));SR.loot.init();
 let results=[];
 for(const c of SR.DATA.classes)for(let option=0;option<2;option++)for(const role of Object.keys(SR.NAMES.petRoles)){
  let curve=[];
  for(const level of [1,10,20,30,40,50,60,70,80,90,99]){
   SR.battle.stop();SR.rng.seed(4200+level);const s=SR.save.state=SR.save.create();s.flags.awakened=true;s.hero.soulId=c.recommend;s.hero.classId=c.id;s.hero.level=level;s.map.floor=Math.min(5,1+Math.floor(level/10));s.map.wave=1;const n=Math.min(9,Math.floor(level/10));s.hero.rings=Array.from({length:n},(_,i)=>({years:Math.pow(10,Math.min(5,1+Math.floor(i/2))),color:'yellow',vein:c.vein}));
-  let b=SR.skills.init();for(let i=1;i<=n;i++){let id=c.id+'_'+i+'_'+option;b.levels[id]=Math.min(5,1+Math.floor(level/20));b.slots[i]=id;b.priority.push(id);}
+  const pool=Object.values(SR.DATA.ringSkillPools).find(p=>SR.DATA.skills[p.slots[1][0]].classId===c.id);s.hero.rings.forEach((r,i)=>{r.sourceKind=pool.kind;r.skillBranch=option;r.skillId=pool.slots[i+1][option];});let b=SR.skills.init();for(let i=1;i<=n;i++){let id=pool.slots[i][option];b.levels[id]=Math.min(5,1+Math.floor(level/20));b.slots[i]=id;b.priority.push(id);}
   let species=SR.DATA.pets.find(p=>p.skillRole===role);s.pets=[{uid:'p',speciesId:species.id,grade:species.grade,seg:Math.min(10,1+Math.floor(level/10)),step:1,bond:100,counters:{},skills:species.skills.slice()}];s.team.pets=['p'];SR.battle.start();const before=s.hero.exp;for(let t=0;t<60000;t+=50)SR.battle.tick(50);curve.push({level,xpPerHour:Math.max(1,s.hero.exp-before)*60,kills:s.stats.kills||0});
  }
  let elapsed=0,checkpoints=[];

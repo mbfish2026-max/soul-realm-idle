@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'../..');
+['names','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require(path.join(root,f)));SR.content.install();require(path.join(root,'data/skill-tree'));require(path.join(root,'data/ring-skills'));
+let skills=Object.keys(SR.DATA.skills).map(id=>Object.assign({id},SR.DATA.skills[id]));
+let out='# 技能图标与特效制作清单\n\n由 `node tools/sim/art-list.js` 生成。图标透明底 128×128，单图 ≤300KB；中国清新水墨、玉石边缘、无文字，脉色遵循风青、焰朱、岩赭、月紫、霜蓝、木绿。尚无独立图标时正式界面使用同脉色魂环图。特效是一次性粒子，结束停止 rAF。\n\n|id / iconKey|名称|脉属性|画面描述提示词|\n|---|---|---|---|\n';
+for(const s of skills)out+='|'+s.id+' / '+s.iconKey+'|'+s.name+'|'+SR.NAMES.veins[s.vein]+'|透明底水墨技能图标，'+s.name+'意象，'+SR.NAMES.veins[s.vein]+'灵光，'+(s.effects||[{type:'damage'}]).map(e=>SR.NAMES.effectTypes&&SR.NAMES.effectTypes[e.type]||e.type).join('、')+'，清晰剪影，无文字无边框|\n';
+out+='\n## 特效（共享 fxKey）\n\n|fxKey|关联技能|画面描述提示词|\n|---|---|---|\n';
+for(const key of [...new Set(skills.map(s=>s.fxKey))]){const rows=skills.filter(s=>s.fxKey===key);out+='|'+key+'|'+rows.map(s=>s.id).join('、')+'|'+SR.NAMES.veins[rows[0].vein]+'水墨光晕，'+key.split('_').slice(2).join(' ')+'轨迹，单次扩散并消散，透明叠加，700–1200ms，无文字|\n';}
+fs.writeFileSync(path.join(root,'docs/skill-art-list.md'),out);console.log(JSON.stringify({classes:SR.DATA.classes.length,soulSkills:SR.DATA.classSkills.length,pets:SR.DATA.pets.length,petSkills:Object.values(SR.DATA.petSkillPools).reduce((n,a)=>n+a.length,0),fusion:SR.DATA.fusionSkills.length,icons:skills.length,fx:new Set(skills.map(s=>s.fxKey)).size}));

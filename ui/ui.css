@@ -7,3 +7,4 @@
 /* Keep profession choices readable against the mountain illustration. */
 .sr-dialog:has([data-event="class:choose"]){background:linear-gradient(#f7f4e7ed,#f7f4e7ed),url('../assets/background/bg_forest.webp') center/cover}
 .skill-row>div{min-width:0;overflow-wrap:anywhere}.skill-row button{max-width:100%}
+.sr-dialog{background:linear-gradient(#f7f4e7f2,#f7f4e7f2),url('../assets/background/bg_forest.webp') center/cover}

@@ -53,3 +53,5 @@ N.extTrials=N.extTrials||{};Object.assign(N.extTrials,{"trial0":"镇关灵卫·�
 (function(g){g.SR.NAMES.statNames={atk:'攻击',def:'防御',hp:'生命',spd:'速度'};})(typeof window!=='undefined'?window:globalThis);
 
 (function(g){var N=g.SR.NAMES;N.ringOrigin='渊兽来处';N.ringReplace='更换魂环';N.ringLost='旧魂技将丢失，确认更换';N.ringFit='适配威力';N.ringAtlas='渊兽图鉴';N.ringBranch='分支强化';N.autoRing='自动吸收';N.unknownOrigin='游离精魄';})(typeof window!=='undefined'?window:globalThis);
+
+(function(g){var N=g.SR.NAMES;Object.keys(N.extSpecies||{}).forEach(function(id){if(!N.species[id])N.species[id]=N.extSpecies[id];});})(typeof window!=='undefined'?window:globalThis);
