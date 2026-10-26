@@ -26,6 +26,9 @@ try:
   page.goto('http://127.0.0.1:8765/index.html');page.wait_for_function('!document.querySelector("#start").disabled');shot('00_loading')
   initial_bytes=sum(traffic.values());page.locator('#start').click();page.locator('#opening-next').wait_for();shot('01_opening');page.locator('#opening-next').click();shot('02_awaken');page.locator('[data-event="hero:awaken_request"]').first.click()
   shot('skill_class');page.locator('[data-event="class:choose"]').first.click();shot('skill_tree');tab('battle')
+  page.locator('#auto-toggle').click();assert not page.evaluate('SR.save.state.auto.enabled');shot('auto_off')
+  page.locator('#auto-settings').click();page.locator('[data-auto="reserveBossFusion"]').check();page.locator('[data-auto="absorbRate"]').select_option('1');page.locator('[data-auto="fitOnly"]').check();shot('auto_settings')
+  page.locator('#sr-modal').click(position={'x':5,'y':5});page.locator('#auto-toggle').click();assert page.evaluate('SR.save.state.auto.enabled');shot('auto_on')
   assert page.evaluate('SR.audio.isUnlocked()')
   page.wait_for_timeout(300);first_battle_bytes=sum(traffic.values())
   page.evaluate('SR.rng.seed(42);window.bossSeen=false;SR.bus.on("battle:boss_phase",()=>window.bossSeen=true)')
@@ -42,6 +45,13 @@ try:
    if page.evaluate('SR.save.state.hero.rings.length>0'):break
   assert page.evaluate('SR.save.state.hero.rings.length>0')
   tab('bag');page.locator('[data-event="ui:absorb_open"]').first.click();page.locator('[data-event="ui:ring_replace"]').first.click();shot('skill_replace');page.locator('[data-event="ring:replace"]').click();page.wait_for_timeout(200)
+  tab('battle');page.locator('#auto-toggle').click();assert not page.evaluate('SR.save.state.auto.enabled')
+  # Ready a real acquired skill, then release it through its visible button.
+  assert page.evaluate('SR.skills.branch(0,0)'),page.evaluate('JSON.stringify({rings:SR.save.state.hero.rings,cur:SR.save.state.cur})')
+  page.evaluate('window.manualId=SR.skills.entries({side:"hero"}).find(e=>SR.DATA.skills[e.id].kind!=="passive").id')
+  advance(35000);page.wait_for_timeout(600)
+  page.locator('[data-cast="'+page.evaluate('window.manualId')+'"]').click();assert page.evaluate('SR.battle.snapshot().hero.cool[window.manualId]>0');shot('auto_manual')
+  page.locator('#auto-settings').click();page.locator('[data-event="auto:priority"]').first.click();assert page.locator('#sr-modal').count();before=page.evaluate('JSON.stringify(SR.battle.snapshot().enemies)');advance(15000);assert page.evaluate('JSON.stringify(SR.battle.snapshot().enemies)')!=before;assert page.locator('#sr-modal').count();shot('auto_priority');page.locator('#sr-modal').click(position={'x':5,'y':5});page.locator('#auto-toggle').click()
   tab('skills');shot('skill_tree');assert page.evaluate('SR.skills.entries({side:"hero"})[0].id===SR.save.state.hero.rings[0].skillId')
   tab('pets');page.locator('[data-event="pet:hatch_request"]').first.click();shot('06_pets');page.locator('[data-event="pet:feed_request"]').click();page.locator('[data-event="pet:deploy_request"]').click();assert page.evaluate('SR.save.state.pets[0].step>1');assert page.evaluate('SR.save.state.team.pets.length==1')
   tab('bag')
@@ -49,9 +59,9 @@ try:
    page.locator('[data-event="gear:equip"]').first.click();assert page.evaluate('Object.keys(SR.save.state.hero.bones).length>0')
   tab('hero');shot('07_hero')
   tab('battle');page.evaluate('for(let i=0;i<360000;i+=100){if(SR.battle.snapshot().enemies.some(e=>e.isBoss))break;SR.battle.tick(100)}');page.wait_for_timeout(200);shot('08_boss');assert page.evaluate('SR.battle.snapshot().enemies.some(e=>e.isBoss)')
-  saved=page.evaluate('SR.save.save();SR.save.state.hero.soulId');page.reload();page.locator('#start').click();assert page.evaluate('SR.save.state.hero.soulId')==saved;shot('09_reload')
+  saved=page.evaluate('SR.save.save();SR.save.state.hero.soulId');page.reload();page.locator('#start').click();assert page.evaluate('SR.save.state.hero.soulId')==saved;assert page.evaluate('SR.save.state.auto.reserveBossFusion && SR.save.state.auto.absorbRate===1');shot('09_reload')
   page.evaluate('SR.idle.stop()');page.add_init_script("let s=JSON.parse(localStorage.sr_save_v1);if(s){s.t=Date.now()-7200000;localStorage.sr_save_v1=JSON.stringify(s)}");page.reload();page.locator('#start').click();page.get_by_role('heading',name='离线收益').wait_for();shot('10_offline');page.locator('#sr-modal').click(position={'x':5,'y':5});assert not page.locator('#sr-modal').count()
   assert not errors,errors
-  result={'consoleErrors':errors,'loadingBytes':initial_bytes,'firstBattleBytes':first_battle_bytes,'totalRequestedBytes':sum(traffic.values()),'kills':page.evaluate('SR.save.state.stats.kills'),'level':page.evaluate('SR.save.state.hero.level'),'screenshots':14}
+  result={'consoleErrors':errors,'loadingBytes':initial_bytes,'firstBattleBytes':first_battle_bytes,'totalRequestedBytes':sum(traffic.values()),'kills':page.evaluate('SR.save.state.stats.kills'),'level':page.evaluate('SR.save.state.hero.level'),'screenshots':19}
   (ROOT/'docs/e2e-integration.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,ensure_ascii=False));browser.close()
 finally:server.terminate();server.wait()

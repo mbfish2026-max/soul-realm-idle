@@ -74,7 +74,7 @@
         case 'pets':pets();break;
       }
     }
-    EVENTS.forEach(function(event){var fn=function(p){commands(event,p).forEach(function(c){if(c.at)later(function(){run(c);},c.at);else run(c);});};if(SR.bus){SR.bus.on(event,fn);listeners.push([event,fn]);}});
+    EVENTS.forEach(function(event){var fn=function(p){if(SR.offline&&SR.offline.simulating)return;commands(event,p).forEach(function(c){if(c.at)later(function(){run(c);},c.at);else run(c);});};if(SR.bus){SR.bus.on(event,fn);listeners.push([event,fn]);}});
     rings();pets();var api={el:el,fx:fx,actors:actors,trackFx:function(effect){extras.push(effect);},destroy:function(){dead=true;timers.forEach(clearTimeout);listeners.forEach(function(l){SR.bus.off(l[0],l[1]);});Object.keys(actors).forEach(remove);extras.forEach(function(e){e.destroy();});if(boss)boss.destroy();fx.destroy();el.replaceChildren();el.classList.remove('sr-stage');if(SR.stage.current===api)SR.stage.current=null;}};
     SR.stage.current=api;return api;
   }
