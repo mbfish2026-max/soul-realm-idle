@@ -1,7 +1,7 @@
 /* Node, no dependencies. Measures authoritative 50ms combat at ten progression checkpoints. */
 const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'../..');
 ['names','core/bus','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require(path.join(root,f)));SR.content.install();
-['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle'].forEach(f=>require(path.join(root,f)));SR.loot.init();
+['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','features/gear/data','features/gear/gear','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle'].forEach(f=>require(path.join(root,f)));SR.loot.init();
 let results=[];
 for(const c of SR.DATA.classes)for(let option=0;option<2;option++)for(const role of Object.keys(SR.NAMES.petRoles)){
  let curve=[];

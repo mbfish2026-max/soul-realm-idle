@@ -156,3 +156,9 @@
 - C 路需按 mapId 查背景、kind 查敌人、speciesId 查契兽立绘；B/G/F 路按上述键查头像/装备/功能图标。所有 file 路径相对仓库根。
 - 后续复核 G 路定稿 `features/gear/data.js`：十部位 ID 一致，套装 ID 为 bamboo/ember/tide/cliff；本批两套美术建议 ember→gear_ember_<slot>、tide→gear_frost_<slot>，其余使用基础图标。frost 为美术主题名，不新增业务套装。
 - 第一批 dev/d-art 与本批仅 bg_snow 键重复；本批后加载时采用本批雪岭背景，其他第一批资源保留。
+
+## WIRE 第二批正式入口接线（追加）
+- 正式加载基础 → m2 → ui2 → frames → scene → scene/mobile → fx → skills 清单；均原地合并 SR.ASSETS。scene/mobile 仅缩放/压缩已有生成原画，以相同键覆盖手机版路径。
+- 内部 UI 请求 `wire:menu {}` 打开手札；`wire:gear {}` 进入 G 装备页；`wire:open {id:'gear'|'rift'|'achieve'|'daily'|'settings'}` 打开可用模块；`wire:auto {}` 打开既有自动策略。无新存档字段。
+- main 在 mount/idle.start 前 install gear/rift/achieve/daily/audio2，gear:equip/unequip 委托 G。掉落使用 G.roll，stats 使用 G.statBonus，不重复累计 bones 基础值。
+- 舞台 `SR.stageFx.create().image(key,x,y,size)` 播放 SR.ASSETS 横向帧图集，按 frames/fps 一次播放并移除；角色按 fw/fh 显示、按 fps 播放，只有 idle 循环，首领 phase 使用对应姿态。

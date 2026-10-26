@@ -44,9 +44,16 @@ def scan(root):
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--root',type=Path,default=ROOT);ap.add_argument('--output',type=Path,default=ROOT/'docs/visual-audit.md');args=ap.parse_args()
  rows=scan(args.root)
- text=['# 视觉代码审计','', '静态启发式扫描全部 HTML/CSS/JS（含 mock、预览与测试）；候选需按上下文人工判断。布局边界、透明遮挡、调试绘图可能误报；命中不等于已确认违规。drawImage 使用生成图本身不计作代码绘图。未修改其他路源文件。','',f'共 {len(rows)} 处候选。建议键来自 assets/ui2/manifest.json；表现特效缺口需相应路生图。','', '| 文件:行 | 元素 | 源码片段 | 建议素材键 |','|---|---|---|---|']
+ entry=(args.root/'index.html').read_text()
+ live={'index.html'}|set(re.findall(r'(?:src|href)="([^"?#]+\.(?:js|css))',entry))
+ def verdict(p,code):
+  if p not in live:return '参考/测试，正式入口不加载'
+  if 'border-image:' in code or ('url(' in code and 'gradient' not in code):return '已用生成贴图；透明边用于切片布局'
+  return '待替换'
+ pending=sum(verdict(p,code)=='待替换' for p,n,label,code,key in rows)
+ text=['# 视觉代码审计','', '静态启发式扫描全部 HTML/CSS/JS（含 mock、预览与测试）；候选需按上下文人工判断。布局边界、透明遮挡、调试绘图可能误报；命中不等于已确认违规。drawImage 使用生成图本身不计作代码绘图。本清单按正式入口加载关系区分运行内容与参考页。','',f'正式入口待替换 **{pending}** 处；全仓原始候选 {len(rows)} 处（逐项保留参考页与贴图切片误报）。建议键来自 assets/ui2/manifest.json；表现特效缺口需相应路生图。','', '| 文件:行 | 元素 | 源码片段 | 建议素材键 | 当前结论 |','|---|---|---|---|---|']
  for p,n,label,code,key in rows:
   code=code.replace('|','\\|').replace('`','&#96;')
-  text.append(f'| {p}:{n} | {label} | `{code}` | {key} |')
+  text.append(f'| {p}:{n} | {label} | `{code}` | {key} | {verdict(p,code)} |')
  args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text('\n'.join(text)+'\n');print(f'{len(rows)} candidates -> {args.output}')
 if __name__=='__main__':main()

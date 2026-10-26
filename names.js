@@ -69,3 +69,5 @@ N.featRanks=['初识','渐入','精进'];
 
 /* G 装备 v2：十部位，八件套装，法器与玉佩为散件。 */
 (function(g){var N=g.SR.NAMES;N.gearSlotsV2={crown:'头冠',robe:'衣袍',belt:'腰带',boots:'靴履',bracer:'护腕',skirt:'下裳',necklace:'项链',ring:'戒指',weapon:'法器',jade:'玉佩'};N.gearLinksV2='八件齐备：武魂属性增幅5%，每枚魂环增幅0.5%，每只出战契兽增幅1%（最多三只），均作用于八件档属性。';})(typeof window!=='undefined'?window:globalThis);
+
+(function(g){g.SR.NAMES.wireMenu='修行手札';g.SR.NAMES.wireMenuShort='手札';})(typeof window!=='undefined'?window:globalThis);

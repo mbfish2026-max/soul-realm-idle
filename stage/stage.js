@@ -30,29 +30,29 @@
     base=SR.stage.assetBase||base;
     var fallback={hero_idle:'hero_idle',hero_attack:'hero_attack',hero_skill:'hero_skill',hero_die:'hero_down',pet_fox_idle:'fox_idle',pet_fox_attack:'fox_attack'};
     function asset(key,alternate){var catalog=SR.ASSETS||{},aliases={mob_reed:'mob_ink_wolf',mob_moss:'mob_bamboo_snake',boss_lord:'boss_cinder_stag'},a=catalog[(aliases[key]||key)+'_1x']||catalog[aliases[key]||key];if(!a&&/^(hero_|pet_fox_)/.test(key))a=catalog[key.replace(/_[^_]+$/,'_idle')];if(a){if(typeof a==='string')return new URL(a,base).href;var copy=Object.assign({},a);copy.file=new URL(a.file,base).href;return copy;}return new URL(catalog.mob_ink_wolf.file,base).href;}
-    function scene(map){var id=map==='snow'?'snow':map==='ridge'?'ember':'forest';background.replaceChildren();['far','mid','front'].forEach(function(layer){var n=document.createElement('div');n.className='sr-scene-layer sr-layer-'+layer;n.style.backgroundImage='url("'+asset('bg_'+id+'_'+layer).file+'")';background.appendChild(n);});}scene('forest');
+    function scene(map,isBoss,wave){var id=map==='snow'?'snow':map==='ridge'?'ember':'forest';background.replaceChildren();(isBoss?['boss']:['far','mid','front']).forEach(function(layer,i){var n=document.createElement('div');n.className='sr-scene-layer sr-layer-'+layer;n.style.backgroundImage='url("'+asset(layer==='boss'?'bg_boss_'+(id==='ember'?'cinder':'jade'):'bg_'+id+'_'+layer).file+'")';n.style.transform='translateX('+(((wave||1)%5-2)*(i+1)*2)+'px)';background.appendChild(n);});}scene('forest');
     function later(fn,ms){var id=setTimeout(function(){timers=timers.filter(function(x){return x!==id;});if(!dead)fn();},ms);timers.push(id);}
     function add(id,kind,x,y,width,label,assetId){var node=document.createElement('div');node.className='sr-actor sr-'+kind;node.style.left=x+'%';node.style.top=y+'%';node.style.setProperty('--actor-width',width+'px');el.appendChild(node);
-      var sprites={};Object.keys(SR.actor.DUR).forEach(function(s){assetId=({reed:'ink_wolf',moss:'bamboo_snake',lord:'cinder_stag'}[assetId]||assetId);var prefix=kind==='hero'?'hero':kind==='pet'?'pet_fox':(kind==='boss'?'boss_':'mob_')+(assetId||id);var key=prefix+'_'+s;if(!(SR.ASSETS[key]||SR.ASSETS[key+'_1x']))key=prefix+'_idle';if(!(SR.ASSETS[key]||SR.ASSETS[key+'_1x']))key=prefix;sprites[s]=asset(key);});
+      var sprites={};Object.keys(SR.actor.DUR).forEach(function(s){assetId=({reed:'ink_wolf',moss:'bamboo_snake',lord:'cinder_stag'}[assetId]||assetId);var prefix=kind==='hero'?'hero':kind==='pet'?'pet_'+(assetId||'fox'):(kind==='boss'?'boss_':'mob_')+(assetId||id);if(kind==='pet'&&!SR.ASSETS[prefix+'_idle']){var pd=SR.pets.species(assetId||'fox')||{},family={bird:'falcon',shell:'turtle',tiger:'wolf',seed:'bud'}[pd.species]||pd.species||assetId;prefix=pd.species==='fox'?'pet_fox':'icon_pet_'+(SR.ASSETS['icon_pet_'+assetId]?assetId:family);}var key=prefix+'_'+s;if(!(SR.ASSETS[key]||SR.ASSETS[key+'_1x']))key=prefix+((s==='skill'||s==='fusion')?'_attack':'_idle');if(!(SR.ASSETS[key]||SR.ASSETS[key+'_1x']))key=prefix+'_idle';if(!(SR.ASSETS[key]||SR.ASSETS[key+'_1x']))key=prefix;sprites[s]=asset(key);});
       var actor=SR.actor.create({el:node,sprites:sprites});actor.el=node;actor.point={x:x,y:y};
       if(label){var tag=document.createElement('div');tag.className='sr-tag';var name=document.createElement('span');name.textContent=label;tag.appendChild(name);var hp=document.createElement('div');hp.className='sr-hp';hp.innerHTML='<i></i>';tag.appendChild(hp);node.appendChild(tag);actor.hp=hp.firstChild;}
       actors[id]=actor;return actor;
     }
     function remove(id){if(actors[id]){actors[id].destroy();actors[id].el.remove();delete actors[id];}}
     add('hero','hero',50,92,125);
-    function pets(){Object.keys(actors).filter(function(id){return id.indexOf('pet:')===0;}).forEach(remove);var state=SR.save&&SR.save.state;((state&&state.team&&state.team.pets)||[]).slice(0,2).forEach(function(uid,i){add('pet:'+uid,'pet',i?76:23,91,95);});}
+    function pets(){Object.keys(actors).filter(function(id){return id.indexOf('pet:')===0;}).forEach(remove);var state=SR.save&&SR.save.state;((state&&state.team&&state.team.pets)||[]).slice(0,2).forEach(function(uid,i){var p=state.pets.find(function(p){return p.uid===uid;});add('pet:'+uid,'pet',i?76:23,94,85,null,p&&p.speciesId);});}
     function petActors(){return Object.keys(actors).filter(function(k){return k.indexOf('pet:')===0;}).map(function(k){return actors[k];});}
     function actor(ref){if(!ref)return null;return actors[ref.side==='hero'?'hero':ref.side==='pet'?'pet:'+ref.uid:ref.uid];}
     function set(a,s){if(a)a.set(s);}
     function rings(){ringHost.replaceChildren();var state=SR.save&&SR.save.state;((state&&state.hero&&state.hero.rings)||[]).slice(0,9).forEach(function(r,i){var n=document.createElement('div');n.className='sr-ring';n.style.width=(54+i*22)+'px';n.style.height=(18+i*7)+'px';n.style.backgroundImage='url("'+asset('ui2_ring_'+r.color).file+'")';ringHost.appendChild(n);});}
-    function light(i){var n=ringHost.children[i];if(!n)return;n.classList.remove('sr-lit');void n.offsetWidth;n.classList.add('sr-lit');var wave=n.cloneNode();wave.className='sr-ring sr-ring-wave';el.appendChild(wave);wave.style.left='50%';wave.style.top='88%';later(function(){wave.remove();},950);fx.burst(50,88,n.style.getPropertyValue('--color'));}
+    function light(i){var n=ringHost.children[i];if(!n)return;n.classList.remove('sr-lit');void n.offsetWidth;n.classList.add('sr-lit');var wave=n.cloneNode();wave.className='sr-ring sr-ring-wave';el.appendChild(wave);wave.style.left='50%';wave.style.top='88%';later(function(){wave.remove();},950);var r=SR.save.state.hero.rings[i];fx.image('fx_ring_'+(r?r.color:'white'),50,92,130);}
     function run(c){var p=c.data,a;
       switch(c.type){
         case 'wave':
           timers.forEach(clearTimeout);timers=[];el.querySelectorAll('.sr-ring-wave').forEach(function(n){n.remove();});enemies.forEach(function(e){remove(e.uid);});enemies=p.enemies||[];
-          if(boss)boss.destroy();boss=null;bossUid=null;redDropped=false;scene(p.mapId);rings();pets();actors.hero.set('idle',true);
+          if(boss)boss.destroy();boss=null;bossUid=null;redDropped=false;scene(p.mapId,enemies.some(function(e){return e.isBoss;}),p.wave);rings();pets();actors.hero.set('idle',true);
           caption.textContent=((SR.NAMES.maps||{})[p.mapId]||p.mapId||'')+' · '+p.floor+' / '+p.wave+' · '+p.waveMax;
-          background.style.transform='translateX('+((p.wave%5)-2)*3+'px)';
+
           enemies.forEach(function(e,i){var color=e.years>=100000?'red':e.years>=10000?'black':e.years>=1000?'purple':e.years>=100?'yellow':'white';a=add(e.uid,e.isBoss?'boss':'enemy',e.isBoss?50:[76,21,52][i%3],e.isBoss?72:[53,55,36][i%3],e.isBoss?190:112,e.years+'年 · '+(e.name||SR.NAMES.beast),e.kind);a.set('move');if(a.hp)a.hp.style.width=(e.hpMax?e.hp/e.hpMax*100:0)+'%';if(e.isBoss){bossUid=e.uid;boss=SR.stageBoss.create(el,fx,e);}});break;
         case 'prepare':set(actor(p.caster),'skill');if(p.fxKey)fx.skill(p.fxKey,p.fx);break;
         case 'ring':light(p.ringIndex);break;
@@ -68,7 +68,7 @@
         case 'shock':fx.shake();enemies.forEach(function(e){a=actors[e.uid];if(a&&a.state!=='die'){set(a,'hit');fx.burst(a.point.x,a.point.y-10,'#bd984d');}});break;
         case 'kill':set(actors[p.uid],'die');if(p.isBoss&&p.years>=100000&&!redDropped){SR.stageBoss.drop(fx);redDropped=true;}break;
         case 'down':set(actors.hero,'die');fx.edge();break;
-        case 'phase':if(boss&&p.uid===bossUid)boss.phase(p);break;
+        case 'phase':set(actors[p.uid],'phase');if(boss&&p.uid===bossUid)boss.phase(p);break;
         case 'loot':if(p.item)fx.image('fx_drop_'+(p.item.color||'white'),70,50,150);if(p.item&&p.item.type==='essence'&&p.item.color==='red'&&!redDropped){SR.stageBoss.drop(fx);redDropped=true;}break;
         case 'win':set(actors.hero,'win');petActors().forEach(function(a){set(a,'win');});fx.title('胜');break;
         case 'pets':pets();break;

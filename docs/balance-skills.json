@@ -3,7 +3,7 @@
     "classId": "blade",
     "option": 0,
     "role": "damage",
-    "hours": 64.91,
+    "hours": 66.71,
     "curve": [
       {
         "level": 10,
@@ -31,19 +31,19 @@
       },
       {
         "level": 70,
-        "hours": 30.77
+        "hours": 31.16
       },
       {
         "level": 80,
-        "hours": 41.48
+        "hours": 41.87
       },
       {
         "level": 90,
-        "hours": 53.28
+        "hours": 53.67
       },
       {
         "level": 99,
-        "hours": 64.91
+        "hours": 66.71
       }
     ],
     "samples": [
@@ -79,8 +79,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 78000,
-        "kills": 49
+        "xpPerHour": 75000,
+        "kills": 47
       },
       {
         "level": 70,
@@ -94,13 +94,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 97500,
-        "kills": 59
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 99,
-        "xpPerHour": 99000,
-        "kills": 60
+        "xpPerHour": 108000,
+        "kills": 66
       }
     ]
   },
@@ -108,7 +108,7 @@
     "classId": "blade",
     "option": 0,
     "role": "control",
-    "hours": 64.63,
+    "hours": 67.3,
     "curve": [
       {
         "level": 10,
@@ -128,27 +128,27 @@
       },
       {
         "level": 50,
-        "hours": 10.2
+        "hours": 12.34
       },
       {
         "level": 60,
-        "hours": 21.09
+        "hours": 22.68
       },
       {
         "level": 70,
-        "hours": 30.99
+        "hours": 32.59
       },
       {
         "level": 80,
-        "hours": 41.01
+        "hours": 43.3
       },
       {
         "level": 90,
-        "hours": 52.81
+        "hours": 55.1
       },
       {
         "level": 99,
-        "hours": 64.63
+        "hours": 67.3
       }
     ],
     "samples": [
@@ -174,13 +174,13 @@
       },
       {
         "level": 40,
-        "xpPerHour": 49500,
-        "kills": 30
+        "xpPerHour": 40500,
+        "kills": 27
       },
       {
         "level": 50,
-        "xpPerHour": 57000,
-        "kills": 35
+        "xpPerHour": 60000,
+        "kills": 37
       },
       {
         "level": 60,
@@ -189,8 +189,8 @@
       },
       {
         "level": 70,
-        "xpPerHour": 93000,
-        "kills": 56
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 80,
@@ -199,13 +199,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 103500,
+        "kills": 63
       }
     ]
   },
@@ -213,7 +213,7 @@
     "classId": "blade",
     "option": 0,
     "role": "heal",
-    "hours": 67.3,
+    "hours": 68.47,
     "curve": [
       {
         "level": 10,
@@ -225,7 +225,7 @@
       },
       {
         "level": 30,
-        "hours": 0.42
+        "hours": 0.41
       },
       {
         "level": 40,
@@ -241,19 +241,19 @@
       },
       {
         "level": 70,
-        "hours": 33.35
+        "hours": 33.77
       },
       {
         "level": 80,
-        "hours": 44.06
+        "hours": 44.47
       },
       {
         "level": 90,
-        "hours": 55.49
+        "hours": 56.28
       },
       {
         "level": 99,
-        "hours": 67.3
+        "hours": 68.47
       }
     ],
     "samples": [
@@ -264,8 +264,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 14400,
-        "kills": 24
+        "xpPerHour": 15000,
+        "kills": 25
       },
       {
         "level": 20,
@@ -274,8 +274,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 32400,
-        "kills": 27
+        "xpPerHour": 30000,
+        "kills": 25
       },
       {
         "level": 40,
@@ -289,8 +289,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 76500,
-        "kills": 48
+        "xpPerHour": 73500,
+        "kills": 46
       },
       {
         "level": 70,
@@ -299,18 +299,18 @@
       },
       {
         "level": 80,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
@@ -318,7 +318,7 @@
     "classId": "blade",
     "option": 0,
     "role": "shield",
-    "hours": 69.28,
+    "hours": 69.86,
     "curve": [
       {
         "level": 10,
@@ -330,35 +330,35 @@
       },
       {
         "level": 30,
-        "hours": 0.41
+        "hours": 0.42
       },
       {
         "level": 40,
-        "hours": 0.57
+        "hours": 0.58
       },
       {
         "level": 50,
-        "hours": 12.8
+        "hours": 12.81
       },
       {
         "level": 60,
-        "hours": 24.63
+        "hours": 24.64
       },
       {
         "level": 70,
-        "hours": 35.14
+        "hours": 35.15
       },
       {
         "level": 80,
-        "hours": 45.85
+        "hours": 45.86
       },
       {
         "level": 90,
-        "hours": 57.46
+        "hours": 57.66
       },
       {
         "level": 99,
-        "hours": 69.28
+        "hours": 69.86
       }
     ],
     "samples": [
@@ -369,13 +369,13 @@
       },
       {
         "level": 10,
-        "xpPerHour": 14400,
-        "kills": 24
+        "xpPerHour": 13800,
+        "kills": 23
       },
       {
         "level": 20,
-        "xpPerHour": 24300,
-        "kills": 27
+        "xpPerHour": 23400,
+        "kills": 26
       },
       {
         "level": 30,
@@ -404,18 +404,18 @@
       },
       {
         "level": 80,
-        "xpPerHour": 94500,
-        "kills": 57
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
@@ -423,15 +423,15 @@
     "classId": "blade",
     "option": 0,
     "role": "buff",
-    "hours": 66.98,
+    "hours": 67.76,
     "curve": [
       {
         "level": 10,
-        "hours": 0.11
+        "hours": 0.12
       },
       {
         "level": 20,
-        "hours": 0.27
+        "hours": 0.28
       },
       {
         "level": 30,
@@ -447,30 +447,30 @@
       },
       {
         "level": 60,
-        "hours": 22.74
+        "hours": 22.73
       },
       {
         "level": 70,
-        "hours": 32.84
+        "hours": 33.24
       },
       {
         "level": 80,
-        "hours": 43.55
+        "hours": 43.95
       },
       {
         "level": 90,
-        "hours": 55.35
+        "hours": 55.57
       },
       {
         "level": 99,
-        "hours": 66.98
+        "hours": 67.76
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 6000,
-        "kills": 20
+        "xpPerHour": 5700,
+        "kills": 19
       },
       {
         "level": 10,
@@ -479,13 +479,13 @@
       },
       {
         "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
+        "xpPerHour": 22500,
+        "kills": 25
       },
       {
         "level": 30,
-        "xpPerHour": 30000,
-        "kills": 25
+        "xpPerHour": 31200,
+        "kills": 26
       },
       {
         "level": 40,
@@ -499,8 +499,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 76500,
-        "kills": 48
+        "xpPerHour": 73500,
+        "kills": 46
       },
       {
         "level": 70,
@@ -509,18 +509,18 @@
       },
       {
         "level": 80,
+        "xpPerHour": 94500,
+        "kills": 57
+      },
+      {
+        "level": 90,
         "xpPerHour": 93000,
         "kills": 56
       },
       {
-        "level": 90,
-        "xpPerHour": 97500,
-        "kills": 59
-      },
-      {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
@@ -528,7 +528,7 @@
     "classId": "blade",
     "option": 1,
     "role": "damage",
-    "hours": 78.47,
+    "hours": 79.66,
     "curve": [
       {
         "level": 10,
@@ -536,39 +536,39 @@
       },
       {
         "level": 20,
-        "hours": 0.21
+        "hours": 0.22
       },
       {
         "level": 30,
-        "hours": 0.33
+        "hours": 0.34
       },
       {
         "level": 40,
-        "hours": 0.47
+        "hours": 0.48
       },
       {
         "level": 50,
-        "hours": 10.73
+        "hours": 10.74
       },
       {
         "level": 60,
-        "hours": 22.9
+        "hours": 24.09
       },
       {
         "level": 70,
-        "hours": 35.16
+        "hours": 36.35
       },
       {
         "level": 80,
-        "hours": 48.11
+        "hours": 49.29
       },
       {
         "level": 90,
-        "hours": 63.35
+        "hours": 64.54
       },
       {
         "level": 99,
-        "hours": 78.47
+        "hours": 79.66
       }
     ],
     "samples": [
@@ -579,8 +579,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 20400,
-        "kills": 30
+        "xpPerHour": 18600,
+        "kills": 28
       },
       {
         "level": 20,
@@ -599,8 +599,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 51000,
-        "kills": 31
+        "xpPerHour": 46500,
+        "kills": 28
       },
       {
         "level": 60,
@@ -633,7 +633,7 @@
     "classId": "blade",
     "option": 1,
     "role": "control",
-    "hours": 78.53,
+    "hours": 77.36,
     "curve": [
       {
         "level": 10,
@@ -641,7 +641,7 @@
       },
       {
         "level": 20,
-        "hours": 0.21
+        "hours": 0.2
       },
       {
         "level": 30,
@@ -653,27 +653,27 @@
       },
       {
         "level": 50,
-        "hours": 12.22
+        "hours": 10.7
       },
       {
         "level": 60,
-        "hours": 24.05
+        "hours": 22.87
       },
       {
         "level": 70,
-        "hours": 35.49
+        "hours": 34.32
       },
       {
         "level": 80,
-        "hours": 48.17
+        "hours": 47
       },
       {
         "level": 90,
-        "hours": 63.1
+        "hours": 61.93
       },
       {
         "level": 99,
-        "hours": 78.53
+        "hours": 77.36
       }
     ],
     "samples": [
@@ -684,8 +684,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 22200,
-        "kills": 32
+        "xpPerHour": 23100,
+        "kills": 33
       },
       {
         "level": 20,
@@ -694,18 +694,18 @@
       },
       {
         "level": 30,
-        "xpPerHour": 40200,
-        "kills": 30
+        "xpPerHour": 38700,
+        "kills": 29
       },
       {
         "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
+        "xpPerHour": 46500,
+        "kills": 28
       },
       {
         "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
+        "xpPerHour": 51000,
+        "kills": 31
       },
       {
         "level": 60,
@@ -738,7 +738,7 @@
     "classId": "blade",
     "option": 1,
     "role": "heal",
-    "hours": 76.05,
+    "hours": 77.44,
     "curve": [
       {
         "level": 10,
@@ -746,7 +746,7 @@
       },
       {
         "level": 20,
-        "hours": 0.19
+        "hours": 0.18
       },
       {
         "level": 30,
@@ -762,23 +762,23 @@
       },
       {
         "level": 60,
-        "hours": 21.03
+        "hours": 21.87
       },
       {
         "level": 70,
-        "hours": 33.01
+        "hours": 34.13
       },
       {
         "level": 80,
-        "hours": 45.68
+        "hours": 47.07
       },
       {
         "level": 90,
-        "hours": 60.61
+        "hours": 62.01
       },
       {
         "level": 99,
-        "hours": 76.05
+        "hours": 77.44
       }
     ],
     "samples": [
@@ -789,13 +789,13 @@
       },
       {
         "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
+        "xpPerHour": 26700,
+        "kills": 37
       },
       {
         "level": 20,
-        "xpPerHour": 35100,
-        "kills": 34
+        "xpPerHour": 31500,
+        "kills": 31
       },
       {
         "level": 30,
@@ -809,18 +809,18 @@
       },
       {
         "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
-        "xpPerHour": 64500,
-        "kills": 40
+        "xpPerHour": 63000,
+        "kills": 39
       },
       {
         "level": 70,
-        "xpPerHour": 73500,
-        "kills": 46
+        "xpPerHour": 72000,
+        "kills": 45
       },
       {
         "level": 80,
@@ -843,7 +843,7 @@
     "classId": "blade",
     "option": 1,
     "role": "shield",
-    "hours": 78.27,
+    "hours": 78.68,
     "curve": [
       {
         "level": 10,
@@ -851,39 +851,39 @@
       },
       {
         "level": 20,
-        "hours": 0.2
+        "hours": 0.19
       },
       {
         "level": 30,
-        "hours": 0.32
+        "hours": 0.31
       },
       {
         "level": 40,
-        "hours": 0.45
+        "hours": 0.43
       },
       {
         "level": 50,
-        "hours": 10.71
+        "hours": 10.69
       },
       {
         "level": 60,
-        "hours": 22.54
+        "hours": 21.88
       },
       {
         "level": 70,
-        "hours": 33.73
+        "hours": 34.14
       },
       {
         "level": 80,
-        "hours": 46.95
+        "hours": 47.36
       },
       {
         "level": 90,
-        "hours": 62.52
+        "hours": 62.92
       },
       {
         "level": 99,
-        "hours": 78.27
+        "hours": 78.68
       }
     ],
     "samples": [
@@ -894,8 +894,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 23100,
-        "kills": 33
+        "xpPerHour": 24900,
+        "kills": 35
       },
       {
         "level": 20,
@@ -904,8 +904,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 43200,
+        "kills": 32
       },
       {
         "level": 40,
@@ -914,13 +914,13 @@
       },
       {
         "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
+        "xpPerHour": 63000,
+        "kills": 39
       },
       {
         "level": 70,
@@ -948,59 +948,59 @@
     "classId": "blade",
     "option": 1,
     "role": "buff",
-    "hours": 77.97,
+    "hours": 77.74,
     "curve": [
       {
         "level": 10,
-        "hours": 0.11
+        "hours": 0.12
       },
       {
         "level": 20,
-        "hours": 0.2
+        "hours": 0.22
       },
       {
         "level": 30,
-        "hours": 0.32
+        "hours": 0.34
       },
       {
         "level": 40,
-        "hours": 0.46
+        "hours": 0.48
       },
       {
         "level": 50,
-        "hours": 12.24
+        "hours": 12.26
       },
       {
         "level": 60,
-        "hours": 22.58
+        "hours": 22.6
       },
       {
         "level": 70,
-        "hours": 34.03
+        "hours": 33.8
       },
       {
         "level": 80,
-        "hours": 46.97
+        "hours": 46.74
       },
       {
         "level": 90,
-        "hours": 62.21
+        "hours": 61.98
       },
       {
         "level": 99,
-        "hours": 77.97
+        "hours": 77.74
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 6000,
-        "kills": 20
+        "xpPerHour": 5700,
+        "kills": 19
       },
       {
         "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
+        "xpPerHour": 21300,
+        "kills": 31
       },
       {
         "level": 20,
@@ -1024,8 +1024,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 67500,
-        "kills": 42
+        "xpPerHour": 69000,
+        "kills": 43
       },
       {
         "level": 70,
@@ -1053,7 +1053,7 @@
     "classId": "forge",
     "option": 0,
     "role": "damage",
-    "hours": 69.62,
+    "hours": 70.02,
     "curve": [
       {
         "level": 10,
@@ -1065,35 +1065,35 @@
       },
       {
         "level": 30,
-        "hours": 0.42
+        "hours": 0.41
       },
       {
         "level": 40,
-        "hours": 0.58
+        "hours": 0.57
       },
       {
         "level": 50,
-        "hours": 12.36
+        "hours": 12.35
       },
       {
         "level": 60,
-        "hours": 24.18
+        "hours": 24.17
       },
       {
         "level": 70,
-        "hours": 34.92
+        "hours": 34.47
       },
       {
         "level": 80,
-        "hours": 45.63
+        "hours": 45.18
       },
       {
         "level": 90,
-        "hours": 57.43
+        "hours": 56.98
       },
       {
         "level": 99,
-        "hours": 69.62
+        "hours": 70.02
       }
     ],
     "samples": [
@@ -1109,8 +1109,8 @@
       },
       {
         "level": 20,
-        "xpPerHour": 22500,
-        "kills": 25
+        "xpPerHour": 24300,
+        "kills": 27
       },
       {
         "level": 30,
@@ -1129,8 +1129,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 72000,
-        "kills": 45
+        "xpPerHour": 75000,
+        "kills": 47
       },
       {
         "level": 70,
@@ -1144,13 +1144,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 99,
-        "xpPerHour": 99000,
-        "kills": 60
+        "xpPerHour": 108000,
+        "kills": 66
       }
     ]
   },
@@ -1158,7 +1158,7 @@
     "classId": "forge",
     "option": 0,
     "role": "control",
-    "hours": 68.5,
+    "hours": 68.94,
     "curve": [
       {
         "level": 10,
@@ -1170,7 +1170,7 @@
       },
       {
         "level": 30,
-        "hours": 0.41
+        "hours": 0.42
       },
       {
         "level": 40,
@@ -1182,23 +1182,23 @@
       },
       {
         "level": 60,
-        "hours": 22.2
+        "hours": 22.45
       },
       {
         "level": 70,
-        "hours": 33.4
+        "hours": 33.65
       },
       {
         "level": 80,
-        "hours": 44.69
+        "hours": 44.94
       },
       {
         "level": 90,
-        "hours": 56.49
+        "hours": 56.74
       },
       {
         "level": 99,
-        "hours": 68.5
+        "hours": 68.94
       }
     ],
     "samples": [
@@ -1214,8 +1214,8 @@
       },
       {
         "level": 20,
-        "xpPerHour": 23400,
-        "kills": 26
+        "xpPerHour": 22500,
+        "kills": 25
       },
       {
         "level": 30,
@@ -1229,8 +1229,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 63000,
-        "kills": 39
+        "xpPerHour": 61500,
+        "kills": 38
       },
       {
         "level": 60,
@@ -1249,13 +1249,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 94500,
-        "kills": 57
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 103500,
+        "kills": 63
       }
     ]
   },
@@ -1263,7 +1263,7 @@
     "classId": "forge",
     "option": 0,
     "role": "heal",
-    "hours": 69.95,
+    "hours": 69.58,
     "curve": [
       {
         "level": 10,
@@ -1287,23 +1287,23 @@
       },
       {
         "level": 60,
-        "hours": 24.61
+        "hours": 23.68
       },
       {
         "level": 70,
-        "hours": 35.81
+        "hours": 34.88
       },
       {
         "level": 80,
-        "hours": 46.52
+        "hours": 45.59
       },
       {
         "level": 90,
-        "hours": 58.13
+        "hours": 57.39
       },
       {
         "level": 99,
-        "hours": 69.95
+        "hours": 69.58
       }
     ],
     "samples": [
@@ -1331,426 +1331,6 @@
         "level": 40,
         "xpPerHour": 39000,
         "kills": 26
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 80,
-        "xpPerHour": 94500,
-        "kills": 57
-      },
-      {
-        "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 0,
-    "role": "shield",
-    "hours": 66.96,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.26
-      },
-      {
-        "level": 30,
-        "hours": 0.43
-      },
-      {
-        "level": 40,
-        "hours": 0.6
-      },
-      {
-        "level": 50,
-        "hours": 12.38
-      },
-      {
-        "level": 60,
-        "hours": 22.73
-      },
-      {
-        "level": 70,
-        "hours": 32.83
-      },
-      {
-        "level": 80,
-        "hours": 43.54
-      },
-      {
-        "level": 90,
-        "hours": 55.15
-      },
-      {
-        "level": 99,
-        "hours": 66.96
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6300,
-        "kills": 21
-      },
-      {
-        "level": 10,
-        "xpPerHour": 13800,
-        "kills": 23
-      },
-      {
-        "level": 20,
-        "xpPerHour": 22500,
-        "kills": 25
-      },
-      {
-        "level": 30,
-        "xpPerHour": 30000,
-        "kills": 25
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
-      },
-      {
-        "level": 60,
-        "xpPerHour": 76500,
-        "kills": 48
-      },
-      {
-        "level": 70,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 80,
-        "xpPerHour": 94500,
-        "kills": 57
-      },
-      {
-        "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 0,
-    "role": "buff",
-    "hours": 70.54,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.29
-      },
-      {
-        "level": 30,
-        "hours": 0.46
-      },
-      {
-        "level": 40,
-        "hours": 0.65
-      },
-      {
-        "level": 50,
-        "hours": 13.37
-      },
-      {
-        "level": 60,
-        "hours": 23.72
-      },
-      {
-        "level": 70,
-        "hours": 34.23
-      },
-      {
-        "level": 80,
-        "hours": 45.73
-      },
-      {
-        "level": 90,
-        "hours": 58.35
-      },
-      {
-        "level": 99,
-        "hours": 70.54
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 12600,
-        "kills": 21
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 27600,
-        "kills": 23
-      },
-      {
-        "level": 40,
-        "xpPerHour": 37500,
-        "kills": 25
-      },
-      {
-        "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
-      },
-      {
-        "level": 60,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 70,
-        "xpPerHour": 81000,
-        "kills": 51
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 1,
-    "role": "damage",
-    "hours": 77.67,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.2
-      },
-      {
-        "level": 30,
-        "hours": 0.31
-      },
-      {
-        "level": 40,
-        "hours": 0.45
-      },
-      {
-        "level": 50,
-        "hours": 12.23
-      },
-      {
-        "level": 60,
-        "hours": 24.06
-      },
-      {
-        "level": 70,
-        "hours": 36.32
-      },
-      {
-        "level": 80,
-        "hours": 48.5
-      },
-      {
-        "level": 90,
-        "hours": 62.85
-      },
-      {
-        "level": 99,
-        "hours": 77.67
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6300,
-        "kills": 21
-      },
-      {
-        "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
-      },
-      {
-        "level": 20,
-        "xpPerHour": 31500,
-        "kills": 31
-      },
-      {
-        "level": 30,
-        "xpPerHour": 37200,
-        "kills": 28
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 63000,
-        "kills": 39
-      },
-      {
-        "level": 70,
-        "xpPerHour": 76500,
-        "kills": 48
-      },
-      {
-        "level": 80,
-        "xpPerHour": 76500,
-        "kills": 48
-      },
-      {
-        "level": 90,
-        "xpPerHour": 76500,
-        "kills": 48
-      },
-      {
-        "level": 99,
-        "xpPerHour": 76500,
-        "kills": 48
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 1,
-    "role": "control",
-    "hours": 78.81,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.2
-      },
-      {
-        "level": 30,
-        "hours": 0.29
-      },
-      {
-        "level": 40,
-        "hours": 0.4
-      },
-      {
-        "level": 50,
-        "hours": 12.18
-      },
-      {
-        "level": 60,
-        "hours": 23.07
-      },
-      {
-        "level": 70,
-        "hours": 34.27
-      },
-      {
-        "level": 80,
-        "hours": 47.49
-      },
-      {
-        "level": 90,
-        "hours": 63.05
-      },
-      {
-        "level": 99,
-        "hours": 78.81
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6000,
-        "kills": 20
-      },
-      {
-        "level": 10,
-        "xpPerHour": 24900,
-        "kills": 35
-      },
-      {
-        "level": 20,
-        "xpPerHour": 38700,
-        "kills": 37
-      },
-      {
-        "level": 30,
-        "xpPerHour": 47700,
-        "kills": 35
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
       },
       {
         "level": 50,
@@ -1764,1606 +1344,31 @@
       },
       {
         "level": 70,
-        "xpPerHour": 70500,
-        "kills": 44
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 80,
-        "xpPerHour": 70500,
-        "kills": 44
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 72000,
-        "kills": 45
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 72000,
-        "kills": 45
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
   {
     "classId": "forge",
-    "option": 1,
-    "role": "heal",
-    "hours": 77.08,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.09
-      },
-      {
-        "level": 20,
-        "hours": 0.18
-      },
-      {
-        "level": 30,
-        "hours": 0.29
-      },
-      {
-        "level": 40,
-        "hours": 0.42
-      },
-      {
-        "level": 50,
-        "hours": 10.68
-      },
-      {
-        "level": 60,
-        "hours": 22.5
-      },
-      {
-        "level": 70,
-        "hours": 33.46
-      },
-      {
-        "level": 80,
-        "hours": 46.4
-      },
-      {
-        "level": 90,
-        "hours": 61.64
-      },
-      {
-        "level": 99,
-        "hours": 77.08
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 7200,
-        "kills": 24
-      },
-      {
-        "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
-      },
-      {
-        "level": 20,
-        "xpPerHour": 33900,
-        "kills": 33
-      },
-      {
-        "level": 30,
-        "xpPerHour": 41700,
-        "kills": 31
-      },
-      {
-        "level": 40,
-        "xpPerHour": 46500,
-        "kills": 28
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 70,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 80,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 1,
-    "role": "shield",
-    "hours": 77.99,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.2
-      },
-      {
-        "level": 30,
-        "hours": 0.31
-      },
-      {
-        "level": 40,
-        "hours": 0.45
-      },
-      {
-        "level": 50,
-        "hours": 12.23
-      },
-      {
-        "level": 60,
-        "hours": 23.73
-      },
-      {
-        "level": 70,
-        "hours": 34.69
-      },
-      {
-        "level": 80,
-        "hours": 47.63
-      },
-      {
-        "level": 90,
-        "hours": 62.56
-      },
-      {
-        "level": 99,
-        "hours": 77.99
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6300,
-        "kills": 21
-      },
-      {
-        "level": 10,
-        "xpPerHour": 23100,
-        "kills": 33
-      },
-      {
-        "level": 20,
-        "xpPerHour": 32700,
-        "kills": 32
-      },
-      {
-        "level": 30,
-        "xpPerHour": 37200,
-        "kills": 28
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
-      },
-      {
-        "level": 60,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 70,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 80,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "forge",
-    "option": 1,
-    "role": "buff",
-    "hours": 78.91,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.22
-      },
-      {
-        "level": 30,
-        "hours": 0.33
-      },
-      {
-        "level": 40,
-        "hours": 0.46
-      },
-      {
-        "level": 50,
-        "hours": 12.24
-      },
-      {
-        "level": 60,
-        "hours": 23.74
-      },
-      {
-        "level": 70,
-        "hours": 34.7
-      },
-      {
-        "level": 80,
-        "hours": 47.91
-      },
-      {
-        "level": 90,
-        "hours": 63.48
-      },
-      {
-        "level": 99,
-        "hours": 78.91
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 22200,
-        "kills": 32
-      },
-      {
-        "level": 20,
-        "xpPerHour": 32700,
-        "kills": 32
-      },
-      {
-        "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
-      },
-      {
-        "level": 60,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 70,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 80,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 0,
-    "role": "damage",
-    "hours": 74.9,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.27
-      },
-      {
-        "level": 30,
-        "hours": 0.46
-      },
-      {
-        "level": 40,
-        "hours": 0.66
-      },
-      {
-        "level": 50,
-        "hours": 15.12
-      },
-      {
-        "level": 60,
-        "hours": 26.94
-      },
-      {
-        "level": 70,
-        "hours": 38.14
-      },
-      {
-        "level": 80,
-        "hours": 50.08
-      },
-      {
-        "level": 90,
-        "hours": 62.7
-      },
-      {
-        "level": 99,
-        "hours": 74.9
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 14400,
-        "kills": 24
-      },
-      {
-        "level": 20,
-        "xpPerHour": 19800,
-        "kills": 22
-      },
-      {
-        "level": 30,
-        "xpPerHour": 25200,
-        "kills": 21
-      },
-      {
-        "level": 40,
-        "xpPerHour": 33000,
-        "kills": 22
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 78000,
-        "kills": 49
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 96000,
-        "kills": 58
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 0,
-    "role": "control",
-    "hours": 72.97,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.3
-      },
-      {
-        "level": 30,
-        "hours": 0.47
-      },
-      {
-        "level": 40,
-        "hours": 0.65
-      },
-      {
-        "level": 50,
-        "hours": 14.48
-      },
-      {
-        "level": 60,
-        "hours": 25.66
-      },
-      {
-        "level": 70,
-        "hours": 36.86
-      },
-      {
-        "level": 80,
-        "hours": 48.15
-      },
-      {
-        "level": 90,
-        "hours": 60.77
-      },
-      {
-        "level": 99,
-        "hours": 72.97
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 12000,
-        "kills": 20
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 28800,
-        "kills": 24
-      },
-      {
-        "level": 40,
-        "xpPerHour": 34500,
-        "kills": 23
-      },
-      {
-        "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 82500,
-        "kills": 52
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 93000,
-        "kills": 56
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 0,
-    "role": "heal",
-    "hours": 73.48,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.13
-      },
-      {
-        "level": 20,
-        "hours": 0.29
-      },
-      {
-        "level": 30,
-        "hours": 0.46
-      },
-      {
-        "level": 40,
-        "hours": 0.65
-      },
-      {
-        "level": 50,
-        "hours": 13.37
-      },
-      {
-        "level": 60,
-        "hours": 25.54
-      },
-      {
-        "level": 70,
-        "hours": 36.74
-      },
-      {
-        "level": 80,
-        "hours": 47.83
-      },
-      {
-        "level": 90,
-        "hours": 60.45
-      },
-      {
-        "level": 99,
-        "hours": 73.48
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5400,
-        "kills": 18
-      },
-      {
-        "level": 10,
-        "xpPerHour": 13200,
-        "kills": 22
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 27600,
-        "kills": 23
-      },
-      {
-        "level": 40,
-        "xpPerHour": 37500,
-        "kills": 25
-      },
-      {
-        "level": 50,
-        "xpPerHour": 51000,
-        "kills": 31
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 99,
-        "xpPerHour": 93000,
-        "kills": 56
-      }
-    ]
-  },
-  {
-    "classId": "bind",
     "option": 0,
     "role": "shield",
-    "hours": 73.23,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.31
-      },
-      {
-        "level": 30,
-        "hours": 0.48
-      },
-      {
-        "level": 40,
-        "hours": 0.68
-      },
-      {
-        "level": 50,
-        "hours": 13.94
-      },
-      {
-        "level": 60,
-        "hours": 25.12
-      },
-      {
-        "level": 70,
-        "hours": 35.63
-      },
-      {
-        "level": 80,
-        "hours": 47.58
-      },
-      {
-        "level": 90,
-        "hours": 60.19
-      },
-      {
-        "level": 99,
-        "hours": 73.23
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 11400,
-        "kills": 19
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 25200,
-        "kills": 21
-      },
-      {
-        "level": 40,
-        "xpPerHour": 36000,
-        "kills": 24
-      },
-      {
-        "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
-      },
-      {
-        "level": 60,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 70,
-        "xpPerHour": 78000,
-        "kills": 49
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 99,
-        "xpPerHour": 93000,
-        "kills": 56
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 0,
-    "role": "buff",
-    "hours": 72.15,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.3
-      },
-      {
-        "level": 30,
-        "hours": 0.47
-      },
-      {
-        "level": 40,
-        "hours": 0.66
-      },
-      {
-        "level": 50,
-        "hours": 13.91
-      },
-      {
-        "level": 60,
-        "hours": 25.73
-      },
-      {
-        "level": 70,
-        "hours": 36.25
-      },
-      {
-        "level": 80,
-        "hours": 47.34
-      },
-      {
-        "level": 90,
-        "hours": 59.95
-      },
-      {
-        "level": 99,
-        "hours": 72.15
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 12000,
-        "kills": 20
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 27600,
-        "kills": 23
-      },
-      {
-        "level": 40,
-        "xpPerHour": 36000,
-        "kills": 24
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 97500,
-        "kills": 59
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 1,
-    "role": "damage",
-    "hours": 77.42,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.21
-      },
-      {
-        "level": 30,
-        "hours": 0.32
-      },
-      {
-        "level": 40,
-        "hours": 0.45
-      },
-      {
-        "level": 50,
-        "hours": 12.23
-      },
-      {
-        "level": 60,
-        "hours": 23.42
-      },
-      {
-        "level": 70,
-        "hours": 34.38
-      },
-      {
-        "level": 80,
-        "hours": 47.06
-      },
-      {
-        "level": 90,
-        "hours": 61.99
-      },
-      {
-        "level": 99,
-        "hours": 77.42
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 23100,
-        "kills": 33
-      },
-      {
-        "level": 20,
-        "xpPerHour": 33900,
-        "kills": 33
-      },
-      {
-        "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
-      },
-      {
-        "level": 60,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 70,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 80,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 1,
-    "role": "control",
-    "hours": 77.17,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.21
-      },
-      {
-        "level": 30,
-        "hours": 0.31
-      },
-      {
-        "level": 40,
-        "hours": 0.44
-      },
-      {
-        "level": 50,
-        "hours": 12.22
-      },
-      {
-        "level": 60,
-        "hours": 23.4
-      },
-      {
-        "level": 70,
-        "hours": 34.13
-      },
-      {
-        "level": 80,
-        "hours": 46.81
-      },
-      {
-        "level": 90,
-        "hours": 61.74
-      },
-      {
-        "level": 99,
-        "hours": 77.17
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
-      },
-      {
-        "level": 20,
-        "xpPerHour": 35100,
-        "kills": 34
-      },
-      {
-        "level": 30,
-        "xpPerHour": 41700,
-        "kills": 31
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
-      },
-      {
-        "level": 60,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 70,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 80,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 1,
-    "role": "heal",
-    "hours": 78.3,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.13
-      },
-      {
-        "level": 20,
-        "hours": 0.22
-      },
-      {
-        "level": 30,
-        "hours": 0.32
-      },
-      {
-        "level": 40,
-        "hours": 0.44
-      },
-      {
-        "level": 50,
-        "hours": 12.22
-      },
-      {
-        "level": 60,
-        "hours": 22.56
-      },
-      {
-        "level": 70,
-        "hours": 33.76
-      },
-      {
-        "level": 80,
-        "hours": 46.98
-      },
-      {
-        "level": 90,
-        "hours": 62.54
-      },
-      {
-        "level": 99,
-        "hours": 78.3
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5400,
-        "kills": 18
-      },
-      {
-        "level": 10,
-        "xpPerHour": 24000,
-        "kills": 34
-      },
-      {
-        "level": 20,
-        "xpPerHour": 36300,
-        "kills": 35
-      },
-      {
-        "level": 30,
-        "xpPerHour": 43200,
-        "kills": 32
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 80,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 90,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 99,
-        "xpPerHour": 72000,
-        "kills": 45
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 1,
-    "role": "shield",
-    "hours": 78.72,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.22
-      },
-      {
-        "level": 30,
-        "hours": 0.32
-      },
-      {
-        "level": 40,
-        "hours": 0.45
-      },
-      {
-        "level": 50,
-        "hours": 12.22
-      },
-      {
-        "level": 60,
-        "hours": 24.05
-      },
-      {
-        "level": 70,
-        "hours": 34.78
-      },
-      {
-        "level": 80,
-        "hours": 47.72
-      },
-      {
-        "level": 90,
-        "hours": 62.96
-      },
-      {
-        "level": 99,
-        "hours": 78.72
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 22200,
-        "kills": 32
-      },
-      {
-        "level": 20,
-        "xpPerHour": 35100,
-        "kills": 34
-      },
-      {
-        "level": 30,
-        "xpPerHour": 41700,
-        "kills": 31
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 70,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 80,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 90,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 99,
-        "xpPerHour": 72000,
-        "kills": 45
-      }
-    ]
-  },
-  {
-    "classId": "bind",
-    "option": 1,
-    "role": "buff",
-    "hours": 78.93,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.21
-      },
-      {
-        "level": 30,
-        "hours": 0.33
-      },
-      {
-        "level": 40,
-        "hours": 0.49
-      },
-      {
-        "level": 50,
-        "hours": 12.27
-      },
-      {
-        "level": 60,
-        "hours": 24.45
-      },
-      {
-        "level": 70,
-        "hours": 35.89
-      },
-      {
-        "level": 80,
-        "hours": 48.57
-      },
-      {
-        "level": 90,
-        "hours": 63.5
-      },
-      {
-        "level": 99,
-        "hours": 78.93
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 23100,
-        "kills": 33
-      },
-      {
-        "level": 20,
-        "xpPerHour": 30300,
-        "kills": 30
-      },
-      {
-        "level": 30,
-        "xpPerHour": 32400,
-        "kills": 27
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 51000,
-        "kills": 31
-      },
-      {
-        "level": 60,
-        "xpPerHour": 67500,
-        "kills": 42
-      },
-      {
-        "level": 70,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 80,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "mend",
-    "option": 0,
-    "role": "damage",
-    "hours": 69.32,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.27
-      },
-      {
-        "level": 30,
-        "hours": 0.43
-      },
-      {
-        "level": 40,
-        "hours": 0.6
-      },
-      {
-        "level": 50,
-        "hours": 13.32
-      },
-      {
-        "level": 60,
-        "hours": 23.42
-      },
-      {
-        "level": 70,
-        "hours": 34.61
-      },
-      {
-        "level": 80,
-        "hours": 45.32
-      },
-      {
-        "level": 90,
-        "hours": 57.12
-      },
-      {
-        "level": 99,
-        "hours": 69.32
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6000,
-        "kills": 20
-      },
-      {
-        "level": 10,
-        "xpPerHour": 13800,
-        "kills": 23
-      },
-      {
-        "level": 20,
-        "xpPerHour": 23400,
-        "kills": 26
-      },
-      {
-        "level": 30,
-        "xpPerHour": 30000,
-        "kills": 25
-      },
-      {
-        "level": 40,
-        "xpPerHour": 37500,
-        "kills": 25
-      },
-      {
-        "level": 50,
-        "xpPerHour": 61500,
-        "kills": 38
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 80,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "mend",
-    "option": 0,
-    "role": "control",
-    "hours": 71.08,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.12
-      },
-      {
-        "level": 20,
-        "hours": 0.27
-      },
-      {
-        "level": 30,
-        "hours": 0.42
-      },
-      {
-        "level": 40,
-        "hours": 0.58
-      },
-      {
-        "level": 50,
-        "hours": 12.81
-      },
-      {
-        "level": 60,
-        "hours": 24.98
-      },
-      {
-        "level": 70,
-        "hours": 36.18
-      },
-      {
-        "level": 80,
-        "hours": 47.27
-      },
-      {
-        "level": 90,
-        "hours": 59.08
-      },
-      {
-        "level": 99,
-        "hours": 71.08
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5700,
-        "kills": 19
-      },
-      {
-        "level": 10,
-        "xpPerHour": 14400,
-        "kills": 24
-      },
-      {
-        "level": 20,
-        "xpPerHour": 24300,
-        "kills": 27
-      },
-      {
-        "level": 30,
-        "xpPerHour": 32400,
-        "kills": 27
-      },
-      {
-        "level": 40,
-        "xpPerHour": 39000,
-        "kills": 26
-      },
-      {
-        "level": 50,
-        "xpPerHour": 51000,
-        "kills": 31
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
-      },
-      {
-        "level": 80,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 90,
-        "xpPerHour": 94500,
-        "kills": 57
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "mend",
-    "option": 0,
-    "role": "heal",
-    "hours": 67.41,
+    "hours": 67.93,
     "curve": [
       {
         "level": 10,
@@ -3379,116 +1384,11 @@
       },
       {
         "level": 40,
-        "hours": 0.59
+        "hours": 0.58
       },
       {
         "level": 50,
-        "hours": 12.83
-      },
-      {
-        "level": 60,
-        "hours": 23.17
-      },
-      {
-        "level": 70,
-        "hours": 33.27
-      },
-      {
-        "level": 80,
-        "hours": 43.98
-      },
-      {
-        "level": 90,
-        "hours": 55.6
-      },
-      {
-        "level": 99,
-        "hours": 67.41
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6300,
-        "kills": 21
-      },
-      {
-        "level": 10,
-        "xpPerHour": 13800,
-        "kills": 23
-      },
-      {
-        "level": 20,
-        "xpPerHour": 23400,
-        "kills": 26
-      },
-      {
-        "level": 30,
-        "xpPerHour": 30000,
-        "kills": 25
-      },
-      {
-        "level": 40,
-        "xpPerHour": 39000,
-        "kills": 26
-      },
-      {
-        "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
-      },
-      {
-        "level": 60,
-        "xpPerHour": 76500,
-        "kills": 48
-      },
-      {
-        "level": 70,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 80,
-        "xpPerHour": 94500,
-        "kills": 57
-      },
-      {
-        "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
-      },
-      {
-        "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
-      }
-    ]
-  },
-  {
-    "classId": "mend",
-    "option": 0,
-    "role": "shield",
-    "hours": 68.16,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.27
-      },
-      {
-        "level": 30,
-        "hours": 0.42
-      },
-      {
-        "level": 40,
-        "hours": 0.59
-      },
-      {
-        "level": 50,
-        "hours": 12.37
+        "hours": 12.36
       },
       {
         "level": 60,
@@ -3500,22 +1400,22 @@
       },
       {
         "level": 80,
-        "hours": 44.73
+        "hours": 43.93
       },
       {
         "level": 90,
-        "hours": 56.34
+        "hours": 55.73
       },
       {
         "level": 99,
-        "hours": 68.16
+        "hours": 67.93
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 6000,
-        "kills": 20
+        "xpPerHour": 6300,
+        "kills": 21
       },
       {
         "level": 10,
@@ -3549,31 +1449,31 @@
       },
       {
         "level": 70,
-        "xpPerHour": 81000,
-        "kills": 51
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 80,
-        "xpPerHour": 94500,
-        "kills": 57
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
   {
-    "classId": "mend",
+    "classId": "forge",
     "option": 0,
     "role": "buff",
-    "hours": 72.05,
+    "hours": 69.43,
     "curve": [
       {
         "level": 10,
@@ -3581,39 +1481,39 @@
       },
       {
         "level": 20,
-        "hours": 0.28
+        "hours": 0.29
       },
       {
         "level": 30,
-        "hours": 0.45
+        "hours": 0.46
       },
       {
         "level": 40,
-        "hours": 0.63
+        "hours": 0.64
       },
       {
         "level": 50,
-        "hours": 14.45
+        "hours": 12.42
       },
       {
         "level": 60,
-        "hours": 25.64
+        "hours": 23.61
       },
       {
         "level": 70,
-        "hours": 36.15
+        "hours": 34.12
       },
       {
         "level": 80,
-        "hours": 47.24
+        "hours": 45.62
       },
       {
         "level": 90,
-        "hours": 59.86
+        "hours": 57.23
       },
       {
         "level": 99,
-        "hours": 72.05
+        "hours": 69.43
       }
     ],
     "samples": [
@@ -3624,8 +1524,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 13800,
-        "kills": 23
+        "xpPerHour": 12600,
+        "kills": 21
       },
       {
         "level": 20,
@@ -3639,8 +1539,8 @@
       },
       {
         "level": 40,
-        "xpPerHour": 34500,
-        "kills": 23
+        "xpPerHour": 40500,
+        "kills": 27
       },
       {
         "level": 50,
@@ -3654,13 +1554,13 @@
       },
       {
         "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
+        "xpPerHour": 81000,
+        "kills": 51
       },
       {
         "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
+        "xpPerHour": 94500,
+        "kills": 57
       },
       {
         "level": 90,
@@ -3669,16 +1569,121 @@
       },
       {
         "level": 99,
-        "xpPerHour": 102000,
-        "kills": 62
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
   {
-    "classId": "mend",
+    "classId": "forge",
     "option": 1,
     "role": "damage",
-    "hours": 78.85,
+    "hours": 81.12,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.32
+      },
+      {
+        "level": 40,
+        "hours": 0.46
+      },
+      {
+        "level": 50,
+        "hours": 12.24
+      },
+      {
+        "level": 60,
+        "hours": 27.56
+      },
+      {
+        "level": 70,
+        "hours": 39.27
+      },
+      {
+        "level": 80,
+        "hours": 51.95
+      },
+      {
+        "level": 90,
+        "hours": 66.29
+      },
+      {
+        "level": 99,
+        "hours": 81.12
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
+      },
+      {
+        "level": 10,
+        "xpPerHour": 20400,
+        "kills": 30
+      },
+      {
+        "level": 20,
+        "xpPerHour": 35100,
+        "kills": 34
+      },
+      {
+        "level": 30,
+        "xpPerHour": 37200,
+        "kills": 28
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 60,
+        "xpPerHour": 66000,
+        "kills": 41
+      },
+      {
+        "level": 70,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 80,
+        "xpPerHour": 76500,
+        "kills": 48
+      },
+      {
+        "level": 90,
+        "xpPerHour": 76500,
+        "kills": 48
+      },
+      {
+        "level": 99,
+        "xpPerHour": 76500,
+        "kills": 48
+      }
+    ]
+  },
+  {
+    "classId": "forge",
+    "option": 1,
+    "role": "control",
+    "hours": 78.01,
     "curve": [
       {
         "level": 10,
@@ -3690,35 +1695,35 @@
       },
       {
         "level": 30,
-        "hours": 0.31
+        "hours": 0.29
       },
       {
         "level": 40,
-        "hours": 0.45
+        "hours": 0.4
       },
       {
         "level": 50,
-        "hours": 12.23
+        "hours": 12.18
       },
       {
         "level": 60,
-        "hours": 23.12
+        "hours": 22.28
       },
       {
         "level": 70,
-        "hours": 34.31
+        "hours": 33.47
       },
       {
         "level": 80,
-        "hours": 47.53
+        "hours": 46.69
       },
       {
         "level": 90,
-        "hours": 63.1
+        "hours": 62.26
       },
       {
         "level": 99,
-        "hours": 78.85
+        "hours": 78.01
       }
     ],
     "samples": [
@@ -3734,13 +1739,13 @@
       },
       {
         "level": 20,
-        "xpPerHour": 32700,
-        "kills": 32
+        "xpPerHour": 38700,
+        "kills": 37
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 47700,
+        "kills": 35
       },
       {
         "level": 40,
@@ -3749,8 +1754,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 57000,
-        "kills": 35
+        "xpPerHour": 61500,
+        "kills": 38
       },
       {
         "level": 60,
@@ -3780,10 +1785,850 @@
     ]
   },
   {
-    "classId": "mend",
+    "classId": "forge",
     "option": 1,
+    "role": "heal",
+    "hours": 76.43,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.09
+      },
+      {
+        "level": 20,
+        "hours": 0.18
+      },
+      {
+        "level": 30,
+        "hours": 0.29
+      },
+      {
+        "level": 40,
+        "hours": 0.41
+      },
+      {
+        "level": 50,
+        "hours": 10.67
+      },
+      {
+        "level": 60,
+        "hours": 21.86
+      },
+      {
+        "level": 70,
+        "hours": 32.82
+      },
+      {
+        "level": 80,
+        "hours": 45.76
+      },
+      {
+        "level": 90,
+        "hours": 61
+      },
+      {
+        "level": 99,
+        "hours": 76.43
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 7200,
+        "kills": 24
+      },
+      {
+        "level": 10,
+        "xpPerHour": 24000,
+        "kills": 34
+      },
+      {
+        "level": 20,
+        "xpPerHour": 33900,
+        "kills": 33
+      },
+      {
+        "level": 30,
+        "xpPerHour": 43200,
+        "kills": 32
+      },
+      {
+        "level": 40,
+        "xpPerHour": 46500,
+        "kills": 28
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 70,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 80,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "forge",
+    "option": 1,
+    "role": "shield",
+    "hours": 77.97,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.2
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
+        "hours": 0.43
+      },
+      {
+        "level": 50,
+        "hours": 12.21
+      },
+      {
+        "level": 60,
+        "hours": 23.71
+      },
+      {
+        "level": 70,
+        "hours": 34.67
+      },
+      {
+        "level": 80,
+        "hours": 47.61
+      },
+      {
+        "level": 90,
+        "hours": 62.54
+      },
+      {
+        "level": 99,
+        "hours": 77.97
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
+      },
+      {
+        "level": 10,
+        "xpPerHour": 24000,
+        "kills": 34
+      },
+      {
+        "level": 20,
+        "xpPerHour": 32700,
+        "kills": 32
+      },
+      {
+        "level": 30,
+        "xpPerHour": 41700,
+        "kills": 31
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 54000,
+        "kills": 33
+      },
+      {
+        "level": 60,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 70,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 80,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "forge",
+    "option": 1,
+    "role": "buff",
+    "hours": 78.6,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.22
+      },
+      {
+        "level": 30,
+        "hours": 0.33
+      },
+      {
+        "level": 40,
+        "hours": 0.46
+      },
+      {
+        "level": 50,
+        "hours": 12.24
+      },
+      {
+        "level": 60,
+        "hours": 23.42
+      },
+      {
+        "level": 70,
+        "hours": 34.38
+      },
+      {
+        "level": 80,
+        "hours": 47.6
+      },
+      {
+        "level": 90,
+        "hours": 63.16
+      },
+      {
+        "level": 99,
+        "hours": 78.6
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 22200,
+        "kills": 32
+      },
+      {
+        "level": 20,
+        "xpPerHour": 32700,
+        "kills": 32
+      },
+      {
+        "level": 30,
+        "xpPerHour": 40200,
+        "kills": 30
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 70,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 80,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 0,
+    "role": "damage",
+    "hours": 74.88,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.28
+      },
+      {
+        "level": 30,
+        "hours": 0.47
+      },
+      {
+        "level": 40,
+        "hours": 0.66
+      },
+      {
+        "level": 50,
+        "hours": 13.91
+      },
+      {
+        "level": 60,
+        "hours": 26.45
+      },
+      {
+        "level": 70,
+        "hours": 37.65
+      },
+      {
+        "level": 80,
+        "hours": 50.07
+      },
+      {
+        "level": 90,
+        "hours": 62.69
+      },
+      {
+        "level": 99,
+        "hours": 74.88
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 18900,
+        "kills": 21
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 36000,
+        "kills": 24
+      },
+      {
+        "level": 50,
+        "xpPerHour": 49500,
+        "kills": 30
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 75000,
+        "kills": 47
+      },
+      {
+        "level": 80,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 0,
     "role": "control",
-    "hours": 76.77,
+    "hours": 74.01,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.28
+      },
+      {
+        "level": 30,
+        "hours": 0.45
+      },
+      {
+        "level": 40,
+        "hours": 0.63
+      },
+      {
+        "level": 50,
+        "hours": 13.89
+      },
+      {
+        "level": 60,
+        "hours": 26.06
+      },
+      {
+        "level": 70,
+        "hours": 37.26
+      },
+      {
+        "level": 80,
+        "hours": 49.2
+      },
+      {
+        "level": 90,
+        "hours": 61.82
+      },
+      {
+        "level": 99,
+        "hours": 74.01
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13200,
+        "kills": 22
+      },
+      {
+        "level": 20,
+        "xpPerHour": 22500,
+        "kills": 25
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 36000,
+        "kills": 24
+      },
+      {
+        "level": 50,
+        "xpPerHour": 51000,
+        "kills": 31
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 78000,
+        "kills": 49
+      },
+      {
+        "level": 80,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 0,
+    "role": "heal",
+    "hours": 73.85,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.13
+      },
+      {
+        "level": 20,
+        "hours": 0.28
+      },
+      {
+        "level": 30,
+        "hours": 0.45
+      },
+      {
+        "level": 40,
+        "hours": 0.64
+      },
+      {
+        "level": 50,
+        "hours": 13.36
+      },
+      {
+        "level": 60,
+        "hours": 26.29
+      },
+      {
+        "level": 70,
+        "hours": 37.49
+      },
+      {
+        "level": 80,
+        "hours": 48.2
+      },
+      {
+        "level": 90,
+        "hours": 60.82
+      },
+      {
+        "level": 99,
+        "hours": 73.85
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5400,
+        "kills": 18
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 21600,
+        "kills": 24
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 37500,
+        "kills": 25
+      },
+      {
+        "level": 50,
+        "xpPerHour": 48000,
+        "kills": 29
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 80,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 90,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 0,
+    "role": "shield",
+    "hours": 73.32,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.31
+      },
+      {
+        "level": 30,
+        "hours": 0.49
+      },
+      {
+        "level": 40,
+        "hours": 0.68
+      },
+      {
+        "level": 50,
+        "hours": 13.94
+      },
+      {
+        "level": 60,
+        "hours": 25.76
+      },
+      {
+        "level": 70,
+        "hours": 36.96
+      },
+      {
+        "level": 80,
+        "hours": 47.67
+      },
+      {
+        "level": 90,
+        "hours": 60.28
+      },
+      {
+        "level": 99,
+        "hours": 73.32
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 11400,
+        "kills": 19
+      },
+      {
+        "level": 20,
+        "xpPerHour": 20700,
+        "kills": 23
+      },
+      {
+        "level": 30,
+        "xpPerHour": 26400,
+        "kills": 22
+      },
+      {
+        "level": 40,
+        "xpPerHour": 36000,
+        "kills": 24
+      },
+      {
+        "level": 50,
+        "xpPerHour": 52500,
+        "kills": 32
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 80,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 90,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 0,
+    "role": "buff",
+    "hours": 73.89,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.13
+      },
+      {
+        "level": 20,
+        "hours": 0.31
+      },
+      {
+        "level": 30,
+        "hours": 0.48
+      },
+      {
+        "level": 40,
+        "hours": 0.66
+      },
+      {
+        "level": 50,
+        "hours": 15.12
+      },
+      {
+        "level": 60,
+        "hours": 26.94
+      },
+      {
+        "level": 70,
+        "hours": 38.14
+      },
+      {
+        "level": 80,
+        "hours": 49.23
+      },
+      {
+        "level": 90,
+        "hours": 60.85
+      },
+      {
+        "level": 99,
+        "hours": 73.89
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5400,
+        "kills": 18
+      },
+      {
+        "level": 10,
+        "xpPerHour": 12000,
+        "kills": 20
+      },
+      {
+        "level": 20,
+        "xpPerHour": 21600,
+        "kills": 24
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 33000,
+        "kills": 22
+      },
+      {
+        "level": 50,
+        "xpPerHour": 52500,
+        "kills": 32
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 84000,
+        "kills": 53
+      },
+      {
+        "level": 80,
+        "xpPerHour": 94500,
+        "kills": 57
+      },
+      {
+        "level": 90,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 1,
+    "role": "damage",
+    "hours": 75.45,
     "curve": [
       {
         "level": 10,
@@ -3799,6 +2644,111 @@
       },
       {
         "level": 40,
+        "hours": 0.45
+      },
+      {
+        "level": 50,
+        "hours": 10.71
+      },
+      {
+        "level": 60,
+        "hours": 21.89
+      },
+      {
+        "level": 70,
+        "hours": 32.41
+      },
+      {
+        "level": 80,
+        "hours": 45.08
+      },
+      {
+        "level": 90,
+        "hours": 60.01
+      },
+      {
+        "level": 99,
+        "hours": 75.45
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 23100,
+        "kills": 33
+      },
+      {
+        "level": 20,
+        "xpPerHour": 33900,
+        "kills": 33
+      },
+      {
+        "level": 30,
+        "xpPerHour": 40200,
+        "kills": 30
+      },
+      {
+        "level": 40,
+        "xpPerHour": 46500,
+        "kills": 28
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 70,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 80,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 1,
+    "role": "control",
+    "hours": 75.65,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
         "hours": 0.44
       },
       {
@@ -3807,23 +2757,23 @@
       },
       {
         "level": 60,
-        "hours": 22.2
+        "hours": 21.88
       },
       {
         "level": 70,
-        "hours": 33.16
+        "hours": 32.61
       },
       {
         "level": 80,
-        "hours": 46.1
+        "hours": 45.29
       },
       {
         "level": 90,
-        "hours": 61.34
+        "hours": 60.22
       },
       {
         "level": 99,
-        "hours": 76.77
+        "hours": 75.65
       }
     ],
     "samples": [
@@ -3831,6 +2781,1056 @@
         "level": 1,
         "xpPerHour": 5700,
         "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 24000,
+        "kills": 34
+      },
+      {
+        "level": 20,
+        "xpPerHour": 35100,
+        "kills": 34
+      },
+      {
+        "level": 30,
+        "xpPerHour": 41700,
+        "kills": 31
+      },
+      {
+        "level": 40,
+        "xpPerHour": 46500,
+        "kills": 28
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 70,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 80,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 1,
+    "role": "heal",
+    "hours": 77.96,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.13
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
+        "hours": 0.43
+      },
+      {
+        "level": 50,
+        "hours": 12.21
+      },
+      {
+        "level": 60,
+        "hours": 22.55
+      },
+      {
+        "level": 70,
+        "hours": 33.75
+      },
+      {
+        "level": 80,
+        "hours": 46.97
+      },
+      {
+        "level": 90,
+        "hours": 62.21
+      },
+      {
+        "level": 99,
+        "hours": 77.96
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5400,
+        "kills": 18
+      },
+      {
+        "level": 10,
+        "xpPerHour": 24900,
+        "kills": 35
+      },
+      {
+        "level": 20,
+        "xpPerHour": 36300,
+        "kills": 35
+      },
+      {
+        "level": 30,
+        "xpPerHour": 46200,
+        "kills": 34
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 60000,
+        "kills": 37
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 80,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 90,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 1,
+    "role": "shield",
+    "hours": 78.07,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
+        "hours": 0.44
+      },
+      {
+        "level": 50,
+        "hours": 12.22
+      },
+      {
+        "level": 60,
+        "hours": 23.4
+      },
+      {
+        "level": 70,
+        "hours": 34.13
+      },
+      {
+        "level": 80,
+        "hours": 47.07
+      },
+      {
+        "level": 90,
+        "hours": 62.32
+      },
+      {
+        "level": 99,
+        "hours": 78.07
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 24000,
+        "kills": 34
+      },
+      {
+        "level": 20,
+        "xpPerHour": 35100,
+        "kills": 34
+      },
+      {
+        "level": 30,
+        "xpPerHour": 41700,
+        "kills": 31
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 70,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 80,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 90,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 99,
+        "xpPerHour": 72000,
+        "kills": 45
+      }
+    ]
+  },
+  {
+    "classId": "bind",
+    "option": 1,
+    "role": "buff",
+    "hours": 79.21,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.13
+      },
+      {
+        "level": 20,
+        "hours": 0.23
+      },
+      {
+        "level": 30,
+        "hours": 0.35
+      },
+      {
+        "level": 40,
+        "hours": 0.51
+      },
+      {
+        "level": 50,
+        "hours": 12.29
+      },
+      {
+        "level": 60,
+        "hours": 24.46
+      },
+      {
+        "level": 70,
+        "hours": 36.17
+      },
+      {
+        "level": 80,
+        "hours": 48.85
+      },
+      {
+        "level": 90,
+        "hours": 63.78
+      },
+      {
+        "level": 99,
+        "hours": 79.21
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5400,
+        "kills": 18
+      },
+      {
+        "level": 10,
+        "xpPerHour": 20400,
+        "kills": 30
+      },
+      {
+        "level": 20,
+        "xpPerHour": 30300,
+        "kills": 30
+      },
+      {
+        "level": 30,
+        "xpPerHour": 32400,
+        "kills": 27
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 51000,
+        "kills": 31
+      },
+      {
+        "level": 60,
+        "xpPerHour": 66000,
+        "kills": 41
+      },
+      {
+        "level": 70,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 80,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 0,
+    "role": "damage",
+    "hours": 69.17,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.27
+      },
+      {
+        "level": 30,
+        "hours": 0.43
+      },
+      {
+        "level": 40,
+        "hours": 0.6
+      },
+      {
+        "level": 50,
+        "hours": 12.38
+      },
+      {
+        "level": 60,
+        "hours": 22.73
+      },
+      {
+        "level": 70,
+        "hours": 33.24
+      },
+      {
+        "level": 80,
+        "hours": 44.33
+      },
+      {
+        "level": 90,
+        "hours": 56.13
+      },
+      {
+        "level": 99,
+        "hours": 69.17
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6000,
+        "kills": 20
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 23400,
+        "kills": 26
+      },
+      {
+        "level": 30,
+        "xpPerHour": 30000,
+        "kills": 25
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 60000,
+        "kills": 37
+      },
+      {
+        "level": 60,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 70,
+        "xpPerHour": 84000,
+        "kills": 53
+      },
+      {
+        "level": 80,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 90,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 99,
+        "xpPerHour": 108000,
+        "kills": 66
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 0,
+    "role": "control",
+    "hours": 69.07,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.26
+      },
+      {
+        "level": 30,
+        "hours": 0.43
+      },
+      {
+        "level": 40,
+        "hours": 0.59
+      },
+      {
+        "level": 50,
+        "hours": 12.82
+      },
+      {
+        "level": 60,
+        "hours": 23.17
+      },
+      {
+        "level": 70,
+        "hours": 34.36
+      },
+      {
+        "level": 80,
+        "hours": 45.07
+      },
+      {
+        "level": 90,
+        "hours": 56.87
+      },
+      {
+        "level": 99,
+        "hours": 69.07
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
+      },
+      {
+        "level": 10,
+        "xpPerHour": 14400,
+        "kills": 24
+      },
+      {
+        "level": 20,
+        "xpPerHour": 21600,
+        "kills": 24
+      },
+      {
+        "level": 30,
+        "xpPerHour": 32400,
+        "kills": 27
+      },
+      {
+        "level": 40,
+        "xpPerHour": 39000,
+        "kills": 26
+      },
+      {
+        "level": 50,
+        "xpPerHour": 60000,
+        "kills": 37
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 80,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 103500,
+        "kills": 63
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 0,
+    "role": "heal",
+    "hours": 69.22,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.26
+      },
+      {
+        "level": 30,
+        "hours": 0.42
+      },
+      {
+        "level": 40,
+        "hours": 0.59
+      },
+      {
+        "level": 50,
+        "hours": 12.82
+      },
+      {
+        "level": 60,
+        "hours": 24.01
+      },
+      {
+        "level": 70,
+        "hours": 34.52
+      },
+      {
+        "level": 80,
+        "hours": 45.23
+      },
+      {
+        "level": 90,
+        "hours": 57.03
+      },
+      {
+        "level": 99,
+        "hours": 69.22
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 23400,
+        "kills": 26
+      },
+      {
+        "level": 30,
+        "xpPerHour": 31200,
+        "kills": 26
+      },
+      {
+        "level": 40,
+        "xpPerHour": 39000,
+        "kills": 26
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 70,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 80,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 106500,
+        "kills": 65
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 0,
+    "role": "shield",
+    "hours": 68.78,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.27
+      },
+      {
+        "level": 30,
+        "hours": 0.42
+      },
+      {
+        "level": 40,
+        "hours": 0.6
+      },
+      {
+        "level": 50,
+        "hours": 12.83
+      },
+      {
+        "level": 60,
+        "hours": 23.18
+      },
+      {
+        "level": 70,
+        "hours": 33.69
+      },
+      {
+        "level": 80,
+        "hours": 44.78
+      },
+      {
+        "level": 90,
+        "hours": 56.58
+      },
+      {
+        "level": 99,
+        "hours": 68.78
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6000,
+        "kills": 20
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 24300,
+        "kills": 27
+      },
+      {
+        "level": 30,
+        "xpPerHour": 28800,
+        "kills": 24
+      },
+      {
+        "level": 40,
+        "xpPerHour": 39000,
+        "kills": 26
+      },
+      {
+        "level": 50,
+        "xpPerHour": 60000,
+        "kills": 37
+      },
+      {
+        "level": 60,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 70,
+        "xpPerHour": 84000,
+        "kills": 53
+      },
+      {
+        "level": 80,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 106500,
+        "kills": 65
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 0,
+    "role": "buff",
+    "hours": 71.06,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.12
+      },
+      {
+        "level": 20,
+        "hours": 0.28
+      },
+      {
+        "level": 30,
+        "hours": 0.45
+      },
+      {
+        "level": 40,
+        "hours": 0.63
+      },
+      {
+        "level": 50,
+        "hours": 14.46
+      },
+      {
+        "level": 60,
+        "hours": 25.65
+      },
+      {
+        "level": 70,
+        "hours": 36.16
+      },
+      {
+        "level": 80,
+        "hours": 47.25
+      },
+      {
+        "level": 90,
+        "hours": 58.86
+      },
+      {
+        "level": 99,
+        "hours": 71.06
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5700,
+        "kills": 19
+      },
+      {
+        "level": 10,
+        "xpPerHour": 13800,
+        "kills": 23
+      },
+      {
+        "level": 20,
+        "xpPerHour": 21600,
+        "kills": 24
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 34500,
+        "kills": 23
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 70,
+        "xpPerHour": 84000,
+        "kills": 53
+      },
+      {
+        "level": 80,
+        "xpPerHour": 94500,
+        "kills": 57
+      },
+      {
+        "level": 90,
+        "xpPerHour": 93000,
+        "kills": 56
+      },
+      {
+        "level": 99,
+        "xpPerHour": 106500,
+        "kills": 65
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 1,
+    "role": "damage",
+    "hours": 80,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.32
+      },
+      {
+        "level": 40,
+        "hours": 0.46
+      },
+      {
+        "level": 50,
+        "hours": 12.24
+      },
+      {
+        "level": 60,
+        "hours": 23.73
+      },
+      {
+        "level": 70,
+        "hours": 35.18
+      },
+      {
+        "level": 80,
+        "hours": 48.68
+      },
+      {
+        "level": 90,
+        "hours": 64.25
+      },
+      {
+        "level": 99,
+        "hours": 80
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6000,
+        "kills": 20
+      },
+      {
+        "level": 10,
+        "xpPerHour": 22200,
+        "kills": 32
+      },
+      {
+        "level": 20,
+        "xpPerHour": 32700,
+        "kills": 32
+      },
+      {
+        "level": 30,
+        "xpPerHour": 38700,
+        "kills": 29
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 54000,
+        "kills": 33
+      },
+      {
+        "level": 60,
+        "xpPerHour": 67500,
+        "kills": 42
+      },
+      {
+        "level": 70,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 80,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 90,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 99,
+        "xpPerHour": 72000,
+        "kills": 45
+      }
+    ]
+  },
+  {
+    "classId": "mend",
+    "option": 1,
+    "role": "control",
+    "hours": 77.97,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.2
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
+        "hours": 0.43
+      },
+      {
+        "level": 50,
+        "hours": 12.21
+      },
+      {
+        "level": 60,
+        "hours": 23.39
+      },
+      {
+        "level": 70,
+        "hours": 34.35
+      },
+      {
+        "level": 80,
+        "hours": 47.29
+      },
+      {
+        "level": 90,
+        "hours": 62.54
+      },
+      {
+        "level": 99,
+        "hours": 77.97
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
       },
       {
         "level": 10,
@@ -3849,13 +3849,13 @@
       },
       {
         "level": 40,
-        "xpPerHour": 46500,
-        "kills": 28
+        "xpPerHour": 40500,
+        "kills": 27
       },
       {
         "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
@@ -3888,7 +3888,7 @@
     "classId": "mend",
     "option": 1,
     "role": "heal",
-    "hours": 77.82,
+    "hours": 77.17,
     "curve": [
       {
         "level": 10,
@@ -3904,31 +3904,31 @@
       },
       {
         "level": 40,
-        "hours": 0.44
+        "hours": 0.43
       },
       {
         "level": 50,
-        "hours": 12.22
+        "hours": 12.21
       },
       {
         "level": 60,
-        "hours": 24.04
+        "hours": 23.4
       },
       {
         "level": 70,
-        "hours": 34.77
+        "hours": 34.13
       },
       {
         "level": 80,
-        "hours": 47.45
+        "hours": 46.81
       },
       {
         "level": 90,
-        "hours": 62.38
+        "hours": 61.74
       },
       {
         "level": 99,
-        "hours": 77.82
+        "hours": 77.17
       }
     ],
     "samples": [
@@ -3944,13 +3944,13 @@
       },
       {
         "level": 20,
-        "xpPerHour": 33900,
-        "kills": 33
+        "xpPerHour": 32700,
+        "kills": 32
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 41700,
+        "kills": 31
       },
       {
         "level": 40,
@@ -3959,8 +3959,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
@@ -4017,7 +4017,7 @@
       },
       {
         "level": 60,
-        "hours": 23.39
+        "hours": 23.38
       },
       {
         "level": 70,
@@ -4029,7 +4029,7 @@
       },
       {
         "level": 90,
-        "hours": 63.13
+        "hours": 63.12
       },
       {
         "level": 99,
@@ -4044,8 +4044,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 24900,
-        "kills": 35
+        "xpPerHour": 24000,
+        "kills": 34
       },
       {
         "level": 20,
@@ -4054,8 +4054,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 43200,
-        "kills": 32
+        "xpPerHour": 46200,
+        "kills": 34
       },
       {
         "level": 40,
@@ -4098,7 +4098,7 @@
     "classId": "mend",
     "option": 1,
     "role": "buff",
-    "hours": 78.39,
+    "hours": 78.08,
     "curve": [
       {
         "level": 10,
@@ -4122,23 +4122,23 @@
       },
       {
         "level": 60,
-        "hours": 23.72
+        "hours": 23.41
       },
       {
         "level": 70,
-        "hours": 34.46
+        "hours": 34.14
       },
       {
         "level": 80,
-        "hours": 47.4
+        "hours": 47.09
       },
       {
         "level": 90,
-        "hours": 62.64
+        "hours": 62.33
       },
       {
         "level": 99,
-        "hours": 78.39
+        "hours": 78.08
       }
     ],
     "samples": [
@@ -4169,8 +4169,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
@@ -4203,7 +4203,7 @@
     "classId": "guard",
     "option": 0,
     "role": "damage",
-    "hours": 73.8,
+    "hours": 75.26,
     "curve": [
       {
         "level": 10,
@@ -4215,35 +4215,35 @@
       },
       {
         "level": 30,
-        "hours": 0.45
+        "hours": 0.48
       },
       {
         "level": 40,
-        "hours": 0.65
+        "hours": 0.67
       },
       {
         "level": 50,
-        "hours": 14.48
+        "hours": 15.13
       },
       {
         "level": 60,
-        "hours": 25.37
+        "hours": 27.3
       },
       {
         "level": 70,
-        "hours": 36.57
+        "hours": 38.5
       },
       {
         "level": 80,
-        "hours": 48.99
+        "hours": 50.45
       },
       {
         "level": 90,
-        "hours": 61.6
+        "hours": 63.06
       },
       {
         "level": 99,
-        "hours": 73.8
+        "hours": 75.26
       }
     ],
     "samples": [
@@ -4259,8 +4259,8 @@
       },
       {
         "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
+        "xpPerHour": 18900,
+        "kills": 21
       },
       {
         "level": 30,
@@ -4269,13 +4269,13 @@
       },
       {
         "level": 40,
-        "xpPerHour": 34500,
-        "kills": 23
+        "xpPerHour": 33000,
+        "kills": 22
       },
       {
         "level": 50,
-        "xpPerHour": 57000,
-        "kills": 35
+        "xpPerHour": 51000,
+        "kills": 31
       },
       {
         "level": 60,
@@ -4284,8 +4284,8 @@
       },
       {
         "level": 70,
-        "xpPerHour": 75000,
-        "kills": 47
+        "xpPerHour": 78000,
+        "kills": 49
       },
       {
         "level": 80,
@@ -4299,8 +4299,8 @@
       },
       {
         "level": 99,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       }
     ]
   },
@@ -4308,7 +4308,7 @@
     "classId": "guard",
     "option": 0,
     "role": "control",
-    "hours": 73.37,
+    "hours": 73.74,
     "curve": [
       {
         "level": 10,
@@ -4320,35 +4320,35 @@
       },
       {
         "level": 30,
-        "hours": 0.46
+        "hours": 0.45
       },
       {
         "level": 40,
-        "hours": 0.65
+        "hours": 0.64
       },
       {
         "level": 50,
-        "hours": 13.9
+        "hours": 13.89
       },
       {
         "level": 60,
-        "hours": 26.07
+        "hours": 26.43
       },
       {
         "level": 70,
-        "hours": 37.27
+        "hours": 37.63
       },
       {
         "level": 80,
-        "hours": 48.56
+        "hours": 48.92
       },
       {
         "level": 90,
-        "hours": 61.18
+        "hours": 61.54
       },
       {
         "level": 99,
-        "hours": 73.37
+        "hours": 73.74
       }
     ],
     "samples": [
@@ -4364,8 +4364,8 @@
       },
       {
         "level": 20,
-        "xpPerHour": 20700,
-        "kills": 23
+        "xpPerHour": 21600,
+        "kills": 24
       },
       {
         "level": 30,
@@ -4379,8 +4379,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 51000,
-        "kills": 31
+        "xpPerHour": 49500,
+        "kills": 30
       },
       {
         "level": 60,
@@ -4413,159 +4413,54 @@
     "classId": "guard",
     "option": 0,
     "role": "heal",
-    "hours": 71.55,
+    "hours": 73.68,
     "curve": [
       {
         "level": 10,
-        "hours": 0.13
+        "hours": 0.14
       },
       {
         "level": 20,
-        "hours": 0.3
+        "hours": 0.32
       },
       {
         "level": 30,
-        "hours": 0.48
+        "hours": 0.5
       },
       {
         "level": 40,
-        "hours": 0.68
+        "hours": 0.7
       },
       {
         "level": 50,
-        "hours": 13.93
+        "hours": 13.95
       },
       {
         "level": 60,
-        "hours": 24.28
+        "hours": 26.12
       },
       {
         "level": 70,
-        "hours": 34.79
+        "hours": 37.32
       },
       {
         "level": 80,
-        "hours": 46.74
+        "hours": 48.03
       },
       {
         "level": 90,
-        "hours": 59.35
+        "hours": 60.64
       },
       {
         "level": 99,
-        "hours": 71.55
+        "hours": 73.68
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 5100,
-        "kills": 17
-      },
-      {
-        "level": 10,
-        "xpPerHour": 12600,
-        "kills": 21
-      },
-      {
-        "level": 20,
-        "xpPerHour": 21600,
-        "kills": 24
-      },
-      {
-        "level": 30,
-        "xpPerHour": 25200,
-        "kills": 21
-      },
-      {
-        "level": 40,
-        "xpPerHour": 36000,
-        "kills": 24
-      },
-      {
-        "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
-      },
-      {
-        "level": 60,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 70,
-        "xpPerHour": 78000,
-        "kills": 49
-      },
-      {
-        "level": 80,
-        "xpPerHour": 87000,
-        "kills": 55
-      },
-      {
-        "level": 90,
-        "xpPerHour": 93000,
-        "kills": 56
-      },
-      {
-        "level": 99,
-        "xpPerHour": 93000,
-        "kills": 56
-      }
-    ]
-  },
-  {
-    "classId": "guard",
-    "option": 0,
-    "role": "shield",
-    "hours": 73.7,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.13
-      },
-      {
-        "level": 20,
-        "hours": 0.31
-      },
-      {
-        "level": 30,
-        "hours": 0.48
-      },
-      {
-        "level": 40,
-        "hours": 0.68
-      },
-      {
-        "level": 50,
-        "hours": 13.93
-      },
-      {
-        "level": 60,
-        "hours": 25.76
-      },
-      {
-        "level": 70,
-        "hours": 36.95
-      },
-      {
-        "level": 80,
-        "hours": 48.05
-      },
-      {
-        "level": 90,
-        "hours": 60.66
-      },
-      {
-        "level": 99,
-        "hours": 73.7
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 5400,
-        "kills": 18
+        "xpPerHour": 4800,
+        "kills": 16
       },
       {
         "level": 10,
@@ -4589,8 +4484,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
+        "xpPerHour": 51000,
+        "kills": 31
       },
       {
         "level": 60,
@@ -4599,8 +4494,113 @@
       },
       {
         "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 80,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 90,
+        "xpPerHour": 87000,
+        "kills": 55
+      },
+      {
+        "level": 99,
+        "xpPerHour": 93000,
+        "kills": 56
+      }
+    ]
+  },
+  {
+    "classId": "guard",
+    "option": 0,
+    "role": "shield",
+    "hours": 74.83,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.13
+      },
+      {
+        "level": 20,
+        "hours": 0.31
+      },
+      {
+        "level": 30,
+        "hours": 0.48
+      },
+      {
+        "level": 40,
+        "hours": 0.67
+      },
+      {
+        "level": 50,
+        "hours": 13.92
+      },
+      {
+        "level": 60,
+        "hours": 27.27
+      },
+      {
+        "level": 70,
+        "hours": 38.47
+      },
+      {
+        "level": 80,
+        "hours": 49.18
+      },
+      {
+        "level": 90,
+        "hours": 61.79
+      },
+      {
+        "level": 99,
+        "hours": 74.83
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 5400,
+        "kills": 18
+      },
+      {
+        "level": 10,
+        "xpPerHour": 12000,
+        "kills": 20
+      },
+      {
+        "level": 20,
+        "xpPerHour": 20700,
+        "kills": 23
+      },
+      {
+        "level": 30,
+        "xpPerHour": 27600,
+        "kills": 23
+      },
+      {
+        "level": 40,
+        "xpPerHour": 36000,
+        "kills": 24
+      },
+      {
+        "level": 50,
+        "xpPerHour": 46500,
+        "kills": 28
+      },
+      {
+        "level": 60,
+        "xpPerHour": 69000,
+        "kills": 43
+      },
+      {
+        "level": 70,
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 80,
@@ -4623,7 +4623,7 @@
     "classId": "guard",
     "option": 0,
     "role": "buff",
-    "hours": 74.3,
+    "hours": 74.7,
     "curve": [
       {
         "level": 10,
@@ -4639,31 +4639,31 @@
       },
       {
         "level": 40,
-        "hours": 0.71
+        "hours": 0.7
       },
       {
         "level": 50,
-        "hours": 14.54
+        "hours": 14.53
       },
       {
         "level": 60,
-        "hours": 26.36
+        "hours": 26.35
       },
       {
         "level": 70,
-        "hours": 37.56
+        "hours": 37.55
       },
       {
         "level": 80,
-        "hours": 48.65
+        "hours": 49.05
       },
       {
         "level": 90,
-        "hours": 61.26
+        "hours": 61.66
       },
       {
         "level": 99,
-        "hours": 74.3
+        "hours": 74.7
       }
     ],
     "samples": [
@@ -4684,8 +4684,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 25200,
-        "kills": 21
+        "xpPerHour": 26400,
+        "kills": 22
       },
       {
         "level": 40,
@@ -4704,8 +4704,8 @@
       },
       {
         "level": 70,
-        "xpPerHour": 84000,
-        "kills": 53
+        "xpPerHour": 81000,
+        "kills": 51
       },
       {
         "level": 80,
@@ -4728,7 +4728,7 @@
     "classId": "guard",
     "option": 1,
     "role": "damage",
-    "hours": 77.56,
+    "hours": 76.64,
     "curve": [
       {
         "level": 10,
@@ -4752,23 +4752,23 @@
       },
       {
         "level": 60,
-        "hours": 22.54
+        "hours": 21.89
       },
       {
         "level": 70,
-        "hours": 34.52
+        "hours": 33.6
       },
       {
         "level": 80,
-        "hours": 47.19
+        "hours": 46.28
       },
       {
         "level": 90,
-        "hours": 62.12
+        "hours": 61.21
       },
       {
         "level": 99,
-        "hours": 77.56
+        "hours": 76.64
       }
     ],
     "samples": [
@@ -4789,8 +4789,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 37200,
-        "kills": 28
+        "xpPerHour": 38700,
+        "kills": 29
       },
       {
         "level": 40,
@@ -4799,13 +4799,13 @@
       },
       {
         "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
-        "xpPerHour": 64500,
-        "kills": 40
+        "xpPerHour": 66000,
+        "kills": 41
       },
       {
         "level": 70,
@@ -4833,7 +4833,7 @@
     "classId": "guard",
     "option": 1,
     "role": "control",
-    "hours": 78.28,
+    "hours": 78.22,
     "curve": [
       {
         "level": 10,
@@ -4845,7 +4845,7 @@
       },
       {
         "level": 30,
-        "hours": 0.3
+        "hours": 0.31
       },
       {
         "level": 40,
@@ -4857,23 +4857,23 @@
       },
       {
         "level": 60,
-        "hours": 22.54
+        "hours": 22.81
       },
       {
         "level": 70,
-        "hours": 33.74
+        "hours": 34.01
       },
       {
         "level": 80,
-        "hours": 46.96
+        "hours": 47.22
       },
       {
         "level": 90,
-        "hours": 62.52
+        "hours": 62.47
       },
       {
         "level": 99,
-        "hours": 78.28
+        "hours": 78.22
       }
     ],
     "samples": [
@@ -4889,8 +4889,8 @@
       },
       {
         "level": 20,
-        "xpPerHour": 37500,
-        "kills": 36
+        "xpPerHour": 36300,
+        "kills": 35
       },
       {
         "level": 30,
@@ -4904,8 +4904,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 60000,
-        "kills": 37
+        "xpPerHour": 58500,
+        "kills": 36
       },
       {
         "level": 60,
@@ -4919,8 +4919,8 @@
       },
       {
         "level": 80,
-        "xpPerHour": 70500,
-        "kills": 44
+        "xpPerHour": 72000,
+        "kills": 45
       },
       {
         "level": 90,
@@ -4929,8 +4929,8 @@
       },
       {
         "level": 99,
-        "xpPerHour": 72000,
-        "kills": 45
+        "xpPerHour": 73500,
+        "kills": 46
       }
     ]
   },
@@ -4938,64 +4938,64 @@
     "classId": "guard",
     "option": 1,
     "role": "heal",
-    "hours": 78.08,
+    "hours": 77.81,
     "curve": [
       {
         "level": 10,
-        "hours": 0.13
+        "hours": 0.14
       },
       {
         "level": 20,
-        "hours": 0.22
+        "hours": 0.23
       },
       {
         "level": 30,
-        "hours": 0.32
+        "hours": 0.34
       },
       {
         "level": 40,
-        "hours": 0.45
+        "hours": 0.47
       },
       {
         "level": 50,
-        "hours": 12.23
+        "hours": 12.25
       },
       {
         "level": 60,
-        "hours": 23.41
+        "hours": 23.14
       },
       {
         "level": 70,
-        "hours": 34.14
+        "hours": 33.87
       },
       {
         "level": 80,
-        "hours": 47.08
+        "hours": 46.81
       },
       {
         "level": 90,
-        "hours": 62.33
+        "hours": 62.05
       },
       {
         "level": 99,
-        "hours": 78.08
+        "hours": 77.81
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 5100,
-        "kills": 17
+        "xpPerHour": 4800,
+        "kills": 16
       },
       {
         "level": 10,
-        "xpPerHour": 24900,
-        "kills": 35
+        "xpPerHour": 24000,
+        "kills": 34
       },
       {
         "level": 20,
-        "xpPerHour": 35100,
-        "kills": 34
+        "xpPerHour": 32700,
+        "kills": 32
       },
       {
         "level": 30,
@@ -5009,8 +5009,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
+        "xpPerHour": 57000,
+        "kills": 35
       },
       {
         "level": 60,
@@ -5043,7 +5043,7 @@
     "classId": "guard",
     "option": 1,
     "role": "shield",
-    "hours": 78.92,
+    "hours": 79.73,
     "curve": [
       {
         "level": 10,
@@ -5059,31 +5059,31 @@
       },
       {
         "level": 40,
-        "hours": 0.48
+        "hours": 0.47
       },
       {
         "level": 50,
-        "hours": 12.26
+        "hours": 12.25
       },
       {
         "level": 60,
-        "hours": 24.43
+        "hours": 24.42
       },
       {
         "level": 70,
-        "hours": 35.88
+        "hours": 36.69
       },
       {
         "level": 80,
-        "hours": 48.55
+        "hours": 49.37
       },
       {
         "level": 90,
-        "hours": 63.48
+        "hours": 64.3
       },
       {
         "level": 99,
-        "hours": 78.92
+        "hours": 79.73
       }
     ],
     "samples": [
@@ -5104,8 +5104,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 40200,
+        "kills": 30
       },
       {
         "level": 40,
@@ -5119,8 +5119,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 67500,
-        "kills": 42
+        "xpPerHour": 63000,
+        "kills": 39
       },
       {
         "level": 70,
@@ -5148,7 +5148,7 @@
     "classId": "guard",
     "option": 1,
     "role": "buff",
-    "hours": 78.92,
+    "hours": 78.3,
     "curve": [
       {
         "level": 10,
@@ -5164,7 +5164,7 @@
       },
       {
         "level": 40,
-        "hours": 0.47
+        "hours": 0.46
       },
       {
         "level": 50,
@@ -5172,23 +5172,23 @@
       },
       {
         "level": 60,
-        "hours": 23.74
+        "hours": 23.13
       },
       {
         "level": 70,
-        "hours": 34.7
+        "hours": 34.08
       },
       {
         "level": 80,
-        "hours": 47.92
+        "hours": 47.3
       },
       {
         "level": 90,
-        "hours": 63.48
+        "hours": 62.87
       },
       {
         "level": 99,
-        "hours": 78.92
+        "hours": 78.3
       }
     ],
     "samples": [
@@ -5209,8 +5209,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 41700,
+        "kills": 31
       },
       {
         "level": 40,
@@ -5219,8 +5219,8 @@
       },
       {
         "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
+        "xpPerHour": 57000,
+        "kills": 35
       },
       {
         "level": 60,
@@ -5253,7 +5253,7 @@
     "classId": "tame",
     "option": 0,
     "role": "damage",
-    "hours": 62.98,
+    "hours": 63.03,
     "curve": [
       {
         "level": 10,
@@ -5273,27 +5273,27 @@
       },
       {
         "level": 50,
-        "hours": 10.48
+        "hours": 11.14
       },
       {
         "level": 60,
-        "hours": 20.82
+        "hours": 21.49
       },
       {
         "level": 70,
-        "hours": 30.36
+        "hours": 31.03
       },
       {
         "level": 80,
-        "hours": 39.92
+        "hours": 40.58
       },
       {
         "level": 90,
-        "hours": 51.35
+        "hours": 52.38
       },
       {
         "level": 99,
-        "hours": 62.98
+        "hours": 63.03
       }
     ],
     "samples": [
@@ -5319,8 +5319,8 @@
       },
       {
         "level": 40,
-        "xpPerHour": 48000,
-        "kills": 29
+        "xpPerHour": 45000,
+        "kills": 30
       },
       {
         "level": 50,
@@ -5339,13 +5339,13 @@
       },
       {
         "level": 80,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 97500,
-        "kills": 59
+        "xpPerHour": 106500,
+        "kills": 65
       },
       {
         "level": 99,
@@ -5358,7 +5358,7 @@
     "classId": "tame",
     "option": 0,
     "role": "control",
-    "hours": 60.81,
+    "hours": 60.51,
     "curve": [
       {
         "level": 10,
@@ -5366,51 +5366,51 @@
       },
       {
         "level": 20,
-        "hours": 0.24
+        "hours": 0.23
       },
       {
         "level": 30,
-        "hours": 0.39
+        "hours": 0.38
       },
       {
         "level": 40,
-        "hours": 0.55
+        "hours": 0.54
       },
       {
         "level": 50,
-        "hours": 10.49
+        "hours": 10.48
       },
       {
         "level": 60,
-        "hours": 20.12
+        "hours": 20.11
       },
       {
         "level": 70,
-        "hours": 29.31
+        "hours": 29.3
       },
       {
         "level": 80,
-        "hours": 38.87
+        "hours": 38.86
       },
       {
         "level": 90,
-        "hours": 50.3
+        "hours": 50.29
       },
       {
         "level": 99,
-        "hours": 60.81
+        "hours": 60.51
       }
     ],
     "samples": [
       {
         "level": 1,
-        "xpPerHour": 6600,
-        "kills": 22
+        "xpPerHour": 6900,
+        "kills": 23
       },
       {
         "level": 10,
-        "xpPerHour": 15600,
-        "kills": 26
+        "xpPerHour": 16200,
+        "kills": 27
       },
       {
         "level": 20,
@@ -5449,13 +5449,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 108000,
-        "kills": 66
+        "xpPerHour": 111000,
+        "kills": 68
       },
       {
         "level": 99,
-        "xpPerHour": 108000,
-        "kills": 66
+        "xpPerHour": 102000,
+        "kills": 62
       }
     ]
   },
@@ -5463,7 +5463,7 @@
     "classId": "tame",
     "option": 0,
     "role": "heal",
-    "hours": 64.42,
+    "hours": 65.42,
     "curve": [
       {
         "level": 10,
@@ -5487,23 +5487,23 @@
       },
       {
         "level": 60,
-        "hours": 21.96
+        "hours": 22.69
       },
       {
         "level": 70,
-        "hours": 31.5
+        "hours": 32.59
       },
       {
         "level": 80,
-        "hours": 41.52
+        "hours": 43.3
       },
       {
         "level": 90,
-        "hours": 53.13
+        "hours": 54.92
       },
       {
         "level": 99,
-        "hours": 64.42
+        "hours": 65.42
       }
     ],
     "samples": [
@@ -5514,8 +5514,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 15600,
-        "kills": 26
+        "xpPerHour": 15000,
+        "kills": 25
       },
       {
         "level": 20,
@@ -5534,18 +5534,18 @@
       },
       {
         "level": 50,
-        "xpPerHour": 64500,
-        "kills": 40
+        "xpPerHour": 60000,
+        "kills": 37
       },
       {
         "level": 60,
-        "xpPerHour": 81000,
-        "kills": 51
+        "xpPerHour": 78000,
+        "kills": 49
       },
       {
         "level": 70,
-        "xpPerHour": 93000,
-        "kills": 56
+        "xpPerHour": 87000,
+        "kills": 55
       },
       {
         "level": 80,
@@ -5554,13 +5554,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 100500,
-        "kills": 61
+        "xpPerHour": 108000,
+        "kills": 66
       },
       {
         "level": 99,
-        "xpPerHour": 108000,
-        "kills": 66
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
@@ -5568,7 +5568,7 @@
     "classId": "tame",
     "option": 0,
     "role": "shield",
-    "hours": 64.79,
+    "hours": 64.34,
     "curve": [
       {
         "level": 10,
@@ -5596,19 +5596,19 @@
       },
       {
         "level": 70,
-        "hours": 31.87
+        "hours": 32.21
       },
       {
         "level": 80,
-        "hours": 41.89
+        "hours": 42.23
       },
       {
         "level": 90,
-        "hours": 53.5
+        "hours": 53.84
       },
       {
         "level": 99,
-        "hours": 64.79
+        "hours": 64.34
       }
     ],
     "samples": [
@@ -5644,8 +5644,8 @@
       },
       {
         "level": 60,
-        "xpPerHour": 84000,
-        "kills": 53
+        "xpPerHour": 81000,
+        "kills": 51
       },
       {
         "level": 70,
@@ -5659,13 +5659,13 @@
       },
       {
         "level": 90,
-        "xpPerHour": 100500,
-        "kills": 61
+        "xpPerHour": 108000,
+        "kills": 66
       },
       {
         "level": 99,
-        "xpPerHour": 108000,
-        "kills": 66
+        "xpPerHour": 106500,
+        "kills": 65
       }
     ]
   },
@@ -5673,7 +5673,7 @@
     "classId": "tame",
     "option": 0,
     "role": "buff",
-    "hours": 63.6,
+    "hours": 64.91,
     "curve": [
       {
         "level": 10,
@@ -5697,23 +5697,23 @@
       },
       {
         "level": 60,
-        "hours": 21.33
+        "hours": 22.68
       },
       {
         "level": 70,
-        "hours": 30.87
+        "hours": 32.58
       },
       {
         "level": 80,
-        "hours": 40.89
+        "hours": 42.6
       },
       {
         "level": 90,
-        "hours": 52.32
+        "hours": 54.4
       },
       {
         "level": 99,
-        "hours": 63.6
+        "hours": 64.91
       }
     ],
     "samples": [
@@ -5744,13 +5744,13 @@
       },
       {
         "level": 50,
-        "xpPerHour": 69000,
-        "kills": 43
+        "xpPerHour": 60000,
+        "kills": 37
       },
       {
         "level": 60,
-        "xpPerHour": 81000,
-        "kills": 51
+        "xpPerHour": 78000,
+        "kills": 49
       },
       {
         "level": 70,
@@ -5759,18 +5759,18 @@
       },
       {
         "level": 80,
-        "xpPerHour": 96000,
-        "kills": 58
+        "xpPerHour": 93000,
+        "kills": 56
       },
       {
         "level": 90,
-        "xpPerHour": 100500,
-        "kills": 61
+        "xpPerHour": 108000,
+        "kills": 66
       },
       {
         "level": 99,
-        "xpPerHour": 100500,
-        "kills": 61
+        "xpPerHour": 102000,
+        "kills": 62
       }
     ]
   },
@@ -5778,7 +5778,7 @@
     "classId": "tame",
     "option": 1,
     "role": "damage",
-    "hours": 76.9,
+    "hours": 77.21,
     "curve": [
       {
         "level": 10,
@@ -5786,39 +5786,39 @@
       },
       {
         "level": 20,
-        "hours": 0.2
+        "hours": 0.19
       },
       {
         "level": 30,
-        "hours": 0.31
+        "hours": 0.3
       },
       {
         "level": 40,
-        "hours": 0.44
+        "hours": 0.43
       },
       {
         "level": 50,
-        "hours": 10.7
+        "hours": 10.69
       },
       {
         "level": 60,
-        "hours": 21.89
+        "hours": 22.19
       },
       {
         "level": 70,
-        "hours": 33.59
+        "hours": 34.17
       },
       {
         "level": 80,
-        "hours": 46.53
+        "hours": 46.84
       },
       {
         "level": 90,
-        "hours": 61.47
+        "hours": 61.77
       },
       {
         "level": 99,
-        "hours": 76.9
+        "hours": 77.21
       }
     ],
     "samples": [
@@ -5829,8 +5829,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 21300,
-        "kills": 31
+        "xpPerHour": 22200,
+        "kills": 32
       },
       {
         "level": 20,
@@ -5839,8 +5839,8 @@
       },
       {
         "level": 30,
-        "xpPerHour": 38700,
-        "kills": 29
+        "xpPerHour": 40200,
+        "kills": 30
       },
       {
         "level": 40,
@@ -5849,18 +5849,18 @@
       },
       {
         "level": 50,
-        "xpPerHour": 55500,
-        "kills": 34
+        "xpPerHour": 54000,
+        "kills": 33
       },
       {
         "level": 60,
-        "xpPerHour": 66000,
-        "kills": 41
+        "xpPerHour": 64500,
+        "kills": 40
       },
       {
         "level": 70,
-        "xpPerHour": 72000,
-        "kills": 45
+        "xpPerHour": 73500,
+        "kills": 46
       },
       {
         "level": 80,
@@ -5883,217 +5883,7 @@
     "classId": "tame",
     "option": 1,
     "role": "control",
-    "hours": 78.57,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.1
-      },
-      {
-        "level": 20,
-        "hours": 0.21
-      },
-      {
-        "level": 30,
-        "hours": 0.33
-      },
-      {
-        "level": 40,
-        "hours": 0.46
-      },
-      {
-        "level": 50,
-        "hours": 12.24
-      },
-      {
-        "level": 60,
-        "hours": 24.06
-      },
-      {
-        "level": 70,
-        "hours": 35.26
-      },
-      {
-        "level": 80,
-        "hours": 48.2
-      },
-      {
-        "level": 90,
-        "hours": 63.13
-      },
-      {
-        "level": 99,
-        "hours": 78.57
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6600,
-        "kills": 22
-      },
-      {
-        "level": 10,
-        "xpPerHour": 19500,
-        "kills": 29
-      },
-      {
-        "level": 20,
-        "xpPerHour": 31500,
-        "kills": 31
-      },
-      {
-        "level": 30,
-        "xpPerHour": 40200,
-        "kills": 30
-      },
-      {
-        "level": 40,
-        "xpPerHour": 40500,
-        "kills": 27
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
-      },
-      {
-        "level": 70,
-        "xpPerHour": 72000,
-        "kills": 45
-      },
-      {
-        "level": 80,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "tame",
-    "option": 1,
-    "role": "heal",
-    "hours": 78.46,
-    "curve": [
-      {
-        "level": 10,
-        "hours": 0.11
-      },
-      {
-        "level": 20,
-        "hours": 0.21
-      },
-      {
-        "level": 30,
-        "hours": 0.32
-      },
-      {
-        "level": 40,
-        "hours": 0.45
-      },
-      {
-        "level": 50,
-        "hours": 10.71
-      },
-      {
-        "level": 60,
-        "hours": 22.53
-      },
-      {
-        "level": 70,
-        "hours": 34.24
-      },
-      {
-        "level": 80,
-        "hours": 47.46
-      },
-      {
-        "level": 90,
-        "hours": 63.02
-      },
-      {
-        "level": 99,
-        "hours": 78.46
-      }
-    ],
-    "samples": [
-      {
-        "level": 1,
-        "xpPerHour": 6300,
-        "kills": 21
-      },
-      {
-        "level": 10,
-        "xpPerHour": 21300,
-        "kills": 31
-      },
-      {
-        "level": 20,
-        "xpPerHour": 32700,
-        "kills": 32
-      },
-      {
-        "level": 30,
-        "xpPerHour": 40200,
-        "kills": 30
-      },
-      {
-        "level": 40,
-        "xpPerHour": 46500,
-        "kills": 28
-      },
-      {
-        "level": 50,
-        "xpPerHour": 52500,
-        "kills": 32
-      },
-      {
-        "level": 60,
-        "xpPerHour": 66000,
-        "kills": 41
-      },
-      {
-        "level": 70,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 80,
-        "xpPerHour": 70500,
-        "kills": 44
-      },
-      {
-        "level": 90,
-        "xpPerHour": 73500,
-        "kills": 46
-      },
-      {
-        "level": 99,
-        "xpPerHour": 73500,
-        "kills": 46
-      }
-    ]
-  },
-  {
-    "classId": "tame",
-    "option": 1,
-    "role": "shield",
-    "hours": 78.54,
+    "hours": 78.69,
     "curve": [
       {
         "level": 10,
@@ -6121,19 +5911,19 @@
       },
       {
         "level": 70,
-        "hours": 34.6
+        "hours": 35.38
       },
       {
         "level": 80,
-        "hours": 47.54
+        "hours": 48.32
       },
       {
         "level": 90,
-        "hours": 62.79
+        "hours": 63.26
       },
       {
         "level": 99,
-        "hours": 78.54
+        "hours": 78.69
       }
     ],
     "samples": [
@@ -6144,13 +5934,13 @@
       },
       {
         "level": 10,
-        "xpPerHour": 20400,
-        "kills": 30
+        "xpPerHour": 21300,
+        "kills": 31
       },
       {
         "level": 20,
-        "xpPerHour": 32700,
-        "kills": 32
+        "xpPerHour": 31500,
+        "kills": 31
       },
       {
         "level": 30,
@@ -6169,8 +5959,218 @@
       },
       {
         "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
+        "xpPerHour": 64500,
+        "kills": 40
+      },
+      {
+        "level": 70,
+        "xpPerHour": 72000,
+        "kills": 45
+      },
+      {
+        "level": 80,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "tame",
+    "option": 1,
+    "role": "heal",
+    "hours": 79.61,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.11
+      },
+      {
+        "level": 20,
+        "hours": 0.21
+      },
+      {
+        "level": 30,
+        "hours": 0.32
+      },
+      {
+        "level": 40,
+        "hours": 0.45
+      },
+      {
+        "level": 50,
+        "hours": 12.23
+      },
+      {
+        "level": 60,
+        "hours": 23.41
+      },
+      {
+        "level": 70,
+        "hours": 35.39
+      },
+      {
+        "level": 80,
+        "hours": 48.61
+      },
+      {
+        "level": 90,
+        "hours": 64.18
+      },
+      {
+        "level": 99,
+        "hours": 79.61
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6300,
+        "kills": 21
+      },
+      {
+        "level": 10,
+        "xpPerHour": 21300,
+        "kills": 31
+      },
+      {
+        "level": 20,
+        "xpPerHour": 32700,
+        "kills": 32
+      },
+      {
+        "level": 30,
+        "xpPerHour": 40200,
+        "kills": 30
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 64500,
+        "kills": 40
+      },
+      {
+        "level": 70,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 80,
+        "xpPerHour": 70500,
+        "kills": 44
+      },
+      {
+        "level": 90,
+        "xpPerHour": 73500,
+        "kills": 46
+      },
+      {
+        "level": 99,
+        "xpPerHour": 73500,
+        "kills": 46
+      }
+    ]
+  },
+  {
+    "classId": "tame",
+    "option": 1,
+    "role": "shield",
+    "hours": 78.79,
+    "curve": [
+      {
+        "level": 10,
+        "hours": 0.1
+      },
+      {
+        "level": 20,
+        "hours": 0.2
+      },
+      {
+        "level": 30,
+        "hours": 0.31
+      },
+      {
+        "level": 40,
+        "hours": 0.44
+      },
+      {
+        "level": 50,
+        "hours": 12.22
+      },
+      {
+        "level": 60,
+        "hours": 23.4
+      },
+      {
+        "level": 70,
+        "hours": 34.85
+      },
+      {
+        "level": 80,
+        "hours": 47.79
+      },
+      {
+        "level": 90,
+        "hours": 63.03
+      },
+      {
+        "level": 99,
+        "hours": 78.79
+      }
+    ],
+    "samples": [
+      {
+        "level": 1,
+        "xpPerHour": 6900,
+        "kills": 23
+      },
+      {
+        "level": 10,
+        "xpPerHour": 22200,
+        "kills": 32
+      },
+      {
+        "level": 20,
+        "xpPerHour": 32700,
+        "kills": 32
+      },
+      {
+        "level": 30,
+        "xpPerHour": 40200,
+        "kills": 30
+      },
+      {
+        "level": 40,
+        "xpPerHour": 40500,
+        "kills": 27
+      },
+      {
+        "level": 50,
+        "xpPerHour": 55500,
+        "kills": 34
+      },
+      {
+        "level": 60,
+        "xpPerHour": 67500,
+        "kills": 42
       },
       {
         "level": 70,
@@ -6198,7 +6198,7 @@
     "classId": "tame",
     "option": 1,
     "role": "buff",
-    "hours": 77.99,
+    "hours": 78.18,
     "curve": [
       {
         "level": 10,
@@ -6206,39 +6206,39 @@
       },
       {
         "level": 20,
-        "hours": 0.22
+        "hours": 0.2
       },
       {
         "level": 30,
-        "hours": 0.35
+        "hours": 0.34
       },
       {
         "level": 40,
-        "hours": 0.48
+        "hours": 0.46
       },
       {
         "level": 50,
-        "hours": 12.26
+        "hours": 12.24
       },
       {
         "level": 60,
-        "hours": 23.75
+        "hours": 23.43
       },
       {
         "level": 70,
-        "hours": 34.95
+        "hours": 35.14
       },
       {
         "level": 80,
-        "hours": 47.63
+        "hours": 47.81
       },
       {
         "level": 90,
-        "hours": 62.56
+        "hours": 62.74
       },
       {
         "level": 99,
-        "hours": 77.99
+        "hours": 78.18
       }
     ],
     "samples": [
@@ -6249,8 +6249,8 @@
       },
       {
         "level": 10,
-        "xpPerHour": 18600,
-        "kills": 28
+        "xpPerHour": 21300,
+        "kills": 31
       },
       {
         "level": 20,
@@ -6269,13 +6269,13 @@
       },
       {
         "level": 50,
-        "xpPerHour": 54000,
-        "kills": 33
+        "xpPerHour": 55500,
+        "kills": 34
       },
       {
         "level": 60,
-        "xpPerHour": 69000,
-        "kills": 43
+        "xpPerHour": 66000,
+        "kills": 41
       },
       {
         "level": 70,

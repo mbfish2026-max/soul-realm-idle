@@ -1,7 +1,7 @@
 (function(g){
   'use strict';
   var SR=g.SR=g.SR||{};
-  var DUR={idle:0,move:900,attack:420,skill:700,hit:380,fusion:900,win:800,die:1100};
+  var DUR={idle:0,move:900,attack:420,skill:700,hit:380,fusion:900,phase:800,win:800,die:1100};
   function create(o){
     o=o||{};
     var state='idle',timer=null,disposed=false;
@@ -27,7 +27,7 @@
             pose.style.backgroundImage='url("'+sprite.file+'")';
             pose.style.backgroundSize=(sprite.frames*100)+'% 100%';
             pose.style.setProperty('--frames',sprite.frames);
-            var duration=sprite.frames/sprite.fps*1000;pose.style.animation='sr-frames '+duration+'ms steps('+(sprite.frames-1)+') '+(next==='idle'?'infinite':'1 forwards');if(next!=='idle')dur[next]=duration;
+            var duration=sprite.frames/sprite.fps*1000;pose.style.animation='sr-atlas-'+sprite.frames+' '+duration+'ms steps(1,end) '+(next==='idle'?'infinite':'1 forwards');if(next!=='idle')dur[next]=duration;
           }else{pose.classList.remove('sr-atlas');var img=document.createElement('img');img.src=sprite.file;img.alt='';pose.appendChild(img);}
         }
       }
