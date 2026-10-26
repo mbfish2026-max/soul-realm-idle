@@ -24,3 +24,4 @@ N.skills={cut:'竹影斩',flame:'赤焰破',guard:'山灵护',fox:'灵狐之息'
 N.species={fox:'灵狐',jadefox:'碧尾灵狐',moonfox:'映月灵狐',tiger:'烬纹虎',crane:'听风鹤',turtle:'青岩龟',deer:'苔角鹿',hawk:'逐岚鹰'};
 N.bond='契心值';N.twin='双相';N.afterimage='残影';N.heroName='清微子';N.resonate='轮脉共振';
 })(typeof window!=='undefined'?window:globalThis);
+(function(g){g.SR.NAMES.behaviors={kills:'击败次数',battles:'清剿波次'};})(typeof window!=='undefined'?window:globalThis);
