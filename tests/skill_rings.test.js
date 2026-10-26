@@ -15,3 +15,9 @@ S.save.save();S.save.load();assert.equal(S.save.state.hero.rings[0].sourceKind,s
 S.save.state=S.save.migrate({v:1,hero:{level:10,soulId:'blade',rings:[{skillId:'slash',years:50,vein:'wind',color:'white'}]}});S.skills.init();assert.equal(S.save.state.hero.rings[0].skillId,'slash');console.log('skill_rings: sources, absorption, replacement, fit, reset, branch, auto thresholds and migration passed');
 
 S.save.state=S.save.create();S.save.state.flags.awakened=true;S.save.state.hero.level=10;S.save.state.hero.soulId='blade';S.save.state.bag.push({uid:'legacy',type:'essence',years:20,vein:'wind',skillId:'cut'});assert(S.rings.absorb('legacy').ok);assert.equal(S.skills.entries({side:'hero'})[0].id,'cut');
+
+// Locked manual absorption must never mutate either inventory or skill binding.
+let locked=S.loot.essence(100,false,{kind:sources[0]});S.save.state.store.push(locked);locked.locked=true;let snapshot=JSON.stringify(S.save.state);assert.equal(S.rings.absorb(locked.uid).reason,'locked');assert.equal(JSON.stringify(S.save.state),snapshot);
+S.save.state=S.save.create();S.save.state.hero.level=90;S.save.state.hero.soulId='blade';S.save.state.flags.awakened=true;
+let red=S.loot.essence(100000,false,{kind:sources[0]});S.save.state.bag.push(red);S.rng=()=>0;S.formula.absorbRate=()=>({rate:1});assert(S.rings.absorb(red.uid).ok);assert.equal(S.skills.entries({side:'hero'}).length,2);
+let ids=S.save.state.hero.rings[0].skillIds.slice();S.save.save();S.save.load();assert.deepEqual(S.save.state.hero.rings[0].skillIds,ids);assert(S.rings.strip(0));assert.equal(S.skills.entries({side:'hero'}).length,0);for(let id of ids)assert(!S.skills.init().levels[id]);
