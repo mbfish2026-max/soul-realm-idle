@@ -51,3 +51,7 @@
 22:51 - bag-grid/world-map 完成
 22:51 - 合入 dev/bag-grid
 22:51 - 合入 dev/world-map
+22:51 - WIRE2 启动
+22:56 - WIRE2 完成
+22:56 - 评审第 5 轮
+22:56 - M2 两路 Codex 启动失败：OpenAI 接口返回 403（Cloudflare 'Unable to load site'，workspace routing discovery failed），3 次重试均失败；已挂 m2-wait.sh 每 10 分钟探测，恢复后自动跑 M2 管线
