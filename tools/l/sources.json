@@ -1,0 +1,353 @@
+[
+  {
+    "key": "hero_idle",
+    "frames": 4,
+    "cols": 4,
+    "source": "hero_idle.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 4
+  },
+  {
+    "key": "hero_move",
+    "frames": 6,
+    "cols": 3,
+    "source": "hero_move.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 8
+  },
+  {
+    "key": "hero_attack",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_attack.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 10
+  },
+  {
+    "key": "hero_skill",
+    "frames": 6,
+    "cols": 3,
+    "source": "hero_skill.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 9
+  },
+  {
+    "key": "hero_hit",
+    "frames": 2,
+    "cols": 2,
+    "source": "hero_hit.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 8
+  },
+  {
+    "key": "hero_fusion",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_fusion.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 7
+  },
+  {
+    "key": "hero_win",
+    "frames": 3,
+    "cols": 3,
+    "source": "hero_win.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 5
+  },
+  {
+    "key": "hero_die",
+    "frames": 4,
+    "cols": 2,
+    "source": "hero_die.png",
+    "fw": 600,
+    "fh": 880,
+    "fps": 6
+  },
+  {
+    "key": "pet_fox_idle",
+    "frames": 3,
+    "cols": 3,
+    "source": "pet_fox_idle.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 4
+  },
+  {
+    "key": "pet_fox_move",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_move.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 8
+  },
+  {
+    "key": "pet_fox_attack",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_attack.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 10
+  },
+  {
+    "key": "pet_fox_hit",
+    "frames": 2,
+    "cols": 2,
+    "source": "pet_fox_hit.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 8
+  },
+  {
+    "key": "pet_fox_fusion",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_fusion.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 7
+  },
+  {
+    "key": "pet_fox_win",
+    "frames": 2,
+    "cols": 2,
+    "source": "pet_fox_win.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 5
+  },
+  {
+    "key": "pet_fox_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "pet_fox_die.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 6
+  },
+  {
+    "key": "mob_ink_wolf_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_ink_wolf_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_ink_wolf_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_ink_wolf_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_ink_wolf.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
+  },
+  {
+    "key": "mob_bamboo_snake_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_bamboo_snake_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_bamboo_snake_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_bamboo_snake_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_bamboo_snake.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
+  },
+  {
+    "key": "mob_stone_turtle_idle",
+    "frames": 2,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      0,
+      1
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 4
+  },
+  {
+    "key": "mob_stone_turtle_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      2,
+      3,
+      4
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 9
+  },
+  {
+    "key": "mob_stone_turtle_hit",
+    "frames": 1,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      5
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 7
+  },
+  {
+    "key": "mob_stone_turtle_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "mob_stone_turtle.png",
+    "sourceFrames": 9,
+    "indices": [
+      6,
+      7,
+      8
+    ],
+    "fw": 460,
+    "fh": 330,
+    "fps": 6
+  },
+  {
+    "key": "boss_cinder_stag_idle",
+    "frames": 2,
+    "cols": 2,
+    "source": "boss_cinder_stag_idle.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 4
+  },
+  {
+    "key": "boss_cinder_stag_attack",
+    "frames": 3,
+    "cols": 3,
+    "source": "boss_cinder_stag_attack.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 8
+  },
+  {
+    "key": "boss_cinder_stag_skill",
+    "frames": 3,
+    "cols": 2,
+    "source": "boss_cinder_stag_skill.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 7
+  },
+  {
+    "key": "boss_cinder_stag_phase",
+    "frames": 2,
+    "cols": 1,
+    "source": "boss_cinder_stag_phase.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5
+  },
+  {
+    "key": "boss_cinder_stag_die",
+    "frames": 3,
+    "cols": 2,
+    "source": "boss_cinder_stag_die.png",
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5
+  }
+]

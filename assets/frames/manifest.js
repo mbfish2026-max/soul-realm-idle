@@ -1,0 +1,1030 @@
+(function (g) {
+  "use strict";
+  var SR = g.SR = g.SR || {};
+  Object.assign(SR.ASSETS = SR.ASSETS || {}, {
+  "hero_idle": {
+    "file": "assets/frames/hero_idle.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "hero_idle_1x": {
+    "file": "assets/frames/hero_idle@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "hero_move": {
+    "file": "assets/frames/hero_move.webp",
+    "w": 3600,
+    "h": 880,
+    "use": "animation",
+    "frames": 6,
+    "fw": 600,
+    "fh": 880,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_move_1x": {
+    "file": "assets/frames/hero_move@1x.webp",
+    "w": 1800,
+    "h": 440,
+    "use": "animation",
+    "frames": 6,
+    "fw": 300,
+    "fh": 440,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_attack": {
+    "file": "assets/frames/hero_attack.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_attack_1x": {
+    "file": "assets/frames/hero_attack@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_skill": {
+    "file": "assets/frames/hero_skill.webp",
+    "w": 3600,
+    "h": 880,
+    "use": "animation",
+    "frames": 6,
+    "fw": 600,
+    "fh": 880,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_skill_1x": {
+    "file": "assets/frames/hero_skill@1x.webp",
+    "w": 1800,
+    "h": 440,
+    "use": "animation",
+    "frames": 6,
+    "fw": 300,
+    "fh": 440,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_hit": {
+    "file": "assets/frames/hero_hit.webp",
+    "w": 1200,
+    "h": 880,
+    "use": "animation",
+    "frames": 2,
+    "fw": 600,
+    "fh": 880,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_hit_1x": {
+    "file": "assets/frames/hero_hit@1x.webp",
+    "w": 600,
+    "h": 440,
+    "use": "animation",
+    "frames": 2,
+    "fw": 300,
+    "fh": 440,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_fusion": {
+    "file": "assets/frames/hero_fusion.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_fusion_1x": {
+    "file": "assets/frames/hero_fusion@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_win": {
+    "file": "assets/frames/hero_win.webp",
+    "w": 1800,
+    "h": 880,
+    "use": "animation",
+    "frames": 3,
+    "fw": 600,
+    "fh": 880,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_win_1x": {
+    "file": "assets/frames/hero_win@1x.webp",
+    "w": 900,
+    "h": 440,
+    "use": "animation",
+    "frames": 3,
+    "fw": 300,
+    "fh": 440,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "hero_die": {
+    "file": "assets/frames/hero_die.webp",
+    "w": 2400,
+    "h": 880,
+    "use": "animation",
+    "frames": 4,
+    "fw": 600,
+    "fh": 880,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "hero_die_1x": {
+    "file": "assets/frames/hero_die@1x.webp",
+    "w": 1200,
+    "h": 440,
+    "use": "animation",
+    "frames": 4,
+    "fw": 300,
+    "fh": 440,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_idle": {
+    "file": "assets/frames/pet_fox_idle.webp",
+    "w": 1200,
+    "h": 320,
+    "use": "animation",
+    "frames": 3,
+    "fw": 400,
+    "fh": 320,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "pet_fox_idle_1x": {
+    "file": "assets/frames/pet_fox_idle@1x.webp",
+    "w": 600,
+    "h": 160,
+    "use": "animation",
+    "frames": 3,
+    "fw": 200,
+    "fh": 160,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "pet_fox_move": {
+    "file": "assets/frames/pet_fox_move.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_move_1x": {
+    "file": "assets/frames/pet_fox_move@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_attack": {
+    "file": "assets/frames/pet_fox_attack.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_attack_1x": {
+    "file": "assets/frames/pet_fox_attack@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_hit": {
+    "file": "assets/frames/pet_fox_hit.webp",
+    "w": 800,
+    "h": 320,
+    "use": "animation",
+    "frames": 2,
+    "fw": 400,
+    "fh": 320,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_hit_1x": {
+    "file": "assets/frames/pet_fox_hit@1x.webp",
+    "w": 400,
+    "h": 160,
+    "use": "animation",
+    "frames": 2,
+    "fw": 200,
+    "fh": 160,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_fusion": {
+    "file": "assets/frames/pet_fox_fusion.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_fusion_1x": {
+    "file": "assets/frames/pet_fox_fusion@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_win": {
+    "file": "assets/frames/pet_fox_win.webp",
+    "w": 800,
+    "h": 320,
+    "use": "animation",
+    "frames": 2,
+    "fw": 400,
+    "fh": 320,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_win_1x": {
+    "file": "assets/frames/pet_fox_win@1x.webp",
+    "w": 400,
+    "h": 160,
+    "use": "animation",
+    "frames": 2,
+    "fw": 200,
+    "fh": 160,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_die": {
+    "file": "assets/frames/pet_fox_die.webp",
+    "w": 1200,
+    "h": 320,
+    "use": "animation",
+    "frames": 3,
+    "fw": 400,
+    "fh": 320,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_die_1x": {
+    "file": "assets/frames/pet_fox_die@1x.webp",
+    "w": 600,
+    "h": 160,
+    "use": "animation",
+    "frames": 3,
+    "fw": 200,
+    "fh": 160,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_ink_wolf_idle": {
+    "file": "assets/frames/mob_ink_wolf_idle.webp",
+    "w": 920,
+    "h": 330,
+    "use": "animation",
+    "frames": 2,
+    "fw": 460,
+    "fh": 330,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "mob_ink_wolf_idle_1x": {
+    "file": "assets/frames/mob_ink_wolf_idle@1x.webp",
+    "w": 460,
+    "h": 165,
+    "use": "animation",
+    "frames": 2,
+    "fw": 230,
+    "fh": 165,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "mob_ink_wolf_attack": {
+    "file": "assets/frames/mob_ink_wolf_attack.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_ink_wolf_attack_1x": {
+    "file": "assets/frames/mob_ink_wolf_attack@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_ink_wolf_hit": {
+    "file": "assets/frames/mob_ink_wolf_hit.webp",
+    "w": 460,
+    "h": 330,
+    "use": "animation",
+    "frames": 1,
+    "fw": 460,
+    "fh": 330,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_ink_wolf_hit_1x": {
+    "file": "assets/frames/mob_ink_wolf_hit@1x.webp",
+    "w": 230,
+    "h": 165,
+    "use": "animation",
+    "frames": 1,
+    "fw": 230,
+    "fh": 165,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_ink_wolf_die": {
+    "file": "assets/frames/mob_ink_wolf_die.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_ink_wolf_die_1x": {
+    "file": "assets/frames/mob_ink_wolf_die@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_bamboo_snake_idle": {
+    "file": "assets/frames/mob_bamboo_snake_idle.webp",
+    "w": 920,
+    "h": 330,
+    "use": "animation",
+    "frames": 2,
+    "fw": 460,
+    "fh": 330,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "mob_bamboo_snake_idle_1x": {
+    "file": "assets/frames/mob_bamboo_snake_idle@1x.webp",
+    "w": 460,
+    "h": 165,
+    "use": "animation",
+    "frames": 2,
+    "fw": 230,
+    "fh": 165,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "mob_bamboo_snake_attack": {
+    "file": "assets/frames/mob_bamboo_snake_attack.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_bamboo_snake_attack_1x": {
+    "file": "assets/frames/mob_bamboo_snake_attack@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_bamboo_snake_hit": {
+    "file": "assets/frames/mob_bamboo_snake_hit.webp",
+    "w": 460,
+    "h": 330,
+    "use": "animation",
+    "frames": 1,
+    "fw": 460,
+    "fh": 330,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_bamboo_snake_hit_1x": {
+    "file": "assets/frames/mob_bamboo_snake_hit@1x.webp",
+    "w": 230,
+    "h": 165,
+    "use": "animation",
+    "frames": 1,
+    "fw": 230,
+    "fh": 165,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_bamboo_snake_die": {
+    "file": "assets/frames/mob_bamboo_snake_die.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_bamboo_snake_die_1x": {
+    "file": "assets/frames/mob_bamboo_snake_die@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_stone_turtle_idle": {
+    "file": "assets/frames/mob_stone_turtle_idle.webp",
+    "w": 920,
+    "h": 330,
+    "use": "animation",
+    "frames": 2,
+    "fw": 460,
+    "fh": 330,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "mob_stone_turtle_idle_1x": {
+    "file": "assets/frames/mob_stone_turtle_idle@1x.webp",
+    "w": 460,
+    "h": 165,
+    "use": "animation",
+    "frames": 2,
+    "fw": 230,
+    "fh": 165,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "mob_stone_turtle_attack": {
+    "file": "assets/frames/mob_stone_turtle_attack.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_stone_turtle_attack_1x": {
+    "file": "assets/frames/mob_stone_turtle_attack@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 9,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_stone_turtle_hit": {
+    "file": "assets/frames/mob_stone_turtle_hit.webp",
+    "w": 460,
+    "h": 330,
+    "use": "animation",
+    "frames": 1,
+    "fw": 460,
+    "fh": 330,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_stone_turtle_hit_1x": {
+    "file": "assets/frames/mob_stone_turtle_hit@1x.webp",
+    "w": 230,
+    "h": 165,
+    "use": "animation",
+    "frames": 1,
+    "fw": 230,
+    "fh": 165,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "mob_stone_turtle_die": {
+    "file": "assets/frames/mob_stone_turtle_die.webp",
+    "w": 1380,
+    "h": 330,
+    "use": "animation",
+    "frames": 3,
+    "fw": 460,
+    "fh": 330,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "mob_stone_turtle_die_1x": {
+    "file": "assets/frames/mob_stone_turtle_die@1x.webp",
+    "w": 690,
+    "h": 165,
+    "use": "animation",
+    "frames": 3,
+    "fw": 230,
+    "fh": 165,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "boss_cinder_stag_idle": {
+    "file": "assets/frames/boss_cinder_stag_idle.webp",
+    "w": 2000,
+    "h": 1200,
+    "use": "animation",
+    "frames": 2,
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "boss_cinder_stag_idle_1x": {
+    "file": "assets/frames/boss_cinder_stag_idle@1x.webp",
+    "w": 1000,
+    "h": 600,
+    "use": "animation",
+    "frames": 2,
+    "fw": 500,
+    "fh": 600,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "boss_cinder_stag_attack": {
+    "file": "assets/frames/boss_cinder_stag_attack.webp",
+    "w": 3000,
+    "h": 1200,
+    "use": "animation",
+    "frames": 3,
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "boss_cinder_stag_attack_1x": {
+    "file": "assets/frames/boss_cinder_stag_attack@1x.webp",
+    "w": 1500,
+    "h": 600,
+    "use": "animation",
+    "frames": 3,
+    "fw": 500,
+    "fh": 600,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "boss_cinder_stag_skill": {
+    "file": "assets/frames/boss_cinder_stag_skill.webp",
+    "w": 3000,
+    "h": 1200,
+    "use": "animation",
+    "frames": 3,
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "boss_cinder_stag_skill_1x": {
+    "file": "assets/frames/boss_cinder_stag_skill@1x.webp",
+    "w": 1500,
+    "h": 600,
+    "use": "animation",
+    "frames": 3,
+    "fw": 500,
+    "fh": 600,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "boss_cinder_stag_phase": {
+    "file": "assets/frames/boss_cinder_stag_phase.webp",
+    "w": 2000,
+    "h": 1200,
+    "use": "animation",
+    "frames": 2,
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "boss_cinder_stag_phase_1x": {
+    "file": "assets/frames/boss_cinder_stag_phase@1x.webp",
+    "w": 1000,
+    "h": 600,
+    "use": "animation",
+    "frames": 2,
+    "fw": 500,
+    "fh": 600,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "boss_cinder_stag_die": {
+    "file": "assets/frames/boss_cinder_stag_die.webp",
+    "w": 3000,
+    "h": 1200,
+    "use": "animation",
+    "frames": 3,
+    "fw": 1000,
+    "fh": 1200,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "boss_cinder_stag_die_1x": {
+    "file": "assets/frames/boss_cinder_stag_die@1x.webp",
+    "w": 1500,
+    "h": 600,
+    "use": "animation",
+    "frames": 3,
+    "fw": 500,
+    "fh": 600,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  }
+});
+})(typeof window !== "undefined" ? window : globalThis);
