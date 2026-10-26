@@ -71,3 +71,5 @@ N.featRanks=['初识','渐入','精进'];
 (function(g){var N=g.SR.NAMES;N.gearSlotsV2={crown:'头冠',robe:'衣袍',belt:'腰带',boots:'靴履',bracer:'护腕',skirt:'下裳',necklace:'项链',ring:'戒指',weapon:'法器',jade:'玉佩'};N.gearLinksV2='八件齐备：武魂属性增幅5%，每枚魂环增幅0.5%，每只出战契兽增幅1%（最多三只），均作用于八件档属性。';})(typeof window!=='undefined'?window:globalThis);
 
 (function(g){g.SR.NAMES.wireMenu='修行手札';g.SR.NAMES.wireMenuShort='手札';})(typeof window!=='undefined'?window:globalThis);
+/* BAG 网格背包，仅追加。 */
+(function(g){g.SR.NAMES.bagGrid={title:'背包',store:'仓库',gear:'装备',mat:'材料',all:'全部',empty:'空格',locked:'锁定',selected:'已选',full:'背包已满 · 新掉落转入仓库',storeFull:'仓库接近上限 · 战斗将暂停',sort:'排序',quality:'品质',level:'等级／年限',type:'类型',newest:'新获得',tidy:'一键整理',multi:'多选',done:'完成',select:'全选可用',sell:'出售',dismantle:'分解',confirm:'确认',cancel:'取消',unlock:'解锁',detail:'物品详情',absorb:'吸收',hatch:'孵化',equip:'穿戴',advanced:'装备详情',put:'存入仓库',take:'取回背包',used:'已用',hint:'点按查看 · 长按多选',none:'当前筛选没有物品',year:'年',lv:'级',result:'处理完成',cannot:'条件不足，请检查等级、锁定或容量',pending:'待吸收',overflow:'满包掉落转仓库；自动出售遵循自动策略。'};})(typeof window!=='undefined'?window:globalThis);
