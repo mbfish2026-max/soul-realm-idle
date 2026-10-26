@@ -1,0 +1,12 @@
+require('./core_auto.test');
+const assert=require('assert'),S=SR;
+S.save.state=S.save.create();const s=S.save.state;s.flags.awakened=true;s.hero.classId='blade';s.hero.soulId='blade';s.auto=S.auto.defaults();s.auto.reserveBossFusion=true;
+S.DATA.maps=[{id:'arena',floors:2,waves:2,monsters:[{kind:'reed',hp:1e8,atk:1,yearsRange:[10,10],weight:1}],boss:{kind:'lord',hp:1e8,atk:1,yearsRange:[10,10]}}];s.map.mapId='arena';s.map.wave=2;
+S.DATA.pets=[{id:'ally',skillRole:'guard'}];s.pets=[{uid:'ally',speciesId:'ally',bond:100,skills:[]}];s.team.pets=['ally'];S.stats.hero=()=>({atk:10,def:100,hp:100000});S.stats.pet=()=>({atk:1,def:100,hp:100000});
+S.DATA.skills.manual={id:'manual',kind:'active',name:'manual',cd:10,cost:25,effects:[{type:'damage',power:2}]};S.skills.entries=a=>a.side==='hero'?[{id:'manual',index:0}]:[];S.skills.scale=()=>1;S.skills.synergy=()=>0;
+S.DATA.fusionSkills=[{id:'fusion',classId:'blade',role:'guard',bond:30,cd:15,cost:30,effects:[{type:'damage',power:3}]}];
+let fusion=0,skills=0;S.bus.on('battle:fusion',()=>fusion++);S.bus.on('battle:skill',()=>skills++);
+S.battle.start();S.battle.tick(20000);assert.equal(fusion,0,'boss fusion must be reserved');assert(skills>0);assert(S.battle.fusion(),'reserved fusion remains manually available');assert.equal(fusion,1);
+S.battle.setAuto(false);let count=skills;S.battle.tick(15000);assert.equal(skills,count);assert(S.battle.cast('manual'));assert(!S.battle.cast('manual'),'cooldown blocks duplicate click');assert.equal(skills,count+1);
+S.battle.tick(15000);s.auto.reserveBossFusion=false;S.battle.setAuto(true);S.battle.tick(20000);assert(fusion>1,'automatic fusion resumes');S.battle.stop();
+console.log('core_auto_battle OK');
