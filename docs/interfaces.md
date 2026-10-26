@@ -140,3 +140,10 @@
 - A 需升级存档 v=2，保留 sr_save_v1 键读取兼容，放开 core/save.js 当前 v>1 拒绝限制；注册 migrations[1] 调 SR.gear.migrate(s) 后置 s.v=2；create 默认 v=2。G 不包装 save，避免旧读取器拒绝新档。
 - 旧槽映射 head→crown、body→robe、larm→bracer、rarm→belt、lleg→skirt、rleg→boots；装备、背包、仓库均迁移。目标已占用则旧物入仓，保留 UID/品质/词条/锁定。migrate 幂等，install 及 save:loaded 调用槽位迁移，但升级版本由 A 完成。
 - 新增 SR.gear.enhance(uid)，最高十级，每级基础属性 +2%，花费 (30+等级*4)*(强化级+1) 灵晶；锁定装备不可强化。statBonus 不改变原始装备数据。
+## 变更提案-i-audio
+- 新增可选音频模块：按 `audio/m2/score.js` → `audio/m2/audio.js` 加载，bus 就绪后 `SR.audio2.install()`。不修改现有事件与存档。
+- `SR.audio2.setScene('town'|'field'|'boss')` 场景交叉淡化；wave_start 自动判断普通/首领，hero_down 回主城。ui:open 不改变音乐，避免养成弹窗打断战斗音乐。主城入口由集成路显式 setScene('town')。
+- `getSettings()` / `setSettings({master,music,sfx,muted})`，音量 0..1，独立 localStorage `sr_audio2_v1`；`mountSettings(el)` 提供可嵌入设置面板；`openSettings()` 提供可点空白关闭的独立弹窗。集成路添加「声音」按钮调用 openSettings，无须新 Tab。
+- `play(id)` 与现有 `sfx {id}` 一致。支持 skill_wind/fire/earth/moon、pet_attack、boss_warning、absorb_success/fail、level_up、drop_white/yellow/purple/black/red、ui_click，以及 attack/skill/pet/boss/absorb/upgrade/click 旧别名。battle:skill 根据 DATA.skills[skillId].vein 自动选音色。
+- 自动监听现有 battle、loot:drop、ring:absorb_result、hero:changed、save:loaded；升级按 hero.level 增量识别。无需新增业务事件。首次 pointerdown/touchend/keydown 解锁，visibilitychange/pagehide 暂停，pageshow 恢复。
+- 若同时加载第一批 SR.audio，默认共存（不会擅改未知旧 API）；为避免双重 bus 音效，集成路应只安装 audio2，或通过 install({legacy:SR.audio}) 明确移交，legacy 需提供 uninstall()。详细说明见 docs/report-i-audio.md。

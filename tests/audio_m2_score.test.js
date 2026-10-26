@@ -1,0 +1,17 @@
+'use strict';
+var assert=require('assert');require('../audio/m2/score.js');var p=globalThis.SR.audio2Score;
+assert.strictEqual(p.note(5)/p.note(0),2);assert.strictEqual(p.note(0)/p.note(-5),2);
+assert(Math.abs(p.note(-1)-p.note(0)*Math.pow(2,-3/12))<1e-8);
+var signatures=[];
+p.scenes.forEach(function(scene){var s=p.score(scene);signatures.push(JSON.stringify(s));
+ assert(s.duration>10);assert.deepStrictEqual(Array.from(new Set(s.events.map(function(e){return e.instrument;}))).sort(),['drum','flute','pluck']);
+ s.events.forEach(function(e){assert(e.at>=0&&e.at<s.duration);assert(e.duration>0&&e.frequency>0);if(e.instrument!=='drum'){var midi=69+12*Math.log2(e.frequency/440),root={town:60,field:62,boss:57}[scene];assert([0,2,4,7,9].indexOf(((Math.round(midi)-root)%12+12)%12)>=0);}});
+ var full=p.windowEvents(s,0,s.duration*3),chunks=[];
+ for(var at=0;at<s.duration*3;at+=0.137)chunks=chunks.concat(p.windowEvents(s,at,Math.min(at+0.137,s.duration*3)));
+ assert.deepStrictEqual(chunks,full);assert.strictEqual(full.length,s.events.length*3);
+ var edge=p.windowEvents(s,s.duration,s.duration+0.001);assert(edge.length>0);assert(edge.every(function(e){return e.at===s.duration;}));
+});assert.strictEqual(new Set(signatures).size,3);
+[1,100,1000,10000,100000].forEach(function(y,i){assert.strictEqual(p.quality({type:'essence',years:y}),['white','yellow','purple','black','red'][i]);});
+assert.strictEqual(p.quality({type:'gear',quality:'purple'}),'purple');assert.strictEqual(p.quality({type:'egg',grade:8}),'red');
+assert.deepStrictEqual(p.windowEvents(p.score('town'),1,1),[]);
+console.log('audio_m2_score: ok');
