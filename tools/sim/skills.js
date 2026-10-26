@@ -1,20 +1,46 @@
-/* Node, no dependencies. Measures authoritative 50ms combat at ten progression checkpoints. */
-const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'../..');
+/* Continuous seeded collection simulation. No fixtures and no source/report writes.
+ * node tools/sim/skills.js --hours=120 --class=blade --investment=high --mode=online
+ * Omit filters to cover 6 classes x 3 decision frequencies x online/offline.
+ * --hours=1 is a smoke run, not a balance acceptance run.
+ */
+const path=require('path'),root=path.resolve(__dirname,'../..');
 ['names','core/bus','data/souls','data/skills','data/pets','data/maps','data/realms','data/ext/progression','data/ext/pets','data/ext/maps','data/ext/install'].forEach(f=>require(path.join(root,f)));SR.content.install();
-['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','features/gear/data','features/gear/gear','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle'].forEach(f=>require(path.join(root,f)));SR.loot.init();
-let results=[];
-for(const c of SR.DATA.classes)for(let option=0;option<2;option++)for(const role of Object.keys(SR.NAMES.petRoles)){
- let curve=[];
- for(const level of [1,10,20,30,40,50,60,70,80,90,99]){
-  SR.battle.stop();SR.rng.seed(4200+level);const s=SR.save.state=SR.save.create();s.flags.awakened=true;s.hero.soulId=c.recommend;s.hero.classId=c.id;s.hero.level=level;s.map.floor=Math.min(5,1+Math.floor(level/10));s.map.wave=1;const n=Math.min(9,Math.floor(level/10));s.hero.rings=Array.from({length:n},(_,i)=>({years:Math.pow(10,Math.min(5,1+Math.floor(i/2))),color:'yellow',vein:c.vein}));
-  const pool=Object.values(SR.DATA.ringSkillPools).find(p=>SR.DATA.skills[p.slots[1][0]].classId===c.id);s.hero.rings.forEach((r,i)=>{r.sourceKind=pool.kind;r.skillBranch=option;r.skillId=pool.slots[i+1][option];});let b=SR.skills.init();for(let i=1;i<=n;i++){let id=pool.slots[i][option];b.levels[id]=Math.min(5,1+Math.floor(level/20));b.slots[i]=id;b.priority.push(id);}
-  let species=SR.DATA.pets.find(p=>p.skillRole===role);s.pets=[{uid:'p',speciesId:species.id,grade:species.grade,seg:Math.min(10,1+Math.floor(level/10)),step:1,bond:100,counters:{},skills:species.skills.slice()}];s.team.pets=['p'];SR.battle.start();const before=s.hero.exp;for(let t=0;t<60000;t+=50)SR.battle.tick(50);curve.push({level,xpPerHour:Math.max(1,s.hero.exp-before)*60,kills:s.stats.kills||0});
+['data/skill-tree','data/ring-skills','data/effects','data/skill-progression','core/rng','core/save','core/bag','core/loot','core/auto','features/gear/data','features/gear/gear','systems/rings','systems/pets','systems/stats','systems/skills','systems/ring-skills','core/battle','core/offline'].forEach(f=>require(path.join(root,f)));SR.loot.init();
+const args=Object.fromEntries(process.argv.slice(2).map(x=>x.replace(/^--/,'').split('=')));
+const hours=Number(args.hours||120);if(!Number.isFinite(hours)||hours<=0)throw Error('invalid hours');
+// Persistence is outside the balance model; suppress autosaves, not game events.
+SR.save.save=()=>true;
+function advance(){let h=SR.save.state.hero,changed=false;while(h.level<99&&h.exp>=SR.progression.expToNext(h.level)){h.exp-=SR.progression.expToNext(h.level++);changed=true;}if(changed)SR.bus.emit('hero:changed',{});}
+function manage(){const s=SR.save.state,h=s.hero;
+ for(const e of s.bag.concat(s.store).slice()){
+  if(e.locked)continue;
+  if(e.type==='gear'){
+   let old=h.bones[e.slot];if(!old||SR.gear.power(SR.gear.itemBonus(e))>SR.gear.power(SR.gear.itemBonus(old)))SR.gear.equip(e.uid);
+   if(SR.gear.find(e.uid)?.where)SR.gear.dismantle([e.uid]);
+  }else if(e.type==='essence'){
+   if(h.rings.length<SR.rings.slots(h)&&SR.ringSkill.allowed(e,h.rings.length))SR.rings.absorb(e.uid);
+   else SR.bag.dismantle(e.uid,s.store.includes(e)?'store':'bag');
+  }else if(e.type==='egg'){
+   if(s.pets.length<2){if(s.store.includes(e))SR.bag.move(e.uid,'store','bag');let p=SR.pets.hatch(e.uid);if(p)SR.pets.deploy(p.uid);}
+   else SR.bag.dismantle(e.uid,s.store.includes(e)?'store':'bag');
+  }
  }
- let elapsed=0,checkpoints=[];
- for(let level=1;level<99;level++){const sample=curve.slice().reverse().find(x=>x.level<=level);elapsed+=SR.progression.expToNext(level)/sample.xpPerHour;if(level%10===9||level===98)checkpoints.push({level:level+1,hours:+elapsed.toFixed(2)});}
- results.push({classId:c.id,option,role,hours:+elapsed.toFixed(2),curve:checkpoints,samples:curve});
+ for(const p of s.pets){if(!s.team.pets.includes(p.uid))SR.pets.deploy(p.uid);let budget=100;while(budget--&&SR.pets.feed(p.uid)){} }
+ for(const e of SR.skills.entries({side:'hero'})){let budget=5;while(budget--&&SR.skills.learn(e.id)){} }
+ SR.auto.config().pending=[];
 }
-SR.battle.stop();fs.writeFileSync(path.join(root,'docs/balance-skills.json'),JSON.stringify(results,null,2));
-let out='# 技能体系数值模拟\n\n运行 `node tools/sim/skills.js`。使用真实 battle.tick(50)、AI、掉落与技能效果测量；固定种子，每个组合在 11 个等级节点各战斗 60 秒，分段积分到 99 级。共 6 职业 × 2 主力分支 × 5 契兽定位 = 60 组。\n\n假设：节点自动配置对应等级的魂环、技能等级与契兽段位，不计玩家决策时间、死亡外的操作时间与离线折算。结果是模型估计，不是连续 80 小时实机验收。\n\n|职业|最短小时|最长小时|60–80 小时达标组数|\n|---|---:|---:|---:|\n';
-for(const c of SR.DATA.classes){const rows=results.filter(r=>r.classId===c.id);out+='|'+SR.NAMES.classes[c.id]+'|'+Math.min(...rows.map(r=>r.hours))+'|'+Math.max(...rows.map(r=>r.hours))+'|'+rows.filter(r=>r.hours>=60&&r.hours<=80).length+'/10|\n';}
-out+='\n完整组合与阶段曲线见 [balance-skills.json](balance-skills.json)。通关定义为 99 级；地图末层仍可循环挂机。1–39 级保持原有节奏，40 级后采用 data/skill-progression.js 的修行经验曲线。弱势职业通过属性成长补偿，未削减既有技能。\n';fs.writeFileSync(path.join(root,'docs/balance.md'),out);console.log(out);
+// main.js advances after each kill (synchronously during offline simulation).
+SR.bus.on('battle:kill',advance);
+let result=[];
+for(const c of SR.DATA.classes.filter(c=>!args.class||c.id===args.class))for(const investment of ['low','medium','high'].filter(x=>!args.investment||x===args.investment))for(const mode of ['online','offline'].filter(x=>!args.mode||x===args.mode)){
+ SR.battle.stop();SR.rng.seed(Number(args.seed||4200));const s=SR.save.state=SR.save.create();s.flags.awakened=true;s.hero.soulId=c.recommend;SR.skills.chooseClass(c.id);SR.auto.config().absorb=false;
+ let elapsed=0,clears=0,attempts=0,failures=0,checkpoints=[],paused=0;let off=SR.bus.on('ring:absorb_result',r=>{attempts++;if(!r.ok)failures++;});let off2=SR.bus.on('battle:wave_clear',()=>clears++);
+ const interval={low:3600,medium:600,high:60}[investment];
+ SR.battle.start();
+ while(elapsed<hours*3600){let seconds=Math.min(mode==='offline'?interval:60,hours*3600-elapsed);if(mode==='offline')SR.offline.claim(s.t+seconds*1000);else SR.battle.tick(seconds*1000);elapsed+=seconds;advance();if(SR.bag.full())paused+=seconds;if(elapsed%interval===0){manage();SR.battle.start();}if(!checkpoints.length||checkpoints.at(-1).level!==s.hero.level)checkpoints.push({level:s.hero.level,hours:+(elapsed/3600).toFixed(3),map:s.map.mapId,rings:s.hero.rings.length});if(s.hero.level===99&&s.flags.mapsCleared?.ridge)break;}
+ off();off2();SR.battle.stop();let row={seed:Number(args.seed||4200),classId:c.id,investment,mode,hours:+(elapsed/3600).toFixed(3),complete:s.hero.level===99&&!!s.flags.mapsCleared?.ridge,level:s.hero.level,map:s.map,attempts,failures,clears,pausedHours:paused/3600,resources:s.cur,gear:Object.keys(s.hero.bones).length,rings:s.hero.rings.length,pets:s.pets.map(p=>({speciesId:p.speciesId,seg:p.seg,bond:p.bond})),checkpoints};result.push(row);console.log(JSON.stringify(row));
+}
+if(!result.length)throw Error('no scenarios selected');
+console.error(JSON.stringify({scenarios:result.length,complete:result.filter(r=>r.complete).length,inTarget:result.filter(r=>r.complete&&r.hours>=60&&r.hours<=80).length,definition:'level 99 and ridge final boss; elapsed wall hours; offline uses real claim at decision interval (60/600/3600s), 70% combat time; natural drops and resource costs only'}));
+
+if(args['assert-target']==='true'&&result.some(r=>!r.complete||r.hours<60||r.hours>80))process.exitCode=1;
