@@ -1,0 +1,18 @@
+(function(g){'use strict';var S=g.SR,D=S.DATA,K=S.skills,R=S.rings,oldInit=K.init,oldEntries=K.entries,oldScale=K.scale;
+function sync(s){s=s||S.save.state;var b=oldInit(s);s.hero.rings.forEach(function(r,i){var sk=S.ringSkill.resolve(r,i);if(!sk)return;r.skillId=sk.id;r.ringIndex=i;b.levels[sk.id]=b.levels[sk.id]||1;b.slots[i+1]=sk.id;if(b.priority.indexOf(sk.id)<0)b.priority.push(sk.id);});return b;}
+K.init=sync;
+K.entries=function(a){if(a.side!=='hero')return oldEntries(a);sync();return S.save.state.hero.rings.map(function(r,i){return {id:r.skillId,index:i};}).filter(function(e){return D.skills[e.id];});};
+K.scale=function(a,sk,index){return oldScale(a,sk,index)*(a.side==='hero'&&index!=null?S.ringSkill.fit(S.save.state.hero.rings[index],null,index):1);};
+K.learn=function(id){var s=S.save.state,b=sync(),sk=D.skills[id],index=s.hero.rings.findIndex(function(r){return r.skillId===id;}),level=b.levels[id]||0,c=K.cost(id);if(index<0||!sk||level>=5||s.cur.crystal<c.crystal||s.cur.skillDust<c.dust)return false;s.cur.crystal-=c.crystal;s.cur.skillDust-=c.dust;b.spent+=c.crystal;b.levels[id]=level+1;S.save.markDirty();S.bus.emit('hero:changed',{});return true;};
+K.equip=function(id){return S.save.state.hero.rings.some(function(r){return r.skillId===id;});};
+K.branch=function(index,branch){var s=S.save.state,r=s.hero.rings[index];if(!r||!D.ringSkillPools[r.sourceKind]||branch<0||branch>1||s.cur.crystal<20)return false;s.cur.crystal-=20;r.skillBranch=branch;sync();S.save.markDirty();S.bus.emit('hero:changed',{});return true;};
+var absorb=R.absorb;
+R.absorb=function(uid,index,confirmed){var s=S.save.state,h=s.hero,e=s.bag.concat(s.store).find(function(x){return x.uid===uid;});if(!e)return {ok:false,reason:'invalid'};index=index==null?h.rings.length:Number(index);if(index<0||index>=R.slots(h)||index>h.rings.length||!S.ringSkill.allowed(e,index))return {ok:false,reason:'slot'};var replacing=index<h.rings.length;if(replacing&&!confirmed)return {ok:false,reason:'confirm'};var sk=S.ringSkill.resolve(e,index);e.skillId=sk.id;var old=h.rings.slice(),oldSkill=old[index]&&old[index].skillId;if(replacing)h.rings=h.rings.slice(0,index);var result=absorb(uid);if(replacing){var newRing=h.rings[index];h.rings=old;if(result.ok)h.rings[index]=newRing;}if(result.ok){if(replacing){var build=oldInit();delete build.levels[oldSkill];build.priority=build.priority.filter(function(id){return id!==oldSkill;});}Object.assign(h.rings[index],{sourceKind:e.sourceKind,skillBranch:e.skillBranch||0,ringIndex:index});sync();S.save.markDirty();S.bus.emit('hero:changed',{});}return result;};
+R.shouldAuto=function(e){var s=S.save.state,a=s.hero.autoRing||{},index=s.hero.rings.length;return !!a.enabled&&index<R.slots(s.hero)&&e.years>=(a.minYears||10)&&S.ringSkill.allowed(e,index)&&S.ringSkill.fit(e,s.hero,index)>=(a.minFit||1);};
+S.bus.on('loot:drop',function(p){if(p.item.type==='essence'&&R.shouldAuto(p.item))R.absorb(p.item.uid);});
+S.bus.on('ring:replace',function(p){R.absorb(p.uid,p.index,true);});
+S.bus.on('skill:branch',function(p){K.branch(p.index,p.branch);});
+S.bus.on('ring:auto',function(){var h=S.save.state.hero;h.autoRing=h.autoRing||{minYears:10,minFit:1};h.autoRing.enabled=!h.autoRing.enabled;S.save.markDirty();S.bus.emit('hero:changed',{});});
+var strip=R.strip;R.strip=function(index){var s=S.save.state,r=s.hero.rings[index];if(!r)return false;var ok=strip(index);if(ok){var b=oldInit();delete b.levels[r.skillId];b.priority=b.priority.filter(function(id){return id!==r.skillId;});var e=s.bag[s.bag.length-1];e.sourceKind=r.sourceKind;e.skillBranch=r.skillBranch||0;sync();}return ok;};
+S.bus.on('save:loaded',function(p){sync(p.state);});
+})(typeof window!=='undefined'?window:globalThis);

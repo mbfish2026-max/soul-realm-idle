@@ -94,3 +94,17 @@
 - `DATA.resonances:[{id,name,type:'heroPet'|'petPet',soulId?,petIds?,veins:[a,b],bond,cd,mult,skillId}]`：heroPet 要求 soulId 与伙伴脉匹配；petPet 要求两只不同 uid、分别匹配 petIds，顺序无关；所有参与契兽 bond 均达门槛。A 负责触发/冷却，B 图鉴。
 - maps 新增 snow/ridge，沿用 floorTables；各层 boss.phases 为 `{phase,hpRatio,skillId,delayMs,mult}` 三项，技能定义在 DATA.skills；A 需复制并执行这些参数（现核心仍使用固定预警），C/D 负责对应技能表现/素材。unlock 为 `{mapId,floor,level}`，eggPool 为物种 id 列表，掉落按地图筛选由 A 接入，避免现有全池随机直接取得神级兽卵。
 - 词条基础值为 ringAffixes.min/max，实际按 ringTiers.affixScale（白至红 1..5）相乘；宠物 passiveSkills 引用 ringAffixes 的 id，应用其 min 为固定百分比，不参与主动技能冷却。
+
+## 技能体系（SKILL，追加）
+- 正式入口加载 ext/install 后依次加载 `data/skill-tree.js`、`data/ring-skills.js`、`data/effects.js`、`data/skill-progression.js`；systems/skills 后加载 systems/ring-skills，ui/skills 后加载 ui/ring-skills。
+- `DATA.classes` 六职业：`{id,nameKey,vein,growth,gear,recommend}`。觉醒后三选一武魂确定，再自由选择职业；未选职业不启动战斗。
+- `DATA.classSkills` 为六职业九环双分支的效果模板（108）。正式技能取得统一走魂环，不单独购买模板。
+- `DATA.ringSkillPools[kind]={kind,name,slots:{1:[skillId,skillId],…9:[]}}` 覆盖地图渊兽、首领及已有试炼首领。`DATA.skills[id]` 保存来源派生魂技；每技能有 `id,name,kind,ring,classId,vein,cd,cost,maxLevel,growth,synergy,effects,iconKey,fxKey`。
+- 精魄及已吸收魂环追加 `sourceKind,skillBranch,ringIndex`，原有 `skillId,years,color,vein` 保留。`loot.essence(years,preview,enemy)` 按来源生成；旧档无来源精魄保留原魂技。`SR.ringSkill.resolve(e,index,branch?)` 得到目标环位魂技，`fit(e,hero,index)` 返回威力倍率，`allowed(e,index)` 校验环位年限和类型；颜色由年限重算，五阶品阶共用连续年限成长。
+- `rings.absorb(uid,index?,confirmed?)`：默认填空槽；指定已有环位必须 confirmed=true；失败保留旧环，成功替换并丢弃旧魂技。`ring:replace {uid,index}` 仅由二次确认面板发出。`rings.shouldAuto(e)` 同时判断空槽、年限、类型及适配；`hero.autoRing={enabled,minYears,minFit}` 持久化，默认关闭，阈值10年/100%。
+- `hero.skillBuild={v:1,levels,slots,priority,spent}`，v0 learned 数组迁移；吸收自动授予1级并绑定槽位。`skills.learn(id)` 升级，`cost(id)` 返回灵晶/技能材料费用，`reset()` 返还投入并保留魂环基础魂技；`branch(index,branch)` 花20灵晶切换来源魂技分支。
+- `skills.entries(actor)` 返回实际魂环/契兽技能；`skillAI.pick(actor,ctx)` 按优先列表筛选未冷却、魂力足够、非被动技能。沉默/眩晕阻止主动施法；每秒恢复8魂力。技能冷却单位秒，运行时毫秒。
+- `DATA.effects` 类型表与 `effects.apply/tick/factor` 结算 damage/dot/control（stun/slow/silence）/shield/heal/buff/debuff/summon/aoe/combo，effects 可组合。
+- `DATA.petSkillPools[speciesId]` 四技能：talent/active/bond/evolved；段位、品阶、蜕变前置分别读取 unlockSeg/unlockGrade/evolutionCount。`pet.skillPriority` 与 `hero.skillBuild.priority` 保存自动释放顺序；`skill:order {uid?,id}` 移至首位。
+- `DATA.fusionSkills` 六职业×五契兽定位30项，按 classId/role/bond/cd/cost 触发。`battle:skill` 追加 `fxKey`；`battle:fusion` 追加 `fxKey,fx:{duration,bursts}`，stage按键播放一次性效果。
+- 新事件：`class:choose {id}`、`skill:learn/equip {id}`、`skill:reset {}`、`skill:branch {index,branch}`、`ring:auto {}`；均在成功后标脏并通知 hero:changed。存档外层仍为v2，技能子结构独立迁移。

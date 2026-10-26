@@ -3,3 +3,7 @@
 .sr-page-pets .pet-art{height:120px}.sr-page-pets .pet-art img{height:112px}
 
 .skill-row{display:flex;gap:10px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #d8d3bf}.skill-icon{width:40px;height:40px;object-fit:contain;flex-shrink:0}.skill-row>div{min-width:0;flex:1}.skill-row small{display:block;font-size:11px;margin:5px 0}.skill-row button{font-size:11px;padding:6px;margin:3px 3px 0 0;min-height:32px}.sr-ui nav button{min-width:0;flex:1}.sr-page-skills{overflow-wrap:anywhere}.sr-dialog{max-height:85dvh;overflow-y:auto}
+
+/* Keep profession choices readable against the mountain illustration. */
+.sr-dialog:has([data-event="class:choose"]){background:linear-gradient(#f7f4e7ed,#f7f4e7ed),url('../assets/background/bg_forest.webp') center/cover}
+.skill-row>div{min-width:0;overflow-wrap:anywhere}.skill-row button{max-width:100%}
