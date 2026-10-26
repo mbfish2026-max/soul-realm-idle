@@ -70,5 +70,68 @@
     "fw": 600,
     "fh": 880,
     "fps": 6
+  },
+  {
+    "key": "pet_fox_idle",
+    "frames": 3,
+    "cols": 3,
+    "source": "pet_fox_idle.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 4
+  },
+  {
+    "key": "pet_fox_move",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_move.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 8
+  },
+  {
+    "key": "pet_fox_attack",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_attack.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 10
+  },
+  {
+    "key": "pet_fox_hit",
+    "frames": 2,
+    "cols": 2,
+    "source": "pet_fox_hit.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 8
+  },
+  {
+    "key": "pet_fox_fusion",
+    "frames": 4,
+    "cols": 2,
+    "source": "pet_fox_fusion.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 7
+  },
+  {
+    "key": "pet_fox_win",
+    "frames": 2,
+    "cols": 2,
+    "source": "pet_fox_win.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 5
+  },
+  {
+    "key": "pet_fox_die",
+    "frames": 3,
+    "cols": 3,
+    "source": "pet_fox_die.png",
+    "fw": 400,
+    "fh": 320,
+    "fps": 6
   }
 ]

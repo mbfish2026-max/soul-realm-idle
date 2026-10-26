@@ -21,3 +21,7 @@ assets/frames/manifest.js 在基础 assets/manifest.js 之后加载，Object.ass
 ## 验证
 
 每批提交前运行所有 JS 语法检查和 tests/*.test.js。tests/assets_l.test.js 校验真实 WebP 尺寸、透明标志、文件体积 ≤1,000,000 字节、键名、帧数、脚底锚点、半尺寸版本及 JS/JSON 一致性和增量合并行为。
+
+## 第二批：灵狐
+
+已完成 idle 3 / move 4 / attack 4 / hit 2 / fusion 4 / win 2 / die 3，共 22 帧、7 动作、14 张图集；400×320 和 200×160。原图全部由内置 image_gen 参考现有三尾灵狐生成，攻击为蹲伏—跃起—伸爪—落地，倒下为失衡—侧卧—闭眼伏地。未以平移、旋转或重复静态图填帧。解码检查和既有测试通过。

@@ -43,7 +43,9 @@ def run():
     out = ROOT/'assets/frames'; out.mkdir(exist_ok=True)
     for job in jobs:
         key, count, fw, fh = job['key'], job['frames'], job['fw'], job['fh']
-        frames = extract(HERE/'raw'/job['source'], count, job['cols'])
+        frames = extract(HERE/'raw'/job['source'], job.get('sourceFrames', count), job['cols'])
+        if 'indices' in job:
+            frames = [frames[i] for i in job['indices']]
         # One scale for every frame in an action preserves motion proportions.
         scale = min(min((fw*.90)/f.width, (fh*.92)/f.height) for f in frames)
         sheet = Image.new('RGBA', (fw*count, fh))

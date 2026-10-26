@@ -254,5 +254,229 @@
     },
     "loop": false,
     "sourceScale": 0.5
+  },
+  "pet_fox_idle": {
+    "file": "assets/frames/pet_fox_idle.webp",
+    "w": 1200,
+    "h": 320,
+    "use": "animation",
+    "frames": 3,
+    "fw": 400,
+    "fh": 320,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 1
+  },
+  "pet_fox_idle_1x": {
+    "file": "assets/frames/pet_fox_idle@1x.webp",
+    "w": 600,
+    "h": 160,
+    "use": "animation",
+    "frames": 3,
+    "fw": 200,
+    "fh": 160,
+    "fps": 4,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": true,
+    "sourceScale": 0.5
+  },
+  "pet_fox_move": {
+    "file": "assets/frames/pet_fox_move.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_move_1x": {
+    "file": "assets/frames/pet_fox_move@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_attack": {
+    "file": "assets/frames/pet_fox_attack.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_attack_1x": {
+    "file": "assets/frames/pet_fox_attack@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 10,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_hit": {
+    "file": "assets/frames/pet_fox_hit.webp",
+    "w": 800,
+    "h": 320,
+    "use": "animation",
+    "frames": 2,
+    "fw": 400,
+    "fh": 320,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_hit_1x": {
+    "file": "assets/frames/pet_fox_hit@1x.webp",
+    "w": 400,
+    "h": 160,
+    "use": "animation",
+    "frames": 2,
+    "fw": 200,
+    "fh": 160,
+    "fps": 8,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_fusion": {
+    "file": "assets/frames/pet_fox_fusion.webp",
+    "w": 1600,
+    "h": 320,
+    "use": "animation",
+    "frames": 4,
+    "fw": 400,
+    "fh": 320,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_fusion_1x": {
+    "file": "assets/frames/pet_fox_fusion@1x.webp",
+    "w": 800,
+    "h": 160,
+    "use": "animation",
+    "frames": 4,
+    "fw": 200,
+    "fh": 160,
+    "fps": 7,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_win": {
+    "file": "assets/frames/pet_fox_win.webp",
+    "w": 800,
+    "h": 320,
+    "use": "animation",
+    "frames": 2,
+    "fw": 400,
+    "fh": 320,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_win_1x": {
+    "file": "assets/frames/pet_fox_win@1x.webp",
+    "w": 400,
+    "h": 160,
+    "use": "animation",
+    "frames": 2,
+    "fw": 200,
+    "fh": 160,
+    "fps": 5,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
+  },
+  "pet_fox_die": {
+    "file": "assets/frames/pet_fox_die.webp",
+    "w": 1200,
+    "h": 320,
+    "use": "animation",
+    "frames": 3,
+    "fw": 400,
+    "fh": 320,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 1
+  },
+  "pet_fox_die_1x": {
+    "file": "assets/frames/pet_fox_die@1x.webp",
+    "w": 600,
+    "h": 160,
+    "use": "animation",
+    "frames": 3,
+    "fw": 200,
+    "fh": 160,
+    "fps": 6,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    },
+    "loop": false,
+    "sourceScale": 0.5
   }
 }
