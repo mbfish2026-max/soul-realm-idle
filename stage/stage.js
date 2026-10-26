@@ -54,7 +54,7 @@
           caption.textContent=((SR.NAMES.maps||{})[p.mapId]||p.mapId||'')+' · '+p.floor+' / '+p.wave+' · '+p.waveMax;
           background.style.transform='translateX('+((p.wave%5)-2)*3+'px)';
           enemies.forEach(function(e,i){var color=e.years>=100000?'red':e.years>=10000?'black':e.years>=1000?'purple':e.years>=100?'yellow':'white';a=add(e.uid,e.isBoss?'boss':'enemy',e.isBoss?50:[76,21,52][i%3],e.isBoss?72:[53,55,36][i%3],e.isBoss?230:100,SR.NAMES.ringColors[color]+' · '+(e.name||SR.NAMES.beast),e.kind);a.set('move');if(a.hp)a.hp.style.width=(e.hpMax?e.hp/e.hpMax*100:0)+'%';if(e.isBoss){bossUid=e.uid;boss=SR.stageBoss.create(el,fx,e);}});break;
-        case 'prepare':set(actor(p.caster),'skill');break;
+        case 'prepare':set(actor(p.caster),'skill');if(p.fxKey)fx.skill(p.fxKey,p.fx);break;
         case 'ring':light(p.ringIndex);break;
         case 'title':fx.title(p.name||SR.NAMES.resonance);break;
         case 'linked':set(actor(p.caster),'attack');if(p.caster.side==='hero')petActors().forEach(function(a){set(a,'attack');});break;
@@ -62,7 +62,7 @@
         case 'attack':if(!p.skillId)set(actor(p.src),'attack');break;
         case 'impact':a=actor(p.dst);if(a){set(a,'hit');fx.damage(a.point,p.dmg,p.crit);fx.burst(a.point.x,a.point.y-9);if(p.dst.side==='hero')fx.edge();}break;
         case 'hp':a=actor(p);if(a&&a.hp)a.hp.style.width=(p.hpMax?Math.max(0,Math.min(100,p.hp/p.hpMax*100)):0)+'%';if(boss&&p.uid===bossUid)boss.hp(p);break;
-        case 'charge':set(actors.hero,'skill');petActors().forEach(function(a){set(a,'skill');});break;
+        case 'charge':if(p.fxKey)fx.skill(p.fxKey,p.fx);set(actors.hero,'skill');petActors().forEach(function(a){set(a,'skill');});break;
         case 'rings':Array.prototype.forEach.call(ringHost.children,function(n,i){later(function(){light(i);},i*60);});break;
         case 'fusion':set(actors.hero,'fusion');petActors().forEach(function(a){set(a,'fusion');});break;
         case 'shock':fx.shake();enemies.forEach(function(e){a=actors[e.uid];if(a&&a.state!=='die'){set(a,'hit');fx.burst(a.point.x,a.point.y-10,'#bd984d');}});break;

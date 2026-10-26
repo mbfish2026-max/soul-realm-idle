@@ -20,6 +20,7 @@
       if(!raf)raf=requestAnimationFrame(tick);
     }
     return {once:once,later:later,burst:burst,
+      skill:function(key,params){var palette={fire:'#c65b40',wind:'#71a386',earth:'#bc9b5e',wood:'#5f9867',moon:'#a08ac0',ice:'#80bac9'},vein=key.split('_')[1],count=Math.min(4,params&&params.bursts||1);for(var i=0;i<count;i++)burst(40+i*8,57,palette[vein]||'#71a386');},
       damage:function(p,dmg,crit){var n=once('sr-damage'+(crit?' sr-critical':'')+(dmg<0?' sr-heal':''),(dmg<0?'+':'−')+Math.abs(dmg).toLocaleString(),Math.max(27,Math.min(73,p.x)),p.y-15,1800);if(crit){var seal=document.createElement('small');seal.textContent='暴击';n.appendChild(seal);}},
       title:function(text){once('sr-callout',text,50,18,1500);},
       shake:function(){root.classList.remove('sr-shake');void root.offsetWidth;root.classList.add('sr-shake');later(function(){root.classList.remove('sr-shake');},460);},
