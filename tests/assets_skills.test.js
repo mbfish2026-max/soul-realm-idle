@@ -9,6 +9,7 @@ assert.equal(context.SR.ASSETS.retained.file,'existing.webp');
 for(const [key,value]of Object.entries(manifest))assert.deepStrictEqual(JSON.parse(JSON.stringify(context.SR.ASSETS[key])),value,key+' JS/JSON mismatch');
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/skills/manifest.js'),'utf8'),context);
 for(const s of Object.values(skills)){
+  assert.equal(s.iconKey,'icon_skill_'+s.id);
   assert(s.iconKey&&manifest[s.iconKey],s.id+' missing icon');
   assert(s.fxKey&&manifest[s.fxKey],s.id+' missing FX');
   const icon=manifest[s.iconKey],fx=manifest[s.fxKey];
@@ -16,9 +17,21 @@ for(const s of Object.values(skills)){
   assert.equal(icon.skillId,s.id);
   assert(fx.frames>1&&fx.fw>0&&fx.fh>0&&fx.fps>0,s.id+' invalid animation');
   assert.equal(fx.loop,false);assert(fx.frames/fx.fps>=.7&&fx.frames/fx.fps<=1.2);
-  if(icon.dedicated&&(s.id.startsWith('fusion_')||bosses.includes(s.sourceKind)))assert.equal(icon.artId,s.id,s.id+' dedicated art mismatch');
+  if(s.fxKey.startsWith('fusion_'))assert.equal(fx.family,'fx_fusion',s.id+' fusion FX family');
+  if(s.id.startsWith('fusion_')||bosses.includes(s.sourceKind)){assert(icon.dedicated,s.id+' needs dedicated art');assert.equal(icon.artId,s.id,s.id+' dedicated art mismatch');}
 }
 for(const c of classes)assert(manifest['icon_skill_ultimate_'+c.id],c.id+' missing ultimate art');
+const artIds=new Set(Object.values(manifest).filter(e=>e.artId).map(e=>e.artId));
+assert.equal([...artIds].filter(id=>id.startsWith('base_')).length,42);
+assert.equal(artIds.size,294);
+const provenance=JSON.parse(fs.readFileSync(path.join(root,'tools/n/provenance.json')));
+for(const id of artIds){assert(provenance[id],id+' lacks generated source');assert.equal(provenance[id].tool,'image_gen.imagegen');assert(/^[a-f0-9]{64}$/.test(provenance[id].sha256));assert(provenance[id].prompt);}
+const fxFamilies=new Set(Object.values(skills).map(s=>manifest[s.fxKey].family));
+assert.equal(fxFamilies.size,12);
+for(const id of fxFamilies){assert(provenance[id],id+' lacks generated source');assert.equal(provenance[id].tool,'image_gen.imagegen');}
+assert.equal(new Set([...artIds,...fxFamilies].map(id=>provenance[id].sha256)).size,306,'originals must be distinct');
+const dedicatedFiles=Object.values(skills).filter(s=>s.id.startsWith('fusion_')||bosses.includes(s.sourceKind)).map(s=>manifest[s.iconKey].file);
+assert.equal(new Set(dedicatedFiles).size,dedicatedFiles.length,'dedicated art files must be unique');
 const files=new Map();
 for(const entry of Object.values(manifest)){
   assert(entry.file.startsWith('assets/skills/')&&!entry.file.includes('..'));

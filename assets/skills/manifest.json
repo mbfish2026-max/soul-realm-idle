@@ -3604,8 +3604,8 @@
     "skillId": "ring_trial5_1_0",
     "dedicated": true
   },
-  "icon_skill_ultimate_bind": {
-    "file": "assets/skills/ultimate_bind.webp",
+  "icon_skill_ring_trial5_1_1": {
+    "file": "assets/skills/ring_trial5_1_1.webp",
     "w": 128,
     "h": 128,
     "use": "skill icon",
@@ -3614,6 +3614,1213 @@
       "file": "assets/skills/icons_03.webp",
       "x": 128,
       "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_1_1",
+    "skillId": "ring_trial5_1_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_2_0": {
+    "file": "assets/skills/ring_trial5_2_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 256,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_2_0",
+    "skillId": "ring_trial5_2_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_2_1": {
+    "file": "assets/skills/ring_trial5_2_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 384,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_2_1",
+    "skillId": "ring_trial5_2_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_3_0": {
+    "file": "assets/skills/ring_trial5_3_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 512,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_3_0",
+    "skillId": "ring_trial5_3_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_3_1": {
+    "file": "assets/skills/ring_trial5_3_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 640,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_3_1",
+    "skillId": "ring_trial5_3_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_4_0": {
+    "file": "assets/skills/ring_trial5_4_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 768,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_4_0",
+    "skillId": "ring_trial5_4_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_4_1": {
+    "file": "assets/skills/ring_trial5_4_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 896,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_4_1",
+    "skillId": "ring_trial5_4_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_5_0": {
+    "file": "assets/skills/ring_trial5_5_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 0,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_5_0",
+    "skillId": "ring_trial5_5_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_5_1": {
+    "file": "assets/skills/ring_trial5_5_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 128,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_5_1",
+    "skillId": "ring_trial5_5_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_6_0": {
+    "file": "assets/skills/ring_trial5_6_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 256,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_6_0",
+    "skillId": "ring_trial5_6_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_6_1": {
+    "file": "assets/skills/ring_trial5_6_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 384,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_6_1",
+    "skillId": "ring_trial5_6_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_7_0": {
+    "file": "assets/skills/ring_trial5_7_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 512,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_7_0",
+    "skillId": "ring_trial5_7_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_7_1": {
+    "file": "assets/skills/ring_trial5_7_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 640,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_7_1",
+    "skillId": "ring_trial5_7_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_8_0": {
+    "file": "assets/skills/ring_trial5_8_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 768,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_8_0",
+    "skillId": "ring_trial5_8_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_8_1": {
+    "file": "assets/skills/ring_trial5_8_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 896,
+      "y": 512,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_8_1",
+    "skillId": "ring_trial5_8_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_9_0": {
+    "file": "assets/skills/ring_trial5_9_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 0,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_9_0",
+    "skillId": "ring_trial5_9_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial5_9_1": {
+    "file": "assets/skills/ring_trial5_9_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 128,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial5_9_1",
+    "skillId": "ring_trial5_9_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_1_0": {
+    "file": "assets/skills/ring_trial6_1_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 256,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_1_0",
+    "skillId": "ring_trial6_1_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_1_1": {
+    "file": "assets/skills/ring_trial6_1_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 384,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_1_1",
+    "skillId": "ring_trial6_1_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_2_0": {
+    "file": "assets/skills/ring_trial6_2_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 512,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_2_0",
+    "skillId": "ring_trial6_2_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_2_1": {
+    "file": "assets/skills/ring_trial6_2_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 640,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_2_1",
+    "skillId": "ring_trial6_2_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_3_0": {
+    "file": "assets/skills/ring_trial6_3_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 768,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_3_0",
+    "skillId": "ring_trial6_3_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_3_1": {
+    "file": "assets/skills/ring_trial6_3_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 896,
+      "y": 640,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_3_1",
+    "skillId": "ring_trial6_3_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_4_0": {
+    "file": "assets/skills/ring_trial6_4_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 0,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_4_0",
+    "skillId": "ring_trial6_4_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_4_1": {
+    "file": "assets/skills/ring_trial6_4_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 128,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_4_1",
+    "skillId": "ring_trial6_4_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_5_0": {
+    "file": "assets/skills/ring_trial6_5_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 256,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_5_0",
+    "skillId": "ring_trial6_5_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_5_1": {
+    "file": "assets/skills/ring_trial6_5_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 384,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_5_1",
+    "skillId": "ring_trial6_5_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_6_0": {
+    "file": "assets/skills/ring_trial6_6_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 512,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_6_0",
+    "skillId": "ring_trial6_6_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_6_1": {
+    "file": "assets/skills/ring_trial6_6_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 640,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_6_1",
+    "skillId": "ring_trial6_6_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_7_0": {
+    "file": "assets/skills/ring_trial6_7_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 768,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_7_0",
+    "skillId": "ring_trial6_7_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_7_1": {
+    "file": "assets/skills/ring_trial6_7_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 896,
+      "y": 768,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_7_1",
+    "skillId": "ring_trial6_7_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_8_0": {
+    "file": "assets/skills/ring_trial6_8_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 0,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_8_0",
+    "skillId": "ring_trial6_8_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_8_1": {
+    "file": "assets/skills/ring_trial6_8_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 128,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_8_1",
+    "skillId": "ring_trial6_8_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_9_0": {
+    "file": "assets/skills/ring_trial6_9_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 256,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_9_0",
+    "skillId": "ring_trial6_9_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial6_9_1": {
+    "file": "assets/skills/ring_trial6_9_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 384,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial6_9_1",
+    "skillId": "ring_trial6_9_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_1_0": {
+    "file": "assets/skills/ring_trial7_1_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 512,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_1_0",
+    "skillId": "ring_trial7_1_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_1_1": {
+    "file": "assets/skills/ring_trial7_1_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 640,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_1_1",
+    "skillId": "ring_trial7_1_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_2_0": {
+    "file": "assets/skills/ring_trial7_2_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 768,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_2_0",
+    "skillId": "ring_trial7_2_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_2_1": {
+    "file": "assets/skills/ring_trial7_2_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_03.webp",
+      "x": 896,
+      "y": 896,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_2_1",
+    "skillId": "ring_trial7_2_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_3_0": {
+    "file": "assets/skills/ring_trial7_3_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_3_0",
+    "skillId": "ring_trial7_3_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_3_1": {
+    "file": "assets/skills/ring_trial7_3_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_3_1",
+    "skillId": "ring_trial7_3_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_4_0": {
+    "file": "assets/skills/ring_trial7_4_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_4_0",
+    "skillId": "ring_trial7_4_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_4_1": {
+    "file": "assets/skills/ring_trial7_4_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_4_1",
+    "skillId": "ring_trial7_4_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_5_0": {
+    "file": "assets/skills/ring_trial7_5_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_5_0",
+    "skillId": "ring_trial7_5_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_5_1": {
+    "file": "assets/skills/ring_trial7_5_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_5_1",
+    "skillId": "ring_trial7_5_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_6_0": {
+    "file": "assets/skills/ring_trial7_6_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 768,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_6_0",
+    "skillId": "ring_trial7_6_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_6_1": {
+    "file": "assets/skills/ring_trial7_6_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 896,
+      "y": 0,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_6_1",
+    "skillId": "ring_trial7_6_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_7_0": {
+    "file": "assets/skills/ring_trial7_7_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_7_0",
+    "skillId": "ring_trial7_7_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_7_1": {
+    "file": "assets/skills/ring_trial7_7_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_7_1",
+    "skillId": "ring_trial7_7_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_8_0": {
+    "file": "assets/skills/ring_trial7_8_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_8_0",
+    "skillId": "ring_trial7_8_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_8_1": {
+    "file": "assets/skills/ring_trial7_8_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_8_1",
+    "skillId": "ring_trial7_8_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_9_0": {
+    "file": "assets/skills/ring_trial7_9_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_9_0",
+    "skillId": "ring_trial7_9_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial7_9_1": {
+    "file": "assets/skills/ring_trial7_9_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial7_9_1",
+    "skillId": "ring_trial7_9_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_1_0": {
+    "file": "assets/skills/ring_trial8_1_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 768,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_1_0",
+    "skillId": "ring_trial8_1_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_1_1": {
+    "file": "assets/skills/ring_trial8_1_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 896,
+      "y": 128,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_1_1",
+    "skillId": "ring_trial8_1_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_2_0": {
+    "file": "assets/skills/ring_trial8_2_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_2_0",
+    "skillId": "ring_trial8_2_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_2_1": {
+    "file": "assets/skills/ring_trial8_2_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_2_1",
+    "skillId": "ring_trial8_2_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_3_0": {
+    "file": "assets/skills/ring_trial8_3_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_3_0",
+    "skillId": "ring_trial8_3_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_3_1": {
+    "file": "assets/skills/ring_trial8_3_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_3_1",
+    "skillId": "ring_trial8_3_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_4_0": {
+    "file": "assets/skills/ring_trial8_4_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_4_0",
+    "skillId": "ring_trial8_4_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_4_1": {
+    "file": "assets/skills/ring_trial8_4_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_4_1",
+    "skillId": "ring_trial8_4_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_5_0": {
+    "file": "assets/skills/ring_trial8_5_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 768,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_5_0",
+    "skillId": "ring_trial8_5_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_5_1": {
+    "file": "assets/skills/ring_trial8_5_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 896,
+      "y": 256,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_5_1",
+    "skillId": "ring_trial8_5_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_6_0": {
+    "file": "assets/skills/ring_trial8_6_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_6_0",
+    "skillId": "ring_trial8_6_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_6_1": {
+    "file": "assets/skills/ring_trial8_6_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_6_1",
+    "skillId": "ring_trial8_6_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_7_0": {
+    "file": "assets/skills/ring_trial8_7_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_7_0",
+    "skillId": "ring_trial8_7_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_7_1": {
+    "file": "assets/skills/ring_trial8_7_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_7_1",
+    "skillId": "ring_trial8_7_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_8_0": {
+    "file": "assets/skills/ring_trial8_8_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_8_0",
+    "skillId": "ring_trial8_8_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_8_1": {
+    "file": "assets/skills/ring_trial8_8_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_8_1",
+    "skillId": "ring_trial8_8_1",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_9_0": {
+    "file": "assets/skills/ring_trial8_9_0.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 768,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_9_0",
+    "skillId": "ring_trial8_9_0",
+    "dedicated": true
+  },
+  "icon_skill_ring_trial8_9_1": {
+    "file": "assets/skills/ring_trial8_9_1.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 896,
+      "y": 384,
+      "w": 128,
+      "h": 128
+    },
+    "artId": "ring_trial8_9_1",
+    "skillId": "ring_trial8_9_1",
+    "dedicated": true
+  },
+  "icon_skill_ultimate_bind": {
+    "file": "assets/skills/ultimate_bind.webp",
+    "w": 128,
+    "h": 128,
+    "use": "skill icon",
+    "scale": 2,
+    "atlas": {
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -3626,9 +4833,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -3641,9 +4848,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -3656,9 +4863,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -3671,9 +4878,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -3686,9 +4893,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4211,9 +5418,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4245,9 +5452,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4279,9 +5486,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4313,9 +5520,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4347,9 +5554,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4381,9 +5588,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4534,9 +5741,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4568,9 +5775,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4602,9 +5809,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4636,9 +5843,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4670,9 +5877,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4704,9 +5911,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4857,9 +6064,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4891,9 +6098,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4925,9 +6132,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4959,9 +6166,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -4993,9 +6200,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5027,9 +6234,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5180,9 +6387,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5214,9 +6421,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5248,9 +6455,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5282,9 +6489,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5316,9 +6523,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5350,9 +6557,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5503,9 +6710,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5537,9 +6744,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5571,9 +6778,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5605,9 +6812,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5639,9 +6846,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5673,9 +6880,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5826,9 +7033,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5860,9 +7067,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5894,9 +7101,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5928,9 +7135,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5962,9 +7169,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -5996,9 +7203,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 768,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 640,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -8438,7 +9645,7 @@
     "dedicated": false
   },
   "fusion_wind_damage": {
-    "file": "assets/skills/fx_slash_wind.webp",
+    "file": "assets/skills/fx_fusion.webp",
     "w": 1024,
     "h": 256,
     "use": "one-shot skill effect",
@@ -8452,7 +9659,7 @@
       0.5,
       0.5
     ],
-    "family": "fx_slash_wind"
+    "family": "fx_fusion"
   },
   "fusion_wind_control": {
     "file": "assets/skills/fx_fusion.webp",
@@ -8523,7 +9730,7 @@
     "family": "fx_fusion"
   },
   "fusion_fire_damage": {
-    "file": "assets/skills/fx_slash_fire.webp",
+    "file": "assets/skills/fx_fusion.webp",
     "w": 1024,
     "h": 256,
     "use": "one-shot skill effect",
@@ -8537,7 +9744,7 @@
       0.5,
       0.5
     ],
-    "family": "fx_slash_fire"
+    "family": "fx_fusion"
   },
   "fusion_fire_control": {
     "file": "assets/skills/fx_fusion.webp",
@@ -8608,7 +9815,7 @@
     "family": "fx_fusion"
   },
   "fusion_wood_damage": {
-    "file": "assets/skills/fx_slash_wood.webp",
+    "file": "assets/skills/fx_fusion.webp",
     "w": 1024,
     "h": 256,
     "use": "one-shot skill effect",
@@ -8622,7 +9829,7 @@
       0.5,
       0.5
     ],
-    "family": "fx_slash_wood"
+    "family": "fx_fusion"
   },
   "fusion_wood_control": {
     "file": "assets/skills/fx_fusion.webp",
@@ -8693,7 +9900,7 @@
     "family": "fx_fusion"
   },
   "fusion_moon_damage": {
-    "file": "assets/skills/fx_slash_moon.webp",
+    "file": "assets/skills/fx_fusion.webp",
     "w": 1024,
     "h": 256,
     "use": "one-shot skill effect",
@@ -8707,7 +9914,7 @@
       0.5,
       0.5
     ],
-    "family": "fx_slash_moon"
+    "family": "fx_fusion"
   },
   "fusion_moon_control": {
     "file": "assets/skills/fx_fusion.webp",
@@ -8778,7 +9985,7 @@
     "family": "fx_fusion"
   },
   "fusion_earth_damage": {
-    "file": "assets/skills/fx_slash_earth.webp",
+    "file": "assets/skills/fx_fusion.webp",
     "w": 1024,
     "h": 256,
     "use": "one-shot skill effect",
@@ -8792,7 +9999,7 @@
       0.5,
       0.5
     ],
-    "family": "fx_slash_earth"
+    "family": "fx_fusion"
   },
   "fusion_earth_control": {
     "file": "assets/skills/fx_fusion.webp",
@@ -8971,9 +10178,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9005,9 +10212,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9039,9 +10246,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9073,9 +10280,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9107,9 +10314,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9141,9 +10348,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9277,9 +10484,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9311,9 +10518,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9345,9 +10552,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9379,9 +10586,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9413,9 +10620,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9447,9 +10654,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 384,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 256,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9583,9 +10790,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9617,9 +10824,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9651,9 +10858,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9685,9 +10892,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9719,9 +10926,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9753,9 +10960,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 640,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 512,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9889,9 +11096,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9923,9 +11130,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9957,9 +11164,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -9991,9 +11198,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10025,9 +11232,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10059,9 +11266,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 512,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 384,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10195,9 +11402,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10229,9 +11436,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10263,9 +11470,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10297,9 +11504,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10331,9 +11538,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10365,9 +11572,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 256,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 128,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10501,9 +11708,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10535,9 +11742,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10569,9 +11776,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10603,9 +11810,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10637,9 +11844,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10671,9 +11878,9 @@
     "use": "skill icon",
     "scale": 2,
     "atlas": {
-      "file": "assets/skills/icons_03.webp",
-      "x": 128,
-      "y": 384,
+      "file": "assets/skills/icons_04.webp",
+      "x": 0,
+      "y": 512,
       "w": 128,
       "h": 128
     },
@@ -10696,1213 +11903,6 @@
     },
     "artId": "base_wood_passive",
     "skillId": "ring_snowmink_9_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_1_1": {
-    "file": "assets/skills/base_wood_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 896,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_passive",
-    "skillId": "ring_trial5_1_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_2_0": {
-    "file": "assets/skills/base_wood_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_active",
-    "skillId": "ring_trial5_2_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_2_1": {
-    "file": "assets/skills/base_wood_control.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_control",
-    "skillId": "ring_trial5_2_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_3_0": {
-    "file": "assets/skills/base_wood_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_active",
-    "skillId": "ring_trial5_3_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_3_1": {
-    "file": "assets/skills/base_wood_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 896,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_passive",
-    "skillId": "ring_trial5_3_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_4_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_4_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_4_1": {
-    "file": "assets/skills/base_wood_control.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_control",
-    "skillId": "ring_trial5_4_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_5_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_5_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_5_1": {
-    "file": "assets/skills/base_wood_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 896,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_passive",
-    "skillId": "ring_trial5_5_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_6_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_6_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_6_1": {
-    "file": "assets/skills/base_wood_control.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_control",
-    "skillId": "ring_trial5_6_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_7_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_7_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_7_1": {
-    "file": "assets/skills/base_wood_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 896,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_passive",
-    "skillId": "ring_trial5_7_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_8_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_8_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_8_1": {
-    "file": "assets/skills/base_wood_control.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_control",
-    "skillId": "ring_trial5_8_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_9_0": {
-    "file": "assets/skills/base_wood_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 640,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_ultimate",
-    "skillId": "ring_trial5_9_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial5_9_1": {
-    "file": "assets/skills/base_wood_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 896,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wood_passive",
-    "skillId": "ring_trial5_9_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_1_0": {
-    "file": "assets/skills/base_moon_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 256,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_active",
-    "skillId": "ring_trial6_1_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_1_1": {
-    "file": "assets/skills/base_moon_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_passive",
-    "skillId": "ring_trial6_1_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_2_0": {
-    "file": "assets/skills/base_moon_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 256,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_active",
-    "skillId": "ring_trial6_2_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_2_1": {
-    "file": "assets/skills/base_moon_heal.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_heal",
-    "skillId": "ring_trial6_2_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_3_0": {
-    "file": "assets/skills/base_moon_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 256,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_active",
-    "skillId": "ring_trial6_3_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_3_1": {
-    "file": "assets/skills/base_moon_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_passive",
-    "skillId": "ring_trial6_3_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_4_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_4_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_4_1": {
-    "file": "assets/skills/base_moon_heal.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_heal",
-    "skillId": "ring_trial6_4_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_5_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_5_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_5_1": {
-    "file": "assets/skills/base_moon_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_passive",
-    "skillId": "ring_trial6_5_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_6_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_6_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_6_1": {
-    "file": "assets/skills/base_moon_heal.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_heal",
-    "skillId": "ring_trial6_6_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_7_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_7_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_7_1": {
-    "file": "assets/skills/base_moon_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_passive",
-    "skillId": "ring_trial6_7_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_8_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_8_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_8_1": {
-    "file": "assets/skills/base_moon_heal.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_heal",
-    "skillId": "ring_trial6_8_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_9_0": {
-    "file": "assets/skills/base_moon_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 384,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_ultimate",
-    "skillId": "ring_trial6_9_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial6_9_1": {
-    "file": "assets/skills/base_moon_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 128,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_moon_passive",
-    "skillId": "ring_trial6_9_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_1_0": {
-    "file": "assets/skills/base_earth_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_active",
-    "skillId": "ring_trial7_1_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_1_1": {
-    "file": "assets/skills/base_earth_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_passive",
-    "skillId": "ring_trial7_1_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_2_0": {
-    "file": "assets/skills/base_earth_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_active",
-    "skillId": "ring_trial7_2_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_2_1": {
-    "file": "assets/skills/base_earth_shield.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_shield",
-    "skillId": "ring_trial7_2_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_3_0": {
-    "file": "assets/skills/base_earth_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_active",
-    "skillId": "ring_trial7_3_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_3_1": {
-    "file": "assets/skills/base_earth_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_passive",
-    "skillId": "ring_trial7_3_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_4_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_4_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_4_1": {
-    "file": "assets/skills/base_earth_shield.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_shield",
-    "skillId": "ring_trial7_4_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_5_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_5_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_5_1": {
-    "file": "assets/skills/base_earth_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_passive",
-    "skillId": "ring_trial7_5_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_6_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_6_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_6_1": {
-    "file": "assets/skills/base_earth_shield.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_shield",
-    "skillId": "ring_trial7_6_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_7_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_7_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_7_1": {
-    "file": "assets/skills/base_earth_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_passive",
-    "skillId": "ring_trial7_7_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_8_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_8_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_8_1": {
-    "file": "assets/skills/base_earth_shield.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 640,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_shield",
-    "skillId": "ring_trial7_8_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_9_0": {
-    "file": "assets/skills/base_earth_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 768,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_ultimate",
-    "skillId": "ring_trial7_9_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial7_9_1": {
-    "file": "assets/skills/base_earth_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 0,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_earth_passive",
-    "skillId": "ring_trial7_9_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_1_0": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_1_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_1_1": {
-    "file": "assets/skills/base_wind_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_passive",
-    "skillId": "ring_trial8_1_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_2_0": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_2_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_2_1": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_2_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_3_0": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_3_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_3_1": {
-    "file": "assets/skills/base_wind_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_passive",
-    "skillId": "ring_trial8_3_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_4_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_4_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_4_1": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_4_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_5_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_5_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_5_1": {
-    "file": "assets/skills/base_wind_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_passive",
-    "skillId": "ring_trial8_5_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_6_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_6_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_6_1": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_6_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_7_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_7_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_7_1": {
-    "file": "assets/skills/base_wind_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_passive",
-    "skillId": "ring_trial8_7_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_8_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_8_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_8_1": {
-    "file": "assets/skills/base_wind_active.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 512,
-      "y": 384,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_active",
-    "skillId": "ring_trial8_8_1",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_9_0": {
-    "file": "assets/skills/base_wind_ultimate.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 256,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_ultimate",
-    "skillId": "ring_trial8_9_0",
-    "dedicated": false
-  },
-  "icon_skill_ring_trial8_9_1": {
-    "file": "assets/skills/base_wind_passive.webp",
-    "w": 128,
-    "h": 128,
-    "use": "skill icon",
-    "scale": 2,
-    "atlas": {
-      "file": "assets/skills/icons_00.webp",
-      "x": 0,
-      "y": 512,
-      "w": 128,
-      "h": 128
-    },
-    "artId": "base_wind_passive",
-    "skillId": "ring_trial8_9_1",
     "dedicated": false
   },
   "fx_burst": {

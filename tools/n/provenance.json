@@ -497,42 +497,42 @@
   },
   "fusion_mend_buff": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and ascending auspicious clouds. Unique fusion emblem, moon vein palette.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and ascending auspicious clouds. Unique fusion emblem, moon vein palette. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/fusion_mend_buff.png",
-    "sha256": "dc1cafa5b41752da14ccbcbc838de28113de0bacb9a184a338b51ad21c7aa365",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f99d2d52-59f1-48b0-ace8-e5cc0f65fe49.png",
+    "sha256": "d3ec111c577436188726c016a565a547d2862a7c42a06ae4bd05db6ed8c204a1",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-7214892d-3f70-495b-ad17-67baf7c1e4ba.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "fusion_mend_control": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a binding knot. Unique fusion emblem, moon vein palette.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a binding knot. Unique fusion emblem, moon vein palette. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/fusion_mend_control.png",
-    "sha256": "ac37f80421bfc996e42b40a3b555810e3c35e33428c1a4daeefce052dab0f008",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a4cd25a2-0b29-4342-8e3d-2c389925e00d.png",
+    "sha256": "04410d9d5007e9e2f7d08f4dd3eb9c3b412f34aabf9b18480c48304d51ebd843",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-35d755d5-b8d3-4833-aa28-86575bb8f9e7.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "fusion_mend_damage": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a sharp impact arc. Unique fusion emblem, moon vein palette.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a sharp impact arc. Unique fusion emblem, moon vein palette. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/fusion_mend_damage.png",
-    "sha256": "2f2a2d526125d9dd02d82abd59fac0f9247fc8c8fb7d602f87f84e8e4ee04558",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-50342974-6503-4ab1-938b-10324831a57a.png",
+    "sha256": "4f12e2983adba8356901253ef359b838098342157d421087dc11527914a218a2",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-5aa8ca91-d88a-48f5-8b64-cc186745b874.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "fusion_mend_heal": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a healing dew lotus. Unique fusion emblem, moon vein palette.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a healing dew lotus. Unique fusion emblem, moon vein palette. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/fusion_mend_heal.png",
-    "sha256": "13a64b8e1bab8782cffd3b9bc19e08a21e5a4fd4be28ae6de3b3d28f06ca2fbc",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f19d5865-3709-4f1d-9ed3-014185e40165.png",
+    "sha256": "e91f1b23d6bfb069aa51a8e0ecbb57659f664f8c75675e200a87067e709edbeb",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-c38298dc-1e62-4acc-aea3-81e9f763fb20.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "fusion_mend_shield": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a protective shell arc. Unique fusion emblem, moon vein palette.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus intertwined with a spirit beast paw and a protective shell arc. Unique fusion emblem, moon vein palette. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/fusion_mend_shield.png",
-    "sha256": "358f96b0d1cd295077d78104efa30e19d8c76c3daff948fcec6599feb97d1b67",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-06a71f0c-3158-4e36-af64-2dd0c247153f.png",
+    "sha256": "6086c7023fce470b6d2dcb5fffdd593abac54f423d4932804813fc6dfe34b4b2",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-5b9583da-460b-47ed-aff1-f6b1f8d2ba77.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "fusion_tame_buff": {
@@ -1105,146 +1105,146 @@
   },
   "ring_trial0_1_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 1, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 1, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_1_0.png",
-    "sha256": "b991ae180d00d15f5a5a91840056a8d956ebb451a496b44d2956f42234391cbe",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-7ecd829b-7b4f-493d-85ba-1a860bd31a70.png",
+    "sha256": "7905233dcdedda7578107c211258fa7d9c088e1f062beeded286ab5f28500cd5",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-40fac399-dd68-4cb5-b9bf-bf24a8fa3393.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_1_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 1, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 1, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_1_1.png",
-    "sha256": "5932321d55a19bceaa46b21550b66f71849a837c0f6fd6446a7904aaeb443171",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-97d6d308-764d-4ae5-bf5f-de4994887570.png",
+    "sha256": "cab64bdd4e6c39a588817a2d41fede42bdaccf97e8d6b89118ed3dc03670be48",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-c5d9fb4f-7d7d-482d-877d-2d25990d1fff.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_2_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 2, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 2, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_2_0.png",
-    "sha256": "75881c85e22ec94ef9d4feef794415f09c673135f95409ce1ffaa9dbbaaad41d",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-ff8cc587-e844-494c-8749-f0cfd8f7d22c.png",
+    "sha256": "09c54f11416cae3d73c65b05e20a036854d016cbb8070596ac0eb84e23364892",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-a2fd0f08-37b4-4bc5-9f73-67106ba0244f.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_2_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 2, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 2, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_2_1.png",
-    "sha256": "ffb81cd62714ec931c030dd89a639eee25ba6c14b7f17293cac5064384ee9018",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-f87993bc-7a98-405a-85ca-d7051d1da5c5.png",
+    "sha256": "33768df711aecbdf839ba2ba8c7deea3d1cd5bce6a75927531b0b1846133669e",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-4af7aa23-2f28-489c-b2d5-99cbda2f483d.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_3_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 3, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 3, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_3_0.png",
-    "sha256": "0cb0a341c121fe1a5d86a31ffe98a3d18ca793dfd0d6a903236490ecbd8464a2",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-e5afaec0-3ac3-4f8a-b5af-02977a379f4b.png",
+    "sha256": "1616f99a157d43e51fed236fb48b801e5d68b50c7ea642c4a09c8c976b2835cd",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3c1ef72d-9363-49e4-b143-cbeb9864011b.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_3_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 3, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 3, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_3_1.png",
-    "sha256": "7d5b19ded940d755e679f00b8929b93fee179c82dffa64773f5471597b9797b0",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a90124da-6399-47dc-8e90-45c217a9eac9.png",
+    "sha256": "9d7896b32d9aac7981036ea15f148f37fd2204f7843f1a412c37aad34ec270b9",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-1f5ba4a9-13ff-47a3-bf14-665689307378.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_4_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 4, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 4, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_4_0.png",
-    "sha256": "5c44c3ccb62b9187ed6ea4e89ce1b83b24e61f24506b3b179c1be220b4d6d8e4",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a21d09ab-2cab-4452-9510-ba60618aa21b.png",
+    "sha256": "0f1c28c66236fc21015bc6fad3a04ed41b3d7b0083ff3b0c4bc4f69877e60a6f",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3433ae24-5c6a-4a4e-aa14-102ec25ee4fa.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_4_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 4, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 4, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_4_1.png",
-    "sha256": "fe94ab9da8ad9b67eb6e371fe6e4ed59811c1f819cc04cd3ce5ef733efe19c48",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-fa33182d-087f-4496-bc39-d94883c88579.png",
+    "sha256": "4562b188eed7c7cd81d864e194686059f4cc98aab53a5da091843c32f63ee307",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3c50f7e5-15c1-4a36-965e-557a948a8f2a.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_5_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 5, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 5, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_5_0.png",
-    "sha256": "a9c1cd8f63893efae2a9b28d17108e40ec180b95bf2ebcee589ec81b433440f9",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-cacfab00-a47b-4977-a6bc-c21d82e5643b.png",
+    "sha256": "647cec81fbf8c48edbe457018e6532c5c414cbfd95b3f00331f2ecfca8944f78",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-5989e058-805e-4c37-999a-f9cf55346e3c.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_5_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 5, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 5, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_5_1.png",
-    "sha256": "aacfecbfdcddf178bea803b411031006a612824720db62d93fb457882cb17529",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-ffb6b314-2fdc-4492-a19f-69310a4b44d3.png",
+    "sha256": "ede03c0c50bc7dff125f10532e80b4cdf30d5805786e81fa90987563e26da9ca",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-db10ddda-8d16-45b2-b4c9-94899d0bf5d1.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_6_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 6, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 6, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_6_0.png",
-    "sha256": "d90f7e0f8b9ef6e9c4a8c31ad0638fd7fcb5f79867d5751086d222c378f69712",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-175cc931-5445-4a32-945c-d18a47a49771.png",
+    "sha256": "21c8bddd487ae5403fc69be7cb453b6abc534fe107bf822e21570dba09b3bda3",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-5993904b-6729-4cd3-ab07-02849abb915b.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_6_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 6, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 6, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_6_1.png",
-    "sha256": "d903582fa50526e7eecf84b33e9e4dba22f23cf22407963d8e398a0549e14289",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-66a6d1d1-efc9-48d2-b926-b1421c5846a9.png",
+    "sha256": "5ea7e9d248d5b8f60431cf5e7411860287b492fdc53302aabda28df57c7b203e",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-e37526e8-3ce7-484e-9606-b6d1aeb5795e.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_7_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 7, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 7, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_7_0.png",
-    "sha256": "d9fc5d30f5b6f314e4af5b44ccba63695821fbd08c8e5e19acaeafce09d1758c",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-cc698584-1963-4bbb-bf12-e7054adbfcf1.png",
+    "sha256": "2428645e0477808d4dfe89c496dc1b7e21cddb7ea1049d61602338cc342c1742",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-61f6f432-19ad-4a70-9466-dbe78fdd2874.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_7_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 7, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 7, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_7_1.png",
-    "sha256": "32a55f04bf8f34f36514bc9c718dc304805641e73bc704b39568683148de62eb",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a18d5ea9-ae9e-43e5-9b1e-e7fa9d99d25c.png",
+    "sha256": "e5aeefaae2c3f879ad5bd0e222eaeae6bf4f6955b48bd02305cf85a9f202b5ad",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-a79ceb82-a13a-4b49-88ae-9ab8d368c036.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_8_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 8, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 8, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_8_0.png",
-    "sha256": "7ffc56a72af60bda9365c611f2e8c15198d61504b83a7199678c9743ceb1a24c",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-e8b82ec0-4044-4312-a6e7-f259d2dccfd8.png",
+    "sha256": "f590c3f08a59f0ac7dd16cb15c2ae92f1f7a2920f363c1db30c74ed9b122f537",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-d41a3e57-d517-4559-b94e-7cd38ffcd908.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_8_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 8, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 8, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_8_1.png",
-    "sha256": "5ced04da1f78d6465564927e703a2706c03559ddffd4b9d3082a05bf739e12e5",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-71b9cf38-f48a-4118-afb1-fa6fb99cbe9a.png",
+    "sha256": "fb8b96cd046ba6592f1342f06f74f774eba798cfabc4a997bd22240a3078c64f",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-2b557a39-100a-40df-a410-05e1fa407dc0.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_9_0": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 9, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 9, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_9_0.png",
-    "sha256": "d48324b697ccee222480d33039ff7aa0564bc0fed58113405cb32e29fd4251e7",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-e404d523-f186-4edf-b855-c11409237dae.png",
+    "sha256": "7f38d5f13c69b774bc0f2bfcc82a41eab72453abff81af180fc4babfa60fac89",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-789d6ba1-e655-45bc-b5c3-4b34e924c047.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial0_9_1": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 9, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial0 soul technique, moon vein palette, ring stage 9, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ring_trial0_9_1.png",
-    "sha256": "8de250544056c36da1194cbd862bedf2d86ef33342e954900c1d4680296d8280",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-953cba3b-b7e0-4f86-b051-84af33678e1e.png",
+    "sha256": "f8fa61080ca1800c27eb559e8e0e55ef9701a27bd543a57aab79d5ced74a2cef",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-8d53362f-b439-4618-b874-d9175115106d.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ring_trial1_1_0": {
@@ -1855,6 +1855,30 @@
     "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-2039afce-e42f-4be7-aac8-09d28d385de1.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
+  "ring_trial5_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 3, branch outward attack. interwoven living vines forming a sweeping net, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_3_0.png",
+    "sha256": "ee99ca7592047dbb13ed4c0bef69e70b4f18e91d3c89c891a5da123adb826f43",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-5bdd24e7-5c7d-47be-b2ee-63766bc55404.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_3_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 3, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_3_1.png",
+    "sha256": "35b6bc1daa7a6de746cec1bc05a0d34deaec48d009c873a15a5b1a1be44203ab",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-3acac99d-5cdf-4f11-aa0f-e952e245dafa.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 4, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_4_0.png",
+    "sha256": "4ad67a74e9c93b28e7cb646a5fa6656911c950bcb32996c85bd9f93713d8a76e",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-3496ea3c-3940-4300-8f49-1c4440c5c0d1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
   "ring_trial5_4_1": {
     "tool": "image_gen.imagegen",
     "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 4, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
@@ -1877,6 +1901,502 @@
     "rawFile": "tools/n/raw/ring_trial5_5_1.png",
     "sha256": "f0e526555e1ef175ce755f0068822a18b6c386909d3327e40479660655a73126",
     "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-bdf238d3-4c76-42fa-86c3-e81e98993be8.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 6, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_6_0.png",
+    "sha256": "d04f15a3977c71f4590be97e2556fc78a789fe57b01bd5ad30d471c6619d60b2",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a50dbc5e-9947-40e5-aac8-3882d34df588.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 6, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_6_1.png",
+    "sha256": "33cee8e38e6e689ee0de0c124a9196bdffb5a43eab8726a04df3ef55edb76372",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-c6c12c3b-ae47-4266-8523-e064cbf4dc19.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 7, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_7_0.png",
+    "sha256": "85df669c6cc730fb3c475501d49b2e2b72958e85b9eb5072491931d8d5d4ff95",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-acbb96b6-723b-44ab-a90c-cfbde1a7c38a.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 7, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_7_1.png",
+    "sha256": "9915edb5d1e89bc3ab2d63f9c2eb9e712b0a86c35f3677475d8530456c31397b",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-da035e89-acba-4cbd-b2ab-775f24ae9d80.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 8, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_8_0.png",
+    "sha256": "73a16d273f70f6a944a89b214183197f74f6785731b1381b74fd52bc4b2ae9ba",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-911d8997-bd5f-4891-a437-13c5ce6e66ca.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 8, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_8_1.png",
+    "sha256": "6d50f68514346dc649045b3ead479b8cc896aba5f1886d6ffe7981388dc91503",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-028319cb-2d52-438d-96ed-8c8345edccb5.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 9, branch outward attack. interwoven living vines forming a sweeping net, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_9_0.png",
+    "sha256": "d285578cad7522dcaaf1fc6bd59ce1e60cb8683f7a4a6252d3f1ec58f19630d8",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-e7761df7-b428-46bb-8eef-99ff62bd01f6.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial5_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial5 soul technique, wood vein palette, ring stage 9, branch inward technique. interwoven living vines forming a sweeping net, control. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial5_9_1.png",
+    "sha256": "6503a4e4352ca01b8e277ef233ea70fd69c3222070fc7924ef9ab394245d2c87",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-51c1d52f-ba32-4d7b-be5e-8673e9e00d75.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_1_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 1, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_1_0.png",
+    "sha256": "871a6d05ab7624403c86c1ea5bb1da464ee26a7f6f3354ddb3e65b0ace385306",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-a746b751-b895-45cf-8fb1-d4e9cd9cbede.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_1_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 1, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_1_1.png",
+    "sha256": "42df563877c5f4f5a7812bbd698f9f8ec58e913da965109e6af7ea18d546b626",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-cce50c4b-bff2-460d-9623-b3c9fe9b6972.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 2, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_2_0.png",
+    "sha256": "9272fd55390c810d3680f9f8b22032fcd3459a8121414a822a106440fe94d9bf",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-425f7831-aefc-48c1-b03d-5339b5345934.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_2_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 2, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_2_1.png",
+    "sha256": "43fffa17162b102623b53fac181eb343695194d7375901e09aaa25f7fd0ec052",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-938c4fa8-adda-4656-9d47-401449c07171.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 3, branch outward attack. a crescent above a rippling healing spring lotus, damage. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_3_0.png",
+    "sha256": "80356315a9081993f72fb50c7b019dc015be3b616477fbff7008a3a4c73daac6",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3d12db21-928e-4f4d-bdef-9c9562bdd513.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_3_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 3, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_3_1.png",
+    "sha256": "b3e049cb52f63aea0fee357a101dc1583ed6aa95f96629f8c0afea8418303b29",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-70a5cd71-6753-46d1-8c91-8605b34ca1d1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 4, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_4_0.png",
+    "sha256": "1b99ce4fab67921f7f11e049548dac4a66d440b56c21e5eda090e87955405ad7",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-fa59a063-1bff-4713-a308-051dadbd5968.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 4, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_4_1.png",
+    "sha256": "716b9a87d42280bf8787ef54c60d809afdf005a68184c69ab22b47ec7f60a61d",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-0e80c87b-8b0d-4a4f-a66c-fc8950a33176.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 5, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_5_0.png",
+    "sha256": "6bfc78a58204a01b358756e10c24911839ca53758190993cbc086e3b93cabe6a",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-e6274d3d-84ca-4e44-8ed9-e91493df140f.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 5, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_5_1.png",
+    "sha256": "b443ee2e13e0a206a334d356e41ebb0cf4336534406c8e50a966dc56bd061883",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-05df928c-489b-45f8-94c9-96f6a80f0086.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 6, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_6_0.png",
+    "sha256": "9670c7a8d2fbda9fb87844ff669a71d1ff9b9330d3e05d8e98ec6b30109a8eb2",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-90b69691-41a9-4909-9d4f-897f3f99389e.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 6, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_6_1.png",
+    "sha256": "d48f356d0d5992219dedaacf436e93a203e5a9201e95c8f7e277229ff52a2d33",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-2e794069-57a7-459d-80e0-ddaa8c6b16e8.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 7, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_7_0.png",
+    "sha256": "42d8e53de95812c8fced64e8ae3653f8664006edadf277b15c709b5553713719",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-19069648-442b-442e-a77c-9de98c828abe.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 7, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_7_1.png",
+    "sha256": "11baafecd18d3effdf8964bd9d376bdf41ebf2165cd8ff6de63c5198f8baaf6c",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-a070f9e3-7d7c-45f9-b688-ff13eb7b843d.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 8, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_8_0.png",
+    "sha256": "cae07b2c6f4529ec27dc6e8bb2f9def1d66e5974f77980e499f2bb6b207b39df",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-2abc1df2-9559-45b6-9e53-ba620cd9bada.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 8, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_8_1.png",
+    "sha256": "2ed84c30ade098250b616cbc3c1416841c70d94cbd22b2508376bc932b406b1e",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-a8d0ca0c-c91b-4f06-934c-0d5bb2df43e1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 9, branch outward attack. a crescent above a rippling healing spring lotus, aoe. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_9_0.png",
+    "sha256": "02f8fdd2f00ca62dc8548cee347060a58a2381d38b8a9dc24aed34ade6c0b719",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-35fcb3d3-61ea-4c92-a614-ddd4d871dc22.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial6_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial6 soul technique, moon vein palette, ring stage 9, branch inward technique. a crescent above a rippling healing spring lotus, heal. Dedicated individual emblem, no text. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
+    "rawFile": "tools/n/raw/ring_trial6_9_1.png",
+    "sha256": "6f2fa5a7585bf2fb2a51862e1dd0512258097b099054a1249643cabc11ea8329",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-139c1fca-b39a-4e5d-ab2f-573d2bdd835a.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_1_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 1, branch outward attack. a layered mountain crowned by a protective stone seal, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_1_0.png",
+    "sha256": "a7cc0d2880cbe495da4184b9d259240e57bc2dde1faf25e3be2d7bc30ca6d45a",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-ccdad618-e935-48b4-bd05-cf995da649d6.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_1_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 1, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_1_1.png",
+    "sha256": "541ee7cc97ce8ce74727bd5f388ce61c72a84a122f28982920c718b0a9c9cca4",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-e61d1194-53b3-438a-84cd-481b700b1021.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 2, branch outward attack. a layered mountain crowned by a protective stone seal, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_2_0.png",
+    "sha256": "fc008e6fc5295a7bb57af8e1ec09bad2f157cbd54cf6ca824d122c6db2ab6040",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-521ab0b0-6ea2-446e-a37c-71ee0bba1b5b.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_2_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 2, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_2_1.png",
+    "sha256": "bc27e3ed0bb8567c29958807beacb50f2436fccbad0fb6b03a26ffa40a8b7bf0",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-760343c4-67f1-481d-9eed-a383ad684190.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 3, branch outward attack. a layered mountain crowned by a protective stone seal, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_3_0.png",
+    "sha256": "9cca82708be7c27e43fe5f9466646d287dfd107e87d63937282de6548f3be68c",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-4c72fb61-487e-4522-b63b-435f2a7ca359.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_3_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 3, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_3_1.png",
+    "sha256": "4a8b5cfb4066952744b4644b386319c5a2bd56bfda32b82c99359e0552624249",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-af797e0b-5b23-4702-886a-a2dd0a556429.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 4, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_4_0.png",
+    "sha256": "c7a4c8a612ba988cd7faab540eee59bb883ef7b19528edc4a04c09016a7fbd31",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-4dae4dee-2679-484d-a22f-3763554c302e.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 4, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_4_1.png",
+    "sha256": "7b4879d2e5f85b6de11fb59f74733c436dbd49d531577783035af6e7dc54193c",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-fcd47cbe-cd33-4ec6-8754-7d237faa16e0.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 5, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_5_0.png",
+    "sha256": "19b5244e96f31c0bbc9ee8dc4329366ddae2adc80d623be7728b8296e36cff15",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-22cfb9b7-d9c2-4dea-ab86-7847cbc12c2b.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 5, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_5_1.png",
+    "sha256": "3d5a2fdecc4b996841bc7c54246ee068bcf013dbdd9526c33f2e7f0165893ec6",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-9b569328-917a-40f7-900e-351aee4c56ee.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 6, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_6_0.png",
+    "sha256": "264be5db480e2ba6580fed3b0581dccc95ea61e0ef4410775888d68f0a4b000d",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-fe064c88-eba3-4157-9e8e-3cf531af5a88.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 6, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_6_1.png",
+    "sha256": "93d82e5c2a353d66e6bac5c1d258978bb7d26eaff896e1be355c3b7e13a53837",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-89a84d56-397b-403c-a910-4539f6e7e894.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 7, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_7_0.png",
+    "sha256": "21e5016341ed14eb438206b8483cbcdf08d72c010450d61b7f2f0a6065a0325a",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-37a453b4-5c62-4316-b1fe-450e7669ea49.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 7, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_7_1.png",
+    "sha256": "796bc3150e5da4d4f9b36bd91a28b7f429c0009d4c8e873fc98029cd40c044d3",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3db1595a-d6f2-4443-9f49-59dc162a0e6f.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 8, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_8_0.png",
+    "sha256": "d4240771fccfd35d3730c37506b05cdb83e5a3d343d994d698ca4c58af51eb21",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-446279b7-ba3d-4fe6-989e-bc30799efe7e.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 8, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_8_1.png",
+    "sha256": "23dce49e3def4f8b462e1e4f9f6a2eddb63daabb469443c2a8d3dd9a6ca84b72",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-f8c050d6-dbb0-4533-9513-bc59b499b1a1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 9, branch outward attack. a layered mountain crowned by a protective stone seal, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_9_0.png",
+    "sha256": "0013f53c84da1aa92cadea263f62525c7287bf058844a72b95fd42a95a19e5dc",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-5e1c565d-df87-488a-bf16-8980f99cb7c3.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial7_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial7 soul technique, earth vein palette, ring stage 9, branch inward technique. a layered mountain crowned by a protective stone seal, shield. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial7_9_1.png",
+    "sha256": "166d7f49ab919af6b4db6a6404cae88c5170e04038e603121ff7c6021b2bb6fe",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-9720525b-00f1-409c-8c1a-b515e6ab9cca.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_1_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 1, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_1_0.png",
+    "sha256": "1462c506450a7ecbe57b285857854dd4a94d56123cc5525a732c4546bf2fd2a3",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-ca5e9068-4b8a-419d-87b1-1cb9251d2956.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_1_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 1, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_1_1.png",
+    "sha256": "0095272cd46c1389f2924d9d0875f27fe1a10296a39005c731f6b57eda7cbc6f",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-8b313d3b-f39e-4129-a342-ea8206b4bb39.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_2_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 2, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_2_0.png",
+    "sha256": "d742aa505bf78cfc6ce77f08eccc5d83b331627a6cc9748f22aa64d02f54ff00",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-af2e3161-7402-41ef-bd76-6da973285d53.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_2_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 2, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_2_1.png",
+    "sha256": "4f661bef7d8f2d5db48f5b0233604dda2d79aaec0821e310cf373b3f65c2c9be",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-6121cd92-bdd6-43ab-89b2-0260a04ceb7d.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_3_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 3, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, damage. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_3_0.png",
+    "sha256": "8fa777376b479d89287f315608be6bf1fddf4f502fdd206039ddc68161855157",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-6aef23f0-3578-4194-a4ee-c42010d6b9f8.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_3_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 3, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_3_1.png",
+    "sha256": "81250bd2e98d7c4a903ac0c8c137ec5789139ffdda756de0fdc0978787bdd011",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-afdd0906-1cac-4f9f-92dd-48f33c20e016.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_4_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 4, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_4_0.png",
+    "sha256": "d8da491a8186c8f8c39e75a804677c5082781e23da90edabe59cd09ce87493f4",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-42fb8c69-f6e0-4c65-bc53-3ee45c2ef64b.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_4_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 4, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_4_1.png",
+    "sha256": "534560eb883cfa520d5deab58055be13ac9eafd856e2e1b5c47cb9aa7a0ecb0d",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-587e32f0-aef0-497a-8a0b-5203806242c1.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_5_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 5, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_5_0.png",
+    "sha256": "c17d98695dd66715952db47221a5f42fa2ec2d1d4af9a25605b8ce88fa4471c9",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-1de3bd1f-9a3b-4a3b-9df3-e5b25b728384.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_5_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 5, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_5_1.png",
+    "sha256": "dca2bdbf98eeca32e0776cb7c7acdc6df7c3517b734afe20faf02f27cb9c32ef",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-87e8dd82-504c-45f1-b7e1-fb94e1c28251.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_6_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 6, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_6_0.png",
+    "sha256": "1ca1067985885dabb7b05a7d91646bb16bf04f20fd1156518420e674b01e1468",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3f4175e0-94d3-4f55-ab27-d334975b3120.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_6_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 6, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_6_1.png",
+    "sha256": "9e9c63d85e1fe9ab8f051288b91ab43ce86a73d859a6936d4f07e67745cb479a",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-4d2de170-c9b5-4318-b187-dfc82a04e331.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_7_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 7, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_7_0.png",
+    "sha256": "470cba312da3442cf1435e5dfa063b91cc6247593deb79959d8975d6b96b7643",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-1ae1be4f-f0f4-4cac-9af5-7074a01c2aaa.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_7_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 7, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_7_1.png",
+    "sha256": "bbeb299eb22f4c34d264c103a565819b445102a690db41aee5600986a5c0df0f",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-ee848882-4b15-443a-9fd6-39660dd1f7f0.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_8_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 8, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_8_0.png",
+    "sha256": "8272e65a1e37cd5924c51ef9e200a3af7e017bf0b9660e2e008df8231962cde0",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-3d870b5a-a912-4f2f-81c4-b8ba6cf78442.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_8_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 8, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_8_1.png",
+    "sha256": "a094ab30ac3d740d8cc447a3a9d21e9c09de5bd74cce4bbad91165cab71becb4",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-fe3ad135-c03f-4f30-8295-c38145a62542.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_9_0": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 9, branch outward attack. a small original spirit fox appearing inside an open summoning cloud, aoe. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_9_0.png",
+    "sha256": "a06c1df8a6832a3c5070f8793c811f211c6ef9d3290ef1815fe954c1e18a96d7",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-7b60fe6f-8ec3-49c9-b5d5-238d3f157874.png",
+    "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
+  },
+  "ring_trial8_9_1": {
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: Original abyss lord trial8 soul technique, wind vein palette, ring stage 9, branch inward technique. a small original spirit fox appearing inside an open summoning cloud, summon. Dedicated individual emblem, no text.",
+    "rawFile": "tools/n/raw/ring_trial8_9_1.png",
+    "sha256": "8ad4f06275d39ddaf476827953ae4e131f154b2412ac5ca871eb41dcf1ada23c",
+    "generatedSource": "/home/box/.codex/generated_images/01a1776c-3e22-7381-9878-9abee062ad77/exec-28ac7e96-c1d6-4d7a-bc7e-9e834468df77.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ultimate_bind": {
@@ -1913,10 +2433,10 @@
   },
   "ultimate_mend": {
     "tool": "image_gen.imagegen",
-    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus. Dedicated ultimate skill, moon vein colors.",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: a crescent above a rippling healing spring lotus. Dedicated ultimate skill, moon vein colors. STRICT MOON VEIN PALETTE: the dominant ink and magical motif MUST be muted lavender violet #9274AF and deeper plum #76508F, on warm ivory #F5F0E3, thin antique gold rim only. Clearly PURPLE monochrome moon magic. No blue, no cyan, no turquoise, no sage green in the motif. Keep the lotus, moon and water motif, watercolor softness and generous transparent padding. No text.",
     "rawFile": "tools/n/raw/ultimate_mend.png",
-    "sha256": "6d797c584dc0906421a5ee49f93b2fa17fe64167aaaa7abf3b070dbbabe6057c",
-    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-a632a2a8-5734-4193-a713-cff895ad30a4.png",
+    "sha256": "18b72893c4f67fdff260a0f892d994521aec86940424f98695e70be053f4ccf1",
+    "generatedSource": "/home/box/.codex/generated_images/01a176ef-1549-7da0-862b-2678f9b87f49/exec-099e7466-799c-480e-b510-2430dbfdaf0b.png",
     "postprocess": "alpha-bbox trim, uniform resize and transparent-center placement, atlas packing, WebP compression"
   },
   "ultimate_tame": {

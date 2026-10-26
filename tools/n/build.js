@@ -31,7 +31,7 @@ for(const s of Object.values(skills)){
   const family=fxFamily(s);
   if(!fxRecords[family])throw Error('Missing generated FX '+family);
   // Shared fxKey must resolve consistently, regardless of ring level/kind.
-  const stableFamily=s.fxKey.endsWith('_damage')?'fx_slash_'+s.vein:family;
+  const stableFamily=s.fxKey.startsWith('fusion_')?'fx_fusion':s.fxKey.endsWith('_damage')?'fx_slash_'+s.vein:family;
   manifest[s.fxKey]=Object.assign({},fxRecords[stableFamily],{family:stableFamily});
 }
 Object.assign(manifest,fxRecords);
