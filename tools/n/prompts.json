@@ -1,0 +1,170 @@
+[
+  {
+    "id": "base_wind_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon: a curved wind blade crossing one bamboo leaf, active wind attack. Fresh clean Chinese ink wash, delicate watercolor, muted sage jade #527D67 and charcoal #252D29, warm ivory pale flat circular jade medallion with very thin antique gold rim. Frontal orthographic, one readable silhouette, low contrast, soft upper-left light, no 3D or glossy plastic, no neon, no text, no labels, no scenery. Complete circular medallion centered in central 80% of square canvas, generous transparent margin. Genuine transparent background."
+  },
+  {
+    "id": "base_wind_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_wind_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_wind_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_wind_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_wind_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, a broad protective curved shield."
+  },
+  {
+    "id": "base_wind_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage jade wind currents and bamboo leaves, three upward ascending cloud wisps."
+  },
+  {
+    "id": "base_fire_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, one sweeping attack stroke."
+  },
+  {
+    "id": "base_fire_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_fire_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_fire_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_fire_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_fire_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, a broad protective curved shield."
+  },
+  {
+    "id": "base_fire_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted cinnabar #A74639 flames and embers, three upward ascending cloud wisps."
+  },
+  {
+    "id": "base_earth_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, one sweeping attack stroke."
+  },
+  {
+    "id": "base_earth_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_earth_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_earth_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_earth_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_earth_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, a broad protective curved shield."
+  },
+  {
+    "id": "base_earth_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: ochre rock strata and mountain stone, three upward ascending cloud wisps."
+  },
+  {
+    "id": "base_moon_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, one sweeping attack stroke."
+  },
+  {
+    "id": "base_moon_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_moon_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_moon_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_moon_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_moon_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, a broad protective curved shield."
+  },
+  {
+    "id": "base_moon_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: muted violet #9274AF crescent moon and water, three upward ascending cloud wisps."
+  },
+  {
+    "id": "base_ice_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, one sweeping attack stroke."
+  },
+  {
+    "id": "base_ice_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_ice_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_ice_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_ice_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_ice_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, a broad protective curved shield."
+  },
+  {
+    "id": "base_ice_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: pale blue #86B8BB frost crystals and snow, three upward ascending cloud wisps."
+  },
+  {
+    "id": "base_wood_active",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, one sweeping attack stroke."
+  },
+  {
+    "id": "base_wood_passive",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, a calm seed-shaped inner spirit surrounded by a closed small orbit."
+  },
+  {
+    "id": "base_wood_ultimate",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, an expansive spirit lotus with radiating power strokes."
+  },
+  {
+    "id": "base_wood_control",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, a knotted binding loop holding a small orb."
+  },
+  {
+    "id": "base_wood_heal",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, one open healing lotus cradling a dew drop."
+  },
+  {
+    "id": "base_wood_shield",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, a broad protective curved shield."
+  },
+  {
+    "id": "base_wood_buff",
+    "prompt": "Use case: stylized-concept. Single production game skill icon. Fresh clean Chinese ink wash, delicate watercolor, fine charcoal outlines, warm ivory #F5F0E3 flat circular jade medallion with very thin antique gold #AF985F rim, low contrast, soft diffuse upper-left light. One simple readable silhouette at 32px. Complete medallion occupies central 80% of square canvas. Genuine transparent background outside medallion, no shadow, no 3D, no plastic, no neon, no text, no labels, no scenery, no watermark. Subject: sage green vines and fresh leaves, three upward ascending cloud wisps."
+  }
+]
