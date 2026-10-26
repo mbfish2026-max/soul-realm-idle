@@ -57,7 +57,12 @@ def build_fx():
         frames=[]
         for y in range(2):
             for x in range(2):
-                frames.append(im.crop((x*cw,y*ch,(x+1)*cw,(y+1)*ch)).resize((256,256),Image.Resampling.LANCZOS))
+                cell=im.crop((x*cw,y*ch,(x+1)*cw,(y+1)*ch))
+                cell.thumbnail((256,256),Image.Resampling.LANCZOS)
+                frame=Image.new('RGBA',(256,256))
+                frame.alpha_composite(cell,((256-cell.width)//2,(256-cell.height)//2))
+                frames.append(frame)
+        assert len({f.tobytes() for f in frames})==4, f'Repeated static frames: {source}'
         atlas=Image.new('RGBA',(1024,256))
         for i,frame in enumerate(frames):atlas.alpha_composite(frame,(i*256,0))
         target=OUT/(source.stem+'.webp')
