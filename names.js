@@ -17,3 +17,13 @@
 
 /* A 路新增：万渊林怪物与首领预警。 */
 (function(g){var n=g.SR.NAMES;n.coreMobs={reed:'苇影獾',moss:'苔甲貘',lord:'苍苔渊守'};n.coreWarnings={surge:'苔潮震荡',rage:'裂根怒涌'};})(typeof window!=='undefined'?window:globalThis);
+/* B 系统新增命名，仅追加。 */
+(function(g){var N=g.SR.NAMES;
+N.souls={blade:'青锋剑',tiger:'赤瞳虎',body:'金刚体'};
+N.veins={wind:'风脉',fire:'焰脉',earth:'岩脉',moon:'月脉'};
+N.soulKinds={tool:'器',beast:'兽',body:'本体'};
+N.skills={cut:'竹影斩',flame:'赤焰破',guard:'山灵护',fox:'灵狐之息',moon:'月华照',storm:'回风引',stone:'磐石御',wing:'流羽袭'};
+N.species={fox:'灵狐',jadefox:'碧尾灵狐',moonfox:'映月灵狐',tiger:'烬纹虎',crane:'听风鹤',turtle:'青岩龟',deer:'苔角鹿',hawk:'逐岚鹰'};
+N.bond='契心值';N.twin='双相';N.afterimage='残影';N.heroName='清微子';N.resonate='轮脉共振';
+})(typeof window!=='undefined'?window:globalThis);
+(function(g){g.SR.NAMES.behaviors={kills:'击败次数',battles:'清剿波次'};})(typeof window!=='undefined'?window:globalThis);

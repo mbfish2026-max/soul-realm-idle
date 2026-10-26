@@ -1,0 +1,11 @@
+const assert=require('assert');
+const fs=require('fs'),vm=require('vm');
+global.SR={rng:()=>0,bus:{on(){},emit(){}},save:{markDirty(){},state:{hero:{soulId:'blade',level:20,talent:7,rings:[],exp:20},flags:{awakened:true},bag:[],store:[],bagCap:60,pets:[],team:{pets:[]},cur:{petSoul:9999}}}};
+['names.js','data/souls.js','data/skills.js','data/pets.js','data/realms.js','systems/awaken.js','systems/rings.js','systems/pets.js','systems/stats.js'].forEach(f=>vm.runInThisContext(fs.readFileSync(require('path').join(__dirname,'..',f),'utf8')));
+const s=SR.save.state;
+[1,99,100,999,1000,9999,10000,100000,1e9].forEach(y=>{let r=SR.formula.absorbRate(s.hero,{years:y,vein:'wind'});assert(r.rate>=0&&r.rate<=1);assert.equal(r.rate,Math.max(0,Math.min(1,r.parts.talent+r.parts.fit+r.parts.over)));});
+assert.deepEqual([99,100,1000,10000,100000].map(SR.rings.color),['white','yellow','purple','black','red']);
+s.bag.push({uid:'a',type:'essence',years:1000,vein:'wind',skillId:'cut'});SR.rng=()=>0.999;assert(!SR.rings.absorb('a').ok);assert.equal(s.hero.level,20);assert.equal(s.hero.exp,20);assert.equal(s.hero.rings.length,0);assert.equal(s.bag.length,0);
+SR.rng=()=>0;s.bag.push({uid:'b',type:'essence',years:100,vein:'wind',skillId:'cut'});assert(SR.rings.absorb('b').ok);assert(SR.rings.strip(0));assert.equal(s.bag[0].years,50);
+s.hero.level=1;assert.equal(SR.rings.slots(s.hero),0);assert(!SR.rings.absorb(s.bag[0].uid).ok);
+console.log('sys_rings passed');
